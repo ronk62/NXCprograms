@@ -1,0 +1,29 @@
+int loop=5;
+
+int space=00000;
+int h=01000;
+int e=00101;
+int l=01100;
+int o=01111;
+int w=10111;
+int r=01011;
+int d=00100;
+
+int msg=[] = {$h, $e, $l, $l, $o, $space, $w, $o, $r, $l, $d}
+
+
+task main(){
+
+Wait(5000);
+PlayToneEx(440, 500, 4, 0);
+Wait(1000);
+
+while (loop>0)
+      {
+       PlayToneEx(440, 250, 3, 0);
+       Wait(500);
+       PlayToneEx(440, 250, 1, 0);
+       Wait(500);
+       i=i-1;
+      }
+}

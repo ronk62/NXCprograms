@@ -1,0 +1,38 @@
+const byte SensorPort  =  IN_3;
+#define ADDR     0x02
+#include "accl-nx-lib.nxc"    //Mindsensor Accl lib
+
+int x=1, y=32;
+int i=1;
+
+
+task main()
+{
+
+  string msg;
+  accl currAccl;
+  int Accl_val;
+  string ax, ay, az, tx, ty, tz;
+	byte b;
+	int a;
+
+// read Accl and displ results
+while (true){
+      while (x<=98){
+            ACCL_ReadAcceleration(SensorPort, ADDR, currAccl); //read the accl sensor
+            Accl_val=(currAccl.az);
+            //Accl_val /=10;
+            LineOut(x, y, x, Accl_val+32);
+            NumOut(0, LCD_LINE1, Accl_val+32);
+            NumOut(30, LCD_LINE1, x);
+            NumOut(60, LCD_LINE1, y);
+            x++;
+            Wait (20);
+            }
+       Wait(3500);
+       x=1;
+       ClearScreen();
+       }
+Wait(SEC_15);
+}
+

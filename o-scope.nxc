@@ -1,0 +1,12 @@
+int x=1, y=32, sinx;
+
+task main()
+{
+    while (x<=98){
+      sinx=Random(63);
+      LineOut(x, y, x, sinx);
+      x++;
+      }
+    Wait(SEC_15);
+}
+

@@ -1,0 +1,67 @@
+
+// information below
+
+// #define  OUT_REGMODE_IDLE   0
+// #define  OUT_REGMODE_SPEED   1
+// #define  OUT_REGMODE_SYNC   2
+// #define  OUT_REGMODE_POS   4
+
+
+
+int tone=440;
+string msg="";
+
+void debug_trace (string msg, int tone int num)
+{
+ ClearScreen();
+ TextOut(1, LCD_LINE5, msg);
+ NumOut(1, LCD_LINE6, num);
+ PlayTone(tone, 250);
+}
+
+
+task main ()
+{
+ int i=0, num=555;
+ msg="Start";
+ tone=880;
+ debug_trace (msg, tone, num);
+ Wait(2000);
+
+   msg="OUT_REGMODE_IDLE ";
+   tone=tone+110;
+   num=OUT_REGMODE_IDLE;
+   debug_trace (msg, tone, num);
+   Wait(6000);
+   
+   msg="OUT_REGMODE_SPEED ";
+   tone=tone+110;
+   num=OUT_REGMODE_SPEED;
+   debug_trace (msg, tone, num);
+   Wait(6000);
+
+   msg="OUT_REGMODE_SYNC ";
+   tone=tone+110;
+   num=OUT_REGMODE_SYNC;
+   debug_trace (msg, tone, num);
+   Wait(6000);
+   
+   msg="OUT_REGMODE_POS ";
+   tone=tone+110;
+   num=OUT_REGMODE_POS;
+   debug_trace (msg, tone, num);
+   Wait(6000);
+   
+   msg="OUT_REGMODE_IDLE|OUT_REGMODE_SPEED|OUT_REGMODE_SYNC|OUT_REGMODE_POS ";
+   tone=tone+110;
+   num=OUT_REGMODE_IDLE|OUT_REGMODE_SPEED|OUT_REGMODE_SYNC|OUT_REGMODE_POS;
+   debug_trace (msg, tone, num);
+   Wait(6000);
+
+ msg="end/wait";
+ num=777;
+ tone=220;
+ debug_trace (msg, tone, num);
+ Wait(30000);
+}
+

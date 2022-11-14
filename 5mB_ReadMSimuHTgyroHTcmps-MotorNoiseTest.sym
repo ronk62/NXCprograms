@@ -1,0 +1,2348 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0read_compasses	6	1	0	4	9
+1	__D0read_gyros	6	1	4	4	31
+2	__D0move	6	1	8	4	18
+3	__D0IMU_SendCommand	6	1	12	4	8
+4	__D0main	6	1	16	4	2
+5	__D0SetSensorLowspeed_inline_IMU_Init	6	1	20	4	3
+6	__signed_stack_001button_handler	6	1	24	4	6
+7	__signed_stack_001display	6	1	28	4	26
+8	__DU0SetSensorLowspeed_inline_main	5	1	32	4	2
+9	__DU0SetSensorLowspeed_inline_IMU_Init	5	1	36	4	2
+10	__D0SetSensorLowspeed_inline_main	6	1	40	4	3
+11	__D0IMU_ReadInteger	6	1	44	4	11
+12	__constVal32768	6	0	48	4	2
+13	__SPTArgsMutex	9	0	52	4	6
+14	__RBtnMutex	9	0	56	4	4
+15	__RandomTmp	5	1	60	4	14
+16	__RandomMutex	9	0	64	4	4
+17	__D0button_handler	6	1	68	4	13
+18	__D0IMU_ReadCompassHeading	6	1	72	4	2
+19	__D0IMU_ReadGyro	6	1	76	4	8
+20	__D0IMU_ReadAcceleration	6	1	80	4	16
+21	__D0display	6	1	84	4	46
+22	__D0IMU_MLBToInteger	6	1	88	4	9
+23	currHeading	6	1	92	4	9
+24	prevHeading	6	1	96	4	2
+25	__unsigned_stack_001read_gyros	5	1	100	4	2
+26	__signed_stack_002read_gyros	6	1	104	4	6
+27	__signed_stack_003read_gyros	6	1	108	4	2
+28	HTgyro_val	6	1	112	4	3
+29	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	116	4	3
+30	__constVal65536	6	0	120	4	2
+31	__Wait_7qG2_ms_7qG2_000_inline_display	5	1	124	4	2
+32	g_offset	6	0	128	4	1
+33	__Wait_7qG2_ms_7qG2_000_inline_read_compasses	5	1	132	4	2
+34	__signed_stack_001read_gyros	6	1	136	4	20
+35	__signed_stack_001IMU_ReadGyro	6	1	140	4	26
+36	__signed_stack_001IMU_ReadInteger	6	1	144	4	4
+37	__signed_stack_001IMU_ReadAcceleration	6	1	148	4	34
+38	__signed_stack_002display	6	1	152	4	24
+39	__unsigned_stack_001IMU_MLBToInteger	5	1	156	4	2
+40	__signed_stack_002IMU_ReadInteger	6	1	160	4	2
+41	__signed_stack_002move	6	1	164	4	4
+42	__signed_stack_003move	6	1	168	4	4
+43	__signed_stack_001move	6	1	172	4	8
+44	__unsigned_stack_001IMU_ReadInteger	5	1	176	4	2
+45	__signed_stack_001IMU_SendCommand	6	1	180	4	2
+46	__CLSRMutex0	9	0	184	4	2
+47	__ResetSensorMutex	9	0	188	4	6
+48	__RLSBmutex0	9	0	192	4	8
+49	__CLSWMutex1	9	0	196	4	6
+50	__CLSCSMutex1	9	0	200	4	16
+51	__RLSBmutex3	9	0	204	4	8
+52	__RLSBmutex2	9	0	208	4	8
+53	__CLSCSMutex0	9	0	212	4	14
+54	__RLSBmutex1	9	0	216	4	10
+55	__CLSWMutex0	9	0	220	4	4
+56	__CLSCSMutex3	9	0	224	4	14
+57	__CLSWMutex3	9	0	228	4	4
+58	__CLSWMutex2	9	0	232	4	4
+59	__CLSRMutex2	9	0	236	4	2
+60	__CLSRMutex3	9	0	240	4	2
+61	__CLSCSMutex2	9	0	244	4	14
+62	__CLSRMutex1	9	0	248	4	4
+63	__TextOutMutex	9	0	252	4	32
+64	IMUcmps_val	4	1	256	2	2
+65	__IMU_ReadAcceleration_7qG2_count_7qG2_000	4	1	258	2	6
+66	MSgyro_val	4	1	260	2	3
+67	cb_old	4	1	262	2	3
+68	__IMU_ReadAcceleration_7qG2_e_7qG2_000	4	1	264	2	3
+69	HTcmps_val	4	1	266	2	2
+70	cb	4	1	268	2	8
+71	__IMU_ReadInteger_7qG2_count_7qG2_000	4	1	270	2	3
+72	__IMU_ReadInteger_7qG2_reg_to_read_7qG2_000	4	1	272	2	2
+73	__IMU_ReadGyro_7qG2_count_7qG2_000	4	1	274	2	3
+74	__IMU_ReadInteger_7qG2_result_7qG2_000	4	1	276	2	3
+75	__IMU_MLBToInteger_7qG2_i_7qG2_000	4	1	278	2	2
+76	__constVal360	4	0	280	2	4
+77	__constVal128	4	0	282	2	4
+78	__constVal1000	4	0	284	2	2
+79	T	4	1	286	2	2
+80	deltaT	4	1	288	2	4
+81	MScurrHeading	4	1	290	2	9
+82	MSprevHeading	4	1	292	2	2
+83	__IMU_ReadGyro_7qG2_e_7qG2_000	4	1	294	2	2
+84	__IMU_SendCommand_7qG2_status_7qG2_000	4	1	296	2	3
+85	__move_7qG2_pwr_7qG2_000	4	1	298	2	2
+86	__IMU_ReadInteger_7qG2_nByteReady_7qG2_000	1	1	300	1	2
+87	__IMU_ReadInteger_return	1	1	301	1	4
+88	__IMU_ReadInteger_7qG2_i2cAddr_7qG2_000	1	1	302	1	2
+89	__IMU_ReadGyro_return	1	1	303	1	3
+90	__IMU_ReadAcceleration_7qG2_port_7qG2_000	1	1	304	1	5
+91	__IMU_ReadGyro_7qG2_nByteReady_7qG2_000	1	1	305	1	2
+92	__constVal83	2	0	306	1	1
+93	__IMU_ReadGyro_7qG2_i2cAddr_7qG2_000	1	1	307	1	2
+94	__IMU_ReadAcceleration_return	1	1	308	1	3
+95	__constVal12	2	0	309	1	2
+96	__IMU_ReadAcceleration_7qG2_i2cAddr_7qG2_000	1	1	310	1	3
+97	__IMU_ReadGyro_7qG2_port_7qG2_000	1	1	311	1	3
+98	__constVal63	2	0	312	1	2
+99	____initialize_global_data_return	1	1	313	1	3
+100	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	314	1	4
+101	__constVal96	2	0	315	1	2
+102	__ClearLine_7qG2_line_7qG2_000_inline_display	1	1	316	1	8
+103	__constVal1	2	0	317	1	8
+104	__constVal32	2	0	318	1	6
+105	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	319	1	4
+106	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	320	1	2
+107	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	321	1	2
+108	__constVal114	2	0	322	1	1
+109	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	323	1	2
+110	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	324	1	2
+111	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	325	1	2
+112	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	326	1	2
+113	__constVal0	2	1	327	1	24
+114	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init	1	1	328	1	4
+115	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_IMU_Init	1	1	329	1	2
+116	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	330	1	2
+117	__IMU_Init_return	1	1	331	1	3
+118	__IMU_ReadAcceleration_7qG2_nByteReady_7qG2_000	1	1	332	1	3
+119	__constVal69	2	0	333	1	1
+120	__IMU_Init_7qG2_port_7qG2_000	1	1	334	1	2
+121	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	335	1	2
+122	__IMU_ReadCompassHeading_7qG2_i2cAddr_7qG2_000	1	1	336	1	2
+123	__IMU_ReadCompassHeading_return	1	1	337	1	4
+124	__constVal3	2	0	338	1	4
+125	__IMU_ReadCompassHeading_7qG2_port_7qG2_000	1	1	339	1	2
+126	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	340	1	2
+127	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	341	1	2
+128	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	342	1	2
+129	__IMU_ReadInteger_7qG2_port_7qG2_000	1	1	343	1	3
+130	__zfSetSensorLowspeed_inline_main	1	1	344	1	2
+131	__zfIMU_ReadAcceleration	1	1	345	1	10
+132	__zfSetSensorLowspeed_inline_IMU_Init	1	1	346	1	2
+133	__constVal20	2	0	347	1	1
+134	__RLSBIterations1	1	1	348	1	4
+135	__RLSBytesCount1	1	1	349	1	9
+136	__zfdisplay	1	1	350	1	5
+137	__zfIMU_ReadGyro	1	1	351	1	5
+138	__RLSBResult1	2	1	352	1	7
+139	__RLSBResultVar	2	1	353	1	11
+140	__zfIMU_SendCommand	1	1	354	1	3
+141	__zfmain	1	1	355	1	2
+142	__constVal66	2	0	356	1	1
+143	__zfIMU_ReadInteger	1	1	357	1	5
+144	__tmpsbyteIMU_SendCommand	2	1	358	1	2
+145	__constVal8	2	0	359	1	2
+146	__zfread_gyros	1	1	360	1	20
+147	__zfread_compasses	1	1	361	1	2
+148	____ReadLSBytes1_return	1	1	362	1	3
+149	__zfmove	1	1	363	1	2
+150	__IMU_SendCommand_7qG2_i2cAddr_7qG2_000	1	1	364	1	5
+151	__IMU_SendCommand_7qG2_cmd_7qG2_000	1	1	365	1	5
+152	__IMU_SendCommand_7qG2_port_7qG2_000	1	1	366	1	7
+153	__IMU_MLBToInteger_7qG2_msb_7qG2_000	1	1	367	1	7
+154	__IMU_MLBToInteger_return	1	1	368	1	9
+155	__zfbutton_handler	1	1	369	1	9
+156	__constVal65	2	0	370	1	1
+157	__IMU_SendCommand_return	1	1	371	1	6
+158	__RLSBIterationsVar	1	1	372	1	4
+159	__RLSReadPort	1	1	373	1	7
+160	____ResetSensorSubroutine_return	1	1	374	1	5
+161	__ResetSensorTmp	1	1	375	1	2
+162	__ArrHelper__IMU_ReadGyro_98_0	1	1	376	1	24
+163	____ReadLSBytesVar_return	1	1	377	1	6
+164	__ArrHelper__IMU_ReadInteger_98_0	1	1	378	1	4
+165	__constVal2	2	0	379	1	2
+166	__IMU_MLBToInteger_7qG2_lsb_7qG2_000	1	1	380	1	7
+167	__ResetSensorPort	1	1	381	1	5
+168	__RLSBytesCountVar	1	1	382	1	14
+169	__ArrHelper__IMU_ReadAcceleration_98_0	1	1	383	1	30
+170	currGyro	8	0	10	16	3
+171	currGyro.gx_h	1	1	384	1	3
+172	currGyro.gx_l	1	1	385	1	3
+173	currGyro.gy_h	1	1	386	1	3
+174	currGyro.gy_l	1	1	387	1	3
+175	currGyro.gz_h	1	1	388	1	3
+176	currGyro.gz_l	1	1	389	1	3
+177	currGyro.gx	4	1	390	2	3
+178	currGyro.gy	4	1	392	2	3
+179	currGyro.gz	4	1	394	2	3
+180	currGyro.error	4	1	396	2	3
+181	currAccl	8	0	13	20	2
+182	currAccl.tx	4	1	400	2	2
+183	currAccl.ty	4	1	402	2	2
+184	currAccl.tz	4	1	404	2	2
+185	currAccl.ax_h	1	1	406	1	2
+186	currAccl.ax_l	1	1	407	1	2
+187	currAccl.ay_h	1	1	408	1	2
+188	currAccl.ay_l	1	1	409	1	2
+189	currAccl.az_h	1	1	410	1	2
+190	currAccl.az_l	1	1	411	1	2
+191	currAccl.ax	4	1	412	2	2
+192	currAccl.ay	4	1	414	2	2
+193	currAccl.az	4	1	416	2	2
+194	currAccl.error	4	1	418	2	2
+195	__SPTArgs	8	0	5	8	18
+196	__SPTArgs.Result	2	1	420	1	18
+197	__SPTArgs.Frequency	3	1	422	2	18
+198	__SPTArgs.Duration	3	1	424	2	18
+199	__SPTArgs.Loop	1	1	426	1	18
+200	__SPTArgs.Volume	1	1	427	1	18
+201	__CLSWArgs0	8	0	4	12	10
+202	__CLSWArgs0.Result	2	1	428	1	10
+203	__CLSWArgs0.Port	1	1	429	1	10
+204	__CLSWArgs0.Buffer	7	0	430	4	10
+205	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+206	__CLSWArgs0.ReturnLen	1	1	432	1	10
+207	__CLSRArgs0	8	0	4	12	5
+208	__CLSRArgs0.Result	2	1	436	1	5
+209	__CLSRArgs0.Port	1	1	437	1	5
+210	__CLSRArgs0.Buffer	7	0	438	4	5
+211	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+212	__CLSRArgs0.BufferLen	1	1	440	1	5
+213	__CLSCSArgs1	8	0	3	4	4
+214	__CLSCSArgs1.Result	2	1	444	1	4
+215	__CLSCSArgs1.Port	1	1	445	1	4
+216	__CLSCSArgs1.BytesReady	1	1	446	1	4
+217	__IMU_ReadGyro_7qG2_currGyro_7qG2_000	8	0	10	16	15
+218	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx_h	1	1	448	1	15
+219	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx_l	1	1	449	1	15
+220	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy_h	1	1	450	1	15
+221	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy_l	1	1	451	1	15
+222	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz_h	1	1	452	1	15
+223	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz_l	1	1	453	1	15
+224	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx	4	1	454	2	15
+225	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy	4	1	456	2	15
+226	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz	4	1	458	2	15
+227	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.error	4	1	460	2	15
+228	__RandomArgs	8	0	1	4	6
+229	__RandomArgs.Result	4	1	464	2	6
+230	__CLSCSArgs0	8	0	3	4	28
+231	__CLSCSArgs0.Result	2	1	468	1	28
+232	__CLSCSArgs0.Port	1	1	469	1	28
+233	__CLSCSArgs0.BytesReady	1	1	470	1	28
+234	__CLSRArgs1	8	0	4	12	5
+235	__CLSRArgs1.Result	2	1	472	1	5
+236	__CLSRArgs1.Port	1	1	473	1	5
+237	__CLSRArgs1.Buffer	7	0	474	4	5
+238	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+239	__CLSRArgs1.BufferLen	1	1	476	1	5
+240	__TextOutArgs	8	0	4	16	92
+241	__TextOutArgs.Result	2	1	480	1	92
+242	__TextOutArgs.Location	8	0	2	4	92
+243	__TextOutArgs.Location.X	4	1	484	2	92
+244	__TextOutArgs.Location.Y	4	1	486	2	92
+245	__TextOutArgs.Text	7	0	488	4	92
+246	__TextOutArgs.Text.Text_type	1	0	0	1	0
+247	__TextOutArgs.Options	5	1	492	4	92
+248	__RBtnArgs	8	0	5	8	8
+249	__RBtnArgs.Result	2	1	496	1	8
+250	__RBtnArgs.Index	1	1	497	1	8
+251	__RBtnArgs.Pressed	1	1	498	1	8
+252	__RBtnArgs.Count	1	1	499	1	8
+253	__RBtnArgs.Reset	1	1	500	1	8
+254	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000	8	0	13	20	21
+255	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tx	4	1	504	2	21
+256	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ty	4	1	506	2	21
+257	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tz	4	1	508	2	21
+258	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax_h	1	1	510	1	21
+259	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax_l	1	1	511	1	21
+260	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay_h	1	1	512	1	21
+261	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay_l	1	1	513	1	21
+262	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az_h	1	1	514	1	21
+263	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az_l	1	1	515	1	21
+264	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax	4	1	516	2	21
+265	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay	4	1	518	2	21
+266	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az	4	1	520	2	21
+267	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.error	4	1	522	2	21
+268	__CLSWArgs1	8	0	4	12	5
+269	__CLSWArgs1.Result	2	1	524	1	5
+270	__CLSWArgs1.Port	1	1	525	1	5
+271	__CLSWArgs1.Buffer	7	0	526	4	5
+272	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+273	__CLSWArgs1.ReturnLen	1	1	528	1	5
+274	__constStr0018	7	0	530	4	1
+275	__constStr0018.__constStr0018_type	1	1	0	1	0
+276	__constStr0017	7	0	532	4	1
+277	__constStr0017.__constStr0017_type	1	1	0	1	0
+278	__RLSLastGoodReadVar	7	0	534	4	2
+279	__RLSLastGoodReadVar.__RLSLastGoodReadVar_type	1	0	0	1	0
+280	__RLSReadBufVar	7	0	536	4	14
+281	__RLSReadBufVar.__RLSReadBufVar_type	1	0	0	1	0
+282	__IMU_ReadAcceleration_7qG2_buf_7qG2_000	7	0	538	4	18
+283	__IMU_ReadAcceleration_7qG2_buf_7qG2_000.__IMU_ReadAcceleration_7qG2_buf_7qG2_000_type	1	0	0	1	0
+284	__IMU_ReadAcceleration_7qG2_message_7qG2_000	7	0	540	4	4
+285	__IMU_ReadAcceleration_7qG2_message_7qG2_000.__IMU_ReadAcceleration_7qG2_message_7qG2_000_type	1	0	0	1	0
+286	__RLSBbufLSWrite1	7	0	542	4	1
+287	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+288	__BlankLine	7	0	544	4	4
+289	__BlankLine.__BlankLine_type	1	0	0	1	0
+290	__IMU_ReadGyro_7qG2_buf_7qG2_000	7	0	546	4	14
+291	__IMU_ReadGyro_7qG2_buf_7qG2_000.__IMU_ReadGyro_7qG2_buf_7qG2_000_type	1	0	0	1	0
+292	__IMU_ReadInteger_7qG2_message_7qG2_000	7	0	548	4	2
+293	__IMU_ReadInteger_7qG2_message_7qG2_000.__IMU_ReadInteger_7qG2_message_7qG2_000_type	1	0	0	1	0
+294	__IMU_SendCommand_7qG2_cmdBuf_7qG2_000	7	0	550	4	2
+295	__IMU_SendCommand_7qG2_cmdBuf_7qG2_000.__IMU_SendCommand_7qG2_cmdBuf_7qG2_000_type	1	0	0	1	0
+296	__IMU_ReadGyro_7qG2_message_7qG2_000	7	0	552	4	2
+297	__IMU_ReadGyro_7qG2_message_7qG2_000.__IMU_ReadGyro_7qG2_message_7qG2_000_type	1	0	0	1	0
+298	__IMU_ReadInteger_7qG2_buf_7qG2_000	7	0	554	4	4
+299	__IMU_ReadInteger_7qG2_buf_7qG2_000.__IMU_ReadInteger_7qG2_buf_7qG2_000_type	1	0	0	1	0
+300	__constStr0014	7	0	556	4	1
+301	__constStr0014.__constStr0014_type	1	1	0	1	0
+302	__constStr0013	7	0	558	4	1
+303	__constStr0013.__constStr0013_type	1	1	0	1	0
+304	__constStr0016	7	0	560	4	1
+305	__constStr0016.__constStr0016_type	1	1	0	1	0
+306	__constStr0015	7	0	562	4	1
+307	__constStr0015.__constStr0015_type	1	1	0	1	0
+308	__constStr0012	7	0	564	4	1
+309	__constStr0012.__constStr0012_type	1	1	0	1	0
+310	__RLSReadBuf1	7	0	566	4	9
+311	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+312	__RLSLastGoodRead1	7	0	568	4	2
+313	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+314	__constStr0011	7	0	570	4	1
+315	__constStr0011.__constStr0011_type	1	1	0	1	0
+316	__strbufdisplay	7	0	572	4	16
+317	__strbufdisplay.__strbufdisplay_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	226	0	#line 226 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	227	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	226	2	#line 226 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	232	2	#line 232 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	233	2		set cb, 0
+0	232	5	#line 232 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	232	5	#line 232 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	234	5	#line 234 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	235	5		set cb_old, 1
+0	234	8	#line 234 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	234	8	#line 234 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	234	8	#line 234 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	235	8		set __SetSensor_7qG2_port_7qG2_000_inline_main, 2
+0	234	11	#line 234 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	234	11	#line 234 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	3707	11	#line 3707 "NXCDefs.h"
+0	3708	11		setin __constVal3, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	3709	15		setin __constVal128, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
+0	3710	19	#pragma macro 4
+0	3710	19		acquire __ResetSensorMutex
+0	3710	20		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
+0	3710	22		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3710	25		release __ResetSensorMutex
+0	12693	26	#line 12693 "NXCDefs.h"
+0	3711	26	#line 3711 "NXCDefs.h"
+0	235	26	#line 235 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	235	26	#line 235 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	236	26		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
+0	235	29	#line 235 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	236	29	#line 236 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	237	29		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	31	#line 3758 "NXCDefs.h"
+0	3759	31		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	33	#line 3758 "NXCDefs.h"
+0	3758	33	#line 3758 "NXCDefs.h"
+0	3759	33		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	35	#line 3758 "NXCDefs.h"
+0	3759	35		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	38	#line 3758 "NXCDefs.h"
+0	3759	38		brtst 4, __007__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	41	#line 3758 "NXCDefs.h"
+0	3759	41		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	44	#line 3758 "NXCDefs.h"
+0	3759	44		jmp __007__NXC_Label_37
+0	3758	46	#line 3758 "NXCDefs.h"
+0	3759	46		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	49	#line 3758 "NXCDefs.h"
+0	3759	49		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	51	#line 3663 "NXCDefs.h"
+0	3664	51		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	55	#line 3663 "NXCDefs.h"
+0	3759	55	#line 3759 "NXCDefs.h"
+0	3759	55	#line 3759 "NXCDefs.h"
+0	3760	55		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	57	#line 3759 "NXCDefs.h"
+0	3759	57	#line 3759 "NXCDefs.h"
+0	3760	57		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	60	#line 3759 "NXCDefs.h"
+0	3676	60	#line 3676 "NXCDefs.h"
+0	3677	60		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	64	#line 3676 "NXCDefs.h"
+0	3760	64	#line 3760 "NXCDefs.h"
+0	3760	64	#line 3760 "NXCDefs.h"
+0	3761	64		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	66	#line 3760 "NXCDefs.h"
+0	3694	66	#line 3694 "NXCDefs.h"
+0	3695	66	#pragma macro 4
+0	3695	66		acquire __ResetSensorMutex
+0	3695	67		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main
+0	3695	69		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3695	72		release __ResetSensorMutex
+0	12787	73	#line 12787 "NXCDefs.h"
+0	3694	73	#line 3694 "NXCDefs.h"
+0	3761	73	#line 3761 "NXCDefs.h"
+0	236	73	#line 236 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	236	73	#line 236 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	237	73		set __IMU_Init_7qG2_port_7qG2_000, 0
+0	236	76	#line 236 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	238	76	#line 238 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	239	76		subcall IMU_Init, __IMU_Init_return
+0	238	78	#line 238 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	239	78	#line 239 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	240	78		start button_handler
+0	239	80	#line 239 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	240	80	#line 240 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	241	80		start read_compasses
+0	240	82	#line 240 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	241	82	#line 241 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	242	82		start read_gyros
+0	241	84	#line 241 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	242	84	#line 242 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	243	84		start display
+0	242	86	#line 242 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	244	86	#line 244 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	245	86		start move
+0	244	88	#line 244 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	247	88	#line 247 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	247	88	#line 247 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	247	88	#line 247 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	247	88	#line 247 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	248	88		set __D0main, 1
+0	253	91	#line 253 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	254	91		tst 5, __zfmain, __D0main
+0	253	94	#line 253 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	254	94		brtst 4, __NXC_Label_1321, __zfmain
+0	253	97	#line 253 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	254	97		set __IMU_ReadAcceleration_7qG2_port_7qG2_000, 0
+0	253	100	#line 253 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	253	100	#line 253 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	254	100		set __IMU_ReadAcceleration_7qG2_i2cAddr_7qG2_000, 34
+0	253	103	#line 253 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	253	103	#line 253 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	254	103		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000, currAccl
+0	255	105	#line 255 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	256	105		subcall IMU_ReadAcceleration, __IMU_ReadAcceleration_return
+0	255	107	#line 255 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	256	107		mov currAccl, __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000
+0	255	109	#line 255 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	255	109	#line 255 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	255	109	#line 255 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	7921	109	#line 7921 "NXCDefs.h"
+0	7922	109		wait 15000
+0	7921	111	#line 7921 "NXCDefs.h"
+0	257	111	#line 257 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	261	111	#line 261 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	262	111		jmp __NXC_Label_1320
+0	261	113	#line 261 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+0	262	113		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5710	0	#pragma macro 25
+2	5710	0		acquire __CLSWMutex1
+2	5710	1		set __CLSWArgs1.Port, 1
+2	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+2	5710	7		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+2	5710	9		syscall 21, __CLSWArgs1
+2	5710	12		mov __RLSBResult1, __CLSWArgs1.Result
+2	5710	15		release __CLSWMutex1
+2	5710	16	#line 5710 "NXTDefs.h"
+2	5711	16		brtst 4, __RLSBReturn1, __RLSBytesCount1
+2	5712	19		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+2	5713	23		brtst 5, __RLSBError1, __RLSBResult1
+2	5714	26		set __RLSBIterations1, 4
+2	5716	29	#pragma macro 23
+2	5716	29		acquire __CLSCSMutex1
+2	5716	30		set __CLSCSArgs1.Port, 1
+2	5716	33		syscall 23, __CLSCSArgs1
+2	5716	36		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+2	5716	38		mov __RLSBResult1, __CLSCSArgs1.Result
+2	5716	40		release __CLSCSMutex1
+2	5716	41	#line 5716 "NXTDefs.h"
+2	5717	41		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+2	5718	45		brtst 2, __RLSBError1, __RLSBIterations1
+2	5719	48		brtst 0, __RLSBError1, __RLSBResult1
+2	5720	51		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+2	5722	54		wait 15
+2	5723	56		jmp __RLSBDoCheckStatus1
+2	5726	58	#pragma macro 25
+2	5726	58		acquire __CLSRMutex1
+2	5726	59		set __CLSRArgs1.Port, 1
+2	5726	62		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+2	5726	64		syscall 22, __CLSRArgs1
+2	5726	67		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+2	5726	69		mov __RLSBResult1, __CLSRArgs1.Result
+2	5726	71		release __CLSRMutex1
+2	5726	72	#line 5726 "NXTDefs.h"
+2	5727	72		brtst 5, __RLSBError1, __RLSBResult1
+2	5728	75		mov __RLSLastGoodRead1, __RLSReadBuf1
+2	5729	77		jmp __RLSBDone1
+2	5731	79		mov __RLSReadBuf1, __RLSLastGoodRead1
+2	5733	81		arrsize __RLSBytesCount1, __RLSReadBuf1
+2	5735	84		subret ____ReadLSBytes1_return
+3	5821	0	#pragma macro 25
+3	5821	0		acquire __CLSWMutex0
+3	5821	1		acquire __CLSWMutex1
+3	5821	2		acquire __CLSWMutex2
+3	5821	3		acquire __CLSWMutex3
+3	5821	4		mov __CLSWArgs0.Port, __RLSReadPort
+3	5821	6		mov __CLSWArgs0.ReturnLen, __RLSBytesCountVar
+3	5821	8		mov __CLSWArgs0.Buffer, __RLSReadBufVar
+3	5821	10		syscall 21, __CLSWArgs0
+3	5821	13		mov __RLSBResultVar, __CLSWArgs0.Result
+3	5821	15		release __CLSWMutex0
+3	5821	16		release __CLSWMutex1
+3	5821	17		release __CLSWMutex2
+3	5821	18		release __CLSWMutex3
+3	5821	19	#line 5821 "NXTDefs.h"
+3	5822	19		brtst 4, __RLSBReturnVar, __RLSBytesCountVar
+3	5823	22		arrinit __RLSReadBufVar, __constVal0, __RLSBytesCountVar
+3	5824	26		brtst 5, __RLSBErrorVar, __RLSBResultVar
+3	5825	29		set __RLSBIterationsVar, 4
+3	5827	32	#pragma macro 23
+3	5827	32		acquire __CLSCSMutex0
+3	5827	33		acquire __CLSCSMutex1
+3	5827	34		acquire __CLSCSMutex2
+3	5827	35		acquire __CLSCSMutex3
+3	5827	36		mov __CLSCSArgs0.Port, __RLSReadPort
+3	5827	38		syscall 23, __CLSCSArgs0
+3	5827	41		mov __RLSBytesCountVar, __CLSCSArgs0.BytesReady
+3	5827	43		mov __RLSBResultVar, __CLSCSArgs0.Result
+3	5827	45		release __CLSCSMutex0
+3	5827	46		release __CLSCSMutex1
+3	5827	47		release __CLSCSMutex2
+3	5827	48		release __CLSCSMutex3
+3	5827	49	#line 5827 "NXTDefs.h"
+3	5828	49		sub __RLSBIterationsVar, __RLSBIterationsVar, __constVal1
+3	5829	53		brtst 2, __RLSBErrorVar, __RLSBIterationsVar
+3	5830	56		brtst 0, __RLSBErrorVar, __RLSBResultVar
+3	5831	59		brtst 4, __RLSBReadyToReadVar, __RLSBResultVar
+3	5833	62		wait 15
+3	5834	64		jmp __RLSBDoCheckStatusVar
+3	5837	66	#pragma macro 25
+3	5837	66		acquire __CLSRMutex0
+3	5837	67		acquire __CLSRMutex1
+3	5837	68		acquire __CLSRMutex2
+3	5837	69		acquire __CLSRMutex3
+3	5837	70		mov __CLSRArgs0.Port, __RLSReadPort
+3	5837	72		mov __CLSRArgs0.BufferLen, __RLSBytesCountVar
+3	5837	74		syscall 22, __CLSRArgs0
+3	5837	77		mov __RLSReadBufVar, __CLSRArgs0.Buffer
+3	5837	79		mov __RLSBResultVar, __CLSRArgs0.Result
+3	5837	81		release __CLSRMutex0
+3	5837	82		release __CLSRMutex1
+3	5837	83		release __CLSRMutex2
+3	5837	84		release __CLSRMutex3
+3	5837	85	#line 5837 "NXTDefs.h"
+3	5838	85		brtst 5, __RLSBErrorVar, __RLSBResultVar
+3	5839	88		mov __RLSLastGoodReadVar, __RLSReadBufVar
+3	5840	90		jmp __RLSBDoneVar
+3	5842	92		mov __RLSReadBufVar, __RLSLastGoodReadVar
+3	5844	94		arrsize __RLSBytesCountVar, __RLSReadBufVar
+3	5846	97		subret ____ReadLSBytesVar_return
+4	71	0	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	72	0		mov __unsigned_stack_001IMU_MLBToInteger, __IMU_MLBToInteger_7qG2_lsb_7qG2_000
+4	71	2	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	71	2	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	71	2	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	71	2	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	71	2	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	72	2		asl __D0IMU_MLBToInteger, __IMU_MLBToInteger_7qG2_msb_7qG2_000, __constVal8
+4	73	6	#line 73 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	74	6		add __IMU_MLBToInteger_7qG2_i_7qG2_000, __unsigned_stack_001IMU_MLBToInteger, __D0IMU_MLBToInteger
+4	73	10	#line 73 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	73	10	#line 73 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	74	10	#line 74 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	75	10		mov __D0IMU_MLBToInteger, __IMU_MLBToInteger_7qG2_i_7qG2_000
+4	74	12	#line 74 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	75	12		subret __IMU_MLBToInteger_return
+4	74	14	#line 74 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	76	14	#line 76 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	77	14		subret __IMU_MLBToInteger_return
+5	107	0	#line 107 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	108	0		arrbuild __IMU_SendCommand_7qG2_cmdBuf_7qG2_000, __IMU_SendCommand_7qG2_i2cAddr_7qG2_000, __constVal65, __IMU_SendCommand_7qG2_cmd_7qG2_000
+5	107	6	#line 107 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	107	6	#line 107 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	108	6	#line 108 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	109	6	#pragma macro 25
+5	109	6		acquire __CLSWMutex0
+5	109	7		acquire __CLSWMutex1
+5	109	8		acquire __CLSWMutex2
+5	109	9		acquire __CLSWMutex3
+5	109	10		mov __CLSWArgs0.Port, __IMU_SendCommand_7qG2_port_7qG2_000
+5	109	12		mov __CLSWArgs0.ReturnLen, __constVal0
+5	109	14		mov __CLSWArgs0.Buffer, __IMU_SendCommand_7qG2_cmdBuf_7qG2_000
+5	109	16		syscall 21, __CLSWArgs0
+5	109	19		mov __D0IMU_SendCommand, __CLSWArgs0.Result
+5	109	22		release __CLSWMutex0
+5	109	23		release __CLSWMutex1
+5	109	24		release __CLSWMutex2
+5	109	25		release __CLSWMutex3
+5	8925	26	#line 8925 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	108	26	#line 108 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	108	26	#line 108 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	109	26	#line 109 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	110	26	#pragma macro 23
+5	110	26		acquire __CLSCSMutex0
+5	110	27		acquire __CLSCSMutex1
+5	110	28		acquire __CLSCSMutex2
+5	110	29		acquire __CLSCSMutex3
+5	110	30		mov __CLSCSArgs0.Port, __IMU_SendCommand_7qG2_port_7qG2_000
+5	110	32		syscall 23, __CLSCSArgs0
+5	110	35		mov __tmpsbyteIMU_SendCommand, __CLSCSArgs0.BytesReady
+5	110	37		mov __D0IMU_SendCommand, __CLSCSArgs0.Result
+5	110	40		release __CLSCSMutex0
+5	110	41		release __CLSCSMutex1
+5	110	42		release __CLSCSMutex2
+5	110	43		release __CLSCSMutex3
+5	8933	44	#line 8933 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	109	44	#line 109 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	110	44		mov __IMU_SendCommand_7qG2_status_7qG2_000, __D0IMU_SendCommand
+5	110	46	#line 110 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	111	46		mov __signed_stack_001IMU_SendCommand, __IMU_SendCommand_7qG2_status_7qG2_000
+5	110	48	#line 110 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	111	48	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	48		set __D0IMU_SendCommand, 0
+5	111	51	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	51		cmp 1, __zfIMU_SendCommand, __signed_stack_001IMU_SendCommand, __D0IMU_SendCommand
+5	111	55	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	55		mov __D0IMU_SendCommand, __zfIMU_SendCommand
+5	111	58	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	58		brtst 4, __NXC_Label_638, __zfIMU_SendCommand
+5	111	61	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	61	#pragma macro 23
+5	112	61		acquire __CLSCSMutex0
+5	112	62		acquire __CLSCSMutex1
+5	112	63		acquire __CLSCSMutex2
+5	112	64		acquire __CLSCSMutex3
+5	112	65		mov __CLSCSArgs0.Port, __IMU_SendCommand_7qG2_port_7qG2_000
+5	112	67		syscall 23, __CLSCSArgs0
+5	112	70		mov __tmpsbyteIMU_SendCommand, __CLSCSArgs0.BytesReady
+5	112	72		mov __D0IMU_SendCommand, __CLSCSArgs0.Result
+5	112	75		release __CLSCSMutex0
+5	112	76		release __CLSCSMutex1
+5	112	77		release __CLSCSMutex2
+5	112	78		release __CLSCSMutex3
+5	8954	79	#line 8954 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	111	79	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	79		mov __IMU_SendCommand_7qG2_status_7qG2_000, __D0IMU_SendCommand
+5	111	81	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	111	81	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	81		jmp __NXC_Label_637
+5	111	83	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	111	83	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	118	83	#line 118 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	119	83		subret __IMU_SendCommand_return
+6	122	0	#line 122 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	123	0		arrinit __IMU_ReadInteger_7qG2_buf_7qG2_000, __constVal0, __constVal20
+6	124	4	#line 124 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	125	4		set __IMU_ReadInteger_7qG2_result_7qG2_000, 0
+6	124	7	#line 124 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	126	7	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	127	7		set __IMU_ReadInteger_7qG2_nByteReady_7qG2_000, 0
+6	126	10	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	126	10	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	127	10		arrbuild __IMU_ReadInteger_7qG2_message_7qG2_000, __IMU_ReadInteger_7qG2_i2cAddr_7qG2_000, __IMU_ReadInteger_7qG2_reg_to_read_7qG2_000
+6	126	15	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	126	15	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	127	15	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	15	#pragma macro 23
+6	128	15		acquire __CLSCSMutex0
+6	128	16		acquire __CLSCSMutex1
+6	128	17		acquire __CLSCSMutex2
+6	128	18		acquire __CLSCSMutex3
+6	128	19		mov __CLSCSArgs0.Port, __IMU_ReadInteger_7qG2_port_7qG2_000
+6	128	21		syscall 23, __CLSCSArgs0
+6	128	24		mov __IMU_ReadInteger_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+6	128	27		mov __D0IMU_ReadInteger, __CLSCSArgs0.Result
+6	128	30		release __CLSCSMutex0
+6	128	31		release __CLSCSMutex1
+6	128	32		release __CLSCSMutex2
+6	128	33		release __CLSCSMutex3
+6	9026	34	#line 9026 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	127	34	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	34		mov __signed_stack_001IMU_ReadInteger, __D0IMU_ReadInteger
+6	127	36	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	36		set __D0IMU_ReadInteger, 32
+6	127	39	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	39		cmp 4, __zfIMU_ReadInteger, __signed_stack_001IMU_ReadInteger, __D0IMU_ReadInteger
+6	127	43	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	43		mov __D0IMU_ReadInteger, __zfIMU_ReadInteger
+6	128	46	#line 128 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	129	46		brtst 4, __NXC_Label_648, __zfIMU_ReadInteger
+6	128	49	#line 128 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	49	#line 128 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	129	49		jmp __NXC_Label_647
+6	128	51	#line 128 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	129	51	#line 129 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	51		set __IMU_ReadInteger_7qG2_count_7qG2_000, 2
+6	129	54	#line 129 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	129	54	#line 129 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	129	54	#line 129 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	54	#pragma macro 28
+6	130	54		acquire __RLSBmutex0
+6	130	55		acquire __RLSBmutex1
+6	130	56		acquire __RLSBmutex2
+6	130	57		acquire __RLSBmutex3
+6	130	58		mov __RLSReadPort, __IMU_ReadInteger_7qG2_port_7qG2_000
+6	130	60		mov __RLSReadBufVar, __IMU_ReadInteger_7qG2_message_7qG2_000
+6	130	62		mov __RLSBytesCountVar, __IMU_ReadInteger_7qG2_count_7qG2_000
+6	130	64		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+6	130	67		tst 4, __D0IMU_ReadInteger, __RLSBResultVar
+6	130	70		mov __IMU_ReadInteger_7qG2_count_7qG2_000, __RLSBytesCountVar
+6	130	72		mov __IMU_ReadInteger_7qG2_buf_7qG2_000, __RLSReadBufVar
+6	130	74		release __RLSBmutex0
+6	130	75		release __RLSBmutex1
+6	130	76		release __RLSBmutex2
+6	130	77		release __RLSBmutex3
+6	9052	78	#line 9052 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	78	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	78		tst 5, __zfIMU_ReadInteger, __D0IMU_ReadInteger
+6	130	81	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	81		brtst 4, __NXC_Label_655, __zfIMU_ReadInteger
+6	130	84	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	84		set __signed_stack_001IMU_ReadInteger, 0
+6	130	87	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	87	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	87		index __ArrHelper__IMU_ReadInteger_98_0, __IMU_ReadInteger_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadInteger
+6	130	91	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	91		mov __unsigned_stack_001IMU_ReadInteger, __ArrHelper__IMU_ReadInteger_98_0
+6	130	93	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	93	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	93		set __signed_stack_002IMU_ReadInteger, 1
+6	130	96	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	96	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	96		index __ArrHelper__IMU_ReadInteger_98_0, __IMU_ReadInteger_7qG2_buf_7qG2_000, __signed_stack_002IMU_ReadInteger
+6	130	100	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	100	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	100	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	100	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	100		asl __D0IMU_ReadInteger, __ArrHelper__IMU_ReadInteger_98_0, __constVal8
+6	131	104	#line 131 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	132	104		add __IMU_ReadInteger_7qG2_result_7qG2_000, __unsigned_stack_001IMU_ReadInteger, __D0IMU_ReadInteger
+6	131	108	#line 131 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	108	#line 131 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	132	108	#line 132 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	133	108	#line 133 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	134	108		mov __D0IMU_ReadInteger, __IMU_ReadInteger_7qG2_result_7qG2_000
+6	133	110	#line 133 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	134	110		subret __IMU_ReadInteger_return
+6	133	112	#line 133 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	135	112	#line 135 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	136	112		subret __IMU_ReadInteger_return
+7	158	0	#line 158 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	159	0		arrinit __IMU_ReadGyro_7qG2_buf_7qG2_000, __constVal0, __constVal12
+7	162	4	#line 162 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	163	4		set __IMU_ReadGyro_7qG2_nByteReady_7qG2_000, 0
+7	162	7	#line 162 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	162	7	#line 162 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	163	7		arrbuild __IMU_ReadGyro_7qG2_message_7qG2_000, __IMU_ReadGyro_7qG2_i2cAddr_7qG2_000, __constVal83
+7	162	12	#line 162 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	162	12	#line 162 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	163	12	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	12	#pragma macro 23
+7	164	12		acquire __CLSCSMutex0
+7	164	13		acquire __CLSCSMutex1
+7	164	14		acquire __CLSCSMutex2
+7	164	15		acquire __CLSCSMutex3
+7	164	16		mov __CLSCSArgs0.Port, __IMU_ReadGyro_7qG2_port_7qG2_000
+7	164	19		syscall 23, __CLSCSArgs0
+7	164	22		mov __IMU_ReadGyro_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+7	164	25		mov __D0IMU_ReadGyro, __CLSCSArgs0.Result
+7	164	28		release __CLSCSMutex0
+7	164	29		release __CLSCSMutex1
+7	164	30		release __CLSCSMutex2
+7	164	31		release __CLSCSMutex3
+7	9355	32	#line 9355 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	163	32	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	32		mov __signed_stack_001IMU_ReadGyro, __D0IMU_ReadGyro
+7	163	34	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	34		set __D0IMU_ReadGyro, 32
+7	163	37	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	37		cmp 4, __zfIMU_ReadGyro, __signed_stack_001IMU_ReadGyro, __D0IMU_ReadGyro
+7	163	41	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	41		mov __D0IMU_ReadGyro, __zfIMU_ReadGyro
+7	164	43	#line 164 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	165	43		brtst 4, __NXC_Label_688, __zfIMU_ReadGyro
+7	164	46	#line 164 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	46	#line 164 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	165	46		jmp __NXC_Label_687
+7	164	48	#line 164 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	165	48	#line 165 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	166	48		set __IMU_ReadGyro_7qG2_count_7qG2_000, 6
+7	165	51	#line 165 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	165	51	#line 165 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	165	51	#line 165 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	166	51	#pragma macro 28
+7	166	51		acquire __RLSBmutex0
+7	166	52		acquire __RLSBmutex1
+7	166	53		acquire __RLSBmutex2
+7	166	54		acquire __RLSBmutex3
+7	166	55		mov __RLSReadPort, __IMU_ReadGyro_7qG2_port_7qG2_000
+7	166	57		mov __RLSReadBufVar, __IMU_ReadGyro_7qG2_message_7qG2_000
+7	166	59		mov __RLSBytesCountVar, __IMU_ReadGyro_7qG2_count_7qG2_000
+7	166	61		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+7	166	64		tst 4, __D0IMU_ReadGyro, __RLSBResultVar
+7	166	67		mov __IMU_ReadGyro_7qG2_count_7qG2_000, __RLSBytesCountVar
+7	166	69		mov __IMU_ReadGyro_7qG2_buf_7qG2_000, __RLSReadBufVar
+7	166	71		release __RLSBmutex0
+7	166	72		release __RLSBmutex1
+7	166	73		release __RLSBmutex2
+7	166	74		release __RLSBmutex3
+7	9381	75	#line 9381 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	165	75	#line 165 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	166	75		mov __IMU_ReadGyro_7qG2_e_7qG2_000, __D0IMU_ReadGyro
+7	165	77	#line 165 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	165	77	#line 165 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	166	77	#line 166 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	167	77	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	77		tst 5, __zfIMU_ReadGyro, __D0IMU_ReadGyro
+7	167	80	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	80		brtst 4, __NXC_Label_697, __zfIMU_ReadGyro
+7	167	83	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	83		set __signed_stack_001IMU_ReadGyro, 0
+7	167	86	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	167	86	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	86		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	167	90	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	90		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx_l, __ArrHelper__IMU_ReadGyro_98_0
+7	168	92	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	92	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	92	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	92		set __signed_stack_001IMU_ReadGyro, 1
+7	168	95	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	95	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	95		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	168	99	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	99		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx_h, __ArrHelper__IMU_ReadGyro_98_0
+7	169	101	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	101	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	101	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	101		set __signed_stack_001IMU_ReadGyro, 2
+7	169	104	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	104	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	104		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	169	108	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	108		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy_l, __ArrHelper__IMU_ReadGyro_98_0
+7	170	110	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	110	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	110	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	110		set __signed_stack_001IMU_ReadGyro, 3
+7	170	113	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	113	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	113		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	170	117	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	117		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy_h, __ArrHelper__IMU_ReadGyro_98_0
+7	171	119	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	119	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	119	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	119		set __signed_stack_001IMU_ReadGyro, 4
+7	171	122	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	122	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	122		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	171	126	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	126		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz_l, __ArrHelper__IMU_ReadGyro_98_0
+7	172	128	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	128	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	128	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	128		set __signed_stack_001IMU_ReadGyro, 5
+7	172	131	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	131	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	131		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	172	135	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	135		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz_h, __ArrHelper__IMU_ReadGyro_98_0
+7	173	137	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	137	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	137	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	137		set __signed_stack_001IMU_ReadGyro, 0
+7	173	140	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	140	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	140		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	173	144	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	144		mov __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__IMU_ReadGyro_98_0
+7	173	146	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	146	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	146		set __signed_stack_001IMU_ReadGyro, 1
+7	173	149	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	149	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	149		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	173	153	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	153		mov __IMU_MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__IMU_ReadGyro_98_0
+7	173	155	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	155	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	155		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+7	174	158	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	158		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx, __D0IMU_MLBToInteger
+7	174	161	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	161	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	161	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	161		set __signed_stack_001IMU_ReadGyro, 2
+7	174	164	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	164	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	164		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	174	168	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	168		mov __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__IMU_ReadGyro_98_0
+7	174	170	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	170	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	170		set __signed_stack_001IMU_ReadGyro, 3
+7	174	173	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	173	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	173		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	174	177	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	177		mov __IMU_MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__IMU_ReadGyro_98_0
+7	174	179	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	179	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	179		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+7	175	182	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	182		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy, __D0IMU_MLBToInteger
+7	175	185	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	185	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	185	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	185		set __signed_stack_001IMU_ReadGyro, 4
+7	175	188	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	188	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	188		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	175	192	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	192		mov __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__IMU_ReadGyro_98_0
+7	175	194	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	194	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	194		set __signed_stack_001IMU_ReadGyro, 5
+7	175	197	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	197	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	197		index __ArrHelper__IMU_ReadGyro_98_0, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	175	201	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	201		mov __IMU_MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__IMU_ReadGyro_98_0
+7	175	203	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	203	#line 176 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	177	203		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+7	176	206	#line 176 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	177	206		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz, __D0IMU_MLBToInteger
+7	176	209	#line 176 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	209	#line 176 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	177	209	#line 177 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	178	209		jmp __NXC_Label_752
+7	178	211	#line 178 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	179	211		set __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx, 0
+7	178	214	#line 178 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	178	214	#line 178 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	179	214	#line 179 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	180	214		set __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy, 0
+7	179	217	#line 179 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	179	217	#line 179 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	180	217	#line 180 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	181	217		set __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz, 0
+7	180	220	#line 180 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	180	220	#line 180 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	181	220	#line 181 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	182	220	#line 182 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	183	220		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.error, __IMU_ReadGyro_7qG2_e_7qG2_000
+7	182	223	#line 182 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	182	223	#line 182 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	184	223	#line 184 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	185	223		subret __IMU_ReadGyro_return
+8	209	0	#line 209 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	210	0		arrinit __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __constVal0, __constVal12
+8	212	4	#line 212 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	213	4		set __IMU_ReadAcceleration_7qG2_nByteReady_7qG2_000, 0
+8	212	7	#line 212 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	212	7	#line 212 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	213	7		arrbuild __IMU_ReadAcceleration_7qG2_message_7qG2_000, __IMU_ReadAcceleration_7qG2_i2cAddr_7qG2_000, __constVal66
+8	212	12	#line 212 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	212	12	#line 212 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	213	12	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	12	#pragma macro 23
+8	214	12		acquire __CLSCSMutex0
+8	214	13		acquire __CLSCSMutex1
+8	214	14		acquire __CLSCSMutex2
+8	214	15		acquire __CLSCSMutex3
+8	214	16		mov __CLSCSArgs0.Port, __IMU_ReadAcceleration_7qG2_port_7qG2_000
+8	214	19		syscall 23, __CLSCSArgs0
+8	214	22		mov __IMU_ReadAcceleration_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+8	214	24		mov __D0IMU_ReadAcceleration, __CLSCSArgs0.Result
+8	214	27		release __CLSCSMutex0
+8	214	28		release __CLSCSMutex1
+8	214	29		release __CLSCSMutex2
+8	214	30		release __CLSCSMutex3
+8	9898	31	#line 9898 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	213	31	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	31		mov __signed_stack_001IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	213	33	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	33		set __D0IMU_ReadAcceleration, 32
+8	213	36	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	36		cmp 4, __zfIMU_ReadAcceleration, __signed_stack_001IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	213	40	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	40		mov __D0IMU_ReadAcceleration, __zfIMU_ReadAcceleration
+8	214	42	#line 214 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	215	42		brtst 4, __NXC_Label_812, __zfIMU_ReadAcceleration
+8	214	45	#line 214 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	45	#line 214 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	215	45		jmp __NXC_Label_811
+8	214	47	#line 214 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	215	47	#line 215 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	216	47		set __IMU_ReadAcceleration_7qG2_count_7qG2_000, 3
+8	215	50	#line 215 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	215	50	#line 215 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	215	50	#line 215 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	216	50	#pragma macro 28
+8	216	50		acquire __RLSBmutex0
+8	216	51		acquire __RLSBmutex1
+8	216	52		acquire __RLSBmutex2
+8	216	53		acquire __RLSBmutex3
+8	216	54		mov __RLSReadPort, __IMU_ReadAcceleration_7qG2_port_7qG2_000
+8	216	56		mov __RLSReadBufVar, __IMU_ReadAcceleration_7qG2_message_7qG2_000
+8	216	58		mov __RLSBytesCountVar, __IMU_ReadAcceleration_7qG2_count_7qG2_000
+8	216	60		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+8	216	63		tst 4, __D0IMU_ReadAcceleration, __RLSBResultVar
+8	216	66		mov __IMU_ReadAcceleration_7qG2_count_7qG2_000, __RLSBytesCountVar
+8	216	68		mov __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __RLSReadBufVar
+8	216	70		release __RLSBmutex0
+8	216	71		release __RLSBmutex1
+8	216	72		release __RLSBmutex2
+8	216	73		release __RLSBmutex3
+8	9924	74	#line 9924 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	215	74	#line 215 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	216	74		mov __IMU_ReadAcceleration_7qG2_e_7qG2_000, __D0IMU_ReadAcceleration
+8	215	76	#line 215 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	215	76	#line 215 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	216	76	#line 216 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	217	76	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	76		tst 5, __zfIMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	217	79	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	79		brtst 4, __NXC_Label_821, __zfIMU_ReadAcceleration
+8	217	82	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	82		set __signed_stack_001IMU_ReadAcceleration, 0
+8	217	85	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	217	85	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	85		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	217	89	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	217	89	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	89	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	89	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	89		sub __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tx, __ArrHelper__IMU_ReadAcceleration_98_0, __constVal128
+8	218	93	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	93	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	93	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	93		set __signed_stack_001IMU_ReadAcceleration, 1
+8	218	96	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	96	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	96		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	218	100	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	100	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	100	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	100	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	220	100		sub __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ty, __ArrHelper__IMU_ReadAcceleration_98_0, __constVal128
+8	219	104	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	104	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	104	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	220	104		set __signed_stack_001IMU_ReadAcceleration, 2
+8	219	107	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	107	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	220	107		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	219	111	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	111	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	220	111	#line 220 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	220	111	#line 220 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	221	111		sub __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tz, __ArrHelper__IMU_ReadAcceleration_98_0, __constVal128
+8	220	115	#line 220 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	220	115	#line 220 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	221	115	#line 221 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	222	115		jmp __NXC_Label_834
+8	222	117	#line 222 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	223	117		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tx, 0
+8	222	120	#line 222 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	222	120	#line 222 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	223	120	#line 223 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	224	120		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ty, 0
+8	223	123	#line 223 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	223	123	#line 223 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	224	123	#line 224 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	225	123		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tz, 0
+8	224	126	#line 224 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	224	126	#line 224 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	226	126	#line 226 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	226	126	#line 226 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	227	126		arrbuild __IMU_ReadAcceleration_7qG2_message_7qG2_000, __IMU_ReadAcceleration_7qG2_i2cAddr_7qG2_000, __constVal69
+8	226	131	#line 226 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	226	131	#line 226 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	227	131	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	131	#pragma macro 23
+8	228	131		acquire __CLSCSMutex0
+8	228	132		acquire __CLSCSMutex1
+8	228	133		acquire __CLSCSMutex2
+8	228	134		acquire __CLSCSMutex3
+8	228	135		mov __CLSCSArgs0.Port, __IMU_ReadAcceleration_7qG2_port_7qG2_000
+8	228	138		syscall 23, __CLSCSArgs0
+8	228	141		mov __IMU_ReadAcceleration_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+8	228	143		mov __D0IMU_ReadAcceleration, __CLSCSArgs0.Result
+8	228	146		release __CLSCSMutex0
+8	228	147		release __CLSCSMutex1
+8	228	148		release __CLSCSMutex2
+8	228	149		release __CLSCSMutex3
+8	10034	150	#line 10034 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	227	150	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	150		mov __signed_stack_001IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	227	152	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	152		set __D0IMU_ReadAcceleration, 32
+8	227	155	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	155		cmp 4, __zfIMU_ReadAcceleration, __signed_stack_001IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	227	159	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	159		mov __D0IMU_ReadAcceleration, __zfIMU_ReadAcceleration
+8	228	161	#line 228 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	229	161		brtst 4, __NXC_Label_842, __zfIMU_ReadAcceleration
+8	228	164	#line 228 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	164	#line 228 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	229	164		jmp __NXC_Label_841
+8	228	166	#line 228 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	229	166	#line 229 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	230	166		set __IMU_ReadAcceleration_7qG2_count_7qG2_000, 6
+8	229	169	#line 229 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	229	169	#line 229 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	229	169	#line 229 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	230	169	#pragma macro 28
+8	230	169		acquire __RLSBmutex0
+8	230	170		acquire __RLSBmutex1
+8	230	171		acquire __RLSBmutex2
+8	230	172		acquire __RLSBmutex3
+8	230	173		mov __RLSReadPort, __IMU_ReadAcceleration_7qG2_port_7qG2_000
+8	230	175		mov __RLSReadBufVar, __IMU_ReadAcceleration_7qG2_message_7qG2_000
+8	230	177		mov __RLSBytesCountVar, __IMU_ReadAcceleration_7qG2_count_7qG2_000
+8	230	179		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+8	230	182		tst 4, __D0IMU_ReadAcceleration, __RLSBResultVar
+8	230	185		mov __IMU_ReadAcceleration_7qG2_count_7qG2_000, __RLSBytesCountVar
+8	230	187		mov __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __RLSReadBufVar
+8	230	189		release __RLSBmutex0
+8	230	190		release __RLSBmutex1
+8	230	191		release __RLSBmutex2
+8	230	192		release __RLSBmutex3
+8	10060	193	#line 10060 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	229	193	#line 229 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	230	193		mov __IMU_ReadAcceleration_7qG2_e_7qG2_000, __D0IMU_ReadAcceleration
+8	229	195	#line 229 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	229	195	#line 229 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	230	195	#line 230 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	231	195	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	195		tst 5, __zfIMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	231	198	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	198		brtst 4, __NXC_Label_851, __zfIMU_ReadAcceleration
+8	231	201	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	201		set __signed_stack_001IMU_ReadAcceleration, 0
+8	231	204	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	231	204	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	204		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	231	208	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	208		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax_l, __ArrHelper__IMU_ReadAcceleration_98_0
+8	232	210	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	210	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	210	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	210		set __signed_stack_001IMU_ReadAcceleration, 1
+8	232	213	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	213	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	213		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	232	217	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	217		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax_h, __ArrHelper__IMU_ReadAcceleration_98_0
+8	233	219	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	219	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	219	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	219		set __signed_stack_001IMU_ReadAcceleration, 2
+8	233	222	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	222	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	222		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	233	226	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	226		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay_l, __ArrHelper__IMU_ReadAcceleration_98_0
+8	234	228	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	228	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	228	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	228		set __signed_stack_001IMU_ReadAcceleration, 3
+8	234	231	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	231	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	231		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	234	235	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	235		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay_h, __ArrHelper__IMU_ReadAcceleration_98_0
+8	235	237	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	237	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	237	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	237		set __signed_stack_001IMU_ReadAcceleration, 4
+8	235	240	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	240	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	240		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	235	244	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	244		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az_l, __ArrHelper__IMU_ReadAcceleration_98_0
+8	236	246	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	246	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	246	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	237	246		set __signed_stack_001IMU_ReadAcceleration, 5
+8	236	249	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	249	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	237	249		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	236	253	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	237	253		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az_h, __ArrHelper__IMU_ReadAcceleration_98_0
+8	238	255	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	255	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	255	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	255		set __signed_stack_001IMU_ReadAcceleration, 0
+8	238	258	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	258	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	258		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	238	262	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	262		mov __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__IMU_ReadAcceleration_98_0
+8	238	264	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	264	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	264		set __signed_stack_001IMU_ReadAcceleration, 1
+8	238	267	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	267	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	267		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	238	271	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	271		mov __IMU_MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__IMU_ReadAcceleration_98_0
+8	238	273	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	273	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	273		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+8	239	276	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	276		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax, __D0IMU_MLBToInteger
+8	239	279	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	279	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	279	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	279		set __signed_stack_001IMU_ReadAcceleration, 2
+8	239	282	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	282	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	282		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	239	286	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	286		mov __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__IMU_ReadAcceleration_98_0
+8	239	288	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	288	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	288		set __signed_stack_001IMU_ReadAcceleration, 3
+8	239	291	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	291	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	291		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	239	295	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	295		mov __IMU_MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__IMU_ReadAcceleration_98_0
+8	239	297	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	297	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	297		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+8	240	300	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	300		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay, __D0IMU_MLBToInteger
+8	240	303	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	303	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	303	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	303		set __signed_stack_001IMU_ReadAcceleration, 4
+8	240	306	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	306	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	306		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	240	310	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	310		mov __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__IMU_ReadAcceleration_98_0
+8	240	312	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	312	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	312		set __signed_stack_001IMU_ReadAcceleration, 5
+8	240	315	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	315	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	315		index __ArrHelper__IMU_ReadAcceleration_98_0, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	240	319	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	319		mov __IMU_MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__IMU_ReadAcceleration_98_0
+8	240	321	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	321	#line 241 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	242	321		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+8	241	324	#line 241 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	242	324		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az, __D0IMU_MLBToInteger
+8	241	327	#line 241 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	327	#line 241 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	242	327	#line 242 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	243	327		jmp __NXC_Label_906
+8	243	329	#line 243 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	244	329		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax, 0
+8	243	332	#line 243 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	243	332	#line 243 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	244	332	#line 244 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	245	332		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay, 0
+8	244	335	#line 244 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	244	335	#line 244 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	245	335	#line 245 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	246	335		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az, 0
+8	245	338	#line 245 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	245	338	#line 245 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	246	338	#line 246 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	247	338	#line 247 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	248	338		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.error, __IMU_ReadAcceleration_7qG2_e_7qG2_000
+8	247	341	#line 247 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	247	341	#line 247 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	249	341	#line 249 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	250	341		subret __IMU_ReadAcceleration_return
+9	277	0	#line 277 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+9	278	0		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init, __IMU_Init_7qG2_port_7qG2_000
+9	277	2	#line 277 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+9	278	2	#line 278 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+9	279	2		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_IMU_Init, __constVal1
+9	3758	4	#line 3758 "NXCDefs.h"
+9	3759	4		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init
+9	3758	6	#line 3758 "NXCDefs.h"
+9	3758	6	#line 3758 "NXCDefs.h"
+9	3759	6		mov __DU0SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_IMU_Init
+9	3758	8	#line 3758 "NXCDefs.h"
+9	3759	8		tst 5, __zfSetSensorLowspeed_inline_IMU_Init, __DU0SetSensorLowspeed_inline_IMU_Init
+9	3758	11	#line 3758 "NXCDefs.h"
+9	3759	11		brtst 4, __005__NXC_Label_36, __zfSetSensorLowspeed_inline_IMU_Init
+9	3758	14	#line 3758 "NXCDefs.h"
+9	3759	14		set __D0SetSensorLowspeed_inline_IMU_Init, 11
+9	3758	17	#line 3758 "NXCDefs.h"
+9	3759	17		jmp __005__NXC_Label_37
+9	3758	19	#line 3758 "NXCDefs.h"
+9	3759	19		set __D0SetSensorLowspeed_inline_IMU_Init, 10
+9	3758	22	#line 3758 "NXCDefs.h"
+9	3759	22		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __D0SetSensorLowspeed_inline_IMU_Init
+9	3663	24	#line 3663 "NXCDefs.h"
+9	3664	24		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, 0
+9	3663	28	#line 3663 "NXCDefs.h"
+9	3759	28	#line 3759 "NXCDefs.h"
+9	3759	28	#line 3759 "NXCDefs.h"
+9	3760	28		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init
+9	3759	30	#line 3759 "NXCDefs.h"
+9	3759	30	#line 3759 "NXCDefs.h"
+9	3760	30		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, 0
+9	3759	33	#line 3759 "NXCDefs.h"
+9	3676	33	#line 3676 "NXCDefs.h"
+9	3677	33		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, 1
+9	3676	37	#line 3676 "NXCDefs.h"
+9	3760	37	#line 3760 "NXCDefs.h"
+9	3760	37	#line 3760 "NXCDefs.h"
+9	3761	37		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init
+9	3760	39	#line 3760 "NXCDefs.h"
+9	3694	39	#line 3694 "NXCDefs.h"
+9	3695	39	#pragma macro 4
+9	3695	39		acquire __ResetSensorMutex
+9	3695	40		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init
+9	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+9	3695	45		release __ResetSensorMutex
+9	10579	46	#line 10579 "NXCDefs.h"
+9	3694	46	#line 3694 "NXCDefs.h"
+9	3761	46	#line 3761 "NXCDefs.h"
+9	278	46	#line 278 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+9	280	46	#line 280 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+9	281	46		subret __IMU_Init_return
+10	282	0	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	283	0		mov __IMU_ReadInteger_7qG2_port_7qG2_000, __IMU_ReadCompassHeading_7qG2_port_7qG2_000
+10	282	2	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	282	2	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	283	2		mov __IMU_ReadInteger_7qG2_i2cAddr_7qG2_000, __IMU_ReadCompassHeading_7qG2_i2cAddr_7qG2_000
+10	282	4	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	282	4	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	283	4		set __IMU_ReadInteger_7qG2_reg_to_read_7qG2_000, 75
+10	282	7	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	282	7	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	283	7		subcall IMU_ReadInteger, __IMU_ReadInteger_return
+10	282	9	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	283	9		mov __D0IMU_ReadCompassHeading, __D0IMU_ReadInteger
+10	283	11	#line 283 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	284	11		subret __IMU_ReadCompassHeading_return
+10	283	13	#line 283 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	285	13	#line 285 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	286	13		subret __IMU_ReadCompassHeading_return
+11	74	0	#line 74 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	75	0		set __D0button_handler, 1
+11	76	3	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	77	3		tst 5, __zfbutton_handler, __D0button_handler
+11	76	6	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	77	6		brtst 4, __NXC_Label_1007, __zfbutton_handler
+11	76	9	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	77	9		set __signed_stack_001button_handler, 3
+11	76	12	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	76	12	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	77	12		set __D0button_handler, 1
+11	76	15	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	77	15		acquire __RBtnMutex
+11	76	16	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	77	16		mov __RBtnArgs.Index, __signed_stack_001button_handler
+11	76	19	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	77	19		mov __RBtnArgs.Reset, __D0button_handler
+11	76	22	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	77	22		syscall 20, __RBtnArgs
+11	76	25	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	77	25		mov __D0button_handler, __RBtnArgs.Pressed
+11	76	28	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	77	28		release __RBtnMutex
+11	77	29	#line 77 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	29		tst 5, __zfbutton_handler, __D0button_handler
+11	77	32	#line 77 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	32		brtst 4, __NXC_Label_1016, __zfbutton_handler
+11	77	35	#line 77 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	35		set __signed_stack_001button_handler, 3
+11	77	38	#line 77 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	77	38	#line 77 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	38		set __D0button_handler, 1
+11	77	41	#line 77 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	41		acquire __RBtnMutex
+11	77	42	#line 77 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	42		mov __RBtnArgs.Index, __signed_stack_001button_handler
+11	77	45	#line 77 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	45		mov __RBtnArgs.Reset, __D0button_handler
+11	77	48	#line 77 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	48		syscall 20, __RBtnArgs
+11	77	51	#line 77 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	51		mov __D0button_handler, __RBtnArgs.Pressed
+11	77	54	#line 77 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	54		release __RBtnMutex
+11	78	55	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	79	55		tst 5, __zfbutton_handler, __D0button_handler
+11	78	58	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	79	58		brtst 4, __NXC_Label_1018, __zfbutton_handler
+11	78	61	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	61	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	79	61		jmp __NXC_Label_1017
+11	78	63	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	63	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	79	63		mov __signed_stack_001button_handler, cb
+11	78	65	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	78	65	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	79	65		set __D0button_handler, 4
+11	78	68	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	79	68		cmp 3, __zfbutton_handler, __signed_stack_001button_handler, __D0button_handler
+11	78	72	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	79	72		mov __D0button_handler, __zfbutton_handler
+11	79	75	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	80	75		brtst 4, __NXC_Label_1027, __zfbutton_handler
+11	80	78	#line 80 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	81	78		set cb, 0
+11	80	81	#line 80 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	80	81	#line 80 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	81	81	#line 81 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	82	81		jmp __NXC_Label_1030
+11	82	83	#line 82 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	83	83		add cb, cb, __constVal1
+11	82	87	#line 82 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	85	87	#line 85 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	85	87	#line 85 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	85	87	#line 85 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	85	87	#line 85 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	7921	87	#line 7921 "NXCDefs.h"
+11	7922	87		wait 100
+11	7921	89	#line 7921 "NXCDefs.h"
+11	86	89	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	89	89	#line 89 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	90	89		jmp __NXC_Label_1006
+11	89	91	#line 89 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+11	90	91		exit -1, -1
+12	115	0	#line 115 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	116	0		set __signed_stack_001read_gyros, 880
+12	115	3	#line 115 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	115	3	#line 115 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	116	3		set __signed_stack_002read_gyros, 500
+12	115	6	#line 115 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	115	6	#line 115 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	116	6		set __signed_stack_003read_gyros, 4
+12	115	9	#line 115 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	115	9	#line 115 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	116	9		set __D0read_gyros, 0
+12	116	12	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	117	12		acquire __SPTArgsMutex
+12	116	13	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	117	13		mov __SPTArgs.Frequency, __signed_stack_001read_gyros
+12	116	16	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	117	16		mov __SPTArgs.Duration, __signed_stack_002read_gyros
+12	116	19	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	117	19		mov __SPTArgs.Volume, __signed_stack_003read_gyros
+12	116	22	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	117	22		mov __SPTArgs.Loop, __D0read_gyros
+12	116	25	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	117	25		syscall 10, __SPTArgs
+12	116	28	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	117	28		mov __D0read_gyros, __SPTArgs.Result
+12	116	31	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	117	31		release __SPTArgsMutex
+12	116	32	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	117	32	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	118	32		set deltaT, 0
+12	117	35	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	117	35	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	117	35	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	118	35		set __D0read_gyros, 1
+12	118	38	#line 118 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	119	38		tst 5, __zfread_gyros, __D0read_gyros
+12	118	41	#line 118 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	119	41		brtst 4, __NXC_Label_1075, __zfread_gyros
+12	118	44	#line 118 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	119	44		gettick T
+12	118	46	#line 118 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	118	46	#line 118 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	118	46	#line 118 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	119	46	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	120	46		getin __signed_stack_001read_gyros, __constVal2, 2
+12	119	50	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	120	50	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	120	50	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	50		sub HTgyro_val, __signed_stack_001read_gyros, g_offset
+12	120	54	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	120	54	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	120	54	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	54		mov __D0read_gyros, HTgyro_val
+12	120	56	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	56		abs __signed_stack_001read_gyros, __D0read_gyros
+12	120	59	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	120	59	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	59		set __D0read_gyros, 1
+12	120	62	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	62		cmp 1, __zfread_gyros, __signed_stack_001read_gyros, __D0read_gyros
+12	120	66	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	66		mov __D0read_gyros, __zfread_gyros
+12	121	69	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	122	69		brtst 4, __NXC_Label_1086, __zfread_gyros
+12	121	72	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	122	72		mov __signed_stack_001read_gyros, prevHeading
+12	121	74	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	74	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	74	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	74	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	74	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	122	74		mul __signed_stack_002read_gyros, HTgyro_val, deltaT
+12	121	78	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	78	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	121	78	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	122	78		div __D0read_gyros, __signed_stack_002read_gyros, __constVal1000
+12	122	82	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	123	82		add currHeading, __signed_stack_001read_gyros, __D0read_gyros
+12	122	86	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	122	86	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	122	86	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	123	86		mov __signed_stack_001read_gyros, currHeading
+12	122	88	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	123	88	#line 123 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	124	88		set __D0read_gyros, 360
+12	123	91	#line 123 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	124	91		cmp 1, __zfread_gyros, __signed_stack_001read_gyros, __D0read_gyros
+12	123	95	#line 123 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	124	95		mov __D0read_gyros, __zfread_gyros
+12	123	98	#line 123 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	124	98		brtst 4, __NXC_Label_1093, __zfread_gyros
+12	124	101	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	124	101	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	125	101		sub currHeading, currHeading, __constVal360
+12	124	105	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	124	105	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	125	105		jmp __NXC_Label_1096
+12	124	107	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	125	107		mov __signed_stack_001read_gyros, currHeading
+12	124	109	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	125	109	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	126	109		set __D0read_gyros, 0
+12	125	112	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	126	112		cmp 0, __zfread_gyros, __signed_stack_001read_gyros, __D0read_gyros
+12	125	116	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	126	116		mov __D0read_gyros, __zfread_gyros
+12	125	119	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	126	119		brtst 4, __NXC_Label_1099, __zfread_gyros
+12	126	122	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	126	122	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	127	122		add currHeading, currHeading, __constVal360
+12	126	126	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	126	126	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	126	126	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	127	126	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	128	126		mov prevHeading, currHeading
+12	127	128	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	127	128	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	127	128	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	128	128		set __IMU_ReadGyro_7qG2_port_7qG2_000, 0
+12	127	131	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	127	131	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	128	131		set __IMU_ReadGyro_7qG2_i2cAddr_7qG2_000, 34
+12	127	134	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	127	134	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	128	134		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000, currGyro
+12	128	136	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	129	136		subcall IMU_ReadGyro, __IMU_ReadGyro_return
+12	128	138	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	129	138		mov currGyro, __IMU_ReadGyro_7qG2_currGyro_7qG2_000
+12	128	140	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	128	140	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	128	140	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	129	140	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	129	140	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	140		div MSgyro_val, currGyro.gz, __constVal114
+12	129	144	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	129	144	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	129	144	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	144		mov __D0read_gyros, MSgyro_val
+12	129	146	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	146		abs __signed_stack_001read_gyros, __D0read_gyros
+12	129	149	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	129	149	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	149		set __D0read_gyros, 1
+12	129	152	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	152		cmp 1, __zfread_gyros, __signed_stack_001read_gyros, __D0read_gyros
+12	129	156	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	156		mov __D0read_gyros, __zfread_gyros
+12	130	159	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	131	159		brtst 4, __NXC_Label_1114, __zfread_gyros
+12	130	162	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	131	162		mov __signed_stack_001read_gyros, MSprevHeading
+12	130	164	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	164	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	164	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	164	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	164	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	131	164		mul __signed_stack_002read_gyros, MSgyro_val, deltaT
+12	130	168	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	168	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	130	168	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	131	168		div __D0read_gyros, __signed_stack_002read_gyros, __constVal1000
+12	131	172	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	132	172		add MScurrHeading, __signed_stack_001read_gyros, __D0read_gyros
+12	131	176	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	131	176	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	131	176	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	132	176		mov __signed_stack_001read_gyros, MScurrHeading
+12	131	178	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	132	178	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	133	178		set __D0read_gyros, 360
+12	132	181	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	133	181		cmp 1, __zfread_gyros, __signed_stack_001read_gyros, __D0read_gyros
+12	132	185	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	133	185		mov __D0read_gyros, __zfread_gyros
+12	132	188	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	133	188		brtst 4, __NXC_Label_1121, __zfread_gyros
+12	133	191	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	133	191	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	134	191		sub MScurrHeading, MScurrHeading, __constVal360
+12	133	195	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	133	195	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	134	195		jmp __NXC_Label_1124
+12	133	197	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	134	197		mov __signed_stack_001read_gyros, MScurrHeading
+12	133	199	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	134	199	#line 134 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	135	199		set __D0read_gyros, 0
+12	134	202	#line 134 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	135	202		cmp 0, __zfread_gyros, __signed_stack_001read_gyros, __D0read_gyros
+12	134	206	#line 134 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	135	206		mov __D0read_gyros, __zfread_gyros
+12	134	209	#line 134 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	135	209		brtst 4, __NXC_Label_1127, __zfread_gyros
+12	135	212	#line 135 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	135	212	#line 135 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	136	212		add MScurrHeading, MScurrHeading, __constVal360
+12	135	216	#line 135 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	135	216	#line 135 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	135	216	#line 135 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	136	216	#line 136 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	137	216		mov MSprevHeading, MScurrHeading
+12	136	218	#line 136 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	136	218	#line 136 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	136	218	#line 136 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	136	218	#line 136 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	7921	218	#line 7921 "NXCDefs.h"
+12	7922	218		wait 100
+12	7921	220	#line 7921 "NXCDefs.h"
+12	137	220	#line 137 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	137	220	#line 137 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	138	220		gettick __unsigned_stack_001read_gyros
+12	137	222	#line 137 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	138	222	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	138	222	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	139	222		sub deltaT, __unsigned_stack_001read_gyros, T
+12	138	226	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	138	226	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	138	226	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	140	226	#line 140 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	141	226	#line 141 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	143	226	#line 143 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	144	226		jmp __NXC_Label_1074
+12	143	228	#line 143 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+12	144	228		exit -1, -1
+13	145	0	#line 145 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	146	0		set __Wait_7qG2_ms_7qG2_000_inline_read_compasses, 1000
+13	145	3	#line 145 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	7921	3	#line 7921 "NXCDefs.h"
+13	7922	3		wait 1000
+13	7921	5	#line 7921 "NXCDefs.h"
+13	146	5	#line 146 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	146	5	#line 146 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	147	5		set __D0read_compasses, 1
+13	152	8	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	153	8		tst 5, __zfread_compasses, __D0read_compasses
+13	152	11	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	153	11		brtst 4, __NXC_Label_1139, __zfread_compasses
+13	152	14	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	153	14	#pragma macro 30
+13	153	14		acquire __RLSBmutex1
+13	153	15		mov __RLSReadBuf1, __RLSBbufLSWrite1
+13	153	17		set __RLSBytesCount1, 2
+13	153	20		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+13	153	23		index __D0read_compasses, __RLSReadBuf1, 65535
+13	153	27		index __RLSBytesCount1, __RLSReadBuf1, __constVal1
+13	153	31		add __D0read_compasses, __D0read_compasses, __D0read_compasses
+13	153	35		add __D0read_compasses, __D0read_compasses, __RLSBytesCount1
+13	153	39		release __RLSBmutex1
+13	11762	40	#line 11762 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	152	40	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	153	40		mov HTcmps_val, __D0read_compasses
+13	152	42	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	152	42	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	153	42	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	154	42		set __IMU_ReadCompassHeading_7qG2_port_7qG2_000, 0
+13	153	45	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	153	45	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	154	45		set __IMU_ReadCompassHeading_7qG2_i2cAddr_7qG2_000, 34
+13	153	48	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	154	48	#line 154 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	155	48		subcall IMU_ReadCompassHeading, __IMU_ReadCompassHeading_return
+13	154	50	#line 154 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	155	50		mov IMUcmps_val, __D0IMU_ReadCompassHeading
+13	154	52	#line 154 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	154	52	#line 154 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	154	52	#line 154 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	155	52		set __Wait_7qG2_ms_7qG2_000_inline_read_compasses, 100
+13	154	55	#line 154 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	7921	55	#line 7921 "NXCDefs.h"
+13	7922	55		wait 100
+13	7921	57	#line 7921 "NXCDefs.h"
+13	155	57	#line 155 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	159	57	#line 159 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	160	57		jmp __NXC_Label_1138
+13	159	59	#line 159 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+13	160	59		exit -1, -1
+14	161	0	#line 161 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	162	0		set __D0display, 1
+14	163	3	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	164	3		tst 5, __zfdisplay, __D0display
+14	163	6	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	164	6		brtst 4, __NXC_Label_1153, __zfdisplay
+14	163	9	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	164	9		mov __signed_stack_001display, cb_old
+14	163	11	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	163	11	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	164	11		mov __D0display, cb
+14	163	13	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	164	13		cmp 5, __zfdisplay, __signed_stack_001display, __D0display
+14	163	17	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	164	17		mov __D0display, __zfdisplay
+14	164	19	#line 164 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	165	19		brtst 4, __NXC_Label_1158, __zfdisplay
+14	164	22	#line 164 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	165	22		mov __D0display, cb
+14	168	24		brcmp 4, __NXC_Label_1162, __constVal0, __D0display
+14	169	28		brcmp 4, __NXC_Label_1175, __constVal1, __D0display
+14	170	32		brcmp 4, __NXC_Label_1188, __constVal2, __D0display
+14	171	36		brcmp 4, __NXC_Label_1201, __constVal3, __D0display
+14	172	40		jmp __NXC_Label_1161
+14	166	42	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	166	42	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	167	42		set __signed_stack_001display, 0
+14	166	45	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	166	45	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	167	45		set __signed_stack_002display, 56
+14	166	48	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	166	48	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	167	48		strcat __strbufdisplay, __constStr0011
+14	166	52	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	167	52		set __D0display, 0
+14	167	55	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	55		acquire __TextOutMutex
+14	167	56	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	56		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	167	59	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	59		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	167	62	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	62		mov __TextOutArgs.Options, __D0display
+14	167	65	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	65		mov __TextOutArgs.Text, __strbufdisplay
+14	167	67	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	67		syscall 13, __TextOutArgs
+14	167	70	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	70		mov __D0display, __TextOutArgs.Result
+14	167	73	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	73		release __TextOutMutex
+14	167	74	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	167	74	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	74		set __IMU_SendCommand_7qG2_port_7qG2_000, 0
+14	167	77	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	167	77	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	77		set __IMU_SendCommand_7qG2_i2cAddr_7qG2_000, 34
+14	167	80	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	167	80	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	80		set __IMU_SendCommand_7qG2_cmd_7qG2_000, 49
+14	167	83	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	168	83	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	169	83		subcall IMU_SendCommand, __IMU_SendCommand_return
+14	168	86	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	169	86	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	170	86		jmp __NXC_Label_1161
+14	169	88	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	170	88	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	170	88	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	171	88		set __signed_stack_001display, 0
+14	170	91	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	170	91	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	171	91		set __signed_stack_002display, 56
+14	170	94	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	170	94	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	171	94		strcat __strbufdisplay, __constStr0012
+14	170	98	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	171	98		set __D0display, 0
+14	171	101	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	101		acquire __TextOutMutex
+14	171	102	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	102		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	171	105	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	105		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	171	108	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	108		mov __TextOutArgs.Options, __D0display
+14	171	111	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	111		mov __TextOutArgs.Text, __strbufdisplay
+14	171	113	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	113		syscall 13, __TextOutArgs
+14	171	116	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	116		mov __D0display, __TextOutArgs.Result
+14	171	119	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	119		release __TextOutMutex
+14	171	120	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	171	120	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	120		set __IMU_SendCommand_7qG2_port_7qG2_000, 0
+14	171	123	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	171	123	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	123		set __IMU_SendCommand_7qG2_i2cAddr_7qG2_000, 34
+14	171	126	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	171	126	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	126		set __IMU_SendCommand_7qG2_cmd_7qG2_000, 50
+14	171	129	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	172	129	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	173	129		subcall IMU_SendCommand, __IMU_SendCommand_return
+14	172	132	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	173	132	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	174	132		jmp __NXC_Label_1161
+14	173	134	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	174	134	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	174	134	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	175	134		set __signed_stack_001display, 0
+14	174	137	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	174	137	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	175	137		set __signed_stack_002display, 56
+14	174	140	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	174	140	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	175	140		strcat __strbufdisplay, __constStr0013
+14	174	144	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	175	144		set __D0display, 0
+14	175	147	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	147		acquire __TextOutMutex
+14	175	148	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	148		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	175	151	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	151		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	175	154	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	154		mov __TextOutArgs.Options, __D0display
+14	175	157	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	157		mov __TextOutArgs.Text, __strbufdisplay
+14	175	159	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	159		syscall 13, __TextOutArgs
+14	175	162	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	162		mov __D0display, __TextOutArgs.Result
+14	175	165	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	165		release __TextOutMutex
+14	175	166	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	175	166	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	166		set __IMU_SendCommand_7qG2_port_7qG2_000, 0
+14	175	169	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	175	169	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	169		set __IMU_SendCommand_7qG2_i2cAddr_7qG2_000, 34
+14	175	172	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	175	172	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	172		set __IMU_SendCommand_7qG2_cmd_7qG2_000, 51
+14	175	175	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	176	175	#line 176 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	177	175		subcall IMU_SendCommand, __IMU_SendCommand_return
+14	176	178	#line 176 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	177	178	#line 177 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	178	178		jmp __NXC_Label_1161
+14	177	180	#line 177 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	178	180	#line 178 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	178	180	#line 178 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	179	180		set __signed_stack_001display, 0
+14	178	183	#line 178 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	178	183	#line 178 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	179	183		set __signed_stack_002display, 56
+14	178	186	#line 178 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	178	186	#line 178 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	179	186		strcat __strbufdisplay, __constStr0014
+14	178	190	#line 178 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	179	190		set __D0display, 0
+14	179	193	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	193		acquire __TextOutMutex
+14	179	194	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	194		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	179	197	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	197		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	179	200	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	200		mov __TextOutArgs.Options, __D0display
+14	179	203	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	203		mov __TextOutArgs.Text, __strbufdisplay
+14	179	205	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	205		syscall 13, __TextOutArgs
+14	179	208	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	208		mov __D0display, __TextOutArgs.Result
+14	179	211	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	211		release __TextOutMutex
+14	179	212	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	179	212	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	212		set __IMU_SendCommand_7qG2_port_7qG2_000, 0
+14	179	215	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	179	215	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	215		set __IMU_SendCommand_7qG2_i2cAddr_7qG2_000, 34
+14	179	218	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	179	218	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	218		set __IMU_SendCommand_7qG2_cmd_7qG2_000, 52
+14	179	221	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	180	221	#line 180 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	181	221		subcall IMU_SendCommand, __IMU_SendCommand_return
+14	180	224	#line 180 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	181	224	#line 181 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	181	224	#line 181 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	182	224	#line 182 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	183	224	#line 183 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	184	224		mov cb_old, cb
+14	183	226	#line 183 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	183	226	#line 183 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	183	226	#line 183 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	184	226		set __Wait_7qG2_ms_7qG2_000_inline_display, 100
+14	183	229	#line 183 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	7921	229	#line 7921 "NXCDefs.h"
+14	7922	229		wait 100
+14	7921	231	#line 7921 "NXCDefs.h"
+14	184	231	#line 184 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	186	231	#line 186 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	186	231	#line 186 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	187	231		set __ClearLine_7qG2_line_7qG2_000_inline_display, 32
+14	186	234	#line 186 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	6076	234	#line 6076 "NXCDefs.h"
+14	6077	234	#pragma macro 7
+14	6077	234		acquire __TextOutMutex
+14	6077	235		mov __TextOutArgs.Location.X, __constVal0
+14	6077	238		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+14	6077	241		mov __TextOutArgs.Options, __constVal0
+14	6077	244		mov __TextOutArgs.Text, __BlankLine
+14	6077	246		syscall 13, __TextOutArgs
+14	6077	249		release __TextOutMutex
+14	12119	250	#line 12119 "NXCDefs.h"
+14	6076	250	#line 6076 "NXCDefs.h"
+14	187	250	#line 187 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	187	250	#line 187 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	188	250		set __ClearLine_7qG2_line_7qG2_000_inline_display, 24
+14	187	253	#line 187 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	6076	253	#line 6076 "NXCDefs.h"
+14	6077	253	#pragma macro 7
+14	6077	253		acquire __TextOutMutex
+14	6077	254		mov __TextOutArgs.Location.X, __constVal0
+14	6077	257		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+14	6077	260		mov __TextOutArgs.Options, __constVal0
+14	6077	263		mov __TextOutArgs.Text, __BlankLine
+14	6077	265		syscall 13, __TextOutArgs
+14	6077	268		release __TextOutMutex
+14	12129	269	#line 12129 "NXCDefs.h"
+14	6076	269	#line 6076 "NXCDefs.h"
+14	188	269	#line 188 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	188	269	#line 188 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	189	269		set __ClearLine_7qG2_line_7qG2_000_inline_display, 16
+14	188	272	#line 188 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	6076	272	#line 6076 "NXCDefs.h"
+14	6077	272	#pragma macro 7
+14	6077	272		acquire __TextOutMutex
+14	6077	273		mov __TextOutArgs.Location.X, __constVal0
+14	6077	276		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+14	6077	279		mov __TextOutArgs.Options, __constVal0
+14	6077	282		mov __TextOutArgs.Text, __BlankLine
+14	6077	284		syscall 13, __TextOutArgs
+14	6077	287		release __TextOutMutex
+14	12139	288	#line 12139 "NXCDefs.h"
+14	6076	288	#line 6076 "NXCDefs.h"
+14	189	288	#line 189 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	189	288	#line 189 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	190	288		set __ClearLine_7qG2_line_7qG2_000_inline_display, 8
+14	189	291	#line 189 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	6076	291	#line 6076 "NXCDefs.h"
+14	6077	291	#pragma macro 7
+14	6077	291		acquire __TextOutMutex
+14	6077	292		mov __TextOutArgs.Location.X, __constVal0
+14	6077	295		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+14	6077	298		mov __TextOutArgs.Options, __constVal0
+14	6077	301		mov __TextOutArgs.Text, __BlankLine
+14	6077	303		syscall 13, __TextOutArgs
+14	6077	306		release __TextOutMutex
+14	12149	307	#line 12149 "NXCDefs.h"
+14	6076	307	#line 6076 "NXCDefs.h"
+14	190	307	#line 190 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	190	307	#line 190 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	191	307		set __signed_stack_001display, 30
+14	190	310	#line 190 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	190	310	#line 190 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	191	310		set __signed_stack_002display, 32
+14	190	313	#line 190 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	190	313	#line 190 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	191	313		strcat __strbufdisplay, __constStr0015
+14	190	317	#line 190 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	191	317		set __D0display, 0
+14	191	320	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	320		acquire __TextOutMutex
+14	191	321	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	321		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	191	324	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	324		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	191	327	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	327		mov __TextOutArgs.Options, __D0display
+14	191	330	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	330		mov __TextOutArgs.Text, __strbufdisplay
+14	191	332	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	332		syscall 13, __TextOutArgs
+14	191	335	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	335		mov __D0display, __TextOutArgs.Result
+14	191	338	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	338		release __TextOutMutex
+14	191	339	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	191	339	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	339		set __signed_stack_001display, 30
+14	191	342	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	191	342	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	342		set __signed_stack_002display, 24
+14	191	345	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	191	345	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	345		strcat __strbufdisplay, __constStr0016
+14	191	349	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	349		set __D0display, 0
+14	192	352	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	352		acquire __TextOutMutex
+14	192	353	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	353		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	192	356	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	356		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	192	359	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	359		mov __TextOutArgs.Options, __D0display
+14	192	362	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	362		mov __TextOutArgs.Text, __strbufdisplay
+14	192	364	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	364		syscall 13, __TextOutArgs
+14	192	367	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	367		mov __D0display, __TextOutArgs.Result
+14	192	370	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	370		release __TextOutMutex
+14	192	371	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	371	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	371		set __signed_stack_001display, 30
+14	192	374	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	374	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	374		set __signed_stack_002display, 16
+14	192	377	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	192	377	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	377		strcat __strbufdisplay, __constStr0017
+14	192	381	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	381		set __D0display, 0
+14	193	384	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	384		acquire __TextOutMutex
+14	193	385	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	385		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	193	388	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	388		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	193	391	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	391		mov __TextOutArgs.Options, __D0display
+14	193	394	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	394		mov __TextOutArgs.Text, __strbufdisplay
+14	193	396	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	396		syscall 13, __TextOutArgs
+14	193	399	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	399		mov __D0display, __TextOutArgs.Result
+14	193	402	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	402		release __TextOutMutex
+14	193	403	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	403	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	403		set __signed_stack_001display, 30
+14	193	406	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	406	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	406		set __signed_stack_002display, 8
+14	193	409	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	193	409	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	409		strcat __strbufdisplay, __constStr0018
+14	193	413	#line 193 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	413		set __D0display, 0
+14	194	416	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	416		acquire __TextOutMutex
+14	194	417	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	417		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	194	420	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	420		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	194	423	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	423		mov __TextOutArgs.Options, __D0display
+14	194	426	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	426		mov __TextOutArgs.Text, __strbufdisplay
+14	194	428	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	428		syscall 13, __TextOutArgs
+14	194	431	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	431		mov __D0display, __TextOutArgs.Result
+14	194	434	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	434		release __TextOutMutex
+14	194	435	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	435	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	435		set __signed_stack_001display, 0
+14	194	438	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	438	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	438		set __signed_stack_002display, 32
+14	194	441	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	194	441	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	441		mov __D0display, HTcmps_val
+14	195	443	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	443		acquire __TextOutMutex
+14	195	444	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	444		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	195	447	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	447		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	195	450	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	450		set __TextOutArgs.Options, 0
+14	195	453	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	453		numtostr __TextOutArgs.Text, __D0display
+14	195	456	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	456		syscall 13, __TextOutArgs
+14	195	459	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	459		mov __D0display, __TextOutArgs.Result
+14	195	462	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	462		release __TextOutMutex
+14	195	463	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	463	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	463		set __signed_stack_001display, 0
+14	195	466	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	466	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	466		set __signed_stack_002display, 24
+14	195	469	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	195	469	#line 195 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	469		mov __D0display, IMUcmps_val
+14	196	471	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	471		acquire __TextOutMutex
+14	196	472	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	472		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	196	475	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	475		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	196	478	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	478		set __TextOutArgs.Options, 0
+14	196	481	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	481		numtostr __TextOutArgs.Text, __D0display
+14	196	484	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	484		syscall 13, __TextOutArgs
+14	196	487	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	487		mov __D0display, __TextOutArgs.Result
+14	196	490	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	490		release __TextOutMutex
+14	196	491	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	491	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	491		set __signed_stack_001display, 0
+14	196	494	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	494	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	494		set __signed_stack_002display, 16
+14	196	497	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	196	497	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	497		mov __D0display, currHeading
+14	197	499	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	198	499		acquire __TextOutMutex
+14	197	500	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	198	500		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	197	503	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	198	503		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	197	506	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	198	506		set __TextOutArgs.Options, 0
+14	197	509	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	198	509		numtostr __TextOutArgs.Text, __D0display
+14	197	512	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	198	512		syscall 13, __TextOutArgs
+14	197	515	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	198	515		mov __D0display, __TextOutArgs.Result
+14	197	518	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	198	518		release __TextOutMutex
+14	197	519	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	519	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	198	519		set __signed_stack_001display, 0
+14	197	522	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	522	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	198	522		set __signed_stack_002display, 8
+14	197	525	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	197	525	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	198	525		mov __D0display, MScurrHeading
+14	199	527	#line 199 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	200	527		acquire __TextOutMutex
+14	199	528	#line 199 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	200	528		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	199	531	#line 199 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	200	531		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	199	534	#line 199 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	200	534		set __TextOutArgs.Options, 0
+14	199	537	#line 199 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	200	537		numtostr __TextOutArgs.Text, __D0display
+14	199	540	#line 199 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	200	540		syscall 13, __TextOutArgs
+14	199	543	#line 199 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	200	543		mov __D0display, __TextOutArgs.Result
+14	199	546	#line 199 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	200	546		release __TextOutMutex
+14	199	547	#line 199 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	199	547	#line 199 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	200	547		set __Wait_7qG2_ms_7qG2_000_inline_display, 500
+14	199	550	#line 199 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	7921	550	#line 7921 "NXCDefs.h"
+14	7922	550		wait 500
+14	7921	552	#line 7921 "NXCDefs.h"
+14	200	552	#line 200 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	204	552	#line 204 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	205	552		jmp __NXC_Label_1152
+14	204	554	#line 204 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+14	205	554		exit -1, -1
+15	207	0	#line 207 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	208	0		set __D0move, 1
+15	209	3	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	210	3		tst 5, __zfmove, __D0move
+15	209	6	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	210	6		brtst 4, __NXC_Label_1277, __zfmove
+15	209	9	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	210	9		set __signed_stack_001move, 600
+15	209	12	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	209	12	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	210	12		set __signed_stack_002move, 250
+15	209	15	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	209	15	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	210	15		set __signed_stack_003move, 4
+15	209	18	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	209	18	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	210	18		set __D0move, 0
+15	210	21	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	21		acquire __SPTArgsMutex
+15	210	22	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	22		mov __SPTArgs.Frequency, __signed_stack_001move
+15	210	25	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	25		mov __SPTArgs.Duration, __signed_stack_002move
+15	210	28	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	28		mov __SPTArgs.Volume, __signed_stack_003move
+15	210	31	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	31		mov __SPTArgs.Loop, __D0move
+15	210	34	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	34		syscall 10, __SPTArgs
+15	210	37	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	37		mov __D0move, __SPTArgs.Result
+15	210	40	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	40		release __SPTArgsMutex
+15	210	41	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	210	41	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	41		set __Wait_7qG2_ms_7qG2_000_inline_move, 300
+15	210	44	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	7921	44	#line 7921 "NXCDefs.h"
+15	7922	44		wait 300
+15	7921	46	#line 7921 "NXCDefs.h"
+15	211	46	#line 211 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	46	#line 211 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	212	46		set __signed_stack_001move, 1200
+15	211	49	#line 211 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	49	#line 211 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	212	49		set __signed_stack_002move, 250
+15	211	52	#line 211 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	52	#line 211 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	212	52		set __signed_stack_003move, 4
+15	211	55	#line 211 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	211	55	#line 211 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	212	55		set __D0move, 0
+15	213	58	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	58		acquire __SPTArgsMutex
+15	213	59	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	59		mov __SPTArgs.Frequency, __signed_stack_001move
+15	213	62	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	62		mov __SPTArgs.Duration, __signed_stack_002move
+15	213	65	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	65		mov __SPTArgs.Volume, __signed_stack_003move
+15	213	68	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	68		mov __SPTArgs.Loop, __D0move
+15	213	71	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	71		syscall 10, __SPTArgs
+15	213	74	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	74		mov __D0move, __SPTArgs.Result
+15	213	77	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	77		release __SPTArgsMutex
+15	213	78	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	213	78	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	78		set __signed_stack_001move, 35
+15	213	81	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	213	81	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	81		set __D0move, 45
+15	214	84	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	215	84	#pragma macro 8
+15	215	84		acquire __RandomMutex
+15	215	85		syscall 24, __RandomArgs
+15	215	88		mov __RandomTmp, __RandomArgs.Result
+15	215	91		add __RandomTmp, __RandomArgs.Result, __constVal32768
+15	215	95		mul __RandomTmp, __RandomTmp, __D0move
+15	215	99		div __RandomTmp, __RandomTmp, __constVal65536
+15	215	103		mov __D0move, __RandomTmp
+15	215	105		release __RandomMutex
+15	12563	106	#line 12563 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	106	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	215	106		add __move_7qG2_pwr_7qG2_000, __signed_stack_001move, __D0move
+15	214	110	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	110	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	214	110	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	215	110		mov __D0move, __move_7qG2_pwr_7qG2_000
+15	215	112	#line 215 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	216	112	#pragma macro 7
+15	216	112		setout __constVal0, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+15	12576	135	#line 12576 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	215	135	#line 215 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	215	135	#line 215 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	216	135		set __signed_stack_001move, 100
+15	215	138	#line 215 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	215	138	#line 215 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	216	138		set __D0move, 900
+15	215	141	#line 215 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	216	141	#pragma macro 8
+15	216	141		acquire __RandomMutex
+15	216	142		syscall 24, __RandomArgs
+15	216	145		mov __RandomTmp, __RandomArgs.Result
+15	216	148		add __RandomTmp, __RandomArgs.Result, __constVal32768
+15	216	152		mul __RandomTmp, __RandomTmp, __D0move
+15	216	156		div __RandomTmp, __RandomTmp, __constVal65536
+15	216	160		mov __D0move, __RandomTmp
+15	216	162		release __RandomMutex
+15	12587	163	#line 12587 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	215	163	#line 215 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	216	163		add __Wait_7qG2_ms_7qG2_000_inline_move, __signed_stack_001move, __D0move
+15	215	167	#line 215 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	7921	167	#line 7921 "NXCDefs.h"
+15	7922	167		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+15	7921	169	#line 7921 "NXCDefs.h"
+15	216	169	#line 216 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	220	169	#line 220 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	221	169	#pragma macro 7
+15	221	169		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+15	12599	192	#line 12599 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	220	192	#line 220 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	224	192	#line 224 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	225	192		jmp __NXC_Label_1276
+15	224	194	#line 224 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+15	225	194		exit -1, -1
+16	262	0	#line 262 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc"
+16	263	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc
+1	__ResetSensorSubroutine	116	NXTDefs.h
+2	__ReadLSBytes1	129	NXTDefs.h
+3	__ReadLSBytesVar	215	NXTDefs.h
+4	IMU_MLBToInteger	314	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+5	IMU_SendCommand	330	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+6	IMU_ReadInteger	415	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+7	IMU_ReadGyro	529	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+8	IMU_ReadAcceleration	754	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+9	IMU_Init	1097	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+10	IMU_ReadCompassHeading	1145	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+11	button_handler	1160	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc
+12	read_gyros	1254	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc
+13	read_compasses	1485	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc
+14	display	1547	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc
+15	move	2104	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc
+16	__initialize_global_data	2301	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps-MotorNoiseTest.nxc

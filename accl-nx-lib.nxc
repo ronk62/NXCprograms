@@ -1,0 +1,115 @@
+/************************************************************************/
+/*                                                                      */
+/* Program Name: accl-nx-lib.nxc */
+/* ===========================                                          */
+/*                                                                      */
+/* Copyright (c) 2008 by mindsensors.com                                */
+/* Email: info (<at>) mindsensors (<dot>) com                           */
+/*                                                                      */
+/* This program is free software. You can redistribute it and/or modify */
+/* it under the terms of the GNU General Public License as published by */
+/* the Free Software Foundation; version 3 of the License.              */
+/* Read the license at: http://www.gnu.org/licenses/gpl.txt             */
+/*                                                                      */
+/************************************************************************/
+/*
+ * When        Who             Comments
+ * 08/22/08    Deepak Patil    Initial authoring.
+ */
+
+struct accl
+{
+	byte  tx;
+	byte  ty;
+	byte  tz;
+
+  int   ax;
+  int   ay;
+  int   az;
+};
+
+#ifndef MLB_TO_INTEGER
+#define MLB_TO_INTEGER
+int MLBToInteger(byte lsb, byte msb) {
+  int i;
+
+  i = lsb + (msb<<8);
+
+  return i;
+}
+#endif
+
+/*
+ * if you are sending command to change sensor sensitivity,
+ * after sending command, allow 50 milliseconds to
+ * reconfigure the sensor.
+ */
+void ACCL_SendCommand(byte port, byte i2cAddr, byte cmd) {
+  byte cmdBuf[];
+  ArrayBuild(cmdBuf, i2cAddr, 0x41, cmd);
+  I2CWrite(port, 0, cmdBuf);
+  int status = I2CCheckStatus(port);
+  while (status > NO_ERR)
+    status = I2CCheckStatus(port);
+  //Stop(status < NO_ERR);
+}
+
+
+byte ACCL_ReadGLevel(byte port, byte i2cAddr)
+{
+  byte message[];
+  byte buf[12];
+  int count;
+  byte nByteReady = 0;
+	byte b;
+
+  SetSensorLowspeed(port);
+
+  ArrayBuild(message, i2cAddr, 0x19);
+  while (I2CStatus(port, nByteReady) ==  STAT_COMM_PENDING);
+  count = 1;
+  if(I2CBytes(port, message, count, buf)) {
+    b = buf[0];
+	}
+	return b;
+}
+
+
+void ACCL_ReadAcceleration(byte port, byte i2cAddr, accl & currAccl)
+{
+  byte message[];
+  byte buf[12];
+  int count;
+  byte nByteReady = 0;
+
+  SetSensorLowspeed(port);
+
+  // 0x42 - X tilt
+  // 0x43 - Y tilt
+  // 0x44 - Z tilt
+  // 0x45 - X accl LSB
+  // 0x46 - X accl MSB
+  // 0x47 - Y accl LSB
+  // 0x48 - Y accl MSB
+  // 0x49 - Z accl LSB
+  // 0x4a - Z accl MSB
+
+  ArrayBuild(message, i2cAddr, 0x42);
+  while (I2CStatus(port, nByteReady) ==  STAT_COMM_PENDING);
+  count = 9;
+  if(I2CBytes(port, message, count, buf)) {
+    currAccl.tx = buf[0];
+    currAccl.ty = buf[1];
+    currAccl.tz = buf[2];
+    currAccl.ax = MLBToInteger(buf[3], buf[4]);
+    currAccl.ay = MLBToInteger(buf[5], buf[6]);
+    currAccl.az = MLBToInteger(buf[7], buf[8]);
+  } else {
+    currAccl.tx = 0;
+    currAccl.ty = 0;
+    currAccl.tz = 0;
+    currAccl.ax = 0;
+    currAccl.ay = 0;
+    currAccl.az = 0;
+	}
+}

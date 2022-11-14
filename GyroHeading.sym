@@ -1,0 +1,457 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	6
+1	__signed_stack_001main	6	1	4	4	8
+2	__signed_stack_001read	6	1	8	4	6
+3	__signed_stack_003main	6	1	12	4	2
+4	__DF0read	10	1	16	4	4
+5	__D0read	6	1	20	4	14
+6	__signed_stack_002display	6	1	24	4	6
+7	__signed_stack_001display	6	1	28	4	6
+8	__signed_stack_002read	6	1	32	4	4
+9	Gyro_val	6	1	36	4	7
+10	prevHeading	10	1	40	4	2
+11	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	44	4	2
+12	g_offset	6	0	48	4	3
+13	__unsigned_stack_001read	5	1	52	4	2
+14	__signed_stack_003read	6	1	56	4	2
+15	currHeading	10	1	60	4	9
+16	__float_stack_001read	10	1	64	4	6
+17	__D0main	6	1	68	4	14
+18	__SPTArgsMutex	9	0	72	4	4
+19	__D0display	6	1	76	4	9
+20	__TextOutMutex	9	0	80	4	12
+21	__DF0display	10	1	84	4	2
+22	__constVal360	4	0	88	2	3
+23	deltaT	4	1	90	2	3
+24	T	4	1	92	2	2
+25	i	4	0	94	2	4
+26	__constVal1000	4	0	96	2	1
+27	__constVal10000	4	0	98	2	1
+28	__constVal128	4	0	100	2	1
+29	__constVal1	2	0	102	1	2
+30	__constVal3	2	0	103	1	1
+31	__ClearLine_7qG2_line_7qG2_000_inline_display	1	1	104	1	2
+32	____initialize_global_data_return	1	1	105	1	3
+33	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	106	1	4
+34	__constVal0	2	1	107	1	3
+35	__ResetSensorPort	1	1	108	1	3
+36	__zfdisplay	1	1	109	1	2
+37	__constVal2	2	0	110	1	2
+38	__zfmain	1	1	111	1	3
+39	__zfread	1	1	112	1	11
+40	____ResetSensorSubroutine_return	1	1	113	1	3
+41	__ResetSensorTmp	1	1	114	1	2
+42	__TextOutArgs	8	0	4	16	35
+43	__TextOutArgs.Result	2	1	116	1	35
+44	__TextOutArgs.Location	8	0	2	4	35
+45	__TextOutArgs.Location.X	4	1	120	2	35
+46	__TextOutArgs.Location.Y	4	1	122	2	35
+47	__TextOutArgs.Text	7	0	124	4	35
+48	__TextOutArgs.Text.Text_type	1	0	0	1	0
+49	__TextOutArgs.Options	5	1	128	4	35
+50	__SPTArgs	8	0	5	8	12
+51	__SPTArgs.Result	2	1	132	1	12
+52	__SPTArgs.Frequency	3	1	134	2	12
+53	__SPTArgs.Duration	3	1	136	2	12
+54	__SPTArgs.Loop	1	1	138	1	12
+55	__SPTArgs.Volume	1	1	139	1	12
+56	__BlankLine	7	0	140	4	1
+57	__BlankLine.__BlankLine_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	51	0	#line 51 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	52	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	51	2	#line 51 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	51	2	#line 51 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	52	2		set __SetSensor_7qG2_port_7qG2_000_inline_main, 2
+0	51	5	#line 51 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	51	5	#line 51 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	3707	5	#line 3707 "NXCDefs.h"
+0	3708	5		setin __constVal3, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	3709	9		setin __constVal128, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
+0	3710	13	#pragma macro 4
+0	3710	13		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
+0	3710	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6660	17	#line 6660 "NXCDefs.h"
+0	3711	17	#line 3711 "NXCDefs.h"
+0	52	17	#line 52 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	52	17	#line 52 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	53	17		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	52	20	#line 52 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	7921	20	#line 7921 "NXCDefs.h"
+0	7922	20		wait 1000
+0	7921	22	#line 7921 "NXCDefs.h"
+0	55	22	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	55	22	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	56	22		mov __signed_stack_001main, i
+0	55	24	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	55	24	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	56	24		set __D0main, 10001
+0	55	27	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	56	27		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	55	31	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	56	31		mov __D0main, __zfmain
+0	56	33	#line 56 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	57	33		brtst 4, __NXC_Label_679, __zfmain
+0	57	36	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	58	36		getin __D0main, __constVal2, 2
+0	57	40	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	58	40		add Gyro_val, Gyro_val, __D0main
+0	57	44	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	57	44	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	58	44		set __signed_stack_001main, 0
+0	57	47	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	57	47	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	58	47		set __signed_stack_002main, 56
+0	57	50	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	57	50	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	58	50		mov __D0main, i
+0	58	52	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	59	52		acquire __TextOutMutex
+0	58	53	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	59	53		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	58	55	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	59	55		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	58	57	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	59	57		set __TextOutArgs.Options, 0
+0	58	60	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	59	60		numtostr __TextOutArgs.Text, __D0main
+0	58	63	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	59	63		syscall 13, __TextOutArgs
+0	58	66	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	59	66		mov __D0main, __TextOutArgs.Result
+0	58	68	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	59	68		release __TextOutMutex
+0	58	69	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	59	69	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	60	69		add i, i, __constVal1
+0	59	73	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	61	73	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	62	73		jmp __NXC_Label_678
+0	61	75	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	61	75	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	61	75	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	62	75	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	62	75	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	63	75		div g_offset, Gyro_val, __constVal10000
+0	62	79	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	62	79	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	62	79	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	63	79		set __signed_stack_001main, 70
+0	62	82	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	62	82	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	63	82		set __signed_stack_002main, 32
+0	62	85	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	62	85	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	63	85		mov __D0main, g_offset
+0	63	87	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	87		acquire __TextOutMutex
+0	63	88	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	88		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	63	90	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	90		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	63	92	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	92		set __TextOutArgs.Options, 0
+0	63	95	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	95		numtostr __TextOutArgs.Text, __D0main
+0	63	98	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	98		syscall 13, __TextOutArgs
+0	63	101	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	101		mov __D0main, __TextOutArgs.Result
+0	63	103	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	103		release __TextOutMutex
+0	63	104	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	63	104	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	104		set __signed_stack_001main, 440
+0	63	107	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	63	107	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	107		set __signed_stack_002main, 500
+0	63	110	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	63	110	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	110		set __signed_stack_003main, 4
+0	63	113	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	63	113	#line 63 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	113		set __D0main, 0
+0	64	116	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	65	116		acquire __SPTArgsMutex
+0	64	117	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	65	117		mov __SPTArgs.Frequency, __signed_stack_001main
+0	64	119	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	65	119		mov __SPTArgs.Duration, __signed_stack_002main
+0	64	121	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	65	121		mov __SPTArgs.Volume, __signed_stack_003main
+0	64	123	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	65	123		mov __SPTArgs.Loop, __D0main
+0	64	125	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	65	125		syscall 10, __SPTArgs
+0	64	128	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	65	128		mov __D0main, __SPTArgs.Result
+0	64	130	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	65	130		release __SPTArgsMutex
+0	64	131	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	64	131	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	65	131		set __Wait_7qG2_ms_7qG2_000_inline_main, 5000
+0	64	134	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	7921	134	#line 7921 "NXCDefs.h"
+0	7922	134		wait 5000
+0	7921	136	#line 7921 "NXCDefs.h"
+0	66	136	#line 66 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	69	136	#line 69 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	69	136	#line 69 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+0	70	136		exit 0, 1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	15	0	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	16	0		set __signed_stack_001read, 880
+2	15	3	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	15	3	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	16	3		set __signed_stack_002read, 1000
+2	15	6	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	15	6	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	16	6		set __signed_stack_003read, 4
+2	15	9	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	15	9	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	16	9		set __D0read, 0
+2	16	12	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	17	12		acquire __SPTArgsMutex
+2	16	13	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	17	13		mov __SPTArgs.Frequency, __signed_stack_001read
+2	16	15	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	17	15		mov __SPTArgs.Duration, __signed_stack_002read
+2	16	17	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	17	17		mov __SPTArgs.Volume, __signed_stack_003read
+2	16	19	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	17	19		mov __SPTArgs.Loop, __D0read
+2	16	21	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	17	21		syscall 10, __SPTArgs
+2	16	24	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	17	24		mov __D0read, __SPTArgs.Result
+2	16	26	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	17	26		release __SPTArgsMutex
+2	16	27	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	16	27	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	17	27		set __D0read, 1
+2	17	30	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	18	30		tst 5, __zfread, __D0read
+2	17	33	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	18	33		brtst 4, __NXC_Label_613, __zfread
+2	17	36	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	18	36		gettick T
+2	17	38	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	17	38	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	17	38	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	18	38	#line 18 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	19	38		getin __signed_stack_001read, __constVal2, 2
+2	18	42	#line 18 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	19	42	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	19	42	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	42		sub Gyro_val, __signed_stack_001read, g_offset
+2	19	46	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	19	46	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	19	46	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	46		mov __D0read, Gyro_val
+2	19	48	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	48		abs __signed_stack_001read, __D0read
+2	19	51	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	19	51	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	51		set __D0read, 2
+2	19	54	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	54		cmp 1, __zfread, __signed_stack_001read, __D0read
+2	19	58	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	58		mov __D0read, __zfread
+2	20	60	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	21	60		brtst 4, __NXC_Label_624, __zfread
+2	20	63	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	21	63		mov __float_stack_001read, prevHeading
+2	20	65	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	65	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	65	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	65	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	65	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	21	65		mul __signed_stack_002read, Gyro_val, deltaT
+2	20	69	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	69	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	20	69	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	21	69		div __D0read, __signed_stack_002read, __constVal1000
+2	21	73	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	22	73		add currHeading, __float_stack_001read, __D0read
+2	21	77	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	21	77	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	21	77	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	22	77		mov __float_stack_001read, currHeading
+2	21	79	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	22	79	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	23	79		mov __DF0read, __constVal360
+2	22	81	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	23	81		cmp 1, __zfread, __float_stack_001read, __DF0read
+2	22	85	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	23	85		mov __D0read, __zfread
+2	22	87	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	23	87		brtst 4, __NXC_Label_631, __zfread
+2	23	90	#line 23 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	23	90	#line 23 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	24	90		sub currHeading, currHeading, __constVal360
+2	23	94	#line 23 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	23	94	#line 23 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	24	94		jmp __NXC_Label_634
+2	23	96	#line 23 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	24	96		mov __float_stack_001read, currHeading
+2	23	98	#line 23 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	24	98	#line 24 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	25	98		mov __DF0read, __constVal0
+2	24	100	#line 24 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	25	100		cmp 0, __zfread, __float_stack_001read, __DF0read
+2	24	104	#line 24 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	25	104		mov __D0read, __zfread
+2	24	106	#line 24 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	25	106		brtst 4, __NXC_Label_637, __zfread
+2	25	109	#line 25 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	25	109	#line 25 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	26	109		add currHeading, currHeading, __constVal360
+2	25	113	#line 25 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	25	113	#line 25 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	25	113	#line 25 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	26	113	#line 26 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	27	113		mov prevHeading, currHeading
+2	26	115	#line 26 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	26	115	#line 26 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	26	115	#line 26 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	26	115	#line 26 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	7921	115	#line 7921 "NXCDefs.h"
+2	7922	115		wait 100
+2	7921	117	#line 7921 "NXCDefs.h"
+2	27	117	#line 27 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	27	117	#line 27 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	28	117		gettick __unsigned_stack_001read
+2	27	119	#line 27 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	28	119	#line 28 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	28	119	#line 28 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	29	119		sub deltaT, __unsigned_stack_001read, T
+2	28	123	#line 28 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	28	123	#line 28 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	28	123	#line 28 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	30	123	#line 30 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	33	123	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	34	123		jmp __NXC_Label_612
+2	33	125	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+2	34	125		exit -1, -1
+3	36	0	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	36	0	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	36	0	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	37	0		set __D0display, 1
+3	37	3	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	38	3		tst 5, __zfdisplay, __D0display
+3	37	6	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	38	6		brtst 4, __NXC_Label_649, __zfdisplay
+3	37	9	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	38	9		set __ClearLine_7qG2_line_7qG2_000_inline_display, 56
+3	37	12	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	6076	12	#line 6076 "NXCDefs.h"
+3	6077	12	#pragma macro 7
+3	6077	12		acquire __TextOutMutex
+3	6077	13		mov __TextOutArgs.Location.X, __constVal0
+3	6077	15		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+3	6077	17		mov __TextOutArgs.Options, __constVal0
+3	6077	19		mov __TextOutArgs.Text, __BlankLine
+3	6077	21		syscall 13, __TextOutArgs
+3	6077	24		release __TextOutMutex
+3	6514	25	#line 6514 "NXCDefs.h"
+3	6076	25	#line 6076 "NXCDefs.h"
+3	38	25	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	38	25	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	39	25		set __signed_stack_001display, 0
+3	38	28	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	38	28	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	39	28		set __signed_stack_002display, 56
+3	38	31	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	38	31	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	39	31		mov __D0display, Gyro_val
+3	39	33	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	33		acquire __TextOutMutex
+3	39	34	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	34		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	39	36	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	36		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	39	38	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	38		set __TextOutArgs.Options, 0
+3	39	41	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	41		numtostr __TextOutArgs.Text, __D0display
+3	39	44	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	44		syscall 13, __TextOutArgs
+3	39	47	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	47		mov __D0display, __TextOutArgs.Result
+3	39	49	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	49		release __TextOutMutex
+3	39	50	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	39	50	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	50		set __signed_stack_001display, 20
+3	39	53	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	39	53	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	53		set __signed_stack_002display, 56
+3	39	56	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	39	56	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	56		mov __DF0display, currHeading
+3	40	58	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	58		acquire __TextOutMutex
+3	40	59	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	59		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	40	61	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	61		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	40	63	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	63		set __TextOutArgs.Options, 0
+3	40	66	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	66		numtostr __TextOutArgs.Text, __DF0display
+3	40	69	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	69		syscall 13, __TextOutArgs
+3	40	72	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	72		mov __D0display, __TextOutArgs.Result
+3	40	74	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	74		release __TextOutMutex
+3	40	75	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	75	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	75		set __signed_stack_001display, 70
+3	40	78	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	78	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	78		set __signed_stack_002display, 56
+3	40	81	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	40	81	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	81		mov __D0display, deltaT
+3	41	83	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	42	83		acquire __TextOutMutex
+3	41	84	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	42	84		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	41	86	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	42	86		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	41	88	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	42	88		set __TextOutArgs.Options, 0
+3	41	91	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	42	91		numtostr __TextOutArgs.Text, __D0display
+3	41	94	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	42	94		syscall 13, __TextOutArgs
+3	41	97	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	42	97		mov __D0display, __TextOutArgs.Result
+3	41	99	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	42	99		release __TextOutMutex
+3	41	100	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	100	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	41	100	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	7921	100	#line 7921 "NXCDefs.h"
+3	7922	100		wait 500
+3	7921	102	#line 7921 "NXCDefs.h"
+3	42	102	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	48	102	#line 48 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	49	102		jmp __NXC_Label_648
+3	48	104	#line 48 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+3	49	104		exit -1, -1
+4	72	0	#line 72 "C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc"
+4	73	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc
+1	__ResetSensorSubroutine	139	NXTDefs.h
+2	read	152	C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc
+3	display	280	C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc
+4	__initialize_global_data	387	C:\Users\ronk\Documents\NXCprograms\GyroHeading.nxc

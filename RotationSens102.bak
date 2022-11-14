@@ -1,0 +1,20 @@
+#define MOVE_TIME 500
+#define TURN_TIME 500
+
+
+task main(){
+     ResetTachoCount(OUT_AC);
+     while (true)
+        {
+        //RotateMotor(OUT_A, 45, 180);
+        RotateMotorEx(OUT_AC, 45, 3600, 0, true, true);
+        TextOut(0,LCD_LINE4,"TachoAOut=");
+        TextOut(0,LCD_LINE6,"TachoCOut=");
+        TextOut(70,LCD_LINE4,"      ");
+        TextOut(70,LCD_LINE6,"             ");
+        NumOut(70,LCD_LINE4,MotorRotationCount(OUT_A));
+        NumOut(70,LCD_LINE6,MotorRotationCount(OUT_C));
+        until (ButtonPressed(BTNCENTER, false));
+        }
+}
+

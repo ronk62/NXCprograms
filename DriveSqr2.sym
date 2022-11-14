@@ -1,0 +1,224 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	0	4	4
+1	__D0main	6	1	4	4	8
+2	__signed_stack_002main	6	1	8	4	12
+3	__signed_stack_001main	6	1	12	4	12
+4	__constVal22	2	0	16	1	1
+5	__OnRev_Tmp	2	1	17	1	2
+6	__constVal32	2	0	18	1	6
+7	__constVal63	2	0	19	1	2
+8	__constVal96	2	0	20	1	2
+9	____initialize_global_data_return	1	1	21	1	3
+10	__zfmain	1	1	22	1	2
+11	__constVal2	2	0	23	1	2
+12	__constVal3	2	0	24	1	2
+13	__PFTmp	1	1	25	1	1
+14	__constVal0	2	1	26	1	7
+15	__constVal8	2	0	27	1	1
+16	__TextOutArgs	8	0	4	16	30
+17	__TextOutArgs.Result	2	1	28	1	30
+18	__TextOutArgs.Location	8	0	2	4	30
+19	__TextOutArgs.Location.X	4	1	32	2	30
+20	__TextOutArgs.Location.Y	4	1	34	2	30
+21	__TextOutArgs.Text	7	0	36	4	30
+22	__TextOutArgs.Text.Text_type	1	0	0	1	0
+23	__TextOutArgs.Options	5	1	40	4	30
+24	__constStr0011	7	0	44	4	1
+25	__constStr0011.__constStr0011_type	1	1	0	1	0
+26	__constStr0012	7	0	46	4	1
+27	__constStr0012.__constStr0012_type	1	1	0	1	0
+28	__strbufmain	7	0	48	4	8
+29	__strbufmain.__strbufmain_type	1	0	0	1	0
+30	__OUT_BC	7	0	50	4	2
+31	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+32	__constStr0010	7	0	52	4	1
+33	__constStr0010.__constStr0010_type	1	1	0	1	0
+34	__constStr0009	7	0	54	4	1
+35	__constStr0009.__constStr0009_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	5	0	#line 5 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	6	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	5	2	#line 5 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	6	2	#line 6 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	7	2	#pragma macro 7
+0	7	2		setout __OUT_BC, 0, __constVal8
+0	3523	7	#line 3523 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	6	7	#line 6 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	7	7	#line 7 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	8	7		set __D0main, 1
+0	8	10	#line 8 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	9	10		tst 5, __zfmain, __D0main
+0	8	13	#line 8 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	9	13		brtst 4, __NXC_Label_490, __zfmain
+0	8	16	#line 8 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	9	16		set __D0main, 22
+0	9	19	#line 9 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	10	19	#pragma macro 7
+0	10	19		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3539	42	#line 3539 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	9	42	#line 9 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	9	42	#line 9 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	10	42		set __signed_stack_001main, 0
+0	9	45	#line 9 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	9	45	#line 9 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	10	45		set __signed_stack_002main, 32
+0	9	48	#line 9 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	9	48	#line 9 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	10	48		strcat __strbufmain, __constStr0009
+0	10	52	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	10	52	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	52		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	10	54	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	54		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	10	56	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	56		set __TextOutArgs.Options, 0
+0	10	59	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	59		mov __TextOutArgs.Text, __strbufmain
+0	10	61	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	61		syscall 13, __TextOutArgs
+0	10	64	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	10	64	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	10	64	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	10	64	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	64		set __signed_stack_001main, 0
+0	10	67	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	10	67	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	67		set __signed_stack_002main, 16
+0	10	70	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	10	70	#line 10 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	70		strcat __strbufmain, __constStr0010
+0	11	74	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	74	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	74		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	11	76	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	76		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	11	78	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	78		set __TextOutArgs.Options, 0
+0	11	81	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	81		mov __TextOutArgs.Text, __strbufmain
+0	11	83	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	83		syscall 13, __TextOutArgs
+0	11	86	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	86	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	86	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	86	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	86		set __signed_stack_001main, 70
+0	11	89	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	89	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	89		set __signed_stack_002main, 32
+0	11	92	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	11	92	#line 11 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	92		strcat __strbufmain, __constStr0011
+0	12	96	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	96	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	96		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	12	98	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	98		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	12	100	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	100		set __TextOutArgs.Options, 0
+0	12	103	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	103		mov __TextOutArgs.Text, __strbufmain
+0	12	105	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	105		syscall 13, __TextOutArgs
+0	12	108	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	108	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	108	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	108	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	108		set __signed_stack_001main, 70
+0	12	111	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	111	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	111		set __signed_stack_002main, 16
+0	12	114	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	12	114	#line 12 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	114		strcat __strbufmain, __constStr0012
+0	13	118	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	118	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	118		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	13	120	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	120		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	13	122	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	122		set __TextOutArgs.Options, 0
+0	13	125	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	125		mov __TextOutArgs.Text, __strbufmain
+0	13	127	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	127		syscall 13, __TextOutArgs
+0	13	130	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	130	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	130	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	130	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	130		set __signed_stack_001main, 70
+0	13	133	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	133	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	133		set __signed_stack_002main, 32
+0	13	136	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	13	136	#line 13 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	136		getout __D0main, __constVal0, 14
+0	14	140	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	140	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	140		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	14	142	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	142		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	14	144	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	144		set __TextOutArgs.Options, 0
+0	14	147	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	147		numtostr __TextOutArgs.Text, __D0main
+0	14	150	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	150		syscall 13, __TextOutArgs
+0	14	153	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	153	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	153	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	153	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	153		set __signed_stack_001main, 70
+0	14	156	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	156	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	156		set __signed_stack_002main, 16
+0	14	159	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	14	159	#line 14 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	159		getout __D0main, __constVal2, 14
+0	15	163	#line 15 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	163	#line 15 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	16	163		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	15	165	#line 15 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	16	165		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	15	167	#line 15 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	16	167		set __TextOutArgs.Options, 0
+0	15	170	#line 15 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	16	170		numtostr __TextOutArgs.Text, __D0main
+0	15	173	#line 15 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	16	173		syscall 13, __TextOutArgs
+0	15	176	#line 15 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	176	#line 15 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	176	#line 15 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	15	176	#line 15 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	16	176		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	15	179	#line 15 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	7921	179	#line 7921 "NXCDefs.h"
+0	7922	179		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	182	#line 7921 "NXCDefs.h"
+0	16	182	#line 16 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	16	182	#line 16 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	17	182	#line 17 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	18	182	#pragma macro 10
+0	18	182		neg __OnRev_Tmp, __constVal22
+0	18	185		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3750	208	#line 3750 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	17	208	#line 17 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	17	208	#line 17 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	18	208		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	17	211	#line 17 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	7921	211	#line 7921 "NXCDefs.h"
+0	7922	211		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	214	#line 7921 "NXCDefs.h"
+0	18	214	#line 18 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	21	214	#line 21 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	22	214		jmp __NXC_Label_489
+0	21	216	#line 21 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+0	22	216		exit -1, -1
+1	22	0	#line 22 "C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc"
+1	23	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc
+1	__initialize_global_data	219	C:\Users\ronk\Documents\NXCprograms\DriveSqr2.nxc

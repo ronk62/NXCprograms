@@ -1,0 +1,1204 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0button_handler	6	1	0	4	13
+1	__D0ACCL_SendCommand	6	1	4	4	8
+2	__D0main	6	1	8	4	37
+3	__D0MLBToInteger	6	1	12	4	5
+4	__DU0main	5	1	16	4	6
+5	__D0ACCL_ReadAcceleration	6	1	20	4	7
+6	__RLSBmutex1	9	0	24	4	2
+7	__RLSBmutex0	9	0	28	4	2
+8	__RLSBmutex2	9	0	32	4	2
+9	__RBtnMutex	9	0	36	4	4
+10	__RLSBmutex3	9	0	40	4	2
+11	__D0SetSensorLowspeed_inline_ACCL_ReadAcceleration	6	1	44	4	3
+12	__unsigned_stack_002MLBToInteger	5	1	48	4	2
+13	__unsigned_stack_001MLBToInteger	5	1	52	4	2
+14	__MLBToInteger_shift_tmp	6	1	56	4	4
+15	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	60	4	6
+16	__Wait_7qG2_ms_7qG2_000_inline_button_handler	5	1	64	4	2
+17	__signed_stack_002main	6	1	68	4	14
+18	__signed_stack_001ACCL_ReadAcceleration	6	1	72	4	20
+19	__DU0SetSensorLowspeed_inline_ACCL_ReadAcceleration	5	1	76	4	2
+20	__signed_stack_001ACCL_SendCommand	6	1	80	4	2
+21	__signed_stack_001main	6	1	84	4	28
+22	__signed_stack_001button_handler	6	1	88	4	6
+23	__CLSWMutex0	9	0	92	4	4
+24	__CLSRMutex0	9	0	96	4	2
+25	__CLSCSMutex0	9	0	100	4	8
+26	__CLSRMutex2	9	0	104	4	2
+27	__CLSWMutex2	9	0	108	4	4
+28	__CLSWMutex1	9	0	112	4	4
+29	__CLSCSMutex1	9	0	116	4	8
+30	__CLSCSMutex2	9	0	120	4	8
+31	__CLSRMutex1	9	0	124	4	2
+32	__CLSCSMutex3	9	0	128	4	8
+33	__TextOutMutex	9	0	132	4	14
+34	__CLSWMutex3	9	0	136	4	4
+35	__CLSRMutex3	9	0	140	4	2
+36	__ResetSensorMutex	9	0	144	4	2
+37	cb	4	1	148	2	8
+38	__MLBToInteger_7qG2_i_7qG2_000	4	1	150	2	2
+39	__ACCL_ReadAcceleration_7qG2_count_7qG2_000	4	1	152	2	3
+40	__ACCL_SendCommand_7qG2_status_7qG2_000	4	1	154	2	3
+41	cb_old	4	1	156	2	3
+42	__ACCL_SendCommand_return	1	1	158	1	6
+43	__MLBToInteger_7qG2_lsb_7qG2_000	1	1	159	1	4
+44	__constVal65	2	0	160	1	1
+45	__MLBToInteger_return	1	1	161	1	6
+46	__constVal3	2	0	162	1	1
+47	__MLBToInteger_shift_cnt	2	1	163	1	4
+48	__ACCL_SendCommand_7qG2_port_7qG2_000	1	1	164	1	7
+49	__ACCL_SendCommand_7qG2_cmd_7qG2_000	1	1	165	1	5
+50	__ACCL_SendCommand_7qG2_i2cAddr_7qG2_000	1	1	166	1	5
+51	__MLBToInteger_7qG2_msb_7qG2_000	1	1	167	1	4
+52	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration	1	1	168	1	2
+53	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration	1	1	169	1	2
+54	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration	1	1	170	1	2
+55	__constVal0	2	1	171	1	4
+56	__constVal1	2	0	172	1	6
+57	__button_handler_Spawner_return	1	1	173	1	1
+58	____initialize_global_data_return	1	1	174	1	3
+59	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration	1	1	175	1	2
+60	__ACCL_ReadAcceleration_return	1	1	176	1	3
+61	__ACCL_ReadAcceleration_7qG2_i2cAddr_7qG2_000	1	1	177	1	2
+62	__ACCL_ReadAcceleration_7qG2_port_7qG2_000	1	1	178	1	4
+63	__ACCL_ReadAcceleration_7qG2_nByteReady_7qG2_000	1	1	179	1	2
+64	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration	1	1	180	1	2
+65	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_ACCL_ReadAcceleration	1	1	181	1	2
+66	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_ACCL_ReadAcceleration	1	1	182	1	4
+67	__constVal66	2	0	183	1	1
+68	__constVal12	2	0	184	1	1
+69	__PFTmp	1	1	185	1	1
+70	__tmpsbyteACCL_SendCommand	2	1	186	1	2
+71	__zfACCL_ReadAcceleration	1	1	187	1	5
+72	__ArrHelper__ACCL_ReadAcceleration_98_0	1	1	188	1	18
+73	__RLSReadPort	1	1	189	1	4
+74	____ReadLSBytesVar_return	1	1	190	1	3
+75	__constVal2	2	0	191	1	2
+76	__constVal15	2	0	192	1	1
+77	__RLSBIterationsVar	1	1	193	1	4
+78	__RLSBytesCountVar	1	1	194	1	8
+79	__RLSBResultVar	2	1	195	1	8
+80	__zfACCL_SendCommand	1	1	196	1	3
+81	____ResetSensorSubroutine_return	1	1	197	1	3
+82	__zfSetSensorLowspeed_inline_ACCL_ReadAcceleration	1	1	198	1	2
+83	__ResetSensorPort	1	1	199	1	3
+84	__ResetSensorTmp	1	1	200	1	2
+85	__zfmain	1	1	201	1	5
+86	__zfbutton_handler	1	1	202	1	9
+87	__CLSWArgs0	8	0	4	12	10
+88	__CLSWArgs0.Result	2	1	204	1	10
+89	__CLSWArgs0.Port	1	1	205	1	10
+90	__CLSWArgs0.Buffer	7	0	206	4	10
+91	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+92	__CLSWArgs0.ReturnLen	1	1	208	1	10
+93	__CLSCSArgs0	8	0	3	4	16
+94	__CLSCSArgs0.Result	2	1	212	1	16
+95	__CLSCSArgs0.Port	1	1	213	1	16
+96	__CLSCSArgs0.BytesReady	1	1	214	1	16
+97	__TextOutArgs	8	0	4	16	42
+98	__TextOutArgs.Result	2	1	216	1	42
+99	__TextOutArgs.Location	8	0	2	4	42
+100	__TextOutArgs.Location.X	4	1	220	2	42
+101	__TextOutArgs.Location.Y	4	1	222	2	42
+102	__TextOutArgs.Text	7	0	224	4	42
+103	__TextOutArgs.Text.Text_type	1	0	0	1	0
+104	__TextOutArgs.Options	5	1	228	4	42
+105	__main_7qG2_currAccl_7qG2_000	8	0	6	12	8
+106	__main_7qG2_currAccl_7qG2_000.tx	1	1	232	1	8
+107	__main_7qG2_currAccl_7qG2_000.ty	1	1	233	1	8
+108	__main_7qG2_currAccl_7qG2_000.tz	1	1	234	1	8
+109	__main_7qG2_currAccl_7qG2_000.ax	4	1	236	2	8
+110	__main_7qG2_currAccl_7qG2_000.ay	4	1	238	2	8
+111	__main_7qG2_currAccl_7qG2_000.az	4	1	240	2	8
+112	__ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000	8	0	6	12	14
+113	__ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.tx	1	1	244	1	14
+114	__ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.ty	1	1	245	1	14
+115	__ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.tz	1	1	246	1	14
+116	__ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.ax	4	1	248	2	14
+117	__ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.ay	4	1	250	2	14
+118	__ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.az	4	1	252	2	14
+119	__CLSRArgs0	8	0	4	12	5
+120	__CLSRArgs0.Result	2	1	256	1	5
+121	__CLSRArgs0.Port	1	1	257	1	5
+122	__CLSRArgs0.Buffer	7	0	258	4	5
+123	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+124	__CLSRArgs0.BufferLen	1	1	260	1	5
+125	__RBtnArgs	8	0	5	8	8
+126	__RBtnArgs.Result	2	1	264	1	8
+127	__RBtnArgs.Index	1	1	265	1	8
+128	__RBtnArgs.Pressed	1	1	266	1	8
+129	__RBtnArgs.Count	1	1	267	1	8
+130	__RBtnArgs.Reset	1	1	268	1	8
+131	__constStr0009	7	0	270	4	1
+132	__constStr0009.__constStr0009_type	1	1	0	1	0
+133	__constStr0010	7	0	272	4	1
+134	__constStr0010.__constStr0010_type	1	1	0	1	0
+135	__ACCL_SendCommand_7qG2_cmdBuf_7qG2_000	7	0	274	4	2
+136	__ACCL_SendCommand_7qG2_cmdBuf_7qG2_000.__ACCL_SendCommand_7qG2_cmdBuf_7qG2_000_type	1	0	0	1	0
+137	__main_7qG2_tz_7qG2_000	7	0	276	4	2
+138	__main_7qG2_tz_7qG2_000.__main_7qG2_tz_7qG2_000_type	1	0	0	1	0
+139	__main_7qG2_ty_7qG2_000	7	0	278	4	2
+140	__main_7qG2_ty_7qG2_000.__main_7qG2_ty_7qG2_000_type	1	0	0	1	0
+141	__constStr0011	7	0	280	4	1
+142	__constStr0011.__constStr0011_type	1	1	0	1	0
+143	__constStr0014	7	0	282	4	1
+144	__constStr0014.__constStr0014_type	1	1	0	1	0
+145	__constStr0015	7	0	284	4	1
+146	__constStr0015.__constStr0015_type	1	1	0	1	0
+147	__constStr0013	7	0	286	4	1
+148	__constStr0013.__constStr0013_type	1	1	0	1	0
+149	__constStr0012	7	0	288	4	1
+150	__constStr0012.__constStr0012_type	1	1	0	1	0
+151	__ACCL_ReadAcceleration_7qG2_buf_7qG2_000	7	0	290	4	11
+152	__ACCL_ReadAcceleration_7qG2_buf_7qG2_000.__ACCL_ReadAcceleration_7qG2_buf_7qG2_000_type	1	0	0	1	0
+153	__strretvalmain	7	0	292	4	36
+154	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+155	__strbufmain	7	0	294	4	80
+156	__strbufmain.__strbufmain_type	1	0	0	1	0
+157	__RLSLastGoodReadVar	7	0	296	4	2
+158	__RLSLastGoodReadVar.__RLSLastGoodReadVar_type	1	0	0	1	0
+159	__RLSReadBufVar	7	0	298	4	8
+160	__RLSReadBufVar.__RLSReadBufVar_type	1	0	0	1	0
+161	__ACCL_ReadAcceleration_7qG2_message_7qG2_000	7	0	300	4	2
+162	__ACCL_ReadAcceleration_7qG2_message_7qG2_000.__ACCL_ReadAcceleration_7qG2_message_7qG2_000_type	1	0	0	1	0
+163	__main_7qG2_msg_7qG2_000	7	0	302	4	18
+164	__main_7qG2_msg_7qG2_000.__main_7qG2_msg_7qG2_000_type	1	0	0	1	0
+165	__main_7qG2_az_7qG2_000	7	0	304	4	2
+166	__main_7qG2_az_7qG2_000.__main_7qG2_az_7qG2_000_type	1	0	0	1	0
+167	__main_7qG2_tx_7qG2_000	7	0	306	4	2
+168	__main_7qG2_tx_7qG2_000.__main_7qG2_tx_7qG2_000_type	1	0	0	1	0
+169	__main_7qG2_ay_7qG2_000	7	0	308	4	2
+170	__main_7qG2_ay_7qG2_000.__main_7qG2_ay_7qG2_000_type	1	0	0	1	0
+171	__strtmpbufmain	7	0	310	4	12
+172	__strtmpbufmain.__strtmpbufmain_type	1	0	0	1	0
+173	__main_7qG2_ax_7qG2_000	7	0	312	4	2
+174	__main_7qG2_ax_7qG2_000.__main_7qG2_ax_7qG2_000_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	46	0	#line 46 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	47	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	46	2	#line 46 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	53	2	#line 53 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	54	2		set cb, 0
+0	53	5	#line 53 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	53	5	#line 53 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	54	5	#line 54 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	55	5		set cb_old, 1
+0	54	8	#line 54 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	54	8	#line 54 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	55	8	#line 55 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	56	8		subcall __button_handler_Spawner, __button_handler_Spawner_return
+0	55	10	#line 55 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	58	10	#line 58 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	58	10	#line 58 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	58	10	#line 58 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	58	10	#line 58 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	59	10		set __D0main, 1
+0	60	13	#line 60 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	61	13		tst 5, __zfmain, __D0main
+0	60	16	#line 60 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	61	16		brtst 4, __NXC_Label_624, __zfmain
+0	60	19	#line 60 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	61	19		mov __signed_stack_001main, cb_old
+0	60	21	#line 60 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	60	21	#line 60 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	61	21		mov __D0main, cb
+0	60	23	#line 60 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	61	23		cmp 5, __zfmain, __signed_stack_001main, __D0main
+0	60	27	#line 60 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	61	27		mov __D0main, __zfmain
+0	61	29	#line 61 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	62	29		brtst 4, __NXC_Label_629, __zfmain
+0	61	32	#line 61 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	62	32		mov __D0main, cb
+0	65	34		brcmp 4, __NXC_Label_633, __constVal0, __D0main
+0	66	38		brcmp 4, __NXC_Label_646, __constVal1, __D0main
+0	67	42		brcmp 4, __NXC_Label_659, __constVal2, __D0main
+0	68	46		brcmp 4, __NXC_Label_672, __constVal3, __D0main
+0	69	50		jmp __NXC_Label_632
+0	63	52	#line 63 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	63	52	#line 63 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	64	52		set __signed_stack_001main, 0
+0	63	55	#line 63 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	63	55	#line 63 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	64	55		set __signed_stack_002main, 56
+0	63	58	#line 63 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	63	58	#line 63 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	64	58		strcat __strbufmain, __constStr0009
+0	63	62	#line 63 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	64	62		set __D0main, 0
+0	64	65	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	65		acquire __TextOutMutex
+0	64	66	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	66		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	64	68	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	68		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	64	70	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	70		mov __TextOutArgs.Options, __D0main
+0	64	72	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	72		mov __TextOutArgs.Text, __strbufmain
+0	64	74	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	74		syscall 13, __TextOutArgs
+0	64	77	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	77		mov __D0main, __TextOutArgs.Result
+0	64	79	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	79		release __TextOutMutex
+0	64	80	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	64	80	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	80		set __ACCL_SendCommand_7qG2_port_7qG2_000, 2
+0	64	83	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	64	83	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	83		set __ACCL_SendCommand_7qG2_i2cAddr_7qG2_000, 2
+0	64	86	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	64	86	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	86		set __ACCL_SendCommand_7qG2_cmd_7qG2_000, 49
+0	64	89	#line 64 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	65	89	#line 65 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	66	89		subcall ACCL_SendCommand, __ACCL_SendCommand_return
+0	65	91	#line 65 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	66	91	#line 66 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	67	91		jmp __NXC_Label_632
+0	66	93	#line 66 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	67	93	#line 67 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	67	93	#line 67 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	68	93		set __signed_stack_001main, 0
+0	67	96	#line 67 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	67	96	#line 67 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	68	96		set __signed_stack_002main, 56
+0	67	99	#line 67 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	67	99	#line 67 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	68	99		strcat __strbufmain, __constStr0010
+0	67	103	#line 67 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	68	103		set __D0main, 0
+0	68	106	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	106		acquire __TextOutMutex
+0	68	107	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	107		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	68	109	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	109		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	68	111	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	111		mov __TextOutArgs.Options, __D0main
+0	68	113	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	113		mov __TextOutArgs.Text, __strbufmain
+0	68	115	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	115		syscall 13, __TextOutArgs
+0	68	118	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	118		mov __D0main, __TextOutArgs.Result
+0	68	120	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	120		release __TextOutMutex
+0	68	121	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	68	121	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	121		set __ACCL_SendCommand_7qG2_port_7qG2_000, 2
+0	68	124	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	68	124	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	124		set __ACCL_SendCommand_7qG2_i2cAddr_7qG2_000, 2
+0	68	127	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	68	127	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	127		set __ACCL_SendCommand_7qG2_cmd_7qG2_000, 50
+0	68	130	#line 68 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	69	130	#line 69 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	70	130		subcall ACCL_SendCommand, __ACCL_SendCommand_return
+0	69	132	#line 69 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	70	132	#line 70 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	71	132		jmp __NXC_Label_632
+0	70	134	#line 70 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	71	134	#line 71 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	71	134	#line 71 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	72	134		set __signed_stack_001main, 0
+0	71	137	#line 71 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	71	137	#line 71 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	72	137		set __signed_stack_002main, 56
+0	71	140	#line 71 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	71	140	#line 71 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	72	140		strcat __strbufmain, __constStr0011
+0	71	144	#line 71 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	72	144		set __D0main, 0
+0	72	147	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	147		acquire __TextOutMutex
+0	72	148	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	148		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	72	150	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	150		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	72	152	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	152		mov __TextOutArgs.Options, __D0main
+0	72	154	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	154		mov __TextOutArgs.Text, __strbufmain
+0	72	156	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	156		syscall 13, __TextOutArgs
+0	72	159	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	159		mov __D0main, __TextOutArgs.Result
+0	72	161	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	161		release __TextOutMutex
+0	72	162	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	72	162	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	162		set __ACCL_SendCommand_7qG2_port_7qG2_000, 2
+0	72	165	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	72	165	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	165		set __ACCL_SendCommand_7qG2_i2cAddr_7qG2_000, 2
+0	72	168	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	72	168	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	168		set __ACCL_SendCommand_7qG2_cmd_7qG2_000, 51
+0	72	171	#line 72 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	73	171	#line 73 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	74	171		subcall ACCL_SendCommand, __ACCL_SendCommand_return
+0	73	173	#line 73 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	74	173	#line 74 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	75	173		jmp __NXC_Label_632
+0	74	175	#line 74 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	75	175	#line 75 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	75	175	#line 75 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	76	175		set __signed_stack_001main, 0
+0	75	178	#line 75 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	75	178	#line 75 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	76	178		set __signed_stack_002main, 56
+0	75	181	#line 75 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	75	181	#line 75 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	76	181		strcat __strbufmain, __constStr0012
+0	75	185	#line 75 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	76	185		set __D0main, 0
+0	76	188	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	188		acquire __TextOutMutex
+0	76	189	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	189		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	76	191	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	191		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	76	193	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	193		mov __TextOutArgs.Options, __D0main
+0	76	195	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	195		mov __TextOutArgs.Text, __strbufmain
+0	76	197	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	197		syscall 13, __TextOutArgs
+0	76	200	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	200		mov __D0main, __TextOutArgs.Result
+0	76	202	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	202		release __TextOutMutex
+0	76	203	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	76	203	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	203		set __ACCL_SendCommand_7qG2_port_7qG2_000, 2
+0	76	206	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	76	206	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	206		set __ACCL_SendCommand_7qG2_i2cAddr_7qG2_000, 2
+0	76	209	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	76	209	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	209		set __ACCL_SendCommand_7qG2_cmd_7qG2_000, 52
+0	76	212	#line 76 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	212	#line 77 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	78	212		subcall ACCL_SendCommand, __ACCL_SendCommand_return
+0	77	214	#line 77 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	77	214	#line 77 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	78	214		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
+0	77	217	#line 77 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	7921	217	#line 7921 "NXCDefs.h"
+0	7922	217		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	220	#line 7921 "NXCDefs.h"
+0	78	220	#line 78 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	79	220	#line 79 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	79	220	#line 79 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	80	220	#line 80 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	81	220	#line 81 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	82	220		mov cb_old, cb
+0	81	222	#line 81 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	81	222	#line 81 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	81	222	#line 81 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	82	222		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
+0	81	225	#line 81 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	7921	225	#line 7921 "NXCDefs.h"
+0	7922	225		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	228	#line 7921 "NXCDefs.h"
+0	82	228	#line 82 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	86	228	#line 86 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	86	228	#line 86 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	87	228		set __ACCL_ReadAcceleration_7qG2_port_7qG2_000, 2
+0	86	231	#line 86 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	86	231	#line 86 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	87	231		set __ACCL_ReadAcceleration_7qG2_i2cAddr_7qG2_000, 2
+0	86	234	#line 86 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	86	234	#line 86 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	87	234		mov __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000, __main_7qG2_currAccl_7qG2_000
+0	88	236	#line 88 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	89	236		subcall ACCL_ReadAcceleration, __ACCL_ReadAcceleration_return
+0	88	238	#line 88 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	89	238		mov __main_7qG2_currAccl_7qG2_000, __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000
+0	88	240	#line 88 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	89	240	#line 89 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	90	240		strcat __strbufmain, __constStr0013
+0	89	244	#line 89 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	90	244		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	89	246	#line 89 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	89	246	#line 89 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	90	246		mov __D0main, __main_7qG2_currAccl_7qG2_000.ax
+0	90	248	#line 90 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	91	248		numtostr __strretvalmain, __D0main
+0	90	251	#line 90 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	91	251		strcat __strbufmain, __strretvalmain
+0	90	255	#line 90 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	91	255		mov __main_7qG2_ax_7qG2_000, __strbufmain
+0	90	257	#line 90 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	90	257	#line 90 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	91	257		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	90	261	#line 90 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	91	261		mov __strtmpbufmain, __strbufmain
+0	90	263	#line 90 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	91	263		set __signed_stack_001main, 2
+0	90	266	#line 90 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	90	266	#line 90 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	91	266		strcat __strbufmain, __main_7qG2_ax_7qG2_000
+0	90	270	#line 90 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	91	270		mov __strretvalmain, __strbufmain
+0	91	272	#line 91 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	92	272		strtoarr __strbufmain, __strretvalmain
+0	91	275	#line 91 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	92	275		replace __strretvalmain, __strtmpbufmain, __signed_stack_001main, __strbufmain
+0	91	280	#line 91 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	92	280		strcat __strbufmain, __strretvalmain
+0	91	284	#line 91 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	92	284		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	91	286	#line 91 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	91	286	#line 91 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	92	286		mov __DU0main, __main_7qG2_currAccl_7qG2_000.tx
+0	92	288	#line 92 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	93	288		numtostr __strretvalmain, __DU0main
+0	92	291	#line 92 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	93	291		strcat __strbufmain, __strretvalmain
+0	92	295	#line 92 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	93	295		mov __main_7qG2_tx_7qG2_000, __strbufmain
+0	92	297	#line 92 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	92	297	#line 92 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	93	297		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	92	301	#line 92 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	93	301		mov __strtmpbufmain, __strbufmain
+0	92	303	#line 92 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	93	303		set __signed_stack_001main, 8
+0	92	306	#line 92 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	92	306	#line 92 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	93	306		strcat __strbufmain, __main_7qG2_tx_7qG2_000
+0	92	310	#line 92 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	93	310		mov __strretvalmain, __strbufmain
+0	93	312	#line 93 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	94	312		strtoarr __strbufmain, __strretvalmain
+0	93	315	#line 93 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	94	315		replace __strretvalmain, __strtmpbufmain, __signed_stack_001main, __strbufmain
+0	93	320	#line 93 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	94	320		strcat __strbufmain, __strretvalmain
+0	93	324	#line 93 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	94	324		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	93	326	#line 93 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	93	326	#line 93 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	94	326		set __signed_stack_001main, 0
+0	93	329	#line 93 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	93	329	#line 93 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	94	329		set __signed_stack_002main, 48
+0	93	332	#line 93 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	93	332	#line 93 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	94	332		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	93	336	#line 93 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	94	336		set __D0main, 0
+0	95	339	#line 95 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	96	339		acquire __TextOutMutex
+0	95	340	#line 95 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	96	340		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	95	342	#line 95 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	96	342		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	95	344	#line 95 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	96	344		mov __TextOutArgs.Options, __D0main
+0	95	346	#line 95 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	96	346		mov __TextOutArgs.Text, __strbufmain
+0	95	348	#line 95 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	96	348		syscall 13, __TextOutArgs
+0	95	351	#line 95 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	96	351		mov __D0main, __TextOutArgs.Result
+0	95	353	#line 95 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	96	353		release __TextOutMutex
+0	95	354	#line 95 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	96	354	#line 96 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	97	354		strcat __strbufmain, __constStr0014
+0	96	358	#line 96 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	97	358		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	96	360	#line 96 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	96	360	#line 96 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	97	360		mov __D0main, __main_7qG2_currAccl_7qG2_000.ay
+0	97	362	#line 97 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	98	362		numtostr __strretvalmain, __D0main
+0	97	365	#line 97 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	98	365		strcat __strbufmain, __strretvalmain
+0	97	369	#line 97 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	98	369		mov __main_7qG2_ay_7qG2_000, __strbufmain
+0	97	371	#line 97 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	97	371	#line 97 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	98	371		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	97	375	#line 97 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	98	375		mov __strtmpbufmain, __strbufmain
+0	97	377	#line 97 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	98	377		set __signed_stack_001main, 2
+0	97	380	#line 97 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	97	380	#line 97 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	98	380		strcat __strbufmain, __main_7qG2_ay_7qG2_000
+0	97	384	#line 97 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	98	384		mov __strretvalmain, __strbufmain
+0	98	386	#line 98 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	99	386		strtoarr __strbufmain, __strretvalmain
+0	98	389	#line 98 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	99	389		replace __strretvalmain, __strtmpbufmain, __signed_stack_001main, __strbufmain
+0	98	394	#line 98 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	99	394		strcat __strbufmain, __strretvalmain
+0	98	398	#line 98 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	99	398		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	98	400	#line 98 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	98	400	#line 98 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	99	400		mov __DU0main, __main_7qG2_currAccl_7qG2_000.ty
+0	99	402	#line 99 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	100	402		numtostr __strretvalmain, __DU0main
+0	99	405	#line 99 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	100	405		strcat __strbufmain, __strretvalmain
+0	99	409	#line 99 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	100	409		mov __main_7qG2_ty_7qG2_000, __strbufmain
+0	99	411	#line 99 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	99	411	#line 99 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	100	411		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	99	415	#line 99 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	100	415		mov __strtmpbufmain, __strbufmain
+0	99	417	#line 99 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	100	417		set __signed_stack_001main, 8
+0	99	420	#line 99 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	99	420	#line 99 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	100	420		strcat __strbufmain, __main_7qG2_ty_7qG2_000
+0	99	424	#line 99 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	100	424		mov __strretvalmain, __strbufmain
+0	100	426	#line 100 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	101	426		strtoarr __strbufmain, __strretvalmain
+0	100	429	#line 100 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	101	429		replace __strretvalmain, __strtmpbufmain, __signed_stack_001main, __strbufmain
+0	100	434	#line 100 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	101	434		strcat __strbufmain, __strretvalmain
+0	100	438	#line 100 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	101	438		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	100	440	#line 100 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	100	440	#line 100 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	101	440		set __signed_stack_001main, 0
+0	100	443	#line 100 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	100	443	#line 100 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	101	443		set __signed_stack_002main, 40
+0	100	446	#line 100 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	100	446	#line 100 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	101	446		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	100	450	#line 100 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	101	450		set __D0main, 0
+0	102	453	#line 102 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	103	453		acquire __TextOutMutex
+0	102	454	#line 102 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	103	454		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	102	456	#line 102 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	103	456		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	102	458	#line 102 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	103	458		mov __TextOutArgs.Options, __D0main
+0	102	460	#line 102 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	103	460		mov __TextOutArgs.Text, __strbufmain
+0	102	462	#line 102 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	103	462		syscall 13, __TextOutArgs
+0	102	465	#line 102 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	103	465		mov __D0main, __TextOutArgs.Result
+0	102	467	#line 102 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	103	467		release __TextOutMutex
+0	102	468	#line 102 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	103	468	#line 103 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	104	468		strcat __strbufmain, __constStr0015
+0	103	472	#line 103 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	104	472		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	103	474	#line 103 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	103	474	#line 103 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	104	474		mov __D0main, __main_7qG2_currAccl_7qG2_000.az
+0	104	476	#line 104 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	105	476		numtostr __strretvalmain, __D0main
+0	104	479	#line 104 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	105	479		strcat __strbufmain, __strretvalmain
+0	104	483	#line 104 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	105	483		mov __main_7qG2_az_7qG2_000, __strbufmain
+0	104	485	#line 104 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	104	485	#line 104 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	105	485		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	104	489	#line 104 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	105	489		mov __strtmpbufmain, __strbufmain
+0	104	491	#line 104 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	105	491		set __signed_stack_001main, 2
+0	104	494	#line 104 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	104	494	#line 104 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	105	494		strcat __strbufmain, __main_7qG2_az_7qG2_000
+0	104	498	#line 104 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	105	498		mov __strretvalmain, __strbufmain
+0	105	500	#line 105 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	106	500		strtoarr __strbufmain, __strretvalmain
+0	105	503	#line 105 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	106	503		replace __strretvalmain, __strtmpbufmain, __signed_stack_001main, __strbufmain
+0	105	508	#line 105 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	106	508		strcat __strbufmain, __strretvalmain
+0	105	512	#line 105 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	106	512		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	105	514	#line 105 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	105	514	#line 105 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	106	514		mov __DU0main, __main_7qG2_currAccl_7qG2_000.tz
+0	106	516	#line 106 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	107	516		numtostr __strretvalmain, __DU0main
+0	106	519	#line 106 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	107	519		strcat __strbufmain, __strretvalmain
+0	106	523	#line 106 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	107	523		mov __main_7qG2_tz_7qG2_000, __strbufmain
+0	106	525	#line 106 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	106	525	#line 106 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	107	525		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	106	529	#line 106 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	107	529		mov __strtmpbufmain, __strbufmain
+0	106	531	#line 106 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	107	531		set __signed_stack_001main, 8
+0	106	534	#line 106 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	106	534	#line 106 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	107	534		strcat __strbufmain, __main_7qG2_tz_7qG2_000
+0	106	538	#line 106 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	107	538		mov __strretvalmain, __strbufmain
+0	107	540	#line 107 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	108	540		strtoarr __strbufmain, __strretvalmain
+0	107	543	#line 107 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	108	543		replace __strretvalmain, __strtmpbufmain, __signed_stack_001main, __strbufmain
+0	107	548	#line 107 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	108	548		strcat __strbufmain, __strretvalmain
+0	107	552	#line 107 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	108	552		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	107	554	#line 107 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	107	554	#line 107 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	108	554		set __signed_stack_001main, 0
+0	107	557	#line 107 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	107	557	#line 107 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	108	557		set __signed_stack_002main, 32
+0	107	560	#line 107 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	107	560	#line 107 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	108	560		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	107	564	#line 107 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	108	564		set __D0main, 0
+0	109	567	#line 109 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	110	567		acquire __TextOutMutex
+0	109	568	#line 109 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	110	568		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	109	570	#line 109 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	110	570		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	109	572	#line 109 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	110	572		mov __TextOutArgs.Options, __D0main
+0	109	574	#line 109 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	110	574		mov __TextOutArgs.Text, __strbufmain
+0	109	576	#line 109 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	110	576		syscall 13, __TextOutArgs
+0	109	579	#line 109 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	110	579		mov __D0main, __TextOutArgs.Result
+0	109	581	#line 109 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	110	581		release __TextOutMutex
+0	109	582	#line 109 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	109	582	#line 109 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	110	582		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	109	585	#line 109 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	7921	585	#line 7921 "NXCDefs.h"
+0	7922	585		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	588	#line 7921 "NXCDefs.h"
+0	110	588	#line 110 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	114	588	#line 114 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	115	588		jmp __NXC_Label_623
+0	114	590	#line 114 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+0	115	590		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5821	0	#pragma macro 25
+2	5821	0		acquire __CLSWMutex0
+2	5821	1		acquire __CLSWMutex1
+2	5821	2		acquire __CLSWMutex2
+2	5821	3		acquire __CLSWMutex3
+2	5821	4		mov __CLSWArgs0.Port, __RLSReadPort
+2	5821	6		mov __CLSWArgs0.ReturnLen, __RLSBytesCountVar
+2	5821	8		mov __CLSWArgs0.Buffer, __RLSReadBufVar
+2	5821	10		syscall 21, __CLSWArgs0
+2	5821	13		mov __RLSBResultVar, __CLSWArgs0.Result
+2	5821	15		release __CLSWMutex0
+2	5821	16		release __CLSWMutex1
+2	5821	17		release __CLSWMutex2
+2	5821	18		release __CLSWMutex3
+2	5821	19	#line 5821 "NXTDefs.h"
+2	5822	19		brtst 4, __RLSBReturnVar, __RLSBytesCountVar
+2	5823	22		arrinit __RLSReadBufVar, __constVal0, __RLSBytesCountVar
+2	5824	26		brtst 5, __RLSBErrorVar, __RLSBResultVar
+2	5825	29		set __RLSBIterationsVar, 4
+2	5827	32	#pragma macro 23
+2	5827	32		acquire __CLSCSMutex0
+2	5827	33		acquire __CLSCSMutex1
+2	5827	34		acquire __CLSCSMutex2
+2	5827	35		acquire __CLSCSMutex3
+2	5827	36		mov __CLSCSArgs0.Port, __RLSReadPort
+2	5827	38		syscall 23, __CLSCSArgs0
+2	5827	41		mov __RLSBytesCountVar, __CLSCSArgs0.BytesReady
+2	5827	43		mov __RLSBResultVar, __CLSCSArgs0.Result
+2	5827	45		release __CLSCSMutex0
+2	5827	46		release __CLSCSMutex1
+2	5827	47		release __CLSCSMutex2
+2	5827	48		release __CLSCSMutex3
+2	5827	49	#line 5827 "NXTDefs.h"
+2	5828	49		sub __RLSBIterationsVar, __RLSBIterationsVar, __constVal1
+2	5829	53		brtst 2, __RLSBErrorVar, __RLSBIterationsVar
+2	5830	56		brtst 0, __RLSBErrorVar, __RLSBResultVar
+2	5831	59		brtst 4, __RLSBReadyToReadVar, __RLSBResultVar
+2	5833	62		wait2 NA, __constVal15
+2	5834	65		jmp __RLSBDoCheckStatusVar
+2	5837	67	#pragma macro 25
+2	5837	67		acquire __CLSRMutex0
+2	5837	68		acquire __CLSRMutex1
+2	5837	69		acquire __CLSRMutex2
+2	5837	70		acquire __CLSRMutex3
+2	5837	71		mov __CLSRArgs0.Port, __RLSReadPort
+2	5837	73		mov __CLSRArgs0.BufferLen, __RLSBytesCountVar
+2	5837	75		syscall 22, __CLSRArgs0
+2	5837	78		mov __RLSReadBufVar, __CLSRArgs0.Buffer
+2	5837	80		mov __RLSBResultVar, __CLSRArgs0.Result
+2	5837	82		release __CLSRMutex0
+2	5837	83		release __CLSRMutex1
+2	5837	84		release __CLSRMutex2
+2	5837	85		release __CLSRMutex3
+2	5837	86	#line 5837 "NXTDefs.h"
+2	5838	86		brtst 5, __RLSBErrorVar, __RLSBResultVar
+2	5839	89		mov __RLSLastGoodReadVar, __RLSReadBufVar
+2	5840	91		jmp __RLSBDoneVar
+2	5842	93		mov __RLSReadBufVar, __RLSLastGoodReadVar
+2	5844	95		arrsize __RLSBytesCountVar, __RLSReadBufVar
+2	5846	98		subret ____ReadLSBytesVar_return
+3	35	0	#line 35 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	36	0		mov __unsigned_stack_001MLBToInteger, __MLBToInteger_7qG2_lsb_7qG2_000
+3	35	2	#line 35 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	35	2	#line 35 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	36	2		mov __unsigned_stack_002MLBToInteger, __MLBToInteger_7qG2_msb_7qG2_000
+3	35	4	#line 35 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	35	4	#line 35 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	36	4		set __MLBToInteger_shift_cnt, 8
+3	35	7	#line 35 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	36	7		mov __MLBToInteger_shift_tmp, __unsigned_stack_002MLBToInteger
+3	36	9	__shiftstart_1:	brtst LTEQ, __shiftdone_1, __MLBToInteger_shift_cnt
+3	36	12		mul __MLBToInteger_shift_tmp, __MLBToInteger_shift_tmp, __constVal2
+3	36	16		sub __MLBToInteger_shift_cnt, __MLBToInteger_shift_cnt, __constVal1
+3	36	20		jmp __shiftstart_1
+3	37	22	#line 37 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	38	22		add __MLBToInteger_7qG2_i_7qG2_000, __unsigned_stack_001MLBToInteger, __MLBToInteger_shift_tmp
+3	37	26	#line 37 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	37	26	#line 37 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	38	26	#line 38 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	39	26		mov __D0MLBToInteger, __MLBToInteger_7qG2_i_7qG2_000
+3	38	28	#line 38 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	39	28		subret __MLBToInteger_return
+3	38	30	#line 38 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	46	30	#line 46 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+3	47	30		subret __MLBToInteger_return
+4	48	0	#line 48 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	49	0		arrbuild __ACCL_SendCommand_7qG2_cmdBuf_7qG2_000, __ACCL_SendCommand_7qG2_i2cAddr_7qG2_000, __constVal65, __ACCL_SendCommand_7qG2_cmd_7qG2_000
+4	48	6	#line 48 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	48	6	#line 48 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	49	6	#line 49 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	50	6	#pragma macro 25
+4	50	6		acquire __CLSWMutex0
+4	50	7		acquire __CLSWMutex1
+4	50	8		acquire __CLSWMutex2
+4	50	9		acquire __CLSWMutex3
+4	50	10		mov __CLSWArgs0.Port, __ACCL_SendCommand_7qG2_port_7qG2_000
+4	50	12		mov __CLSWArgs0.ReturnLen, __constVal0
+4	50	14		mov __CLSWArgs0.Buffer, __ACCL_SendCommand_7qG2_cmdBuf_7qG2_000
+4	50	16		syscall 21, __CLSWArgs0
+4	50	19		mov __D0ACCL_SendCommand, __CLSWArgs0.Result
+4	50	21		release __CLSWMutex0
+4	50	22		release __CLSWMutex1
+4	50	23		release __CLSWMutex2
+4	50	24		release __CLSWMutex3
+4	3940	25	#line 3940 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	49	25	#line 49 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	49	25	#line 49 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	50	25	#line 50 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	51	25	#pragma macro 23
+4	51	25		acquire __CLSCSMutex0
+4	51	26		acquire __CLSCSMutex1
+4	51	27		acquire __CLSCSMutex2
+4	51	28		acquire __CLSCSMutex3
+4	51	29		mov __CLSCSArgs0.Port, __ACCL_SendCommand_7qG2_port_7qG2_000
+4	51	31		syscall 23, __CLSCSArgs0
+4	51	34		mov __tmpsbyteACCL_SendCommand, __CLSCSArgs0.BytesReady
+4	51	36		mov __D0ACCL_SendCommand, __CLSCSArgs0.Result
+4	51	38		release __CLSCSMutex0
+4	51	39		release __CLSCSMutex1
+4	51	40		release __CLSCSMutex2
+4	51	41		release __CLSCSMutex3
+4	3948	42	#line 3948 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	50	42	#line 50 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	51	42		mov __ACCL_SendCommand_7qG2_status_7qG2_000, __D0ACCL_SendCommand
+4	51	44	#line 51 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	52	44		mov __signed_stack_001ACCL_SendCommand, __ACCL_SendCommand_7qG2_status_7qG2_000
+4	51	46	#line 51 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	52	46	#line 52 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	53	46		set __D0ACCL_SendCommand, 0
+4	52	49	#line 52 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	53	49		cmp 1, __zfACCL_SendCommand, __signed_stack_001ACCL_SendCommand, __D0ACCL_SendCommand
+4	52	53	#line 52 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	53	53		mov __D0ACCL_SendCommand, __zfACCL_SendCommand
+4	52	55	#line 52 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	53	55		brtst 4, __NXC_Label_498, __zfACCL_SendCommand
+4	52	58	#line 52 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	53	58	#pragma macro 23
+4	53	58		acquire __CLSCSMutex0
+4	53	59		acquire __CLSCSMutex1
+4	53	60		acquire __CLSCSMutex2
+4	53	61		acquire __CLSCSMutex3
+4	53	62		mov __CLSCSArgs0.Port, __ACCL_SendCommand_7qG2_port_7qG2_000
+4	53	64		syscall 23, __CLSCSArgs0
+4	53	67		mov __tmpsbyteACCL_SendCommand, __CLSCSArgs0.BytesReady
+4	53	69		mov __D0ACCL_SendCommand, __CLSCSArgs0.Result
+4	53	71		release __CLSCSMutex0
+4	53	72		release __CLSCSMutex1
+4	53	73		release __CLSCSMutex2
+4	53	74		release __CLSCSMutex3
+4	3969	75	#line 3969 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	52	75	#line 52 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	53	75		mov __ACCL_SendCommand_7qG2_status_7qG2_000, __D0ACCL_SendCommand
+4	52	77	#line 52 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	52	77	#line 52 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	53	77		jmp __NXC_Label_497
+4	52	79	#line 52 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	52	79	#line 52 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	57	79	#line 57 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+4	58	79		subret __ACCL_SendCommand_return
+5	81	0	#line 81 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	82	0		arrinit __ACCL_ReadAcceleration_7qG2_buf_7qG2_000, __constVal0, __constVal12
+5	84	4	#line 84 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	85	4		set __ACCL_ReadAcceleration_7qG2_nByteReady_7qG2_000, 0
+5	84	7	#line 84 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	84	7	#line 84 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	85	7		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_ACCL_ReadAcceleration, __ACCL_ReadAcceleration_7qG2_port_7qG2_000
+5	84	9	#line 84 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	96	9	#line 96 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	97	9		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_ACCL_ReadAcceleration, __constVal1
+5	3758	11	#line 3758 "NXCDefs.h"
+5	3759	11		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_ACCL_ReadAcceleration
+5	3758	13	#line 3758 "NXCDefs.h"
+5	3758	13	#line 3758 "NXCDefs.h"
+5	3759	13		mov __DU0SetSensorLowspeed_inline_ACCL_ReadAcceleration, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_ACCL_ReadAcceleration
+5	3758	15	#line 3758 "NXCDefs.h"
+5	3759	15		tst 5, __zfSetSensorLowspeed_inline_ACCL_ReadAcceleration, __DU0SetSensorLowspeed_inline_ACCL_ReadAcceleration
+5	3758	18	#line 3758 "NXCDefs.h"
+5	3759	18		brtst 4, __005__NXC_Label_36, __zfSetSensorLowspeed_inline_ACCL_ReadAcceleration
+5	3758	21	#line 3758 "NXCDefs.h"
+5	3759	21		set __D0SetSensorLowspeed_inline_ACCL_ReadAcceleration, 11
+5	3758	24	#line 3758 "NXCDefs.h"
+5	3759	24		jmp __005__NXC_Label_37
+5	3758	26	#line 3758 "NXCDefs.h"
+5	3759	26		set __D0SetSensorLowspeed_inline_ACCL_ReadAcceleration, 10
+5	3758	29	#line 3758 "NXCDefs.h"
+5	3759	29		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration, __D0SetSensorLowspeed_inline_ACCL_ReadAcceleration
+5	3663	31	#line 3663 "NXCDefs.h"
+5	3664	31		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration, 0
+5	3663	35	#line 3663 "NXCDefs.h"
+5	3759	35	#line 3759 "NXCDefs.h"
+5	3759	35	#line 3759 "NXCDefs.h"
+5	3760	35		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_ACCL_ReadAcceleration
+5	3759	37	#line 3759 "NXCDefs.h"
+5	3759	37	#line 3759 "NXCDefs.h"
+5	3760	37		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration, 0
+5	3759	40	#line 3759 "NXCDefs.h"
+5	3676	40	#line 3676 "NXCDefs.h"
+5	3677	40		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration, 1
+5	3676	44	#line 3676 "NXCDefs.h"
+5	3760	44	#line 3760 "NXCDefs.h"
+5	3760	44	#line 3760 "NXCDefs.h"
+5	3761	44		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_ACCL_ReadAcceleration
+5	3760	46	#line 3760 "NXCDefs.h"
+5	3694	46	#line 3694 "NXCDefs.h"
+5	3695	46	#pragma macro 4
+5	3695	46		acquire __ResetSensorMutex
+5	3695	47		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_ACCL_ReadAcceleration
+5	3695	49		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+5	3695	51		release __ResetSensorMutex
+5	4311	52	#line 4311 "NXCDefs.h"
+5	3694	52	#line 3694 "NXCDefs.h"
+5	3761	52	#line 3761 "NXCDefs.h"
+5	96	52	#line 96 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	96	52	#line 96 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	97	52		arrbuild __ACCL_ReadAcceleration_7qG2_message_7qG2_000, __ACCL_ReadAcceleration_7qG2_i2cAddr_7qG2_000, __constVal66
+5	96	57	#line 96 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	96	57	#line 96 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	97	57	#line 97 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	98	57	#pragma macro 23
+5	98	57		acquire __CLSCSMutex0
+5	98	58		acquire __CLSCSMutex1
+5	98	59		acquire __CLSCSMutex2
+5	98	60		acquire __CLSCSMutex3
+5	98	61		mov __CLSCSArgs0.Port, __ACCL_ReadAcceleration_7qG2_port_7qG2_000
+5	98	63		syscall 23, __CLSCSArgs0
+5	98	66		mov __ACCL_ReadAcceleration_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+5	98	68		mov __D0ACCL_ReadAcceleration, __CLSCSArgs0.Result
+5	98	70		release __CLSCSMutex0
+5	98	71		release __CLSCSMutex1
+5	98	72		release __CLSCSMutex2
+5	98	73		release __CLSCSMutex3
+5	4321	74	#line 4321 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	97	74	#line 97 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	98	74		mov __signed_stack_001ACCL_ReadAcceleration, __D0ACCL_ReadAcceleration
+5	97	76	#line 97 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	98	76		set __D0ACCL_ReadAcceleration, 32
+5	97	79	#line 97 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	98	79		cmp 4, __zfACCL_ReadAcceleration, __signed_stack_001ACCL_ReadAcceleration, __D0ACCL_ReadAcceleration
+5	97	83	#line 97 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	98	83		mov __D0ACCL_ReadAcceleration, __zfACCL_ReadAcceleration
+5	98	85	#line 98 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	99	85		brtst 4, __NXC_Label_527, __zfACCL_ReadAcceleration
+5	98	88	#line 98 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	98	88	#line 98 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	99	88		jmp __NXC_Label_526
+5	98	90	#line 98 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	99	90	#line 99 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	100	90		set __ACCL_ReadAcceleration_7qG2_count_7qG2_000, 9
+5	99	93	#line 99 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	99	93	#line 99 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	99	93	#line 99 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	100	93	#pragma macro 28
+5	100	93		acquire __RLSBmutex0
+5	100	94		acquire __RLSBmutex1
+5	100	95		acquire __RLSBmutex2
+5	100	96		acquire __RLSBmutex3
+5	100	97		mov __RLSReadPort, __ACCL_ReadAcceleration_7qG2_port_7qG2_000
+5	100	99		mov __RLSReadBufVar, __ACCL_ReadAcceleration_7qG2_message_7qG2_000
+5	100	101		mov __RLSBytesCountVar, __ACCL_ReadAcceleration_7qG2_count_7qG2_000
+5	100	103		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+5	100	105		tst 4, __D0ACCL_ReadAcceleration, __RLSBResultVar
+5	100	108		mov __ACCL_ReadAcceleration_7qG2_count_7qG2_000, __RLSBytesCountVar
+5	100	110		mov __ACCL_ReadAcceleration_7qG2_buf_7qG2_000, __RLSReadBufVar
+5	100	112		release __RLSBmutex0
+5	100	113		release __RLSBmutex1
+5	100	114		release __RLSBmutex2
+5	100	115		release __RLSBmutex3
+5	4347	116	#line 4347 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	100	116	#line 100 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	101	116		tst 5, __zfACCL_ReadAcceleration, __D0ACCL_ReadAcceleration
+5	100	119	#line 100 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	101	119		brtst 4, __NXC_Label_534, __zfACCL_ReadAcceleration
+5	100	122	#line 100 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	101	122		set __signed_stack_001ACCL_ReadAcceleration, 0
+5	100	125	#line 100 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	100	125	#line 100 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	101	125		index __ArrHelper__ACCL_ReadAcceleration_98_0, __ACCL_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001ACCL_ReadAcceleration
+5	100	129	#line 100 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	101	129		mov __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.tx, __ArrHelper__ACCL_ReadAcceleration_98_0
+5	101	131	#line 101 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	101	131	#line 101 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	101	131	#line 101 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	102	131		set __signed_stack_001ACCL_ReadAcceleration, 1
+5	101	134	#line 101 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	101	134	#line 101 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	102	134		index __ArrHelper__ACCL_ReadAcceleration_98_0, __ACCL_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001ACCL_ReadAcceleration
+5	101	138	#line 101 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	102	138		mov __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.ty, __ArrHelper__ACCL_ReadAcceleration_98_0
+5	102	140	#line 102 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	102	140	#line 102 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	102	140	#line 102 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	103	140		set __signed_stack_001ACCL_ReadAcceleration, 2
+5	102	143	#line 102 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	102	143	#line 102 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	103	143		index __ArrHelper__ACCL_ReadAcceleration_98_0, __ACCL_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001ACCL_ReadAcceleration
+5	102	147	#line 102 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	103	147		mov __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.tz, __ArrHelper__ACCL_ReadAcceleration_98_0
+5	103	149	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	103	149	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	103	149	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	149		set __signed_stack_001ACCL_ReadAcceleration, 3
+5	103	152	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	103	152	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	152		index __ArrHelper__ACCL_ReadAcceleration_98_0, __ACCL_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001ACCL_ReadAcceleration
+5	103	156	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	156		mov __MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__ACCL_ReadAcceleration_98_0
+5	103	158	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	103	158	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	158		set __signed_stack_001ACCL_ReadAcceleration, 4
+5	103	161	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	103	161	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	161		index __ArrHelper__ACCL_ReadAcceleration_98_0, __ACCL_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001ACCL_ReadAcceleration
+5	103	165	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	165		mov __MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__ACCL_ReadAcceleration_98_0
+5	103	167	#line 103 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	167	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	167		subcall MLBToInteger, __MLBToInteger_return
+5	104	169	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	169		mov __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.ax, __D0MLBToInteger
+5	104	171	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	171	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	171	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	171		set __signed_stack_001ACCL_ReadAcceleration, 5
+5	104	174	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	174	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	174		index __ArrHelper__ACCL_ReadAcceleration_98_0, __ACCL_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001ACCL_ReadAcceleration
+5	104	178	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	178		mov __MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__ACCL_ReadAcceleration_98_0
+5	104	180	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	180	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	180		set __signed_stack_001ACCL_ReadAcceleration, 6
+5	104	183	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	104	183	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	183		index __ArrHelper__ACCL_ReadAcceleration_98_0, __ACCL_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001ACCL_ReadAcceleration
+5	104	187	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	187		mov __MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__ACCL_ReadAcceleration_98_0
+5	104	189	#line 104 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	189	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	106	189		subcall MLBToInteger, __MLBToInteger_return
+5	105	191	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	106	191		mov __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.ay, __D0MLBToInteger
+5	105	193	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	193	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	193	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	106	193		set __signed_stack_001ACCL_ReadAcceleration, 7
+5	105	196	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	196	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	106	196		index __ArrHelper__ACCL_ReadAcceleration_98_0, __ACCL_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001ACCL_ReadAcceleration
+5	105	200	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	106	200		mov __MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__ACCL_ReadAcceleration_98_0
+5	105	202	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	202	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	106	202		set __signed_stack_001ACCL_ReadAcceleration, 8
+5	105	205	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	105	205	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	106	205		index __ArrHelper__ACCL_ReadAcceleration_98_0, __ACCL_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001ACCL_ReadAcceleration
+5	105	209	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	106	209		mov __MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__ACCL_ReadAcceleration_98_0
+5	105	211	#line 105 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	106	211	#line 106 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	107	211		subcall MLBToInteger, __MLBToInteger_return
+5	106	213	#line 106 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	107	213		mov __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.az, __D0MLBToInteger
+5	106	215	#line 106 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	106	215	#line 106 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	107	215	#line 107 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	108	215		jmp __NXC_Label_577
+5	108	217	#line 108 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	109	217		set __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.tx, 0
+5	108	220	#line 108 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	108	220	#line 108 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	109	220	#line 109 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	110	220		set __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.ty, 0
+5	109	223	#line 109 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	109	223	#line 109 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	110	223	#line 110 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	111	223		set __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.tz, 0
+5	110	226	#line 110 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	110	226	#line 110 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	111	226	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	112	226		set __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.ax, 0
+5	111	229	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	111	229	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	112	229	#line 112 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	113	229		set __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.ay, 0
+5	112	232	#line 112 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	112	232	#line 112 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	113	232	#line 113 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	114	232		set __ACCL_ReadAcceleration_7qG2_currAccl_7qG2_000.az, 0
+5	113	235	#line 113 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	113	235	#line 113 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	115	235	#line 115 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	115	235	#line 115 "C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc"
+5	116	235		subret __ACCL_ReadAcceleration_return
+6	29	0	#line 29 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	30	0		set __D0button_handler, 1
+6	31	3	#line 31 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	32	3		tst 5, __zfbutton_handler, __D0button_handler
+6	31	6	#line 31 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	32	6		brtst 4, __NXC_Label_591, __zfbutton_handler
+6	31	9	#line 31 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	32	9		set __signed_stack_001button_handler, 3
+6	31	12	#line 31 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	31	12	#line 31 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	32	12		set __D0button_handler, 1
+6	31	15	#line 31 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	32	15		acquire __RBtnMutex
+6	31	16	#line 31 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	32	16		mov __RBtnArgs.Index, __signed_stack_001button_handler
+6	31	18	#line 31 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	32	18		mov __RBtnArgs.Reset, __D0button_handler
+6	31	21	#line 31 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	32	21		syscall 20, __RBtnArgs
+6	31	24	#line 31 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	32	24		mov __D0button_handler, __RBtnArgs.Pressed
+6	31	26	#line 31 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	32	26		release __RBtnMutex
+6	32	27	#line 32 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	27		tst 5, __zfbutton_handler, __D0button_handler
+6	32	30	#line 32 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	30		brtst 4, __NXC_Label_600, __zfbutton_handler
+6	32	33	#line 32 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	33		set __signed_stack_001button_handler, 3
+6	32	36	#line 32 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	32	36	#line 32 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	36		set __D0button_handler, 1
+6	32	39	#line 32 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	39		acquire __RBtnMutex
+6	32	40	#line 32 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	40		mov __RBtnArgs.Index, __signed_stack_001button_handler
+6	32	42	#line 32 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	42		mov __RBtnArgs.Reset, __D0button_handler
+6	32	45	#line 32 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	45		syscall 20, __RBtnArgs
+6	32	48	#line 32 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	48		mov __D0button_handler, __RBtnArgs.Pressed
+6	32	50	#line 32 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	50		release __RBtnMutex
+6	33	51	#line 33 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	34	51		tst 5, __zfbutton_handler, __D0button_handler
+6	33	54	#line 33 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	34	54		brtst 4, __NXC_Label_602, __zfbutton_handler
+6	33	57	#line 33 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	57	#line 33 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	34	57		jmp __NXC_Label_601
+6	33	59	#line 33 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	59	#line 33 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	34	59		mov __signed_stack_001button_handler, cb
+6	33	61	#line 33 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	33	61	#line 33 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	34	61		set __D0button_handler, 4
+6	33	64	#line 33 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	34	64		cmp 3, __zfbutton_handler, __signed_stack_001button_handler, __D0button_handler
+6	33	68	#line 33 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	34	68		mov __D0button_handler, __zfbutton_handler
+6	34	70	#line 34 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	35	70		brtst 4, __NXC_Label_611, __zfbutton_handler
+6	35	73	#line 35 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	36	73		set cb, 0
+6	35	76	#line 35 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	35	76	#line 35 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	36	76	#line 36 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	37	76		jmp __NXC_Label_614
+6	37	78	#line 37 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	38	78		add cb, cb, __constVal1
+6	37	82	#line 37 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	40	82	#line 40 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	40	82	#line 40 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	40	82	#line 40 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	41	82		set __Wait_7qG2_ms_7qG2_000_inline_button_handler, 100
+6	40	85	#line 40 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	7921	85	#line 7921 "NXCDefs.h"
+6	7922	85		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_button_handler
+6	7921	88	#line 7921 "NXCDefs.h"
+6	41	88	#line 41 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	44	88	#line 44 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	45	88		jmp __NXC_Label_590
+6	44	90	#line 44 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+6	45	90		exit -1, -1
+7	0	0		subret __button_handler_Spawner_return
+8	0	0		exit 0, 1
+9	115	0	#line 115 "C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc"
+9	116	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc
+1	__ResetSensorSubroutine	593	NXTDefs.h
+2	__ReadLSBytesVar	606	NXTDefs.h
+3	MLBToInteger	706	C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc
+4	ACCL_SendCommand	738	C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc
+5	ACCL_ReadAcceleration	819	C:\Users\ronk\Documents\NXCprograms\.\accl-nx-lib.nxc
+6	button_handler	1056	C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc
+7	__button_handler_Returner	1149	C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc
+8	__button_handler_Spawner	1151	C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc
+9	__initialize_global_data	1154	C:\Users\ronk\Documents\NXCprograms\ACCL-Nx-demo.nxc

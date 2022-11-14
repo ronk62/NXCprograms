@@ -1,0 +1,1185 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0SetSensorLowspeed_inline_main	5	1	0	4	5
+1	__D0SetSensorLowspeed_inline_main	6	1	4	4	2
+2	__D0XglReset	6	1	8	4	7
+3	__signed_stack_001disply	6	1	12	4	22
+4	__signed_stack_002main	6	1	16	4	6
+5	__signed_stack_001main	6	1	20	4	6
+6	__signed_stack_002disply	6	1	24	4	22
+7	__D0XglReadPacket	6	1	28	4	30
+8	__D0main	6	1	32	4	21
+9	__D0disply	6	1	36	4	29
+10	__SPTArgsMutex	9	0	40	4	2
+11	__DU0main	5	1	44	4	8
+12	__D0XglAccSF	6	1	48	4	7
+13	__D0readGyro	6	1	52	4	4
+14	__D0move	6	1	56	4	15
+15	__signed_stack_001XglReset	6	1	60	4	2
+16	__unsigned_stack_002XglReadPacket	5	1	64	4	10
+17	__unsigned_stack_001XglReadPacket	5	1	68	4	10
+18	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	72	4	4
+19	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	76	4	8
+20	__Wait_7qG2_ms_7qG2_000_inline_disply	5	1	80	4	2
+21	__Wait_7qG2_ms_7qG2_000_inline_readGyro	5	1	84	4	2
+22	__signed_stack_002XglReadPacket	6	1	88	4	10
+23	__signed_stack_001move	6	1	92	4	4
+24	__unsigned_stack_001main	5	1	96	4	4
+25	__signed_stack_003main	6	1	100	4	2
+26	__signed_stack_002move	6	1	104	4	2
+27	__signed_stack_001XglReadPacket	6	1	108	4	12
+28	__signed_stack_001XglAccSF	6	1	112	4	4
+29	__signed_stack_003move	6	1	116	4	2
+30	__RLSBmutex0	9	0	120	4	2
+31	__PointOutMutex	9	0	124	4	2
+32	__CLSCSMutex0	9	0	128	4	8
+33	__CLSWMutex0	9	0	132	4	6
+34	__ResetSensorMutex	9	0	136	4	2
+35	__TextOutMutex	9	0	140	4	28
+36	__CLSRMutex0	9	0	144	4	2
+37	__constVal200	4	0	148	2	2
+38	target	4	0	150	2	4
+39	__move_7qG2_pwr_7qG2_000	4	1	152	2	4
+40	__XglReadPacket_7qG2_n_read_7qG2_000	1	1	154	1	2
+41	__XglAccSF_return	1	1	155	1	3
+42	__XglAccSF_7qG2_accSf_7qG2_000	1	1	156	1	2
+43	__constVal96	2	0	157	1	3
+44	__XglAccSF_7qG2_n_read_7qG2_000	1	1	158	1	2
+45	__XglReadPacket_7qG2_count_7qG2_000	1	1	159	1	3
+46	__XglReadPacket_return	1	1	160	1	3
+47	__XglAccSF_7qG2_register_7qG2_000	1	1	161	1	2
+48	__constVal63	2	0	162	1	2
+49	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	163	1	2
+50	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	164	1	2
+51	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	165	1	2
+52	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	166	1	2
+53	__constVal32	2	0	167	1	6
+54	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	168	1	2
+55	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	169	1	2
+56	__constVal0	2	1	170	1	20
+57	__constVal3	2	0	171	1	2
+58	__constValNeg1	2	0	172	1	2
+59	__constVal1	2	0	173	1	6
+60	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	174	1	4
+61	__main_7qG2_acc_sf_7qG2_000	1	1	175	1	5
+62	____initialize_global_data_return	1	1	176	1	3
+63	__XglReset_7qG2_n_read_7qG2_000	1	1	177	1	2
+64	__constVal66	2	0	178	1	1
+65	__constVal2	2	0	179	1	6
+66	____ResetSensorSubroutine_return	1	1	180	1	3
+67	__LSWriteOptionsVar	1	1	181	1	6
+68	__constVal10	2	0	182	1	1
+69	____ReadLSBytes0_return	1	1	183	1	3
+70	__RLSBIterations0	1	1	184	1	4
+71	__RLSBytesCount0	1	1	185	1	8
+72	__XglReset_return	1	1	186	1	4
+73	__RLSBResult0	2	1	187	1	8
+74	__ResetSensorPort	1	1	188	1	3
+75	__ResetSensorTmp	1	1	189	1	2
+76	__TextOutArgs	8	0	4	16	84
+77	__TextOutArgs.Result	2	1	192	1	84
+78	__TextOutArgs.Location	8	0	2	4	84
+79	__TextOutArgs.Location.X	4	1	196	2	84
+80	__TextOutArgs.Location.Y	4	1	198	2	84
+81	__TextOutArgs.Text	7	0	200	4	84
+82	__TextOutArgs.Text.Text_type	1	0	0	1	0
+83	__TextOutArgs.Options	5	1	204	4	84
+84	__main_7qG2_rbArgs_7qG2_000	8	0	5	8	8
+85	__main_7qG2_rbArgs_7qG2_000.Result	2	1	208	1	8
+86	__main_7qG2_rbArgs_7qG2_000.Index	1	1	209	1	8
+87	__main_7qG2_rbArgs_7qG2_000.Pressed	1	1	210	1	8
+88	__main_7qG2_rbArgs_7qG2_000.Count	1	1	211	1	8
+89	__main_7qG2_rbArgs_7qG2_000.Reset	1	1	212	1	8
+90	__PointOutArgs	8	0	3	12	4
+91	__PointOutArgs.Result	2	1	216	1	4
+92	__PointOutArgs.Location	8	0	2	4	4
+93	__PointOutArgs.Location.X	4	1	220	2	4
+94	__PointOutArgs.Location.Y	4	1	222	2	4
+95	__PointOutArgs.Options	5	1	224	4	4
+96	__XglReadPacket_7qG2_XglData_7qG2_000	8	0	5	12	7
+97	__XglReadPacket_7qG2_XglData_7qG2_000.mAng	4	1	228	2	7
+98	__XglReadPacket_7qG2_XglData_7qG2_000.mRate	4	1	230	2	7
+99	__XglReadPacket_7qG2_XglData_7qG2_000.mAccX	4	1	232	2	7
+100	__XglReadPacket_7qG2_XglData_7qG2_000.mAccY	4	1	234	2	7
+101	__XglReadPacket_7qG2_XglData_7qG2_000.mAccZ	4	1	236	2	7
+102	__SPTArgs	8	0	5	8	6
+103	__SPTArgs.Result	2	1	240	1	6
+104	__SPTArgs.Frequency	3	1	242	2	6
+105	__SPTArgs.Duration	3	1	244	2	6
+106	__SPTArgs.Loop	1	1	246	1	6
+107	__SPTArgs.Volume	1	1	247	1	6
+108	xgl	8	0	5	12	8
+109	xgl.mAng	4	1	248	2	8
+110	xgl.mRate	4	1	250	2	8
+111	xgl.mAccX	4	1	252	2	8
+112	xgl.mAccY	4	1	254	2	8
+113	xgl.mAccZ	4	1	256	2	8
+114	__CLSRArgs0	8	0	4	12	5
+115	__CLSRArgs0.Result	2	1	260	1	5
+116	__CLSRArgs0.Port	1	1	261	1	5
+117	__CLSRArgs0.Buffer	7	0	262	4	5
+118	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+119	__CLSRArgs0.BufferLen	1	1	264	1	5
+120	__CLSWArgs0	8	0	4	12	15
+121	__CLSWArgs0.Result	2	1	268	1	15
+122	__CLSWArgs0.Port	1	1	269	1	15
+123	__CLSWArgs0.Buffer	7	0	270	4	15
+124	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+125	__CLSWArgs0.ReturnLen	1	1	272	1	15
+126	__CLSCSArgs0	8	0	3	4	16
+127	__CLSCSArgs0.Result	2	1	276	1	16
+128	__CLSCSArgs0.Port	1	1	277	1	16
+129	__CLSCSArgs0.BytesReady	1	1	278	1	16
+130	__constStr0015	7	0	280	4	1
+131	__constStr0015.__constStr0015_type	1	1	0	1	0
+132	__constStr0016	7	0	282	4	1
+133	__constStr0016.__constStr0016_type	1	1	0	1	0
+134	__strbufdisply	7	0	284	4	12
+135	__strbufdisply.__strbufdisply_type	1	0	0	1	0
+136	__RLSReadBuf0	7	0	286	4	8
+137	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+138	__strbufmain	7	0	288	4	4
+139	__strbufmain.__strbufmain_type	1	0	0	1	0
+140	__XglReadPacket_7qG2_cmd_7qG2_000	7	0	290	4	3
+141	__XglReadPacket_7qG2_cmd_7qG2_000.__XglReadPacket_7qG2_cmd_7qG2_000_type	1	0	0	1	0
+142	__LSWriteOptions	7	0	292	4	3
+143	__LSWriteOptions.__LSWriteOptions_type	1	0	0	1	0
+144	__constStr0009	7	0	294	4	1
+145	__constStr0009.__constStr0009_type	1	1	0	1	0
+146	__XglReset_7qG2_cmd_7qG2_000	7	0	296	4	3
+147	__XglReset_7qG2_cmd_7qG2_000.__XglReset_7qG2_cmd_7qG2_000_type	1	0	0	1	0
+148	__XglAccSF_7qG2_cmd_7qG2_000	7	0	298	4	3
+149	__XglAccSF_7qG2_cmd_7qG2_000.__XglAccSF_7qG2_cmd_7qG2_000_type	1	0	0	1	0
+150	__XglReadPacket_7qG2_data_7qG2_000	7	0	300	4	12
+151	__XglReadPacket_7qG2_data_7qG2_000.__XglReadPacket_7qG2_data_7qG2_000_type	1	0	0	1	0
+152	__constStr0013	7	0	302	4	1
+153	__constStr0013.__constStr0013_type	1	1	0	1	0
+154	__constStr0014	7	0	304	4	1
+155	__constStr0014.__constStr0014_type	1	1	0	1	0
+156	__RLSLastGoodRead0	7	0	306	4	2
+157	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+158	__constStr0010	7	0	308	4	1
+159	__constStr0010.__constStr0010_type	1	1	0	1	0
+160	__constStr0011	7	0	310	4	1
+161	__constStr0011.__constStr0011_type	1	1	0	1	0
+162	__constStr0012	7	0	312	4	1
+163	__constStr0012.__constStr0012_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	139	0	#line 139 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	140	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	139	2	#line 139 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	139	2	#line 139 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	140	2		set __main_7qG2_acc_sf_7qG2_000, 0
+0	139	5	#line 139 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	143	5	#line 143 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	144	5		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	143	8	#line 143 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	143	8	#line 143 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	144	8		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4523	10	#line 4523 "NXCDefs.h"
+0	4524	10		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4523	12	#line 4523 "NXCDefs.h"
+0	4523	12	#line 4523 "NXCDefs.h"
+0	4524	12		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4523	14	#line 4523 "NXCDefs.h"
+0	4524	14		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4523	17	#line 4523 "NXCDefs.h"
+0	4524	17		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4523	20	#line 4523 "NXCDefs.h"
+0	4524	20		set __DU0SetSensorLowspeed_inline_main, 11
+0	4523	23	#line 4523 "NXCDefs.h"
+0	4523	23	#line 4523 "NXCDefs.h"
+0	4524	23		jmp __004__ASM_Label_37
+0	4523	25	#line 4523 "NXCDefs.h"
+0	4524	25		set __DU0SetSensorLowspeed_inline_main, 10
+0	4523	28	#line 4523 "NXCDefs.h"
+0	4523	28	#line 4523 "NXCDefs.h"
+0	4524	28		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4428	30	#line 4428 "NXCDefs.h"
+0	4429	30		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4428	34	#line 4428 "NXCDefs.h"
+0	4523	34	#line 4523 "NXCDefs.h"
+0	4524	34	#line 4524 "NXCDefs.h"
+0	4525	34		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4524	36	#line 4524 "NXCDefs.h"
+0	4524	36	#line 4524 "NXCDefs.h"
+0	4525	36		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4524	39	#line 4524 "NXCDefs.h"
+0	4441	39	#line 4441 "NXCDefs.h"
+0	4442	39		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4441	43	#line 4441 "NXCDefs.h"
+0	4524	43	#line 4524 "NXCDefs.h"
+0	4525	43	#line 4525 "NXCDefs.h"
+0	4526	43		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4525	45	#line 4525 "NXCDefs.h"
+0	4459	45	#line 4459 "NXCDefs.h"
+0	4460	45	#pragma macro 4
+0	4460	45		acquire __ResetSensorMutex
+0	4460	46		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main
+0	4460	48		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4460	50		release __ResetSensorMutex
+0	8005	51	#line 8005 "NXCDefs.h"
+0	4459	51	#line 4459 "NXCDefs.h"
+0	4525	51	#line 4525 "NXCDefs.h"
+0	143	51	#line 143 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	145	51	#line 145 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	146	51		subcall XglReset, __XglReset_return
+0	145	53	#line 145 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	146	53	#line 146 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	147	53		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	146	56	#line 146 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	8869	56	#line 8869 "NXCDefs.h"
+0	8870	56		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	58	#line 8869 "NXCDefs.h"
+0	146	58	#line 146 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	149	58	#line 149 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	150	58		start readGyro
+0	149	60	#line 149 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	150	60	#line 150 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	151	60		start disply
+0	150	62	#line 150 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	151	62	#line 151 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	152	62		start move
+0	151	64	#line 151 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	156	64	#line 156 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	157	64		set __D0main, 1
+0	158	67	#line 158 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	159	67		tst 5, __D0main, __D0main
+0	158	70	#line 158 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	159	70		brtst 4, __ASM_Label_776, __D0main
+0	158	73	#line 158 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	159	73		set __main_7qG2_rbArgs_7qG2_000.Index, 2
+0	158	76	#line 158 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	158	76	#line 158 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	160	76	#line 160 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	161	76	#pragma macro 4
+0	161	76	#line 161 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	161	76		syscall 20, __main_7qG2_rbArgs_7qG2_000
+0	159	79	#line 159 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	159	79	#line 159 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	159	79	#line 159 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	159	79	#line 159 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	160	79	#line 160 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	160	79	#line 160 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	161	79	#line 161 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	162	79		mov __DU0main, __main_7qG2_rbArgs_7qG2_000.Pressed
+0	162	81	#line 162 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	163	81		tst 5, __D0main, __DU0main
+0	162	84	#line 162 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	163	84		brtst 4, __ASM_Label_783, __D0main
+0	162	87	#line 162 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	163	87		subcall XglReset, __XglReset_return
+0	162	89	#line 162 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	163	89	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	89		set __signed_stack_001main, 0
+0	163	92	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	163	92	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	92		set __signed_stack_002main, 48
+0	163	95	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	163	95	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	95		strcat __strbufmain, __constStr0015
+0	163	99	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	99		set __D0main, 0
+0	163	102	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	102		acquire __TextOutMutex
+0	163	103	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	103		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	163	105	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	105		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	163	107	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	107		mov __TextOutArgs.Options, __D0main
+0	163	109	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	109		mov __TextOutArgs.Text, __strbufmain
+0	163	111	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	111		syscall 13, __TextOutArgs
+0	163	114	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	114		mov __D0main, __TextOutArgs.Result
+0	163	116	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	116		release __TextOutMutex
+0	163	117	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	164	117	#line 164 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	165	117		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	164	120	#line 164 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	8869	120	#line 8869 "NXCDefs.h"
+0	8870	120		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	122	#line 8869 "NXCDefs.h"
+0	164	122	#line 164 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	168	122	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	168	122	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	169	122		set __main_7qG2_rbArgs_7qG2_000.Index, 1
+0	168	125	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	168	125	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	170	125	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	171	125	#pragma macro 4
+0	171	125	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	171	125		syscall 20, __main_7qG2_rbArgs_7qG2_000
+0	169	128	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	169	128	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	169	128	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	169	128	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	170	128	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	170	128	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	171	128	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	172	128		mov __DU0main, __main_7qG2_rbArgs_7qG2_000.Pressed
+0	172	130	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	130		tst 5, __D0main, __DU0main
+0	172	133	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	133		brtst 4, __ASM_Label_796, __D0main
+0	172	136	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	136		mov __unsigned_stack_001main, __main_7qG2_acc_sf_7qG2_000
+0	172	138	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	172	138	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	138		set __D0main, 2
+0	172	141	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	141		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	172	145	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	145		brtst 4, __ASM_Label_801, __D0main
+0	172	148	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	148		set __DU0main, 0
+0	172	151	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	172	151	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	151		jmp __ASM_Label_802
+0	172	153	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	153		mov __unsigned_stack_001main, __main_7qG2_acc_sf_7qG2_000
+0	172	155	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	172	155	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	155		set __D0main, 1
+0	172	158	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	158		add __DU0main, __unsigned_stack_001main, __D0main
+0	172	162	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	172	162	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	162		mov __main_7qG2_acc_sf_7qG2_000, __DU0main
+0	172	164	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	164	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	173	164	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	174	164		mov __XglAccSF_7qG2_accSf_7qG2_000, __DU0main
+0	173	166	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	174	166		subcall XglAccSF, __XglAccSF_return
+0	173	168	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	174	168	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	168		set __signed_stack_001main, 0
+0	174	171	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	174	171	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	171		set __signed_stack_002main, 48
+0	174	174	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	174	174	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	174		strcat __strbufmain, __constStr0016
+0	174	178	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	178		acquire __TextOutMutex
+0	174	179	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	179		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	174	181	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	181		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	174	183	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	183		set __TextOutArgs.Options, 0
+0	174	186	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	186		mov __TextOutArgs.Text, __strbufmain
+0	174	188	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	188		syscall 13, __TextOutArgs
+0	174	191	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	191		mov __D0main, __TextOutArgs.Result
+0	174	193	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	193		release __TextOutMutex
+0	174	194	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	194	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	194		set __signed_stack_001main, 75
+0	175	197	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	197	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	197		set __signed_stack_002main, 48
+0	175	200	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	200	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	200		set __signed_stack_003main, 2
+0	175	203	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	203	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	175	203	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	203		asl __D0main, __signed_stack_003main, __main_7qG2_acc_sf_7qG2_000
+0	175	207	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	207		acquire __TextOutMutex
+0	175	208	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	208		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	175	210	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	210		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	175	212	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	212		set __TextOutArgs.Options, 0
+0	175	215	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	215		numtostr __TextOutArgs.Text, __D0main
+0	175	218	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	218		syscall 13, __TextOutArgs
+0	175	221	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	221		mov __D0main, __TextOutArgs.Result
+0	175	223	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	223		release __TextOutMutex
+0	175	224	#line 175 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	176	224	#line 176 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	177	224		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	176	227	#line 176 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	8869	227	#line 8869 "NXCDefs.h"
+0	8870	227		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	229	#line 8869 "NXCDefs.h"
+0	176	229	#line 176 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	178	229	#line 178 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	178	229	#line 178 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	179	229		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	178	232	#line 178 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	8869	232	#line 8869 "NXCDefs.h"
+0	8870	232		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	234	#line 8869 "NXCDefs.h"
+0	178	234	#line 178 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	183	234	#line 183 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	184	234		jmp __ASM_Label_775
+0	183	236	#line 183 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+0	184	236		exit -1, -1
+1	5724	0		setin __constVal1, __ResetSensorPort, 5
+1	5726	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5727	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5728	11		subret ____ResetSensorSubroutine_return
+2	6520	0	#pragma macro 27
+2	6520	0		acquire __CLSWMutex0
+2	6520	1		index __LSWriteOptionsVar, __LSWriteOptions, __constVal0
+2	6520	5		or __CLSWArgs0.Port, __constVal0, __LSWriteOptionsVar
+2	6520	9		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	6520	11		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	6520	13		syscall 21, __CLSWArgs0
+2	6520	16		mov __RLSBResult0, __CLSWArgs0.Result
+2	6520	18		release __CLSWMutex0
+2	6521	19	#line 6521 "NXTDefs.h"
+2	6522	19		brtst 5, __RLSBError0, __RLSBResult0
+2	6523	22		set __RLSBIterations0, 60
+2	6525	25	#pragma macro 23
+2	6525	25		acquire __CLSCSMutex0
+2	6525	26		set __CLSCSArgs0.Port, 0
+2	6525	29		syscall 23, __CLSCSArgs0
+2	6525	32		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	6525	34		mov __RLSBResult0, __CLSCSArgs0.Result
+2	6525	36		release __CLSCSMutex0
+2	6525	37	#line 6525 "NXTDefs.h"
+2	6526	37		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	6527	41		brtst 2, __RLSBError0, __RLSBIterations0
+2	6528	44		brtst 0, __RLSBError0, __RLSBResult0
+2	6529	47		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	6531	50		wait 1
+2	6532	52		jmp __RLSBDoCheckStatus0
+2	6534	54		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	6535	57		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	6537	61	#pragma macro 25
+2	6537	61		acquire __CLSRMutex0
+2	6537	62		set __CLSRArgs0.Port, 0
+2	6537	65		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	6537	67		syscall 22, __CLSRArgs0
+2	6537	70		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	6537	72		mov __RLSBResult0, __CLSRArgs0.Result
+2	6537	74		release __CLSRMutex0
+2	6537	75	#line 6537 "NXTDefs.h"
+2	6538	75		brtst 5, __RLSBError0, __RLSBResult0
+2	6539	78		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	6540	80		jmp __RLSBDone0
+2	6542	82		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	6544	84		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	6546	87		subret ____ReadLSBytes0_return
+3	32	0	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	33	0		arrinit __XglReset_7qG2_cmd_7qG2_000, __constVal0, __constVal2
+3	33	4	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	34	4		set __XglReset_7qG2_n_read_7qG2_000, 0
+3	33	7	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	34	7	#line 34 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	35	7		arrbuild __XglReset_7qG2_cmd_7qG2_000, __constVal2, __constVal96
+3	34	12	#line 34 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	34	12	#line 34 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	35	12	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	36	12	#pragma macro 23
+3	36	12		acquire __CLSCSMutex0
+3	36	13		set __CLSCSArgs0.Port, 0
+3	36	16		syscall 23, __CLSCSArgs0
+3	36	19		mov __XglReset_7qG2_n_read_7qG2_000, __CLSCSArgs0.BytesReady
+3	36	21		mov __D0XglReset, __CLSCSArgs0.Result
+3	36	23		release __CLSCSMutex0
+3	6938	24	#line 6938 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	35	24	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	36	24		mov __signed_stack_001XglReset, __D0XglReset
+3	35	26	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	36	26		set __D0XglReset, 32
+3	35	29	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	36	29		cmp 4, __D0XglReset, __signed_stack_001XglReset, __D0XglReset
+3	35	33	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	36	33		brtst 4, __ASM_Label_617, __D0XglReset
+3	35	36	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	35	36	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	36	36		jmp __ASM_Label_616
+3	35	38	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	36	38	#line 36 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	37	38	#pragma macro 27
+3	37	38		acquire __CLSWMutex0
+3	37	39		index __LSWriteOptionsVar, __LSWriteOptions, __constVal0
+3	37	43		or __CLSWArgs0.Port, __constVal0, __LSWriteOptionsVar
+3	37	47		mov __CLSWArgs0.ReturnLen, __constVal0
+3	37	49		mov __CLSWArgs0.Buffer, __XglReset_7qG2_cmd_7qG2_000
+3	37	51		syscall 21, __CLSWArgs0
+3	37	54		mov __D0XglReset, __CLSWArgs0.Result
+3	37	56		release __CLSWMutex0
+3	6957	57	#line 6957 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	36	57	#line 36 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	36	57	#line 36 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	43	57	#line 43 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+3	44	57		subret __XglReset_return
+4	45	0	#line 45 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	46	0		arrinit __XglAccSF_7qG2_cmd_7qG2_000, __constVal0, __constVal2
+4	46	4	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	47	4		set __XglAccSF_7qG2_n_read_7qG2_000, 0
+4	46	7	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	47	7	#line 47 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	48	7		set __signed_stack_001XglAccSF, 97
+4	47	10	#line 47 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	47	10	#line 47 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	47	10	#line 47 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	48	10		add __XglAccSF_7qG2_register_7qG2_000, __signed_stack_001XglAccSF, __XglAccSF_7qG2_accSf_7qG2_000
+4	47	14	#line 47 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	48	14	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	49	14		arrbuild __XglAccSF_7qG2_cmd_7qG2_000, __constVal2, __XglAccSF_7qG2_register_7qG2_000
+4	48	19	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	48	19	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	49	19	#line 49 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	50	19	#pragma macro 23
+4	50	19		acquire __CLSCSMutex0
+4	50	20		set __CLSCSArgs0.Port, 0
+4	50	23		syscall 23, __CLSCSArgs0
+4	50	26		mov __XglAccSF_7qG2_n_read_7qG2_000, __CLSCSArgs0.BytesReady
+4	50	28		mov __D0XglAccSF, __CLSCSArgs0.Result
+4	50	30		release __CLSCSMutex0
+4	7007	31	#line 7007 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	49	31	#line 49 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	50	31		mov __signed_stack_001XglAccSF, __D0XglAccSF
+4	49	33	#line 49 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	50	33		set __D0XglAccSF, 32
+4	49	36	#line 49 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	50	36		cmp 4, __D0XglAccSF, __signed_stack_001XglAccSF, __D0XglAccSF
+4	49	40	#line 49 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	50	40		brtst 4, __ASM_Label_625, __D0XglAccSF
+4	49	43	#line 49 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	49	43	#line 49 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	50	43		jmp __ASM_Label_624
+4	49	45	#line 49 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	50	45	#line 50 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	51	45	#pragma macro 27
+4	51	45		acquire __CLSWMutex0
+4	51	46		index __LSWriteOptionsVar, __LSWriteOptions, __constVal0
+4	51	50		or __CLSWArgs0.Port, __constVal0, __LSWriteOptionsVar
+4	51	54		mov __CLSWArgs0.ReturnLen, __constVal0
+4	51	56		mov __CLSWArgs0.Buffer, __XglAccSF_7qG2_cmd_7qG2_000
+4	51	58		syscall 21, __CLSWArgs0
+4	51	61		mov __D0XglAccSF, __CLSWArgs0.Result
+4	51	63		release __CLSWMutex0
+4	7026	64	#line 7026 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	50	64	#line 50 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	50	64	#line 50 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	54	64	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+4	55	64		subret __XglAccSF_return
+5	56	0	#line 56 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	57	0		arrinit __XglReadPacket_7qG2_data_7qG2_000, __constVal0, __constVal10
+5	57	4	#line 57 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	58	4		arrinit __XglReadPacket_7qG2_cmd_7qG2_000, __constVal0, __constVal2
+5	58	8	#line 58 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	59	8		set __XglReadPacket_7qG2_count_7qG2_000, 10
+5	58	11	#line 58 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	59	11	#line 59 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	60	11		set __XglReadPacket_7qG2_n_read_7qG2_000, 0
+5	59	14	#line 59 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	60	14	#line 60 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	61	14		arrbuild __XglReadPacket_7qG2_cmd_7qG2_000, __constVal2, __constVal66
+5	60	19	#line 60 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	60	19	#line 60 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	61	19	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	62	19	#pragma macro 23
+5	62	19		acquire __CLSCSMutex0
+5	62	20		set __CLSCSArgs0.Port, 0
+5	62	23		syscall 23, __CLSCSArgs0
+5	62	26		mov __XglReadPacket_7qG2_n_read_7qG2_000, __CLSCSArgs0.BytesReady
+5	62	28		mov __D0XglReadPacket, __CLSCSArgs0.Result
+5	62	30		release __CLSCSMutex0
+5	7072	31	#line 7072 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	61	31	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	62	31		mov __signed_stack_001XglReadPacket, __D0XglReadPacket
+5	61	33	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	62	33		set __D0XglReadPacket, 32
+5	61	36	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	62	36		cmp 4, __D0XglReadPacket, __signed_stack_001XglReadPacket, __D0XglReadPacket
+5	61	40	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	62	40		brtst 4, __ASM_Label_633, __D0XglReadPacket
+5	61	43	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	61	43	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	62	43		jmp __ASM_Label_632
+5	61	45	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	62	45	#line 62 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	63	45	#pragma macro 28
+5	63	45		acquire __RLSBmutex0
+5	63	46		mov __RLSReadBuf0, __XglReadPacket_7qG2_cmd_7qG2_000
+5	63	48		mov __RLSBytesCount0, __XglReadPacket_7qG2_count_7qG2_000
+5	63	50		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+5	63	52		tst 4, __D0XglReadPacket, __RLSBResult0
+5	63	55		mov __XglReadPacket_7qG2_count_7qG2_000, __RLSBytesCount0
+5	63	57		mov __XglReadPacket_7qG2_data_7qG2_000, __RLSReadBuf0
+5	63	59		release __RLSBmutex0
+5	7091	60	#line 7091 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	64	60	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	60		tst 5, __D0XglReadPacket, __D0XglReadPacket
+5	64	63	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	63		brtst 4, __ASM_Label_638, __D0XglReadPacket
+5	64	66	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	66		set __signed_stack_001XglReadPacket, 0
+5	64	69	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	64	69	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	69		index __unsigned_stack_001XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_001XglReadPacket
+5	64	73	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	64	73	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	64	73	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	73		set __signed_stack_002XglReadPacket, 1
+5	64	76	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	64	76	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	76		index __unsigned_stack_002XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_002XglReadPacket
+5	64	80	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	64	80	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	64	80	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	80		set __D0XglReadPacket, 256
+5	64	83	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	83		mul __D0XglReadPacket, __unsigned_stack_002XglReadPacket, __D0XglReadPacket
+5	64	87	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	87		add __XglReadPacket_7qG2_XglData_7qG2_000.mAng, __unsigned_stack_001XglReadPacket, __D0XglReadPacket
+5	64	91	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	64	91	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	91	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	91		set __signed_stack_001XglReadPacket, 2
+5	65	94	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	94	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	94		index __unsigned_stack_001XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_001XglReadPacket
+5	65	98	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	98	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	98	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	98		set __signed_stack_002XglReadPacket, 3
+5	65	101	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	101	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	101		index __unsigned_stack_002XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_002XglReadPacket
+5	65	105	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	105	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	105	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	105		set __D0XglReadPacket, 256
+5	65	108	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	108		mul __D0XglReadPacket, __unsigned_stack_002XglReadPacket, __D0XglReadPacket
+5	65	112	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	112		add __XglReadPacket_7qG2_XglData_7qG2_000.mRate, __unsigned_stack_001XglReadPacket, __D0XglReadPacket
+5	65	116	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	65	116	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	116	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	116		set __signed_stack_001XglReadPacket, 4
+5	66	119	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	119	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	119		index __unsigned_stack_001XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_001XglReadPacket
+5	66	123	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	123	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	123	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	123		set __signed_stack_002XglReadPacket, 5
+5	66	126	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	126	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	126		index __unsigned_stack_002XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_002XglReadPacket
+5	66	130	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	130	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	130	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	130		set __D0XglReadPacket, 256
+5	66	133	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	133		mul __D0XglReadPacket, __unsigned_stack_002XglReadPacket, __D0XglReadPacket
+5	66	137	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	137		add __XglReadPacket_7qG2_XglData_7qG2_000.mAccX, __unsigned_stack_001XglReadPacket, __D0XglReadPacket
+5	66	141	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	66	141	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	141	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	141		set __signed_stack_001XglReadPacket, 6
+5	67	144	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	144	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	144		index __unsigned_stack_001XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_001XglReadPacket
+5	67	148	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	148	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	148	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	148		set __signed_stack_002XglReadPacket, 7
+5	67	151	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	151	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	151		index __unsigned_stack_002XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_002XglReadPacket
+5	67	155	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	155	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	155	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	155		set __D0XglReadPacket, 256
+5	67	158	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	158		mul __D0XglReadPacket, __unsigned_stack_002XglReadPacket, __D0XglReadPacket
+5	67	162	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	162		add __XglReadPacket_7qG2_XglData_7qG2_000.mAccY, __unsigned_stack_001XglReadPacket, __D0XglReadPacket
+5	67	166	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	67	166	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	166	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	69	166		set __signed_stack_001XglReadPacket, 8
+5	68	169	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	169	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	69	169		index __unsigned_stack_001XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_001XglReadPacket
+5	68	173	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	173	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	173	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	69	173		set __signed_stack_002XglReadPacket, 9
+5	68	176	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	176	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	69	176		index __unsigned_stack_002XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_002XglReadPacket
+5	68	180	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	180	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	180	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	69	180		set __D0XglReadPacket, 256
+5	68	183	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	69	183		mul __D0XglReadPacket, __unsigned_stack_002XglReadPacket, __D0XglReadPacket
+5	68	187	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	69	187		add __XglReadPacket_7qG2_XglData_7qG2_000.mAccZ, __unsigned_stack_001XglReadPacket, __D0XglReadPacket
+5	68	191	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	68	191	#line 68 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	73	191	#line 73 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	73	191	#line 73 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+5	74	191		subret __XglReadPacket_return
+6	78	0	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	79	0		set __move_7qG2_pwr_7qG2_000, 25
+6	78	3	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	82	3	#line 82 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	83	3		set __D0move, 1
+6	83	6	#line 83 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	84	6		tst 5, __D0move, __D0move
+6	83	9	#line 83 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	84	9		brtst 4, __ASM_Label_672, __D0move
+6	83	12	#line 83 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	83	12	#line 83 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	83	12	#line 83 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	83	12	#line 83 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	84	12		sub __D0move, target, xgl.mAng
+6	83	16	#line 83 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	84	16		abs __signed_stack_001move, __D0move
+6	83	19	#line 83 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	84	19	#line 84 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	85	19		set __D0move, 100
+6	84	22	#line 84 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	85	22		cmp 0, __D0move, __signed_stack_001move, __D0move
+6	85	26	#line 85 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	86	26		brtst 4, __ASM_Label_679, __D0move
+6	85	29	#line 85 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	86	29	#pragma macro 7
+6	86	29		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	7366	52	#line 7366 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	85	52	#line 85 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	86	52	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	52		set __signed_stack_001move, 440
+6	86	55	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	86	55	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	55		set __signed_stack_002move, 125
+6	86	58	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	86	58	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	58		set __signed_stack_003move, 4
+6	86	61	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	86	61	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	61		set __D0move, 0
+6	86	64	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	64		acquire __SPTArgsMutex
+6	86	65	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	65		mov __SPTArgs.Frequency, __signed_stack_001move
+6	86	67	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	67		mov __SPTArgs.Duration, __signed_stack_002move
+6	86	69	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	69		mov __SPTArgs.Volume, __signed_stack_003move
+6	86	71	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	71		mov __SPTArgs.Loop, __D0move
+6	86	73	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	73		syscall 10, __SPTArgs
+6	86	76	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	76		mov __D0move, __SPTArgs.Result
+6	86	78	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	78		release __SPTArgsMutex
+6	86	79	#line 86 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	79	#line 87 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	79	#line 87 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	79	#line 87 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	79	#line 87 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	88	79		mul target, target, __constValNeg1
+6	87	83	#line 87 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	87	83	#line 87 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	88	83	#line 88 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	88	83	#line 88 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	88	83	#line 88 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	88	83	#line 88 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	89	83		mul __move_7qG2_pwr_7qG2_000, __move_7qG2_pwr_7qG2_000, __constValNeg1
+6	88	87	#line 88 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	88	87	#line 88 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	89	87	#line 89 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	90	87		set __Wait_7qG2_ms_7qG2_000_inline_move, 5000
+6	89	90	#line 89 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	8869	90	#line 8869 "NXCDefs.h"
+6	8870	90		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+6	8869	92	#line 8869 "NXCDefs.h"
+6	89	92	#line 89 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	93	92	#line 93 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	94	92		jmp __ASM_Label_694
+6	93	94	#line 93 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	94	94		mov __D0move, __move_7qG2_pwr_7qG2_000
+6	93	96	#line 93 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	94	96	#pragma macro 7
+6	94	96		setout __constVal1, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	7455	119	#line 7455 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	93	119	#line 93 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	95	119	#line 95 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	95	119	#line 95 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	96	119		set __Wait_7qG2_ms_7qG2_000_inline_move, 50
+6	95	122	#line 95 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	8869	122	#line 8869 "NXCDefs.h"
+6	8870	122		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+6	8869	124	#line 8869 "NXCDefs.h"
+6	95	124	#line 95 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	99	124	#line 99 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	100	124		jmp __ASM_Label_671
+6	99	126	#line 99 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+6	100	126		exit -1, -1
+7	102	0	#line 102 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	103	0		set __D0readGyro, 1
+7	103	3	#line 103 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	104	3		tst 5, __D0readGyro, __D0readGyro
+7	103	6	#line 103 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	104	6		brtst 4, __ASM_Label_700, __D0readGyro
+7	103	9	#line 103 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	104	9		mov __XglReadPacket_7qG2_XglData_7qG2_000, xgl
+7	103	11	#line 103 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	104	11		subcall XglReadPacket, __XglReadPacket_return
+7	103	13	#line 103 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	104	13		mov xgl, __XglReadPacket_7qG2_XglData_7qG2_000
+7	103	15	#line 103 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	104	15	#line 104 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	105	15		set __Wait_7qG2_ms_7qG2_000_inline_readGyro, 50
+7	104	18	#line 104 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	8869	18	#line 8869 "NXCDefs.h"
+7	8870	18		waitv __Wait_7qG2_ms_7qG2_000_inline_readGyro
+7	8869	20	#line 8869 "NXCDefs.h"
+7	104	20	#line 104 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	109	20	#line 109 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	110	20		jmp __ASM_Label_699
+7	109	22	#line 109 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+7	110	22		exit -1, -1
+8	112	0	#line 112 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	113	0		set __D0disply, 1
+8	113	3	#line 113 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	114	3		tst 5, __D0disply, __D0disply
+8	113	6	#line 113 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	114	6		brtst 4, __ASM_Label_706, __D0disply
+8	6921	9	#line 6921 "NXCDefs.h"
+8	6922	9	#pragma macro 6
+8	6922	9		acquire __PointOutMutex
+8	6922	10		mov __PointOutArgs.Location.X, __constVal200
+8	6922	12		mov __PointOutArgs.Location.Y, __constVal200
+8	6922	14		mov __PointOutArgs.Options, __constVal1
+8	6922	16		syscall 14, __PointOutArgs
+8	6922	19		release __PointOutMutex
+8	7515	20	#line 7515 "NXCDefs.h"
+8	6921	20	#line 6921 "NXCDefs.h"
+8	113	20	#line 113 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	114	20	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	20		set __signed_stack_001disply, 0
+8	114	23	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	114	23	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	23		set __signed_stack_002disply, 56
+8	114	26	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	114	26	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	26		strcat __strbufdisply, __constStr0009
+8	114	30	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	30		set __D0disply, 0
+8	114	33	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	33		acquire __TextOutMutex
+8	114	34	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	34		mov __TextOutArgs.Location.X, __signed_stack_001disply
+8	114	36	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	36		mov __TextOutArgs.Location.Y, __signed_stack_002disply
+8	114	38	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	38		mov __TextOutArgs.Options, __D0disply
+8	114	40	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	40		mov __TextOutArgs.Text, __strbufdisply
+8	114	42	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	42		syscall 13, __TextOutArgs
+8	114	45	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	45		mov __D0disply, __TextOutArgs.Result
+8	114	47	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	115	47		release __TextOutMutex
+8	114	48	#line 114 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	116	48	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	48		set __signed_stack_001disply, 0
+8	116	51	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	116	51	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	51		set __signed_stack_002disply, 40
+8	116	54	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	116	54	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	54		strcat __strbufdisply, __constStr0010
+8	116	58	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	58		acquire __TextOutMutex
+8	116	59	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	59		mov __TextOutArgs.Location.X, __signed_stack_001disply
+8	116	61	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	61		mov __TextOutArgs.Location.Y, __signed_stack_002disply
+8	116	63	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	63		set __TextOutArgs.Options, 0
+8	116	66	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	66		mov __TextOutArgs.Text, __strbufdisply
+8	116	68	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	68		syscall 13, __TextOutArgs
+8	116	71	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	71		mov __D0disply, __TextOutArgs.Result
+8	116	73	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	73		release __TextOutMutex
+8	116	74	#line 116 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	74	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	118	74		set __signed_stack_001disply, 40
+8	117	77	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	77	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	118	77		set __signed_stack_002disply, 40
+8	117	80	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	117	80	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	118	80		mov __D0disply, xgl.mAng
+8	117	82	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	118	82		acquire __TextOutMutex
+8	117	83	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	118	83		mov __TextOutArgs.Location.X, __signed_stack_001disply
+8	117	85	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	118	85		mov __TextOutArgs.Location.Y, __signed_stack_002disply
+8	117	87	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	118	87		set __TextOutArgs.Options, 0
+8	117	90	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	118	90		numtostr __TextOutArgs.Text, __D0disply
+8	117	93	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	118	93		syscall 13, __TextOutArgs
+8	117	96	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	118	96		mov __D0disply, __TextOutArgs.Result
+8	117	98	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	118	98		release __TextOutMutex
+8	117	99	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	119	99	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	99		set __signed_stack_001disply, 0
+8	119	102	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	119	102	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	102		set __signed_stack_002disply, 40
+8	119	105	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	119	105	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	105		strcat __strbufdisply, __constStr0011
+8	119	109	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	109		acquire __TextOutMutex
+8	119	110	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	110		mov __TextOutArgs.Location.X, __signed_stack_001disply
+8	119	112	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	112		mov __TextOutArgs.Location.Y, __signed_stack_002disply
+8	119	114	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	114		set __TextOutArgs.Options, 0
+8	119	117	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	117		mov __TextOutArgs.Text, __strbufdisply
+8	119	119	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	119		syscall 13, __TextOutArgs
+8	119	122	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	122		mov __D0disply, __TextOutArgs.Result
+8	119	124	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	124		release __TextOutMutex
+8	119	125	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	125	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	125		set __signed_stack_001disply, 40
+8	120	128	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	128	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	128		set __signed_stack_002disply, 32
+8	120	131	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	131	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	131	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	131	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	120	131	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	131		sub __D0disply, target, xgl.mAng
+8	120	135	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	135		abs __D0disply, __D0disply
+8	120	138	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	138		acquire __TextOutMutex
+8	120	139	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	139		mov __TextOutArgs.Location.X, __signed_stack_001disply
+8	120	141	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	141		mov __TextOutArgs.Location.Y, __signed_stack_002disply
+8	120	143	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	143		set __TextOutArgs.Options, 0
+8	120	146	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	146		numtostr __TextOutArgs.Text, __D0disply
+8	120	149	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	149		syscall 13, __TextOutArgs
+8	120	152	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	152		mov __D0disply, __TextOutArgs.Result
+8	120	154	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	121	154		release __TextOutMutex
+8	120	155	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	125	155	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	155		set __signed_stack_001disply, 0
+8	125	158	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	125	158	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	158		set __signed_stack_002disply, 24
+8	125	161	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	125	161	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	161		strcat __strbufdisply, __constStr0012
+8	125	165	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	165		acquire __TextOutMutex
+8	125	166	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	166		mov __TextOutArgs.Location.X, __signed_stack_001disply
+8	125	168	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	168		mov __TextOutArgs.Location.Y, __signed_stack_002disply
+8	125	170	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	170		set __TextOutArgs.Options, 0
+8	125	173	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	173		mov __TextOutArgs.Text, __strbufdisply
+8	125	175	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	175		syscall 13, __TextOutArgs
+8	125	178	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	178		mov __D0disply, __TextOutArgs.Result
+8	125	180	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	180		release __TextOutMutex
+8	125	181	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	181	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	127	181		set __signed_stack_001disply, 40
+8	126	184	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	184	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	127	184		set __signed_stack_002disply, 24
+8	126	187	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	126	187	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	127	187		mov __D0disply, xgl.mAccX
+8	126	189	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	127	189		acquire __TextOutMutex
+8	126	190	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	127	190		mov __TextOutArgs.Location.X, __signed_stack_001disply
+8	126	192	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	127	192		mov __TextOutArgs.Location.Y, __signed_stack_002disply
+8	126	194	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	127	194		set __TextOutArgs.Options, 0
+8	126	197	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	127	197		numtostr __TextOutArgs.Text, __D0disply
+8	126	200	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	127	200		syscall 13, __TextOutArgs
+8	126	203	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	127	203		mov __D0disply, __TextOutArgs.Result
+8	126	205	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	127	205		release __TextOutMutex
+8	126	206	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	128	206	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	206		set __signed_stack_001disply, 0
+8	128	209	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	128	209	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	209		set __signed_stack_002disply, 16
+8	128	212	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	128	212	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	212		strcat __strbufdisply, __constStr0013
+8	128	216	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	216		acquire __TextOutMutex
+8	128	217	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	217		mov __TextOutArgs.Location.X, __signed_stack_001disply
+8	128	219	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	219		mov __TextOutArgs.Location.Y, __signed_stack_002disply
+8	128	221	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	221		set __TextOutArgs.Options, 0
+8	128	224	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	224		mov __TextOutArgs.Text, __strbufdisply
+8	128	226	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	226		syscall 13, __TextOutArgs
+8	128	229	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	229		mov __D0disply, __TextOutArgs.Result
+8	128	231	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	231		release __TextOutMutex
+8	128	232	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	232	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	130	232		set __signed_stack_001disply, 40
+8	129	235	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	235	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	130	235		set __signed_stack_002disply, 16
+8	129	238	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	129	238	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	130	238		mov __D0disply, xgl.mAccY
+8	129	240	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	130	240		acquire __TextOutMutex
+8	129	241	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	130	241		mov __TextOutArgs.Location.X, __signed_stack_001disply
+8	129	243	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	130	243		mov __TextOutArgs.Location.Y, __signed_stack_002disply
+8	129	245	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	130	245		set __TextOutArgs.Options, 0
+8	129	248	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	130	248		numtostr __TextOutArgs.Text, __D0disply
+8	129	251	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	130	251		syscall 13, __TextOutArgs
+8	129	254	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	130	254		mov __D0disply, __TextOutArgs.Result
+8	129	256	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	130	256		release __TextOutMutex
+8	129	257	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	131	257	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	257		set __signed_stack_001disply, 0
+8	131	260	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	131	260	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	260		set __signed_stack_002disply, 8
+8	131	263	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	131	263	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	263		strcat __strbufdisply, __constStr0014
+8	131	267	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	267		acquire __TextOutMutex
+8	131	268	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	268		mov __TextOutArgs.Location.X, __signed_stack_001disply
+8	131	270	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	270		mov __TextOutArgs.Location.Y, __signed_stack_002disply
+8	131	272	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	272		set __TextOutArgs.Options, 0
+8	131	275	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	275		mov __TextOutArgs.Text, __strbufdisply
+8	131	277	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	277		syscall 13, __TextOutArgs
+8	131	280	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	280		mov __D0disply, __TextOutArgs.Result
+8	131	282	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	282		release __TextOutMutex
+8	131	283	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	283	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	283		set __signed_stack_001disply, 40
+8	132	286	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	286	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	286		set __signed_stack_002disply, 8
+8	132	289	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	132	289	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	289		mov __D0disply, xgl.mAccZ
+8	132	291	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	291		acquire __TextOutMutex
+8	132	292	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	292		mov __TextOutArgs.Location.X, __signed_stack_001disply
+8	132	294	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	294		mov __TextOutArgs.Location.Y, __signed_stack_002disply
+8	132	296	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	296		set __TextOutArgs.Options, 0
+8	132	299	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	299		numtostr __TextOutArgs.Text, __D0disply
+8	132	302	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	302		syscall 13, __TextOutArgs
+8	132	305	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	305		mov __D0disply, __TextOutArgs.Result
+8	132	307	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	307		release __TextOutMutex
+8	132	308	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	133	308	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	134	308		set __Wait_7qG2_ms_7qG2_000_inline_disply, 50
+8	133	311	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	8869	311	#line 8869 "NXCDefs.h"
+8	8870	311		waitv __Wait_7qG2_ms_7qG2_000_inline_disply
+8	8869	313	#line 8869 "NXCDefs.h"
+8	133	313	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	137	313	#line 137 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	138	313		jmp __ASM_Label_705
+8	137	315	#line 137 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+8	138	315		exit -1, -1
+9	184	0	#line 184 "C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc"
+9	185	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc
+1	__ResetSensorSubroutine	239	NXTDefs.h
+2	__ReadLSBytes0	252	NXTDefs.h
+3	XglReset	341	C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc
+4	XglAccSF	400	C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc
+5	XglReadPacket	466	C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc
+6	move	659	C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc
+7	readGyro	788	C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc
+8	disply	813	C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc
+9	__initialize_global_data	1131	C:\Users\ronk\Documents\NXCprograms\5mB_90degTurnMIxglTest2.nxc

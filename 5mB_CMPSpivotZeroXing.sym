@@ -1,0 +1,570 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001move	6	1	0	4	16
+1	__CLSCSMutex1	9	0	4	4	2
+2	__signed_stack_002display	6	1	8	4	8
+3	__CLSWMutex1	9	0	12	4	2
+4	__RLSBmutex1	9	0	16	4	2
+5	__TextOutMutex	9	0	20	4	16
+6	__CLSRMutex1	9	0	24	4	2
+7	__D0read	6	1	28	4	9
+8	__D0display	6	1	32	4	14
+9	__D0move	6	1	36	4	26
+10	__D0SetSensorLowspeed_inline_main	6	1	40	4	3
+11	__signed_stack_001display	6	1	44	4	8
+12	__DU0SetSensorLowspeed_inline_main	5	1	48	4	2
+13	relative_heading	4	1	52	2	5
+14	__constVal360	4	0	54	2	1
+15	Compass_val	4	1	56	2	7
+16	pwr	4	1	58	2	6
+17	steer	4	0	60	2	2
+18	target_heading	4	1	62	2	10
+19	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	64	1	2
+20	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	65	1	2
+21	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	66	1	2
+22	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	67	1	2
+23	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	68	1	2
+24	__zfread	1	1	69	1	2
+25	__constVal63	2	0	70	1	2
+26	__constVal96	2	0	71	1	2
+27	__ClearLine_7qG2_line_7qG2_000_inline_display	1	1	72	1	8
+28	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	73	1	4
+29	__zfSetSensorLowspeed_inline_main	1	1	74	1	2
+30	____initialize_global_data_return	1	1	75	1	3
+31	__constVal0	2	1	76	1	15
+32	____ReadLSBytes1_return	1	1	77	1	3
+33	__constVal1	2	0	78	1	6
+34	__constVal3	2	0	79	1	1
+35	__ResetSensorPort	1	1	80	1	3
+36	__ResetSensorTmp	1	1	81	1	2
+37	____ResetSensorSubroutine_return	1	1	82	1	3
+38	__RLSBResult1	2	1	83	1	7
+39	__zfmove	1	1	84	1	20
+40	__zfdisplay	1	1	85	1	2
+41	__constVal7	2	0	86	1	1
+42	__constVal90	2	0	87	1	1
+43	__RLSBytesCount1	1	1	88	1	9
+44	__RLSBIterations1	1	1	89	1	4
+45	__constVal32	2	0	90	1	6
+46	__CLSCSArgs1	8	0	3	4	4
+47	__CLSCSArgs1.Result	2	1	92	1	4
+48	__CLSCSArgs1.Port	1	1	93	1	4
+49	__CLSCSArgs1.BytesReady	1	1	94	1	4
+50	__TextOutArgs	8	0	4	16	44
+51	__TextOutArgs.Result	2	1	96	1	44
+52	__TextOutArgs.Location	8	0	2	4	44
+53	__TextOutArgs.Location.X	4	1	100	2	44
+54	__TextOutArgs.Location.Y	4	1	102	2	44
+55	__TextOutArgs.Text	7	0	104	4	44
+56	__TextOutArgs.Text.Text_type	1	0	0	1	0
+57	__TextOutArgs.Options	5	1	108	4	44
+58	__CLSRArgs1	8	0	4	12	5
+59	__CLSRArgs1.Result	2	1	112	1	5
+60	__CLSRArgs1.Port	1	1	113	1	5
+61	__CLSRArgs1.Buffer	7	0	114	4	5
+62	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+63	__CLSRArgs1.BufferLen	1	1	116	1	5
+64	__CLSWArgs1	8	0	4	12	5
+65	__CLSWArgs1.Result	2	1	120	1	5
+66	__CLSWArgs1.Port	1	1	121	1	5
+67	__CLSWArgs1.Buffer	7	0	122	4	5
+68	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+69	__CLSWArgs1.ReturnLen	1	1	124	1	5
+70	__RLSLastGoodRead1	7	0	126	4	2
+71	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+72	__RLSReadBuf1	7	0	128	4	9
+73	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+74	__BlankLine	7	0	130	4	4
+75	__BlankLine.__BlankLine_type	1	0	0	1	0
+76	__RLSBbufLSWrite1	7	0	132	4	1
+77	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	75	0	#line 75 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+0	76	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	75	2	#line 75 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+0	75	2	#line 75 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+0	76	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
+0	75	5	#line 75 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+0	76	5	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+0	77	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	7	#line 3758 "NXCDefs.h"
+0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	11	#line 3758 "NXCDefs.h"
+0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	14	#line 3758 "NXCDefs.h"
+0	3759	14		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	17	#line 3758 "NXCDefs.h"
+0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	20	#line 3758 "NXCDefs.h"
+0	3759	20		jmp __004__NXC_Label_37
+0	3758	22	#line 3758 "NXCDefs.h"
+0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	36	#line 3759 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3694	40	#line 3694 "NXCDefs.h"
+0	3695	40	#pragma macro 4
+0	3695	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6950	44	#line 6950 "NXCDefs.h"
+0	3694	44	#line 3694 "NXCDefs.h"
+0	3761	44	#line 3761 "NXCDefs.h"
+0	76	44	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+0	79	44	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+0	79	44	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+0	80	44		exit 0, 2
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5710	0	#pragma macro 25
+2	5710	0		acquire __CLSWMutex1
+2	5710	1		set __CLSWArgs1.Port, 1
+2	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+2	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+2	5710	8		syscall 21, __CLSWArgs1
+2	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+2	5710	13		release __CLSWMutex1
+2	5710	14	#line 5710 "NXTDefs.h"
+2	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+2	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+2	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+2	5714	24		set __RLSBIterations1, 4
+2	5716	27	#pragma macro 23
+2	5716	27		acquire __CLSCSMutex1
+2	5716	28		set __CLSCSArgs1.Port, 1
+2	5716	31		syscall 23, __CLSCSArgs1
+2	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+2	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+2	5716	38		release __CLSCSMutex1
+2	5716	39	#line 5716 "NXTDefs.h"
+2	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+2	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+2	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+2	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+2	5722	52		wait 15
+2	5723	54		jmp __RLSBDoCheckStatus1
+2	5726	56	#pragma macro 25
+2	5726	56		acquire __CLSRMutex1
+2	5726	57		set __CLSRArgs1.Port, 1
+2	5726	60		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+2	5726	62		syscall 22, __CLSRArgs1
+2	5726	65		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+2	5726	67		mov __RLSBResult1, __CLSRArgs1.Result
+2	5726	69		release __CLSRMutex1
+2	5726	70	#line 5726 "NXTDefs.h"
+2	5727	70		brtst 5, __RLSBError1, __RLSBResult1
+2	5728	73		mov __RLSLastGoodRead1, __RLSReadBuf1
+2	5729	75		jmp __RLSBDone1
+2	5731	77		mov __RLSReadBuf1, __RLSLastGoodRead1
+2	5733	79		arrsize __RLSBytesCount1, __RLSReadBuf1
+2	5735	82		subret ____ReadLSBytes1_return
+3	4	0	#line 4 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	5	0		set __D0read, 1
+3	5	3	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	6	3		tst 5, __zfread, __D0read
+3	5	6	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	6	6		brtst 4, __NXC_Label_605, __zfread
+3	5	9	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	6	9	#pragma macro 30
+3	6	9		acquire __RLSBmutex1
+3	6	10		mov __RLSReadBuf1, __RLSBbufLSWrite1
+3	6	12		set __RLSBytesCount1, 2
+3	6	15		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+3	6	17		index __D0read, __RLSReadBuf1, 65535
+3	6	21		index __RLSBytesCount1, __RLSReadBuf1, __constVal1
+3	6	25		add __D0read, __D0read, __D0read
+3	6	29		add __D0read, __D0read, __RLSBytesCount1
+3	6	33		release __RLSBmutex1
+3	6357	34	#line 6357 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	5	34	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	6	34		mov Compass_val, __D0read
+3	5	36	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	5	36	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	6	36	#line 6 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	6	36	#line 6 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	7921	36	#line 7921 "NXCDefs.h"
+3	7922	36		wait 50
+3	7921	38	#line 7921 "NXCDefs.h"
+3	7	38	#line 7 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	10	38	#line 10 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	11	38		jmp __NXC_Label_604
+3	10	40	#line 10 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+3	11	40		exit -1, -1
+4	12	0	#line 12 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	13	0		set __D0display, 1
+4	13	3	#line 13 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	14	3		tst 5, __zfdisplay, __D0display
+4	13	6	#line 13 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	14	6		brtst 4, __NXC_Label_613, __zfdisplay
+4	13	9	#line 13 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	14	9		set __ClearLine_7qG2_line_7qG2_000_inline_display, 32
+4	13	12	#line 13 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	6076	12	#line 6076 "NXCDefs.h"
+4	6077	12	#pragma macro 7
+4	6077	12		acquire __TextOutMutex
+4	6077	13		mov __TextOutArgs.Location.X, __constVal0
+4	6077	15		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+4	6077	17		mov __TextOutArgs.Options, __constVal0
+4	6077	19		mov __TextOutArgs.Text, __BlankLine
+4	6077	21		syscall 13, __TextOutArgs
+4	6077	24		release __TextOutMutex
+4	6405	25	#line 6405 "NXCDefs.h"
+4	6076	25	#line 6076 "NXCDefs.h"
+4	14	25	#line 14 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	14	25	#line 14 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	15	25		set __ClearLine_7qG2_line_7qG2_000_inline_display, 16
+4	14	28	#line 14 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	6076	28	#line 6076 "NXCDefs.h"
+4	6077	28	#pragma macro 7
+4	6077	28		acquire __TextOutMutex
+4	6077	29		mov __TextOutArgs.Location.X, __constVal0
+4	6077	31		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+4	6077	33		mov __TextOutArgs.Options, __constVal0
+4	6077	35		mov __TextOutArgs.Text, __BlankLine
+4	6077	37		syscall 13, __TextOutArgs
+4	6077	40		release __TextOutMutex
+4	6415	41	#line 6415 "NXCDefs.h"
+4	6076	41	#line 6076 "NXCDefs.h"
+4	15	41	#line 15 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	15	41	#line 15 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	16	41		set __ClearLine_7qG2_line_7qG2_000_inline_display, 8
+4	15	44	#line 15 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	6076	44	#line 6076 "NXCDefs.h"
+4	6077	44	#pragma macro 7
+4	6077	44		acquire __TextOutMutex
+4	6077	45		mov __TextOutArgs.Location.X, __constVal0
+4	6077	47		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+4	6077	49		mov __TextOutArgs.Options, __constVal0
+4	6077	51		mov __TextOutArgs.Text, __BlankLine
+4	6077	53		syscall 13, __TextOutArgs
+4	6077	56		release __TextOutMutex
+4	6425	57	#line 6425 "NXCDefs.h"
+4	6076	57	#line 6076 "NXCDefs.h"
+4	16	57	#line 16 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	16	57	#line 16 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	17	57		set __ClearLine_7qG2_line_7qG2_000_inline_display, 0
+4	16	60	#line 16 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	6076	60	#line 6076 "NXCDefs.h"
+4	6077	60	#pragma macro 7
+4	6077	60		acquire __TextOutMutex
+4	6077	61		mov __TextOutArgs.Location.X, __constVal0
+4	6077	63		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+4	6077	65		mov __TextOutArgs.Options, __constVal0
+4	6077	67		mov __TextOutArgs.Text, __BlankLine
+4	6077	69		syscall 13, __TextOutArgs
+4	6077	72		release __TextOutMutex
+4	6435	73	#line 6435 "NXCDefs.h"
+4	6076	73	#line 6076 "NXCDefs.h"
+4	17	73	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	17	73	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	18	73		set __signed_stack_001display, 30
+4	17	76	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	17	76	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	18	76		set __signed_stack_002display, 32
+4	17	79	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	17	79	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	18	79		mov __D0display, Compass_val
+4	18	81	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	81		acquire __TextOutMutex
+4	18	82	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	82		mov __TextOutArgs.Location.X, __signed_stack_001display
+4	18	84	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	84		mov __TextOutArgs.Location.Y, __signed_stack_002display
+4	18	86	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	86		set __TextOutArgs.Options, 0
+4	18	89	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	89		numtostr __TextOutArgs.Text, __D0display
+4	18	92	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	92		syscall 13, __TextOutArgs
+4	18	95	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	95		mov __D0display, __TextOutArgs.Result
+4	18	97	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	97		release __TextOutMutex
+4	18	98	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	18	98	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	98		set __signed_stack_001display, 30
+4	18	101	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	18	101	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	101		set __signed_stack_002display, 16
+4	18	104	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	18	104	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	104		mov __D0display, target_heading
+4	19	106	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	106		acquire __TextOutMutex
+4	19	107	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	107		mov __TextOutArgs.Location.X, __signed_stack_001display
+4	19	109	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	109		mov __TextOutArgs.Location.Y, __signed_stack_002display
+4	19	111	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	111		set __TextOutArgs.Options, 0
+4	19	114	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	114		numtostr __TextOutArgs.Text, __D0display
+4	19	117	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	117		syscall 13, __TextOutArgs
+4	19	120	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	120		mov __D0display, __TextOutArgs.Result
+4	19	122	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	122		release __TextOutMutex
+4	19	123	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	123	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	123		set __signed_stack_001display, 30
+4	19	126	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	126	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	126		set __signed_stack_002display, 8
+4	19	129	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	129	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	129	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	129	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	19	129	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	129		sub __D0display, target_heading, Compass_val
+4	20	133	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	133		acquire __TextOutMutex
+4	20	134	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	134		mov __TextOutArgs.Location.X, __signed_stack_001display
+4	20	136	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	136		mov __TextOutArgs.Location.Y, __signed_stack_002display
+4	20	138	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	138		set __TextOutArgs.Options, 0
+4	20	141	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	141		numtostr __TextOutArgs.Text, __D0display
+4	20	144	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	144		syscall 13, __TextOutArgs
+4	20	147	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	147		mov __D0display, __TextOutArgs.Result
+4	20	149	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	149		release __TextOutMutex
+4	20	150	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	150	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	150		set __signed_stack_001display, 30
+4	20	153	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	153	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	153		set __signed_stack_002display, 0
+4	20	156	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	20	156	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	156		mov __D0display, relative_heading
+4	21	158	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	22	158		acquire __TextOutMutex
+4	21	159	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	22	159		mov __TextOutArgs.Location.X, __signed_stack_001display
+4	21	161	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	22	161		mov __TextOutArgs.Location.Y, __signed_stack_002display
+4	21	163	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	22	163		set __TextOutArgs.Options, 0
+4	21	166	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	22	166		numtostr __TextOutArgs.Text, __D0display
+4	21	169	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	22	169		syscall 13, __TextOutArgs
+4	21	172	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	22	172		mov __D0display, __TextOutArgs.Result
+4	21	174	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	22	174		release __TextOutMutex
+4	21	175	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	175	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	21	175	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	7921	175	#line 7921 "NXCDefs.h"
+4	7922	175		wait 500
+4	7921	177	#line 7921 "NXCDefs.h"
+4	22	177	#line 22 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	25	177	#line 25 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	26	177		jmp __NXC_Label_612
+4	25	179	#line 25 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+4	26	179		exit -1, -1
+5	27	0	#line 27 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	28	0		set __D0move, 1
+5	31	3	#line 31 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	32	3		tst 5, __zfmove, __D0move
+5	31	6	#line 31 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	32	6		brtst 4, __NXC_Label_651, __zfmove
+5	31	9	#line 31 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	31	9	#line 31 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	31	9	#line 31 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	31	9	#line 31 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	32	9		sub __D0move, target_heading, Compass_val
+5	31	13	#line 31 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	32	13		abs __signed_stack_001move, __D0move
+5	31	16	#line 31 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	31	16	#line 31 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	32	16		set __D0move, 1
+5	31	19	#line 31 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	32	19		cmp 1, __zfmove, __signed_stack_001move, __D0move
+5	31	23	#line 31 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	32	23		mov __D0move, __zfmove
+5	32	25	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	33	25		brtst 4, __NXC_Label_655, __zfmove
+5	32	28	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	32	28	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	32	28	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	32	28	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	33	28		sub __signed_stack_001move, target_heading, Compass_val
+5	32	32	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	32	32	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	33	32		set __D0move, -179
+5	32	35	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	33	35		cmp 0, __zfmove, __signed_stack_001move, __D0move
+5	32	39	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	33	39		mov __D0move, __zfmove
+5	33	41	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	34	41		brtst 4, __NXC_Label_662, __zfmove
+5	33	44	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	33	44	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	33	44	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	33	44	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	34	44		sub __signed_stack_001move, target_heading, Compass_val
+5	33	48	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	34	48	#line 34 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	34	48	#line 34 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	35	48		add relative_heading, __signed_stack_001move, __constVal360
+5	34	52	#line 34 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	34	52	#line 34 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	36	52	#line 36 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	37	52		jmp __NXC_Label_665
+5	36	54	#line 36 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	36	54	#line 36 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	37	54	#line 37 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	37	54	#line 37 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	38	54		sub relative_heading, target_heading, Compass_val
+5	37	58	#line 37 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	37	58	#line 37 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	39	58	#line 39 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	39	58	#line 39 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	40	58		mov __signed_stack_001move, relative_heading
+5	39	60	#line 39 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	39	60	#line 39 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	40	60		set __D0move, 0
+5	39	63	#line 39 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	40	63		cmp 0, __zfmove, __signed_stack_001move, __D0move
+5	39	67	#line 39 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	40	67		mov __D0move, __zfmove
+5	40	69	#line 40 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	41	69		brtst 4, __NXC_Label_670, __zfmove
+5	41	72	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	42	72		set steer, 1
+5	41	75	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	41	75	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	43	75	#line 43 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	44	75		jmp __NXC_Label_673
+5	44	77	#line 44 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	45	77		set steer, -1
+5	44	80	#line 44 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	44	80	#line 44 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	46	80	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	46	80	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	47	80		mov __D0move, relative_heading
+5	48	82	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	49	82		abs pwr, __D0move
+5	48	85	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	48	85	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	48	85	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	49	85		mov __signed_stack_001move, pwr
+5	48	87	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	49	87	#line 49 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	50	87		set __D0move, 35
+5	49	90	#line 49 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	50	90		cmp 1, __zfmove, __signed_stack_001move, __D0move
+5	49	94	#line 49 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	50	94		mov __D0move, __zfmove
+5	50	96	#line 50 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	51	96		brtst 4, __NXC_Label_682, __zfmove
+5	51	99	#line 51 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	52	99		set pwr, 35
+5	51	102	#line 51 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	51	102	#line 51 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	52	102	#line 52 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	52	102	#line 52 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	53	102		mov __signed_stack_001move, pwr
+5	52	104	#line 52 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	53	104	#line 53 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	54	104		set __D0move, 15
+5	53	107	#line 53 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	54	107		cmp 0, __zfmove, __signed_stack_001move, __D0move
+5	53	111	#line 53 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	54	111		mov __D0move, __zfmove
+5	54	113	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	55	113		brtst 4, __NXC_Label_687, __zfmove
+5	55	116	#line 55 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	56	116		set pwr, 15
+5	55	119	#line 55 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	55	119	#line 55 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	57	119	#line 57 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	57	119	#line 57 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	58	119		mov __signed_stack_001move, pwr
+5	57	121	#line 57 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	57	121	#line 57 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	58	121		set __D0move, 1
+5	58	124	#line 58 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	59	124	#pragma macro 7
+5	59	124		setout __constVal1, 2, __signed_stack_001move, 1, __constVal7, 8, __D0move, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6789	147	#line 6789 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	58	147	#line 58 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	60	147	#line 60 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	61	147		jmp __NXC_Label_654
+5	60	149	#line 60 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	61	149	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	62	149	#pragma macro 7
+5	62	149		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	6796	172	#line 6796 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	61	172	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	61	172	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	61	172	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	7921	172	#line 7921 "NXCDefs.h"
+5	7922	172		wait 3000
+5	7921	174	#line 7921 "NXCDefs.h"
+5	62	174	#line 62 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	62	174	#line 62 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	62	174	#line 62 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	64	174	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	64	174	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	65	174		add target_heading, target_heading, __constVal90
+5	64	178	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	64	178	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	64	178	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	65	178		mov __signed_stack_001move, target_heading
+5	64	180	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	65	180	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	66	180		set __D0move, 359
+5	65	183	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	66	183		cmp 1, __zfmove, __signed_stack_001move, __D0move
+5	65	187	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	66	187		mov __D0move, __zfmove
+5	66	189	#line 66 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	67	189		brtst 4, __NXC_Label_700, __zfmove
+5	67	192	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	68	192		set target_heading, 0
+5	67	195	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	67	195	#line 67 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	69	195	#line 69 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	72	195	#line 72 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	73	195		jmp __NXC_Label_650
+5	72	197	#line 72 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+5	73	197		exit -1, -1
+6	82	0	#line 82 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc"
+6	83	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc
+1	__ResetSensorSubroutine	47	NXTDefs.h
+2	__ReadLSBytes1	60	NXTDefs.h
+3	read	144	C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc
+4	display	187	C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc
+5	move	369	C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc
+6	__initialize_global_data	569	C:\Users\ronk\Documents\NXCprograms\5mB_CMPSpivotZeroXing.nxc

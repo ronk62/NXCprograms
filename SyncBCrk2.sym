@@ -1,0 +1,581 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002displ	6	1	0	4	12
+1	__Wait_7qG2_ms_7qG2_000_inline_mvMotorB	5	1	4	4	3
+2	__rotate_theAngle1	5	1	8	4	2
+3	__signed_stack_001displ	6	1	12	4	4
+4	__constVal120000	6	0	16	4	3
+5	__D0mvMotorC	6	1	20	4	28
+6	__constVal40000	6	0	24	4	1
+7	__signed_stack_001mvMotorC	6	1	28	4	10
+8	__signed_stack_001mvMotorB	6	1	32	4	2
+9	__float_stack_004displ	10	1	36	4	2
+10	__signed_stack_002mvMotorC	6	1	40	4	4
+11	__signed_stack_003displ	6	1	44	4	12
+12	__signed_stack_004displ	6	1	48	4	10
+13	__rotate_angle2	6	1	52	4	4
+14	__D0mvMotorB	6	1	56	4	6
+15	__rotate_angle1	6	1	60	4	4
+16	__Wait_7qG2_ms_7qG2_000_inline_displ	5	1	64	4	4
+17	__displ_7qG2_err_7qG2_001	10	1	68	4	3
+18	__PointOutMutex	9	0	72	4	2
+19	__TextOutMutex	9	0	76	4	6
+20	__rotateMutex1	9	0	80	4	2
+21	__rotateMutex2	9	0	84	4	2
+22	__constVal39995	6	0	88	4	1
+23	__D0displ	6	1	92	4	31
+24	__rotate_theAngle2	5	1	96	4	2
+25	__DF0displ	10	1	100	4	2
+26	__rotate_RotCount2	4	1	104	2	4
+27	__rotate_OldRotCount2	4	1	106	2	2
+28	__constVal200	4	0	108	2	2
+29	__displ_7qG2_x1_7qG2_001	4	1	110	2	5
+30	__mvMotorC_7qG2_Cpwr_7qG2_000	4	1	112	2	3
+31	__displ_7qG2_x2_7qG2_001	4	1	114	2	3
+32	__displ_7qG2_n_7qG2_001	4	1	116	2	6
+33	__displ_7qG2_x3_7qG2_001	4	1	118	2	4
+34	__mvMotorC_7qG2_pwr_7qG2_000	4	1	120	2	3
+35	__rotate_RotCount1	4	1	122	2	4
+36	__mvMotorB_7qG2_pwr_7qG2_000	4	1	124	2	2
+37	__mvMotorB_7qG2_Bon_7qG2_000	4	1	126	2	3
+38	__rotate_OldRotCount1	4	1	128	2	2
+39	____RotateMotor2_return	1	1	130	1	3
+40	__constVal104	2	0	131	1	1
+41	__constVal3	2	0	132	1	1
+42	____initialize_global_data_return	1	1	133	1	3
+43	__constVal96	2	0	134	1	3
+44	__constVal23	2	0	135	1	1
+45	__constVal2	2	0	136	1	5
+46	____RotateMotor1_return	1	1	137	1	3
+47	__rotate_theRVD1	1	1	138	1	2
+48	__rotate_rs1	1	1	139	1	2
+49	__rotate_theRVP1	1	1	140	1	2
+50	__rotate_theRVI1	1	1	141	1	2
+51	__rotate_power2	1	1	142	1	4
+52	__rotate_firstPort2	1	1	143	1	5
+53	__rotate_thePower1	2	1	144	1	4
+54	__rotate_theTurnPct1	2	1	145	1	4
+55	__rotate_theRS1	1	1	146	1	3
+56	__rotate_sync1	1	1	147	1	2
+57	__rotate_stop1	1	1	148	1	2
+58	__rotate_power1	1	1	149	1	4
+59	__rotate_firstPort1	1	1	150	1	5
+60	__rotate_theOM1	1	1	151	1	7
+61	__rotate_theRM1	1	1	152	1	4
+62	__rotate_turnpct1	2	1	153	1	3
+63	__rotate_theUF1	1	1	154	1	6
+64	__rotate_sync2	1	1	155	1	2
+65	__rotate_rs2	1	1	156	1	2
+66	__rotate_thePower2	2	1	157	1	4
+67	__rotate_theRVI2	1	1	158	1	2
+68	__rotate_theRVD2	1	1	159	1	2
+69	__constVal1	2	0	160	1	14
+70	__constVal0	2	1	161	1	17
+71	__rotate_theTurnPct2	2	1	162	1	4
+72	__constVal32	2	0	163	1	13
+73	__rotate_theUF2	1	1	164	1	6
+74	__rotate_stop2	1	1	165	1	2
+75	__rotate_turnpct2	2	1	166	1	3
+76	__rotate_theOM2	1	1	167	1	7
+77	__rotate_theRVP2	1	1	168	1	2
+78	__rotate_theRS2	1	1	169	1	3
+79	__rotate_theRM2	1	1	170	1	4
+80	__PointOutArgs	8	0	3	12	4
+81	__PointOutArgs.Result	2	1	172	1	4
+82	__PointOutArgs.Location	8	0	2	4	4
+83	__PointOutArgs.Location.X	4	1	176	2	4
+84	__PointOutArgs.Location.Y	4	1	178	2	4
+85	__PointOutArgs.Options	5	1	180	4	4
+86	__TextOutArgs	8	0	4	16	18
+87	__TextOutArgs.Result	2	1	184	1	18
+88	__TextOutArgs.Location	8	0	2	4	18
+89	__TextOutArgs.Location.X	4	1	188	2	18
+90	__TextOutArgs.Location.Y	4	1	190	2	18
+91	__TextOutArgs.Text	7	0	192	4	18
+92	__TextOutArgs.Text.Text_type	1	0	0	1	0
+93	__TextOutArgs.Options	5	1	196	4	18
+94	__OUT_BC	7	0	200	4	1
+95	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+96	__rotate_ports2	7	0	202	4	6
+97	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+98	__rotate_ports1	7	0	204	4	6
+99	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	69	0	#line 69 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+0	70	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	69	2	#line 69 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+0	69	2	#line 69 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+0	70	2	#pragma macro 7
+0	70	2		setout __OUT_BC, 0, __constVal104
+0	7114	7	#line 7114 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+0	69	7	#line 69 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+0	70	7	#line 70 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+0	70	7	#line 70 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+0	71	7		exit 0, 2
+1	5308	0		brtst 4, __rotate_Done1, __rotate_angle1
+1	5309	3		sign __rotate_thePower1, __rotate_angle1
+1	5310	6		abs __rotate_theAngle1, __rotate_angle1
+1	5311	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	5313	13		set __rotate_theUF1, 23
+1	5314	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	5315	19		set __rotate_theOM1, 7
+1	5316	22		set __rotate_theRM1, 2
+1	5317	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	5318	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	5319	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	5320	34		jmp __rotate_Start1
+1	5322	36		set __rotate_theOM1, 3
+1	5323	39		set __rotate_theRM1, 0
+1	5324	42		set __rotate_theTurnPct1, 0
+1	5326	45		set __rotate_theRS1, 32
+1	5327	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	5329	71		wait 0
+1	5332	73		index __rotate_firstPort1, __rotate_ports1, 65535
+1	5334	77		getout __rotate_power1, __rotate_firstPort1, 2
+1	5335	81		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	5336	84		getout __rotate_rs1, __rotate_firstPort1, 6
+1	5337	88		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	5339	92		brtst 4, __rotate_Reset1, __rotate_stop1
+1	5342	95		set __rotate_theOM1, 7
+1	5343	98		set __rotate_theUF1, 7
+1	5344	101		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 7, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	5346	118		wait 0
+1	5349	120		getout __rotate_RotCount1, __rotate_firstPort1, 4
+1	5351	124		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	5352	126		wait 50
+1	5354	128		getout __rotate_RotCount1, __rotate_firstPort1, 4
+1	5355	132		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	5358	136		set __rotate_theOM1, 4
+1	5359	139		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	5360	150		wait 0
+1	5364	152		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	5365	155		setout __rotate_ports1, 0, __constVal32
+1	5367	160		subret ____RotateMotor1_return
+2	5371	0		brtst 4, __rotate_Done2, __rotate_angle2
+2	5372	3		sign __rotate_thePower2, __rotate_angle2
+2	5373	6		abs __rotate_theAngle2, __rotate_angle2
+2	5374	9		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
+2	5376	13		set __rotate_theUF2, 23
+2	5377	16		brtst 4, __rotate_NoSync2, __rotate_sync2
+2	5378	19		set __rotate_theOM2, 7
+2	5379	22		set __rotate_theRM2, 2
+2	5380	25		mov __rotate_theTurnPct2, __rotate_turnpct2
+2	5381	27		brtst 4, __rotate_Start2, __rotate_theTurnPct2
+2	5382	30		add __rotate_theUF2, __rotate_theUF2, __constVal32
+2	5383	34		jmp __rotate_Start2
+2	5385	36		set __rotate_theOM2, 3
+2	5386	39		set __rotate_theRM2, 0
+2	5387	42		set __rotate_theTurnPct2, 0
+2	5389	45		set __rotate_theRS2, 32
+2	5390	48		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
+2	5392	71		wait 0
+2	5395	73		index __rotate_firstPort2, __rotate_ports2, 65535
+2	5397	77		getout __rotate_power2, __rotate_firstPort2, 2
+2	5398	81		brtst 4, __rotate_doneRunning2, __rotate_power2
+2	5399	84		getout __rotate_rs2, __rotate_firstPort2, 6
+2	5400	88		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
+2	5402	92		brtst 4, __rotate_Reset2, __rotate_stop2
+2	5405	95		set __rotate_theOM2, 7
+2	5406	98		set __rotate_theUF2, 7
+2	5407	101		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 7, __constVal0, 5, __constVal0, 0, __rotate_theUF2
+2	5409	118		wait 0
+2	5412	120		getout __rotate_RotCount2, __rotate_firstPort2, 4
+2	5414	124		mov __rotate_OldRotCount2, __rotate_RotCount2
+2	5415	126		wait 50
+2	5417	128		getout __rotate_RotCount2, __rotate_firstPort2, 4
+2	5418	132		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
+2	5421	136		set __rotate_theOM2, 4
+2	5422	139		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
+2	5423	150		wait 0
+2	5427	152		brtst 4, __rotate_Done2, __rotate_theTurnPct2
+2	5428	155		setout __rotate_ports2, 0, __constVal32
+2	5430	160		subret ____RotateMotor2_return
+3	2	0	#line 2 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	3	0		set __mvMotorB_7qG2_Bon_7qG2_000, 0
+3	2	3	#line 2 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	2	3	#line 2 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	3	3		set __mvMotorB_7qG2_pwr_7qG2_000, 55
+3	2	6	#line 2 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	2	6	#line 2 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	2	6	#line 2 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	4	6	#line 4 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	5	6		set __D0mvMotorB, 1
+3	5	9	#line 5 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	6	9		tst 5, __D0mvMotorB, __D0mvMotorB
+3	5	12	#line 5 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	6	12		brtst 4, __ASM_Label_621, __D0mvMotorB
+3	5	15	#line 5 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	6	15		set __Wait_7qG2_ms_7qG2_000_inline_mvMotorB, 2
+3	5	18	#line 5 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	8869	18	#line 8869 "NXCDefs.h"
+3	8870	18		waitv __Wait_7qG2_ms_7qG2_000_inline_mvMotorB
+3	8869	20	#line 8869 "NXCDefs.h"
+3	5	20	#line 5 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	6	20	#line 6 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	7	20		set __mvMotorB_7qG2_Bon_7qG2_000, 1
+3	6	23	#line 6 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	6	23	#line 6 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	7	23	#line 7 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	8	23		mov __signed_stack_001mvMotorB, __mvMotorB_7qG2_pwr_7qG2_000
+3	7	25	#line 7 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	7	25	#line 7 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	8	25		mov __D0mvMotorB, __constVal40000
+3	7	27	#line 7 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	8	27	#pragma macro 33
+3	8	27		acquire __rotateMutex1
+3	8	28		arrbuild __rotate_ports1, __constVal1
+3	8	32		mov __rotate_power1, __signed_stack_001mvMotorB
+3	8	34		mov __rotate_angle1, __D0mvMotorB
+3	8	36		mov __rotate_turnpct1, __constVal0
+3	8	38		mov __rotate_sync1, __constVal0
+3	8	40		mov __rotate_stop1, __constVal1
+3	8	42		mov __rotate_theRVP1, __constVal96
+3	8	44		mov __rotate_theRVI1, __constVal32
+3	8	46		mov __rotate_theRVD1, __constVal32
+3	8	48		subcall __RotateMotor1, ____RotateMotor1_return
+3	8	50		release __rotateMutex1
+3	6571	51	#line 6571 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	7	51	#line 7 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	8	51	#line 8 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	9	51		set __mvMotorB_7qG2_Bon_7qG2_000, 0
+3	8	54	#line 8 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	8	54	#line 8 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	9	54	#line 9 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	10	54		mov __Wait_7qG2_ms_7qG2_000_inline_mvMotorB, __constVal120000
+3	9	56	#line 9 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	8869	56	#line 8869 "NXCDefs.h"
+3	8870	56		waitv __constVal120000
+3	8869	58	#line 8869 "NXCDefs.h"
+3	9	58	#line 9 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	14	58	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	15	58		jmp __ASM_Label_620
+3	14	60	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+3	15	60		exit -1, -1
+4	16	0	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	16	0	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	16	0	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	16	0	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	16	0	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	16	0	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	16	0	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	17	0		set __mvMotorC_7qG2_pwr_7qG2_000, 55
+4	16	3	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	16	3	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	17	3		set __mvMotorC_7qG2_Cpwr_7qG2_000, 55
+4	16	6	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	16	6	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	16	6	#line 16 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	19	6	#line 19 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	20	6		set __D0mvMotorC, 1
+4	21	9	#line 21 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	22	9		tst 5, __D0mvMotorC, __D0mvMotorC
+4	21	12	#line 21 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	22	12		brtst 4, __ASM_Label_649, __D0mvMotorC
+4	21	15	#line 21 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	22	15		getout __D0mvMotorC, __constVal1, 4
+4	21	19	#line 21 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	22	19		abs __signed_stack_001mvMotorC, __D0mvMotorC
+4	21	22	#line 21 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	22	22	#line 22 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	23	22		mov __D0mvMotorC, __constVal39995
+4	22	24	#line 22 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	23	24		cmp 0, __D0mvMotorC, __signed_stack_001mvMotorC, __D0mvMotorC
+4	25	28	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	26	28		brtst 4, __ASM_Label_653, __D0mvMotorC
+4	25	31	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	26	31		mov __signed_stack_001mvMotorC, __mvMotorC_7qG2_pwr_7qG2_000
+4	25	33	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	25	33	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	26	33		getout __D0mvMotorC, __constVal1, 4
+4	25	37	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	26	37		abs __signed_stack_002mvMotorC, __D0mvMotorC
+4	25	40	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	25	40	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	26	40		getout __D0mvMotorC, __constVal2, 4
+4	25	44	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	26	44		abs __D0mvMotorC, __D0mvMotorC
+4	25	47	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	26	47		sub __D0mvMotorC, __signed_stack_002mvMotorC, __D0mvMotorC
+4	25	51	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	26	51		add __mvMotorC_7qG2_Cpwr_7qG2_000, __signed_stack_001mvMotorC, __D0mvMotorC
+4	25	55	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	25	55	#line 25 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	27	55	#line 27 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	28	55		set __signed_stack_001mvMotorC, 1
+4	27	58	#line 27 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	27	58	#line 27 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	27	58	#line 27 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	28	58		mul __D0mvMotorC, __signed_stack_001mvMotorC, __mvMotorC_7qG2_Cpwr_7qG2_000
+4	27	62	#line 27 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	28	62	#pragma macro 7
+4	28	62		setout __constVal2, 2, __D0mvMotorC, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal23
+4	6718	85	#line 6718 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	27	85	#line 27 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	30	85	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	31	85		jmp __ASM_Label_652
+4	30	87	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	30	87	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	31	87		set __signed_stack_001mvMotorC, 1
+4	30	90	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	30	90	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	30	90	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	31	90		mul __signed_stack_001mvMotorC, __signed_stack_001mvMotorC, __mvMotorC_7qG2_pwr_7qG2_000
+4	30	94	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	30	94	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	31	94		getout __D0mvMotorC, __constVal1, 4
+4	30	98	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	31	98		abs __signed_stack_002mvMotorC, __D0mvMotorC
+4	30	101	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	30	101	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	31	101		getout __D0mvMotorC, __constVal2, 4
+4	30	105	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	31	105		abs __D0mvMotorC, __D0mvMotorC
+4	30	108	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	31	108		sub __D0mvMotorC, __signed_stack_002mvMotorC, __D0mvMotorC
+4	30	112	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	31	112	#pragma macro 33
+4	31	112		acquire __rotateMutex2
+4	31	113		arrbuild __rotate_ports2, __constVal2
+4	31	117		mov __rotate_power2, __signed_stack_001mvMotorC
+4	31	119		mov __rotate_angle2, __D0mvMotorC
+4	31	121		mov __rotate_turnpct2, __constVal0
+4	31	123		mov __rotate_sync2, __constVal0
+4	31	125		mov __rotate_stop2, __constVal1
+4	31	127		mov __rotate_theRVP2, __constVal96
+4	31	129		mov __rotate_theRVI2, __constVal32
+4	31	131		mov __rotate_theRVD2, __constVal32
+4	31	133		subcall __RotateMotor2, ____RotateMotor2_return
+4	31	135		release __rotateMutex2
+4	6760	136	#line 6760 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	30	136	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	32	136	#line 32 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	33	136		jmp __ASM_Label_648
+4	32	138	#line 32 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	32	138	#line 32 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	32	138	#line 32 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	8869	138	#line 8869 "NXCDefs.h"
+4	8870	138		waitv __constVal120000
+4	8869	140	#line 8869 "NXCDefs.h"
+4	32	140	#line 32 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+4	33	140		exit -1, -1
+5	39	0	#line 39 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	40	0		set __D0displ, 1
+5	40	3	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	41	3		tst 5, __D0displ, __D0displ
+5	40	6	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	41	6		brtst 4, __ASM_Label_679, __D0displ
+5	40	9	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	41	9		set __displ_7qG2_x1_7qG2_001, 0
+5	40	12	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	40	12	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	41	12		set __displ_7qG2_x2_7qG2_001, 0
+5	40	15	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	40	15	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	41	15		set __displ_7qG2_x3_7qG2_001, 0
+5	40	18	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	40	18	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	41	18		set __displ_7qG2_n_7qG2_001, 0
+5	40	21	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	41	21	#line 41 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	42	21		mov __displ_7qG2_err_7qG2_001, __constVal0
+5	41	23	#line 41 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	6921	23	#line 6921 "NXCDefs.h"
+5	6922	23	#pragma macro 6
+5	6922	23		acquire __PointOutMutex
+5	6922	24		mov __PointOutArgs.Location.X, __constVal200
+5	6922	26		mov __PointOutArgs.Location.Y, __constVal200
+5	6922	28		mov __PointOutArgs.Options, __constVal1
+5	6922	30		syscall 14, __PointOutArgs
+5	6922	33		release __PointOutMutex
+5	6830	34	#line 6830 "NXCDefs.h"
+5	6921	34	#line 6921 "NXCDefs.h"
+5	42	34	#line 42 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	48	34	#line 48 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	49	34		set __signed_stack_001displ, 8
+5	50	37	#line 50 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	50	37	#line 50 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	51	37		sub __signed_stack_001displ, __signed_stack_001displ, __constVal1
+5	50	41	#line 50 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	51	41		getout __displ_7qG2_x1_7qG2_001, __constVal1, 4
+5	50	45	#line 50 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	50	45	#line 50 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	52	45	#line 52 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	53	45		getout __displ_7qG2_x2_7qG2_001, __constVal2, 4
+5	52	49	#line 52 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	52	49	#line 52 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	53	49	#line 53 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	54	49		mov __D0displ, __displ_7qG2_x2_7qG2_001
+5	53	51	#line 53 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	54	51		abs __signed_stack_002displ, __D0displ
+5	53	54	#line 53 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	53	54	#line 53 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	54	54		mov __D0displ, __displ_7qG2_x1_7qG2_001
+5	53	56	#line 53 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	54	56		abs __D0displ, __D0displ
+5	53	59	#line 53 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	54	59		sub __displ_7qG2_x3_7qG2_001, __signed_stack_002displ, __D0displ
+5	53	63	#line 53 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	53	63	#line 53 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	54	63	#line 54 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	55	63		mov __signed_stack_002displ, __displ_7qG2_x3_7qG2_001
+5	54	65	#line 54 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	54	65	#line 54 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	55	65		set __D0displ, 100
+5	54	68	#line 54 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	55	68		mul __signed_stack_002displ, __signed_stack_002displ, __D0displ
+5	54	72	#line 54 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	54	72	#line 54 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	54	72	#line 54 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	55	72		div __displ_7qG2_err_7qG2_001, __signed_stack_002displ, __displ_7qG2_x1_7qG2_001
+5	54	76	#line 54 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	54	76	#line 54 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	55	76	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	76		set __signed_stack_002displ, 0
+5	55	79	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	55	79	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	79		set __signed_stack_003displ, 56
+5	55	82	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	55	82	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	82		mov __signed_stack_004displ, __displ_7qG2_n_7qG2_001
+5	55	84	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	55	84	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	84		set __D0displ, 8
+5	55	87	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	87		mul __D0displ, __signed_stack_004displ, __D0displ
+5	55	91	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	91		sub __signed_stack_003displ, __signed_stack_003displ, __D0displ
+5	55	95	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	55	95	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	95		mov __signed_stack_004displ, __displ_7qG2_x1_7qG2_001
+5	55	97	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	55	97	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	97		set __D0displ, 0
+5	55	100	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	100		acquire __TextOutMutex
+5	55	101	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	101		mov __TextOutArgs.Location.X, __signed_stack_002displ
+5	55	103	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	103		mov __TextOutArgs.Location.Y, __signed_stack_003displ
+5	55	105	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	105		mov __TextOutArgs.Options, __D0displ
+5	55	107	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	107		numtostr __TextOutArgs.Text, __signed_stack_004displ
+5	55	110	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	110		syscall 13, __TextOutArgs
+5	55	113	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	113		mov __D0displ, __TextOutArgs.Result
+5	55	115	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	115		release __TextOutMutex
+5	55	116	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	116	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	116		set __signed_stack_002displ, 40
+5	56	119	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	119	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	119		set __signed_stack_003displ, 56
+5	56	122	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	122	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	122		mov __signed_stack_004displ, __displ_7qG2_n_7qG2_001
+5	56	124	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	124	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	124		set __D0displ, 8
+5	56	127	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	127		mul __D0displ, __signed_stack_004displ, __D0displ
+5	56	131	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	131		sub __signed_stack_003displ, __signed_stack_003displ, __D0displ
+5	56	135	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	135	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	135		mov __signed_stack_004displ, __displ_7qG2_x3_7qG2_001
+5	56	137	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	56	137	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	137		set __D0displ, 0
+5	56	140	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	140		acquire __TextOutMutex
+5	56	141	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	141		mov __TextOutArgs.Location.X, __signed_stack_002displ
+5	56	143	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	143		mov __TextOutArgs.Location.Y, __signed_stack_003displ
+5	56	145	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	145		mov __TextOutArgs.Options, __D0displ
+5	56	147	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	147		numtostr __TextOutArgs.Text, __signed_stack_004displ
+5	56	150	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	150		syscall 13, __TextOutArgs
+5	56	153	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	153		mov __D0displ, __TextOutArgs.Result
+5	56	155	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	155		release __TextOutMutex
+5	56	156	#line 56 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	156	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	156		set __signed_stack_002displ, 64
+5	57	159	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	159	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	159		set __signed_stack_003displ, 56
+5	57	162	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	162	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	162		mov __signed_stack_004displ, __displ_7qG2_n_7qG2_001
+5	57	164	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	164	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	164		set __D0displ, 8
+5	57	167	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	167		mul __D0displ, __signed_stack_004displ, __D0displ
+5	57	171	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	171		sub __signed_stack_003displ, __signed_stack_003displ, __D0displ
+5	57	175	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	175	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	175		mov __float_stack_004displ, __displ_7qG2_err_7qG2_001
+5	57	177	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	57	177	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	177		mov __DF0displ, __constVal0
+5	57	179	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	179		acquire __TextOutMutex
+5	57	180	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	180		mov __TextOutArgs.Location.X, __signed_stack_002displ
+5	57	182	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	182		mov __TextOutArgs.Location.Y, __signed_stack_003displ
+5	57	184	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	184		mov __TextOutArgs.Options, __DF0displ
+5	57	186	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	186		numtostr __TextOutArgs.Text, __float_stack_004displ
+5	57	189	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	189		syscall 13, __TextOutArgs
+5	57	192	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	192		mov __D0displ, __TextOutArgs.Result
+5	57	194	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	58	194		release __TextOutMutex
+5	57	195	#line 57 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	59	195	#line 59 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	60	195		set __Wait_7qG2_ms_7qG2_000_inline_displ, 3000
+5	59	198	#line 59 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	8869	198	#line 8869 "NXCDefs.h"
+5	8870	198		waitv __Wait_7qG2_ms_7qG2_000_inline_displ
+5	8869	200	#line 8869 "NXCDefs.h"
+5	59	200	#line 59 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	60	200	#line 60 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	61	200		add __displ_7qG2_n_7qG2_001, __displ_7qG2_n_7qG2_001, __constVal1
+5	60	204	#line 60 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	62	204	#line 62 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	63	204		brtst 1, __ASM_Label_692, __signed_stack_001displ
+5	62	207	#line 62 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	62	207	#line 62 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	63	207		set __Wait_7qG2_ms_7qG2_000_inline_displ, 15000
+5	62	210	#line 62 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	8869	210	#line 8869 "NXCDefs.h"
+5	8870	210		waitv __Wait_7qG2_ms_7qG2_000_inline_displ
+5	8869	212	#line 8869 "NXCDefs.h"
+5	62	212	#line 62 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	67	212	#line 67 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	68	212		jmp __ASM_Label_678
+5	67	214	#line 67 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+5	68	214		exit -1, -1
+6	75	0	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc"
+6	76	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc
+1	__RotateMotor1	10	NXTDefs.h
+2	__RotateMotor2	172	NXTDefs.h
+3	mvMotorB	334	C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc
+4	mvMotorC	397	C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc
+5	displ	540	C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc
+6	__initialize_global_data	757	C:\Users\ronk\Documents\NXCprograms\SyncBCrk2.nxc

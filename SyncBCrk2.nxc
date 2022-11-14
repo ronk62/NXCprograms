@@ -1,0 +1,74 @@
+task mvMotorB()
+{
+ int Bon = 0, pwr = 55, rotDeg = 4000;
+ while(true)
+  {
+    Wait(2);
+    Bon = 1;
+    RotateMotor(OUT_B, pwr, 40000);
+    Bon = 0;
+    Wait(120000);
+  }
+}
+
+
+task mvMotorC()
+{
+  int Bon, Btc = 0, Ctc = 0, Difftc = 0, pwr = 55, Cpwr = 55, rotDeg = 40000;
+  //OnFwd(OUT_C, pwr);
+  while (true)
+  {
+  //while (Bon)
+  while (abs(MotorTachoCount(OUT_B)) < 40000 - 5)
+   {
+    //Btc = MotorTachoCount(OUT_B);
+    //Ctc = MotorTachoCount(OUT_C);
+    Cpwr = pwr + (abs(MotorTachoCount(OUT_B)) - abs(MotorTachoCount(OUT_C)));
+    //RotateMotor(OUT_C, pwr+3, Difftc);
+    OnFwdEx(OUT_C, 1 * Cpwr, 0);
+    //Wait(3);
+   }
+   RotateMotor(OUT_C, 1 * pwr, abs(MotorTachoCount(OUT_B)) - abs(MotorTachoCount(OUT_C)));
+  }
+  Wait(120000);
+}
+
+
+task displ()
+{
+  while (true)
+  {
+  int x1 = 0, x2 = 0, x3 = 0, n = 0;
+  float err = 0.0;
+  ClearScreen();
+  //ResetAllTachoCounts(OUT_BC);
+  //OnFwdSync(OUT_BC, 55, 0);
+  //OnFwdReg(OUT_BC, 55, OUT_REGMODE_SYNC);
+
+  repeat (8)
+  {
+    //x1 = MotorBlockTachoCount(OUT_B);
+    x1 = MotorTachoCount(OUT_B);
+    //x2 = MotorBlockTachoCount(OUT_C);
+    x2 = MotorTachoCount(OUT_C);
+    x3 = abs(x2) - abs(x1);
+    err = (x3*100)/x1;
+    NumOut(0, LCD_LINE1-n*8, x1, DRAW_OPT_NORMAL);
+    NumOut(40, LCD_LINE1-n*8, x3, DRAW_OPT_NORMAL);
+    NumOut(64, LCD_LINE1-n*8, err, DRAW_OPT_NORMAL);
+    //until (ButtonPressed(BTNRIGHT, false));
+    Wait(3000);
+    n ++;
+  }
+  Wait(15000);
+  }
+}
+
+
+task main()
+{
+    ResetAllTachoCounts(OUT_BC);
+    Precedes(mvMotorB, mvMotorC, displ);
+}
+
+

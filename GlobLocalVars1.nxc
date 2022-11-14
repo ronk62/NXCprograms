@@ -1,0 +1,16 @@
+int x;  // x is global
+
+task main()
+{
+        int y;  // y is local to task main
+        x = y; // ok
+        {       // begin compound statement
+                int z;  // local z declared
+                y = z; // ok
+        }
+        y = z; // error - z no longer in scope
+}
+task foo()
+{
+        x = 1; // ok
+        y = 2; // error - y is not global

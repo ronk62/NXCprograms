@@ -1,0 +1,17 @@
+int i=5,j;
+
+task main(){
+
+Wait(5000);
+PlayToneEx(440, 250, 4, 0);
+Wait(500);
+
+while (i>0)
+      {
+       PlayToneEx(440, 250, 3, 0);
+       Wait(500);
+       PlayToneEx(440, 250, 1, 0);
+       Wait(500);
+       i=i-1;
+      }
+}

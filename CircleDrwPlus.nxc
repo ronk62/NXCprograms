@@ -1,0 +1,30 @@
+#define X_MAX 99
+#define Y_MAX 63
+#define X_MID (X_MAX+1)/2
+#define Y_MID (Y_MAX+1)/2
+int i,j;
+
+task main(){
+i=5;
+j=1;
+
+while (j<4)
+{
+CircleOut(X_MID,Y_MID-2,i);
+i+=3;
+CircleOut(X_MID,Y_MID-2,i);
+i+=3;
+CircleOut(X_MID,Y_MID-2,i);
+i+=3;
+NumOut(50,LCD_LINE1, i);
+NumOut(50,LCD_LINE2, j);
+Wait(200);
+j++;
+}
+Wait(8000);
+ClearScreen();
+GraphicOut(30,10,"faceclosed.ric"); Wait(500);
+ClearScreen();
+GraphicOut(30,10,"faceopen.ric");
+Wait(1000);
+}

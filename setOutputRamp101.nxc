@@ -1,0 +1,49 @@
+int i=0, tone=440;
+string msg="";
+
+void debug_trace (string msg, int tone)
+{
+ ClearScreen();
+ TextOut(15, LCD_LINE5, msg);
+ PlayTone(tone, 250);
+}
+// note: this seems unworkable as my final Rotation Count was 5340
+// when TachoLimitField was set to 5000
+
+task update ()
+{
+ Wait(2000);
+ repeat (1)
+ {
+   i++;
+   msg="repeat "+NumToStr(i);
+   tone=tone+110;
+   debug_trace (msg, tone);
+   //SetOutput(OUT_A, PowerField, 65, TachoLimitField, 400, RunStateField, OUT_RUNSTATE_RAMPUP, UpdateFlagsField, UF_UPDATE_MODE|UF_UPDATE_SPEED|UF_UPDATE_TACHO_LIMIT);
+   //OnFwd(OUT_A, 15);
+   //Wait(3000);
+   SetOutput(OUT_A, OutputModeField, OUT_MODE_MOTORON|OUT_MODE_BRAKE,
+                    TachoLimitField, 5000,
+                    PowerField, 65,
+                    RunStateField, OUT_RUNSTATE_RAMPUP,
+                    UpdateFlagsField, UF_UPDATE_MODE|UF_UPDATE_SPEED|UF_UPDATE_TACHO_LIMIT);
+   Wait(4000);
+ }
+ msg="end/wait";
+ tone=220;
+ debug_trace (msg, tone);
+}
+
+task main ()
+{
+ msg="Start motor A";
+ tone=880;
+ debug_trace (msg, tone);
+ start update;
+ //OnFwd(OUT_A, 15);
+ //SetOutput(OUT_A, OutputModeField, OUT_MODE_MOTORON, TachoLimitField, 18000, PowerField, 25, RunStateField, OUT_RUNSTATE_RUNNING, UpdateFlagsField, UF_UPDATE_MODE|UF_UPDATE_SPEED|UF_UPDATE_TACHO_LIMIT);
+ Wait(30000);
+ while (true);
+
+}
+

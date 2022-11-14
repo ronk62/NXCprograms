@@ -1,0 +1,73 @@
+int Compass_val, relative_heading, pwr, target_heading = 90, steer = 100, flg = 1;
+
+task read()
+{
+  while(true){
+    Compass_val=SensorHTCompass(S2);
+    Wait(50);
+  }
+}
+
+task display()
+{
+  while(true){
+     ClearLine(LCD_LINE4);
+     ClearLine(LCD_LINE6);
+     ClearLine(LCD_LINE7);
+     ClearLine(LCD_LINE8);
+     NumOut(30, LCD_LINE4, Compass_val);
+     NumOut(30, LCD_LINE6, target_heading);
+     NumOut(30, LCD_LINE7, target_heading - Compass_val);
+     NumOut(30, LCD_LINE8, flg);
+     Wait(500);
+  }
+}
+
+task move()
+{
+  while (true){
+// calculate relative heading and use Proportional correction to pivot
+// towards target heading..."relative_heading" is equal to the angle
+// difference between "target_heading" and current compass heading
+    while (abs(Compass_val - target_heading) > 1){
+        steer = 100;
+// set pwr for use in OnFwdSync
+     pwr = abs(Compass_val - target_heading);
+// limit min/max pwr (to prevent stalls and whirling dervish spins)
+     if (pwr > 40)
+     {
+        pwr=40;
+     }
+          if (pwr < 35)
+     {
+        pwr=5;
+     }
+// do the needful (make the pivot turn)
+     OnFwdSync(OUT_BC, pwr, steer);
+    }
+// stop, wait and set new "target_heading" (new target heading)
+    //PlayTone(440, 800);
+    Off(OUT_BC);
+    Wait(3000);
+    if (flg == 1)
+      {
+      PlayTone(440, 800);
+      target_heading = 90;
+      }
+    if (flg == -1)
+      {
+      PlayTone(880, 1600);
+      target_heading = 0;
+      }
+    flg *= -1;
+    }
+}
+
+task main()
+{
+
+  SetSensorLowspeed(S2);
+  Precedes(read, display, move);
+
+
+}

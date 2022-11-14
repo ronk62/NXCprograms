@@ -1,0 +1,297 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	14
+1	__signed_stack_003main	6	1	4	4	2
+2	__signed_stack_001main	6	1	8	4	14
+3	__D0main	6	1	12	4	8
+4	__rotate_theAngle5	5	1	16	4	2
+5	__rotate_angle5	6	1	20	4	5
+6	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	24	4	2
+7	__signed_stack_004main	6	1	28	4	2
+8	__rotate_RotCount5	4	1	32	2	4
+9	__rotate_OldRotCount5	4	1	34	2	2
+10	____RotateMotor5_return	1	1	36	1	3
+11	__constVal0	2	1	37	1	4
+12	__constVal1	2	0	38	1	3
+13	__constVal50	2	0	39	1	1
+14	____RotateMotor5_sign_tmp	2	1	40	1	4
+15	__zfmain	1	1	41	1	2
+16	____initialize_global_data_return	1	1	42	1	3
+17	__constVal96	2	0	43	1	1
+18	__constVal8	2	0	44	1	1
+19	__constVal2	2	0	45	1	1
+20	__constValNeg100	2	0	46	1	1
+21	__PFTmp	1	1	47	1	1
+22	__rotate_theUF5	1	1	48	1	6
+23	__rotate_turnpct5	2	1	49	1	3
+24	__rotate_theRM5	1	1	50	1	4
+25	__rotate_theOM5	1	1	51	1	7
+26	__rotate_firstPort5	1	1	52	1	5
+27	__rotate_power5	1	1	53	1	4
+28	__rotate_stop5	1	1	54	1	2
+29	__rotate_sync5	1	1	55	1	2
+30	__rotate_theRS5	1	1	56	1	3
+31	__rotate_thePower5	2	1	57	1	4
+32	__rotate_rs5	1	1	58	1	2
+33	__constVal32	2	0	59	1	4
+34	__rotate_theTurnPct5	2	1	60	1	4
+35	__rotate_theRVD5	1	1	61	1	2
+36	__rotate_theRVI5	1	1	62	1	2
+37	__rotate_theRVP5	1	1	63	1	2
+38	__TextOutArgs	8	0	4	16	30
+39	__TextOutArgs.Result	2	1	64	1	30
+40	__TextOutArgs.Location	8	0	2	4	30
+41	__TextOutArgs.Location.X	4	1	68	2	30
+42	__TextOutArgs.Location.Y	4	1	70	2	30
+43	__TextOutArgs.Text	7	0	72	4	30
+44	__TextOutArgs.Text.Text_type	1	0	0	1	0
+45	__TextOutArgs.Options	5	1	76	4	30
+46	__constStr0011	7	0	80	4	1
+47	__constStr0011.__constStr0011_type	1	1	0	1	0
+48	__constStr0012	7	0	82	4	1
+49	__constStr0012.__constStr0012_type	1	1	0	1	0
+50	__OUT_BC	7	0	84	4	2
+51	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+52	__constStr0010	7	0	86	4	1
+53	__constStr0010.__constStr0010_type	1	1	0	1	0
+54	__rotate_ports5	7	0	88	4	6
+55	__rotate_ports5.__rotate_ports5_type	1	0	0	1	0
+56	__strbufmain	7	0	90	4	8
+57	__strbufmain.__strbufmain_type	1	0	0	1	0
+58	__constStr0009	7	0	92	4	1
+59	__constStr0009.__constStr0009_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	5	0	#line 5 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	6	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	5	2	#line 5 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	6	2	#line 6 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	7	2	#pragma macro 7
+0	7	2		setout __OUT_BC, 0, __constVal8
+0	3811	7	#line 3811 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	6	7	#line 6 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	7	7	#line 7 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	8	7		set __D0main, 1
+0	8	10	#line 8 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	9	10		tst 5, __zfmain, __D0main
+0	8	13	#line 8 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	9	13		brtst 4, __NXC_Label_490, __zfmain
+0	8	16	#line 8 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	9	16		set __signed_stack_001main, 45
+0	8	19	#line 8 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	8	19	#line 8 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	9	19		set __signed_stack_002main, 535
+0	8	22	#line 8 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	8	22	#line 8 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	9	22		mov __signed_stack_003main, __constValNeg100
+0	8	24	#line 8 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	8	24	#line 8 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	9	24		set __signed_stack_004main, 1
+0	8	27	#line 8 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	8	27	#line 8 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	9	27		set __D0main, 1
+0	9	30	#line 9 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	10	30	#pragma macro 35
+0	10	30		mov __rotate_ports5, __OUT_BC
+0	10	32		mov __rotate_power5, __signed_stack_001main
+0	10	34		mov __rotate_angle5, __signed_stack_002main
+0	10	36		mov __rotate_turnpct5, __signed_stack_003main
+0	10	38		mov __rotate_sync5, __signed_stack_004main
+0	10	40		mov __rotate_stop5, __D0main
+0	10	42		mov __rotate_theRVP5, __constVal32
+0	10	44		mov __rotate_theRVI5, __constVal0
+0	10	46		mov __rotate_theRVD5, __constVal96
+0	10	48		subcall __RotateMotor5, ____RotateMotor5_return
+0	3851	50	#line 3851 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	9	50	#line 9 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	9	50	#line 9 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	10	50		set __signed_stack_001main, 0
+0	9	53	#line 9 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	9	53	#line 9 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	10	53		set __signed_stack_002main, 32
+0	9	56	#line 9 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	9	56	#line 9 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	10	56		strcat __strbufmain, __constStr0009
+0	10	60	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	10	60	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	60		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	10	62	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	62		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	10	64	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	64		set __TextOutArgs.Options, 0
+0	10	67	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	67		mov __TextOutArgs.Text, __strbufmain
+0	10	69	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	69		syscall 13, __TextOutArgs
+0	10	72	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	10	72	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	10	72	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	10	72	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	72		set __signed_stack_001main, 0
+0	10	75	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	10	75	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	75		set __signed_stack_002main, 16
+0	10	78	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	10	78	#line 10 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	78		strcat __strbufmain, __constStr0010
+0	11	82	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	82	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	82		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	11	84	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	84		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	11	86	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	86		set __TextOutArgs.Options, 0
+0	11	89	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	89		mov __TextOutArgs.Text, __strbufmain
+0	11	91	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	91		syscall 13, __TextOutArgs
+0	11	94	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	94	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	94	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	94	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	94		set __signed_stack_001main, 70
+0	11	97	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	97	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	97		set __signed_stack_002main, 32
+0	11	100	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	11	100	#line 11 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	100		strcat __strbufmain, __constStr0011
+0	12	104	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	104	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	104		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	12	106	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	106		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	12	108	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	108		set __TextOutArgs.Options, 0
+0	12	111	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	111		mov __TextOutArgs.Text, __strbufmain
+0	12	113	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	113		syscall 13, __TextOutArgs
+0	12	116	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	116	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	116	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	116	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	116		set __signed_stack_001main, 70
+0	12	119	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	119	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	119		set __signed_stack_002main, 16
+0	12	122	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	12	122	#line 12 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	122		strcat __strbufmain, __constStr0012
+0	13	126	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	126	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	126		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	13	128	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	128		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	13	130	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	130		set __TextOutArgs.Options, 0
+0	13	133	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	133		mov __TextOutArgs.Text, __strbufmain
+0	13	135	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	135		syscall 13, __TextOutArgs
+0	13	138	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	138	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	138	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	138	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	138		set __signed_stack_001main, 70
+0	13	141	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	141	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	141		set __signed_stack_002main, 32
+0	13	144	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	13	144	#line 13 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	144		getout __D0main, __constVal1, 14
+0	14	148	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	148	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	148		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	14	150	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	150		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	14	152	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	152		set __TextOutArgs.Options, 0
+0	14	155	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	155		numtostr __TextOutArgs.Text, __D0main
+0	14	158	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	158		syscall 13, __TextOutArgs
+0	14	161	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	161	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	161	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	161	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	161		set __signed_stack_001main, 70
+0	14	164	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	164	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	164		set __signed_stack_002main, 16
+0	14	167	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	14	167	#line 14 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	167		getout __D0main, __constVal2, 14
+0	15	171	#line 15 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	171	#line 15 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	16	171		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	15	173	#line 15 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	16	173		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	15	175	#line 15 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	16	175		set __TextOutArgs.Options, 0
+0	15	178	#line 15 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	16	178		numtostr __TextOutArgs.Text, __D0main
+0	15	181	#line 15 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	16	181		syscall 13, __TextOutArgs
+0	15	184	#line 15 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	184	#line 15 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	184	#line 15 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	15	184	#line 15 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	16	184		set __Wait_7qG2_ms_7qG2_000_inline_main, 1500
+0	15	187	#line 15 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	7921	187	#line 7921 "NXCDefs.h"
+0	7922	187		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	190	#line 7921 "NXCDefs.h"
+0	16	190	#line 16 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	19	190	#line 19 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	20	190		jmp __NXC_Label_489
+0	19	192	#line 19 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+0	20	192		exit -1, -1
+1	4741	0		brtst 4, __rotate_Done5, __rotate_angle5
+1	4742	3		set ____RotateMotor5_sign_tmp, 0
+1	4742	6		brtst EQ, __sign_5, __rotate_angle5
+1	4742	9		set ____RotateMotor5_sign_tmp, -1
+1	4742	12		brtst LT, __sign_5, __rotate_angle5
+1	4742	15		set ____RotateMotor5_sign_tmp, 1
+1	4742	18	__sign_5:	mov __rotate_thePower5, ____RotateMotor5_sign_tmp
+1	4743	20		abs __rotate_theAngle5, __rotate_angle5
+1	4744	23		mul __rotate_thePower5, __rotate_thePower5, __rotate_power5
+1	4746	27		set __rotate_theUF5, 23
+1	4747	30		brtst 4, __rotate_NoSync5, __rotate_sync5
+1	4748	33		set __rotate_theOM5, 7
+1	4749	36		set __rotate_theRM5, 2
+1	4750	39		mov __rotate_theTurnPct5, __rotate_turnpct5
+1	4751	41		brtst 4, __rotate_Start5, __rotate_theTurnPct5
+1	4752	44		add __rotate_theUF5, __rotate_theUF5, __constVal32
+1	4753	48		jmp __rotate_Start5
+1	4755	50		set __rotate_theOM5, 3
+1	4756	53		set __rotate_theRM5, 0
+1	4757	56		set __rotate_theTurnPct5, 0
+1	4759	59		set __rotate_theRS5, 32
+1	4760	62		setout __rotate_ports5, 1, __rotate_theOM5, 8, __rotate_theRM5, 5, __rotate_theAngle5, 6, __rotate_theRS5, 10, __rotate_theRVP5, 11, __rotate_theRVI5, 12, __rotate_theRVD5, 2, __rotate_thePower5, 7, __rotate_turnpct5, 0, __rotate_theUF5
+1	4763	85		index __rotate_firstPort5, __rotate_ports5, 65535
+1	4765	89		getout __rotate_power5, __rotate_firstPort5, 2
+1	4766	93		brtst 4, __rotate_doneRunning5, __rotate_power5
+1	4767	96		getout __rotate_rs5, __rotate_firstPort5, 6
+1	4768	100		brcmp 4, __rotate_Running5, __rotate_rs5, __constVal32
+1	4770	104		brtst 4, __rotate_Reset5, __rotate_stop5
+1	4772	107		set __rotate_theOM5, 7
+1	4773	110		set __rotate_theUF5, 7
+1	4774	113		setout __rotate_ports5, 1, __rotate_theOM5, 8, __constVal1, 6, __rotate_theRS5, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF5
+1	4776	128		getout __rotate_RotCount5, __rotate_firstPort5, 14
+1	4778	132		mov __rotate_OldRotCount5, __rotate_RotCount5
+1	4779	134		wait2 NA, __constVal50
+1	4781	137		getout __rotate_RotCount5, __rotate_firstPort5, 14
+1	4782	141		brcmp 5, __rotate_Stabilize5, __rotate_OldRotCount5, __rotate_RotCount5
+1	4783	145		set __rotate_theOM5, 4
+1	4784	148		setout __rotate_ports5, 8, __rotate_theRM5, 6, __constVal0, 1, __rotate_theOM5, 0, __constVal1
+1	4787	159		brtst 4, __rotate_Done5, __rotate_theTurnPct5
+1	4788	162		setout __rotate_ports5, 0, __constVal32
+1	4790	167		subret ____RotateMotor5_return
+2	20	0	#line 20 "C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc"
+2	21	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc
+1	__RotateMotor5	195	NXTDefs.h
+2	__initialize_global_data	364	C:\Users\ronk\Documents\NXCprograms\WTOdomLineDriveTest180a.nxc

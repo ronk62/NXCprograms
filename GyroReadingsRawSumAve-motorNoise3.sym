@@ -1,0 +1,711 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_003main	6	1	0	4	2
+1	__signed_stack_002main	6	1	4	4	6
+2	__signed_stack_001main	6	1	8	4	10
+3	__signed_stack_003move	6	1	12	4	4
+4	__signed_stack_002move	6	1	16	4	4
+5	__signed_stack_001move	6	1	20	4	8
+6	__D0read	6	1	24	4	5
+7	__D0move	6	1	28	4	18
+8	__DF0main	10	1	32	4	2
+9	__signed_stack_002display	6	1	36	4	14
+10	__signed_stack_001display	6	1	40	4	14
+11	__DF0read	10	1	44	4	2
+12	__constValf0P01	10	0	48	4	1
+13	g_offset	10	0	52	4	6
+14	Gyro_val	6	1	56	4	8
+15	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	60	4	2
+16	__constVal65536	6	0	64	4	3
+17	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	68	4	3
+18	__signed_stack_003read	6	1	72	4	2
+19	__signed_stack_002read	6	1	76	4	2
+20	__signed_stack_001read	6	1	80	4	4
+21	gAve	10	1	84	4	3
+22	gSum	10	1	88	4	3
+23	__float_stack_001read	10	1	92	4	4
+24	__constVal32768	6	0	96	4	3
+25	__SPTArgsMutex	9	0	100	4	8
+26	__D0display	6	1	104	4	11
+27	__TextOutMutex	9	0	108	4	22
+28	__RandomTmp	5	1	112	4	21
+29	__RandomMutex	9	0	116	4	6
+30	__DF0display	10	1	120	4	6
+31	__D0main	6	1	124	4	18
+32	i	4	0	128	2	4
+33	__constVal10000	4	0	130	2	1
+34	__main_7qG2_pwr_7qG2_000	4	1	132	2	2
+35	__move_7qG2_pwr_7qG2_000	4	1	134	2	2
+36	__constVal128	4	0	136	2	1
+37	__ClearLine_7qG2_line_7qG2_000_inline_display	1	1	138	1	4
+38	__zfread	1	1	139	1	2
+39	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	140	1	4
+40	__constVal32	2	0	141	1	12
+41	__constVal3	2	0	142	1	5
+42	__constVal63	2	0	143	1	4
+43	____initialize_global_data_return	1	1	144	1	3
+44	__constVal96	2	0	145	1	4
+45	__constVal0	2	1	146	1	22
+46	__constVal1	2	0	147	1	2
+47	__zfdisplay	1	1	148	1	2
+48	__zfmain	1	1	149	1	3
+49	__zfmove	1	1	150	1	2
+50	__constVal2	2	0	151	1	3
+51	____ResetSensorSubroutine_return	1	1	152	1	3
+52	__ResetSensorPort	1	1	153	1	3
+53	__ResetSensorTmp	1	1	154	1	2
+54	__RandomArgs	8	0	1	4	9
+55	__RandomArgs.Result	4	1	156	2	9
+56	__TextOutArgs	8	0	4	16	64
+57	__TextOutArgs.Result	2	1	160	1	64
+58	__TextOutArgs.Location	8	0	2	4	64
+59	__TextOutArgs.Location.X	4	1	164	2	64
+60	__TextOutArgs.Location.Y	4	1	166	2	64
+61	__TextOutArgs.Text	7	0	168	4	64
+62	__TextOutArgs.Text.Text_type	1	0	0	1	0
+63	__TextOutArgs.Options	5	1	172	4	64
+64	__SPTArgs	8	0	5	8	24
+65	__SPTArgs.Result	2	1	176	1	24
+66	__SPTArgs.Frequency	3	1	178	2	24
+67	__SPTArgs.Duration	3	1	180	2	24
+68	__SPTArgs.Loop	1	1	182	1	24
+69	__SPTArgs.Volume	1	1	183	1	24
+70	__strbufdisplay	7	0	184	4	6
+71	__strbufdisplay.__strbufdisplay_type	1	0	0	1	0
+72	__constStr0009	7	0	186	4	1
+73	__constStr0009.__constStr0009_type	1	1	0	1	0
+74	__BlankLine	7	0	188	4	2
+75	__BlankLine.__BlankLine_type	1	0	0	1	0
+76	__constStr0011	7	0	190	4	1
+77	__constStr0011.__constStr0011_type	1	1	0	1	0
+78	__constStr0010	7	0	192	4	1
+79	__constStr0010.__constStr0010_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	71	0	#line 71 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	72	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	71	2	#line 71 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	71	2	#line 71 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	72	2		set __SetSensor_7qG2_port_7qG2_000_inline_main, 2
+0	71	5	#line 71 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	71	5	#line 71 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	3707	5	#line 3707 "NXCDefs.h"
+0	3708	5		setin __constVal3, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	3709	9		setin __constVal128, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
+0	3710	13	#pragma macro 4
+0	3710	13		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
+0	3710	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7065	17	#line 7065 "NXCDefs.h"
+0	3711	17	#line 3711 "NXCDefs.h"
+0	72	17	#line 72 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	72	17	#line 72 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	73	17		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	72	20	#line 72 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	7921	20	#line 7921 "NXCDefs.h"
+0	7922	20		wait 1000
+0	7921	22	#line 7921 "NXCDefs.h"
+0	74	22	#line 74 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	77	22	#line 77 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	78	22		set __signed_stack_001main, 35
+0	77	25	#line 77 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	77	25	#line 77 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	78	25		set __D0main, 45
+0	78	28	#line 78 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	79	28	#pragma macro 8
+0	79	28		acquire __RandomMutex
+0	79	29		syscall 24, __RandomArgs
+0	79	32		mov __RandomTmp, __RandomArgs.Result
+0	79	34		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	79	38		mul __RandomTmp, __RandomTmp, __D0main
+0	79	42		div __RandomTmp, __RandomTmp, __constVal65536
+0	79	46		mov __D0main, __RandomTmp
+0	79	48		release __RandomMutex
+0	7095	49	#line 7095 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	78	49	#line 78 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	79	49		add __main_7qG2_pwr_7qG2_000, __signed_stack_001main, __D0main
+0	78	53	#line 78 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	78	53	#line 78 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	78	53	#line 78 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	79	53		mov __D0main, __main_7qG2_pwr_7qG2_000
+0	79	55	#line 79 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	80	55	#pragma macro 7
+0	80	55		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7108	78	#line 7108 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	79	78	#line 79 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	79	78	#line 79 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	80	78		mov __signed_stack_001main, i
+0	79	80	#line 79 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	79	80	#line 79 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	80	80		set __D0main, 10001
+0	79	83	#line 79 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	80	83		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	79	87	#line 79 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	80	87		mov __D0main, __zfmain
+0	87	89	#line 87 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	88	89		brtst 4, __NXC_Label_725, __zfmain
+0	89	92	#line 89 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	90	92		getin __D0main, __constVal2, 2
+0	89	96	#line 89 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	90	96		add Gyro_val, Gyro_val, __D0main
+0	89	100	#line 89 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	89	100	#line 89 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	90	100		set __signed_stack_001main, 0
+0	89	103	#line 89 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	89	103	#line 89 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	90	103		set __signed_stack_002main, 56
+0	89	106	#line 89 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	89	106	#line 89 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	90	106		mov __D0main, i
+0	90	108	#line 90 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	91	108		acquire __TextOutMutex
+0	90	109	#line 90 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	91	109		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	90	111	#line 90 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	91	111		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	90	113	#line 90 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	91	113		set __TextOutArgs.Options, 0
+0	90	116	#line 90 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	91	116		numtostr __TextOutArgs.Text, __D0main
+0	90	119	#line 90 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	91	119		syscall 13, __TextOutArgs
+0	90	122	#line 90 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	91	122		mov __D0main, __TextOutArgs.Result
+0	90	124	#line 90 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	91	124		release __TextOutMutex
+0	90	125	#line 90 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	91	125	#line 91 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	92	125		add i, i, __constVal1
+0	91	129	#line 91 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	93	129	#line 93 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	94	129		jmp __NXC_Label_724
+0	93	131	#line 93 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	94	131	#line 94 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	95	131	#pragma macro 7
+0	95	131		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7173	154	#line 7173 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	94	154	#line 94 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	94	154	#line 94 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	94	154	#line 94 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	95	154	#line 95 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	95	154	#line 95 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	96	154		div g_offset, Gyro_val, __constVal10000
+0	95	158	#line 95 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	95	158	#line 95 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	95	158	#line 95 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	96	158		set __signed_stack_001main, 70
+0	95	161	#line 95 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	95	161	#line 95 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	96	161		set __signed_stack_002main, 16
+0	95	164	#line 95 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	95	164	#line 95 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	96	164		mov __DF0main, g_offset
+0	96	166	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	166		acquire __TextOutMutex
+0	96	167	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	167		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	96	169	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	169		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	96	171	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	171		set __TextOutArgs.Options, 0
+0	96	174	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	174		numtostr __TextOutArgs.Text, __DF0main
+0	96	177	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	177		syscall 13, __TextOutArgs
+0	96	180	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	180		mov __D0main, __TextOutArgs.Result
+0	96	182	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	182		release __TextOutMutex
+0	96	183	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	96	183	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	183		set __signed_stack_001main, 440
+0	96	186	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	96	186	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	186		set __signed_stack_002main, 500
+0	96	189	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	96	189	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	189		set __signed_stack_003main, 4
+0	96	192	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	96	192	#line 96 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	192		set __D0main, 0
+0	97	195	#line 97 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	98	195		acquire __SPTArgsMutex
+0	97	196	#line 97 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	98	196		mov __SPTArgs.Frequency, __signed_stack_001main
+0	97	198	#line 97 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	98	198		mov __SPTArgs.Duration, __signed_stack_002main
+0	97	200	#line 97 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	98	200		mov __SPTArgs.Volume, __signed_stack_003main
+0	97	202	#line 97 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	98	202		mov __SPTArgs.Loop, __D0main
+0	97	204	#line 97 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	98	204		syscall 10, __SPTArgs
+0	97	207	#line 97 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	98	207		mov __D0main, __SPTArgs.Result
+0	97	209	#line 97 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	98	209		release __SPTArgsMutex
+0	97	210	#line 97 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	97	210	#line 97 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	98	210		set __Wait_7qG2_ms_7qG2_000_inline_main, 5000
+0	97	213	#line 97 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	7921	213	#line 7921 "NXCDefs.h"
+0	7922	213		wait 5000
+0	7921	215	#line 7921 "NXCDefs.h"
+0	99	215	#line 99 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	102	215	#line 102 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	102	215	#line 102 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+0	103	215		exit 0, 2
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	15	0	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	16	0		set __signed_stack_001read, 880
+2	15	3	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	15	3	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	16	3		set __signed_stack_002read, 1000
+2	15	6	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	15	6	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	16	6		set __signed_stack_003read, 4
+2	15	9	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	15	9	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	16	9		set __D0read, 0
+2	16	12	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	12		acquire __SPTArgsMutex
+2	16	13	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	13		mov __SPTArgs.Frequency, __signed_stack_001read
+2	16	15	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	15		mov __SPTArgs.Duration, __signed_stack_002read
+2	16	17	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	17		mov __SPTArgs.Volume, __signed_stack_003read
+2	16	19	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	19		mov __SPTArgs.Loop, __D0read
+2	16	21	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	21		syscall 10, __SPTArgs
+2	16	24	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	24		mov __D0read, __SPTArgs.Result
+2	16	26	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	26		release __SPTArgsMutex
+2	16	27	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	16	27	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	27		set __D0read, 1
+2	17	30	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	18	30		tst 5, __zfread, __D0read
+2	17	33	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	18	33		brtst 4, __NXC_Label_613, __zfread
+2	17	36	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	36	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	36	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	17	36	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	18	36	#line 18 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	19	36		getin __signed_stack_001read, __constVal2, 2
+2	18	40	#line 18 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	19	40	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	19	40	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	20	40		sub Gyro_val, __signed_stack_001read, g_offset
+2	19	44	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	19	44	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	20	44	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	20	44	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	21	44		add gSum, gSum, Gyro_val
+2	20	48	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	20	48	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	20	48	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	20	48	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	20	48	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	21	48		add __float_stack_001read, gAve, Gyro_val
+2	20	52	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	21	52	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	21	52	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	22	52		div gAve, __float_stack_001read, __constVal2
+2	21	56	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	21	56	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	21	56	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	22	56		mov __float_stack_001read, g_offset
+2	21	58	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	21	58	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	21	58	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	21	58	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	21	58	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	22	58		mul __DF0read, Gyro_val, __constValf0P01
+2	22	62	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	23	62		add g_offset, __float_stack_001read, __DF0read
+2	22	66	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	22	66	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	22	66	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	22	66	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	7921	66	#line 7921 "NXCDefs.h"
+2	7922	66		wait 100
+2	7921	68	#line 7921 "NXCDefs.h"
+2	23	68	#line 23 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	23	68	#line 23 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	23	68	#line 23 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	24	68	#line 24 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	24	68	#line 24 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	24	68	#line 24 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	24	68	#line 24 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	24	68	#line 24 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	28	68	#line 28 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	29	68		jmp __NXC_Label_612
+2	28	70	#line 28 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+2	29	70		exit -1, -1
+3	32	0	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	32	0	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	32	0	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	33	0		set __signed_stack_001display, 0
+3	32	3	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	32	3	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	33	3		set __signed_stack_002display, 56
+3	32	6	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	32	6	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	33	6		strcat __strbufdisplay, __constStr0009
+3	33	10	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	10		acquire __TextOutMutex
+3	33	11	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	11		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	33	13	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	13		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	33	15	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	15		set __TextOutArgs.Options, 0
+3	33	18	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	18		mov __TextOutArgs.Text, __strbufdisplay
+3	33	20	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	20		syscall 13, __TextOutArgs
+3	33	23	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	23		mov __D0display, __TextOutArgs.Result
+3	33	25	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	25		release __TextOutMutex
+3	33	26	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	33	26	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	26		set __signed_stack_001display, 20
+3	33	29	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	33	29	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	29		set __signed_stack_002display, 56
+3	33	32	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	33	32	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	32		strcat __strbufdisplay, __constStr0010
+3	34	36	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	35	36		acquire __TextOutMutex
+3	34	37	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	35	37		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	34	39	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	35	39		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	34	41	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	35	41		set __TextOutArgs.Options, 0
+3	34	44	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	35	44		mov __TextOutArgs.Text, __strbufdisplay
+3	34	46	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	35	46		syscall 13, __TextOutArgs
+3	34	49	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	35	49		mov __D0display, __TextOutArgs.Result
+3	34	51	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	35	51		release __TextOutMutex
+3	34	52	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	52	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	35	52		set __signed_stack_001display, 70
+3	34	55	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	55	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	35	55		set __signed_stack_002display, 56
+3	34	58	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	34	58	#line 34 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	35	58		strcat __strbufdisplay, __constStr0011
+3	36	62	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	37	62		acquire __TextOutMutex
+3	36	63	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	37	63		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	36	65	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	37	65		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	36	67	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	37	67		set __TextOutArgs.Options, 0
+3	36	70	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	37	70		mov __TextOutArgs.Text, __strbufdisplay
+3	36	72	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	37	72		syscall 13, __TextOutArgs
+3	36	75	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	37	75		mov __D0display, __TextOutArgs.Result
+3	36	77	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	37	77		release __TextOutMutex
+3	36	78	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	36	78	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	37	78		set __D0display, 1
+3	37	81	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	38	81		tst 5, __zfdisplay, __D0display
+3	37	84	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	38	84		brtst 4, __NXC_Label_649, __zfdisplay
+3	37	87	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	38	87		set __ClearLine_7qG2_line_7qG2_000_inline_display, 40
+3	37	90	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	6076	90	#line 6076 "NXCDefs.h"
+3	6077	90	#pragma macro 7
+3	6077	90		acquire __TextOutMutex
+3	6077	91		mov __TextOutArgs.Location.X, __constVal0
+3	6077	93		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+3	6077	95		mov __TextOutArgs.Options, __constVal0
+3	6077	97		mov __TextOutArgs.Text, __BlankLine
+3	6077	99		syscall 13, __TextOutArgs
+3	6077	102		release __TextOutMutex
+3	6709	103	#line 6709 "NXCDefs.h"
+3	6076	103	#line 6076 "NXCDefs.h"
+3	38	103	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	38	103	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	39	103		set __ClearLine_7qG2_line_7qG2_000_inline_display, 16
+3	38	106	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	6076	106	#line 6076 "NXCDefs.h"
+3	6077	106	#pragma macro 7
+3	6077	106		acquire __TextOutMutex
+3	6077	107		mov __TextOutArgs.Location.X, __constVal0
+3	6077	109		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+3	6077	111		mov __TextOutArgs.Options, __constVal0
+3	6077	113		mov __TextOutArgs.Text, __BlankLine
+3	6077	115		syscall 13, __TextOutArgs
+3	6077	118		release __TextOutMutex
+3	6719	119	#line 6719 "NXCDefs.h"
+3	6076	119	#line 6076 "NXCDefs.h"
+3	39	119	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	39	119	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	40	119		set __signed_stack_001display, 0
+3	39	122	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	39	122	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	40	122		set __signed_stack_002display, 40
+3	39	125	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	39	125	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	40	125		mov __D0display, Gyro_val
+3	40	127	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	127		acquire __TextOutMutex
+3	40	128	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	128		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	40	130	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	130		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	40	132	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	132		set __TextOutArgs.Options, 0
+3	40	135	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	135		numtostr __TextOutArgs.Text, __D0display
+3	40	138	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	138		syscall 13, __TextOutArgs
+3	40	141	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	141		mov __D0display, __TextOutArgs.Result
+3	40	143	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	143		release __TextOutMutex
+3	40	144	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	40	144	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	144		set __signed_stack_001display, 20
+3	40	147	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	40	147	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	147		set __signed_stack_002display, 40
+3	40	150	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	40	150	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	150		mov __DF0display, gSum
+3	41	152	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	152		acquire __TextOutMutex
+3	41	153	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	153		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	41	155	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	155		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	41	157	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	157		set __TextOutArgs.Options, 0
+3	41	160	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	160		numtostr __TextOutArgs.Text, __DF0display
+3	41	163	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	163		syscall 13, __TextOutArgs
+3	41	166	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	166		mov __D0display, __TextOutArgs.Result
+3	41	168	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	168		release __TextOutMutex
+3	41	169	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	169	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	169		set __signed_stack_001display, 70
+3	41	172	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	172	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	172		set __signed_stack_002display, 40
+3	41	175	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	41	175	#line 41 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	175		mov __DF0display, gAve
+3	42	177	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	177		acquire __TextOutMutex
+3	42	178	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	178		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	42	180	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	180		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	42	182	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	182		set __TextOutArgs.Options, 0
+3	42	185	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	185		numtostr __TextOutArgs.Text, __DF0display
+3	42	188	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	188		syscall 13, __TextOutArgs
+3	42	191	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	191		mov __D0display, __TextOutArgs.Result
+3	42	193	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	193		release __TextOutMutex
+3	42	194	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	194	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	194		set __signed_stack_001display, 70
+3	42	197	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	197	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	197		set __signed_stack_002display, 16
+3	42	200	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	42	200	#line 42 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	200		mov __DF0display, g_offset
+3	43	202	#line 43 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	44	202		acquire __TextOutMutex
+3	43	203	#line 43 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	44	203		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	43	205	#line 43 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	44	205		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	43	207	#line 43 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	44	207		set __TextOutArgs.Options, 0
+3	43	210	#line 43 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	44	210		numtostr __TextOutArgs.Text, __DF0display
+3	43	213	#line 43 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	44	213		syscall 13, __TextOutArgs
+3	43	216	#line 43 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	44	216		mov __D0display, __TextOutArgs.Result
+3	43	218	#line 43 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	44	218		release __TextOutMutex
+3	43	219	#line 43 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	219	#line 43 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	43	219	#line 43 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	7921	219	#line 7921 "NXCDefs.h"
+3	7922	219		wait 500
+3	7921	221	#line 7921 "NXCDefs.h"
+3	44	221	#line 44 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	48	221	#line 48 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	49	221		jmp __NXC_Label_648
+3	48	223	#line 48 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+3	49	223		exit -1, -1
+4	51	0	#line 51 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	52	0		set __D0move, 1
+4	53	3	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	54	3		tst 5, __zfmove, __D0move
+4	53	6	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	54	6		brtst 4, __NXC_Label_683, __zfmove
+4	53	9	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	54	9		set __signed_stack_001move, 600
+4	53	12	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	53	12	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	54	12		set __signed_stack_002move, 250
+4	53	15	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	53	15	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	54	15		set __signed_stack_003move, 4
+4	53	18	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	53	18	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	54	18		set __D0move, 0
+4	54	21	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	21		acquire __SPTArgsMutex
+4	54	22	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	22		mov __SPTArgs.Frequency, __signed_stack_001move
+4	54	24	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	24		mov __SPTArgs.Duration, __signed_stack_002move
+4	54	26	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	26		mov __SPTArgs.Volume, __signed_stack_003move
+4	54	28	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	28		mov __SPTArgs.Loop, __D0move
+4	54	30	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	30		syscall 10, __SPTArgs
+4	54	33	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	33		mov __D0move, __SPTArgs.Result
+4	54	35	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	35		release __SPTArgsMutex
+4	54	36	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	54	36	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	36		set __Wait_7qG2_ms_7qG2_000_inline_move, 300
+4	54	39	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	7921	39	#line 7921 "NXCDefs.h"
+4	7922	39		wait 300
+4	7921	41	#line 7921 "NXCDefs.h"
+4	55	41	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	41	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	56	41		set __signed_stack_001move, 1200
+4	55	44	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	44	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	56	44		set __signed_stack_002move, 250
+4	55	47	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	47	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	56	47		set __signed_stack_003move, 4
+4	55	50	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	55	50	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	56	50		set __D0move, 0
+4	57	53	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	53		acquire __SPTArgsMutex
+4	57	54	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	54		mov __SPTArgs.Frequency, __signed_stack_001move
+4	57	56	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	56		mov __SPTArgs.Duration, __signed_stack_002move
+4	57	58	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	58		mov __SPTArgs.Volume, __signed_stack_003move
+4	57	60	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	60		mov __SPTArgs.Loop, __D0move
+4	57	62	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	62		syscall 10, __SPTArgs
+4	57	65	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	65		mov __D0move, __SPTArgs.Result
+4	57	67	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	67		release __SPTArgsMutex
+4	57	68	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	57	68	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	68		set __signed_stack_001move, 35
+4	57	71	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	57	71	#line 57 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	71		set __D0move, 45
+4	58	74	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	59	74	#pragma macro 8
+4	59	74		acquire __RandomMutex
+4	59	75		syscall 24, __RandomArgs
+4	59	78		mov __RandomTmp, __RandomArgs.Result
+4	59	80		add __RandomTmp, __RandomArgs.Result, __constVal32768
+4	59	84		mul __RandomTmp, __RandomTmp, __D0move
+4	59	88		div __RandomTmp, __RandomTmp, __constVal65536
+4	59	92		mov __D0move, __RandomTmp
+4	59	94		release __RandomMutex
+4	6997	95	#line 6997 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	95	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	59	95		add __move_7qG2_pwr_7qG2_000, __signed_stack_001move, __D0move
+4	58	99	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	99	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	58	99	#line 58 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	59	99		mov __D0move, __move_7qG2_pwr_7qG2_000
+4	59	101	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	60	101	#pragma macro 7
+4	60	101		setout __constVal0, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	7010	124	#line 7010 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	59	124	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	59	124	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	60	124		set __signed_stack_001move, 100
+4	59	127	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	59	127	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	60	127		set __D0move, 900
+4	59	130	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	60	130	#pragma macro 8
+4	60	130		acquire __RandomMutex
+4	60	131		syscall 24, __RandomArgs
+4	60	134		mov __RandomTmp, __RandomArgs.Result
+4	60	136		add __RandomTmp, __RandomArgs.Result, __constVal32768
+4	60	140		mul __RandomTmp, __RandomTmp, __D0move
+4	60	144		div __RandomTmp, __RandomTmp, __constVal65536
+4	60	148		mov __D0move, __RandomTmp
+4	60	150		release __RandomMutex
+4	7021	151	#line 7021 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	59	151	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	60	151		add __Wait_7qG2_ms_7qG2_000_inline_move, __signed_stack_001move, __D0move
+4	59	155	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	7921	155	#line 7921 "NXCDefs.h"
+4	7922	155		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+4	7921	157	#line 7921 "NXCDefs.h"
+4	60	157	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	64	157	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	65	157	#pragma macro 7
+4	65	157		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	7033	180	#line 7033 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	64	180	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	68	180	#line 68 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	69	180		jmp __NXC_Label_682
+4	68	182	#line 68 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+4	69	182		exit -1, -1
+5	105	0	#line 105 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc"
+5	106	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc
+1	__ResetSensorSubroutine	218	NXTDefs.h
+2	read	231	C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc
+3	display	304	C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc
+4	move	530	C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc
+5	__initialize_global_data	715	C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve-motorNoise3.nxc

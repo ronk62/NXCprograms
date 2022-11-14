@@ -1,0 +1,68 @@
+int Compass_val, currHeading, deltaT, speed, dir = 0, steer = 100;
+
+task read()
+{
+  while(true){
+    Compass_val=SensorHTCompass(S2);
+    Wait(50);
+  }
+}
+
+task display()
+{
+  while(true){
+     ClearLine(LCD_LINE4);
+     ClearLine(LCD_LINE6);
+     ClearLine(LCD_LINE7);
+     NumOut(30, LCD_LINE4, Compass_val);
+     NumOut(30, LCD_LINE6, dir);
+     NumOut(30, LCD_LINE7, dir - Compass_val);
+     Wait(500);
+  }
+}
+
+task move()
+{
+  while (true){
+    while (abs(dir - Compass_val) > 0){
+     if (dir - Compass_val < -179){
+        speed = dir - Compass_val + 360;
+     }
+     else{
+        speed = dir - Compass_val;
+     }
+     if (speed > 35)
+     {
+        speed=35;
+     }
+     if (speed <15)
+     {
+        speed=15;
+     }
+     if (dir - Compass_val < 180){
+        steer = 100;
+     }
+     else{
+        steer = -100;
+     }
+     OnFwdSync(OUT_BC, speed, steer);
+    }
+    Off(OUT_BC);
+    Wait(3000);
+    dir=dir+90;
+    if (dir > 359)
+    {
+      dir = 0;
+    }
+  }
+}
+
+
+task main()
+{
+
+  SetSensorLowspeed(S2);
+  Precedes(read, display, move);
+
+
+}

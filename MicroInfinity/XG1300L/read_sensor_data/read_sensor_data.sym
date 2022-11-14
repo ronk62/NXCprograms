@@ -1,0 +1,959 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0SetSensorLowspeed_inline_main	5	1	0	4	5
+1	__D0SetSensorLowspeed_inline_main	6	1	4	4	2
+2	__signed_stack_002main	6	1	8	4	28
+3	__signed_stack_001main	6	1	12	4	28
+4	__D0XglReset	6	1	16	4	7
+5	__DU0main	5	1	20	4	8
+6	__D0main	6	1	24	4	30
+7	__D0XglReadPacket	6	1	28	4	30
+8	__D0XglAccSF	6	1	32	4	7
+9	__unsigned_stack_002XglReadPacket	5	1	36	4	10
+10	__unsigned_stack_001XglReadPacket	5	1	40	4	10
+11	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	44	4	8
+12	__signed_stack_001XglReset	6	1	48	4	2
+13	__signed_stack_002XglReadPacket	6	1	52	4	10
+14	__unsigned_stack_001main	5	1	56	4	4
+15	__signed_stack_003main	6	1	60	4	2
+16	__signed_stack_001XglReadPacket	6	1	64	4	12
+17	__signed_stack_001XglAccSF	6	1	68	4	4
+18	__CLSWMutex0	9	0	72	4	6
+19	__CLSCSMutex0	9	0	76	4	8
+20	__CLSRMutex0	9	0	80	4	2
+21	__RLSBmutex0	9	0	84	4	2
+22	__constVal200	4	0	88	2	2
+23	__XglReset_return	1	1	90	1	4
+24	__constVal0	2	1	91	1	13
+25	__XglAccSF_7qG2_register_7qG2_000	1	1	92	1	2
+26	__XglAccSF_7qG2_n_read_7qG2_000	1	1	93	1	2
+27	__XglAccSF_7qG2_accSf_7qG2_000	1	1	94	1	2
+28	__constVal96	2	0	95	1	1
+29	__XglAccSF_return	1	1	96	1	3
+30	__XglReset_7qG2_n_read_7qG2_000	1	1	97	1	2
+31	__XglReadPacket_return	1	1	98	1	3
+32	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	99	1	2
+33	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	100	1	2
+34	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	101	1	2
+35	__constVal1	2	0	102	1	4
+36	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	103	1	2
+37	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	104	1	2
+38	__XglReadPacket_7qG2_n_read_7qG2_000	1	1	105	1	2
+39	__XglReadPacket_7qG2_count_7qG2_000	1	1	106	1	3
+40	____initialize_global_data_return	1	1	107	1	3
+41	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	108	1	4
+42	__main_7qG2_acc_sf_7qG2_000	1	1	109	1	5
+43	__constVal10	2	0	110	1	1
+44	__constVal2	2	0	111	1	6
+45	__constVal66	2	0	112	1	1
+46	____ReadLSBytes0_return	1	1	113	1	3
+47	__LSWriteOptionsVar	1	1	114	1	6
+48	__RLSBIterations0	1	1	115	1	4
+49	__ResetSensorTmp	1	1	116	1	2
+50	__ResetSensorPort	1	1	117	1	3
+51	__RLSBResult0	2	1	118	1	8
+52	__RLSBytesCount0	1	1	119	1	8
+53	____ResetSensorSubroutine_return	1	1	120	1	3
+54	__PointOutArgs	8	0	3	12	4
+55	__PointOutArgs.Result	2	1	124	1	4
+56	__PointOutArgs.Location	8	0	2	4	4
+57	__PointOutArgs.Location.X	4	1	128	2	4
+58	__PointOutArgs.Location.Y	4	1	130	2	4
+59	__PointOutArgs.Options	5	1	132	4	4
+60	__main_7qG2_rbArgs_7qG2_000	8	0	5	8	8
+61	__main_7qG2_rbArgs_7qG2_000.Result	2	1	136	1	8
+62	__main_7qG2_rbArgs_7qG2_000.Index	1	1	137	1	8
+63	__main_7qG2_rbArgs_7qG2_000.Pressed	1	1	138	1	8
+64	__main_7qG2_rbArgs_7qG2_000.Count	1	1	139	1	8
+65	__main_7qG2_rbArgs_7qG2_000.Reset	1	1	140	1	8
+66	__main_7qG2_xgl_7qG2_000	8	0	5	12	7
+67	__main_7qG2_xgl_7qG2_000.mAng	4	1	144	2	7
+68	__main_7qG2_xgl_7qG2_000.mRate	4	1	146	2	7
+69	__main_7qG2_xgl_7qG2_000.mAccX	4	1	148	2	7
+70	__main_7qG2_xgl_7qG2_000.mAccY	4	1	150	2	7
+71	__main_7qG2_xgl_7qG2_000.mAccZ	4	1	152	2	7
+72	__CLSRArgs0	8	0	4	12	5
+73	__CLSRArgs0.Result	2	1	156	1	5
+74	__CLSRArgs0.Port	1	1	157	1	5
+75	__CLSRArgs0.Buffer	7	0	158	4	5
+76	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+77	__CLSRArgs0.BufferLen	1	1	160	1	5
+78	__XglReadPacket_7qG2_XglData_7qG2_000	8	0	5	12	7
+79	__XglReadPacket_7qG2_XglData_7qG2_000.mAng	4	1	164	2	7
+80	__XglReadPacket_7qG2_XglData_7qG2_000.mRate	4	1	166	2	7
+81	__XglReadPacket_7qG2_XglData_7qG2_000.mAccX	4	1	168	2	7
+82	__XglReadPacket_7qG2_XglData_7qG2_000.mAccY	4	1	170	2	7
+83	__XglReadPacket_7qG2_XglData_7qG2_000.mAccZ	4	1	172	2	7
+84	__CLSCSArgs0	8	0	3	4	16
+85	__CLSCSArgs0.Result	2	1	176	1	16
+86	__CLSCSArgs0.Port	1	1	177	1	16
+87	__CLSCSArgs0.BytesReady	1	1	178	1	16
+88	__CLSWArgs0	8	0	4	12	15
+89	__CLSWArgs0.Result	2	1	180	1	15
+90	__CLSWArgs0.Port	1	1	181	1	15
+91	__CLSWArgs0.Buffer	7	0	182	4	15
+92	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+93	__CLSWArgs0.ReturnLen	1	1	184	1	15
+94	__TextOutArgs	8	0	4	16	70
+95	__TextOutArgs.Result	2	1	188	1	70
+96	__TextOutArgs.Location	8	0	2	4	70
+97	__TextOutArgs.Location.X	4	1	192	2	70
+98	__TextOutArgs.Location.Y	4	1	194	2	70
+99	__TextOutArgs.Text	7	0	196	4	70
+100	__TextOutArgs.Text.Text_type	1	0	0	1	0
+101	__TextOutArgs.Options	5	1	200	4	70
+102	__constStr0011	7	0	204	4	1
+103	__constStr0011.__constStr0011_type	1	1	0	1	0
+104	__constStr0012	7	0	206	4	1
+105	__constStr0012.__constStr0012_type	1	1	0	1	0
+106	__constStr0009	7	0	208	4	1
+107	__constStr0009.__constStr0009_type	1	1	0	1	0
+108	__constStr0010	7	0	210	4	1
+109	__constStr0010.__constStr0010_type	1	1	0	1	0
+110	__constStr0015	7	0	212	4	1
+111	__constStr0015.__constStr0015_type	1	1	0	1	0
+112	__constStr0016	7	0	214	4	1
+113	__constStr0016.__constStr0016_type	1	1	0	1	0
+114	__constStr0013	7	0	216	4	1
+115	__constStr0013.__constStr0013_type	1	1	0	1	0
+116	__constStr0014	7	0	218	4	1
+117	__constStr0014.__constStr0014_type	1	1	0	1	0
+118	__XglAccSF_7qG2_cmd_7qG2_000	7	0	220	4	3
+119	__XglAccSF_7qG2_cmd_7qG2_000.__XglAccSF_7qG2_cmd_7qG2_000_type	1	0	0	1	0
+120	__strbufmain	7	0	222	4	16
+121	__strbufmain.__strbufmain_type	1	0	0	1	0
+122	__RLSLastGoodRead0	7	0	224	4	2
+123	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+124	__LSWriteOptions	7	0	226	4	3
+125	__LSWriteOptions.__LSWriteOptions_type	1	0	0	1	0
+126	__XglReadPacket_7qG2_cmd_7qG2_000	7	0	228	4	3
+127	__XglReadPacket_7qG2_cmd_7qG2_000.__XglReadPacket_7qG2_cmd_7qG2_000_type	1	0	0	1	0
+128	__XglReset_7qG2_cmd_7qG2_000	7	0	230	4	3
+129	__XglReset_7qG2_cmd_7qG2_000.__XglReset_7qG2_cmd_7qG2_000_type	1	0	0	1	0
+130	__RLSReadBuf0	7	0	232	4	8
+131	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+132	__XglReadPacket_7qG2_data_7qG2_000	7	0	234	4	12
+133	__XglReadPacket_7qG2_data_7qG2_000.__XglReadPacket_7qG2_data_7qG2_000_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	72	0	#line 72 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	73	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	72	2	#line 72 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	74	2	#line 74 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	75	2		set __main_7qG2_acc_sf_7qG2_000, 0
+0	74	5	#line 74 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	78	5	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	79	5		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	78	8	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	78	8	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	79	8		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4523	10	#line 4523 "NXCDefs.h"
+0	4524	10		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4523	12	#line 4523 "NXCDefs.h"
+0	4523	12	#line 4523 "NXCDefs.h"
+0	4524	12		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4523	14	#line 4523 "NXCDefs.h"
+0	4524	14		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4523	17	#line 4523 "NXCDefs.h"
+0	4524	17		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4523	20	#line 4523 "NXCDefs.h"
+0	4524	20		set __DU0SetSensorLowspeed_inline_main, 11
+0	4523	23	#line 4523 "NXCDefs.h"
+0	4523	23	#line 4523 "NXCDefs.h"
+0	4524	23		jmp __004__ASM_Label_37
+0	4523	25	#line 4523 "NXCDefs.h"
+0	4524	25		set __DU0SetSensorLowspeed_inline_main, 10
+0	4523	28	#line 4523 "NXCDefs.h"
+0	4523	28	#line 4523 "NXCDefs.h"
+0	4524	28		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4428	30	#line 4428 "NXCDefs.h"
+0	4429	30		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4428	34	#line 4428 "NXCDefs.h"
+0	4523	34	#line 4523 "NXCDefs.h"
+0	4524	34	#line 4524 "NXCDefs.h"
+0	4525	34		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4524	36	#line 4524 "NXCDefs.h"
+0	4524	36	#line 4524 "NXCDefs.h"
+0	4525	36		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4524	39	#line 4524 "NXCDefs.h"
+0	4441	39	#line 4441 "NXCDefs.h"
+0	4442	39		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4441	43	#line 4441 "NXCDefs.h"
+0	4524	43	#line 4524 "NXCDefs.h"
+0	4525	43	#line 4525 "NXCDefs.h"
+0	4525	43	#line 4525 "NXCDefs.h"
+0	4459	43	#line 4459 "NXCDefs.h"
+0	4460	43	#pragma macro 4
+0	4460	43		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4460	45		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6959	47	#line 6959 "NXCDefs.h"
+0	4459	47	#line 4459 "NXCDefs.h"
+0	4525	47	#line 4525 "NXCDefs.h"
+0	78	47	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	80	47	#line 80 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	81	47		subcall XglReset, __XglReset_return
+0	80	49	#line 80 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	81	49	#line 81 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	82	49		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	81	52	#line 81 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	8869	52	#line 8869 "NXCDefs.h"
+0	8870	52		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	54	#line 8869 "NXCDefs.h"
+0	81	54	#line 81 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	85	54	#line 85 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	86	54		set __D0main, 1
+0	86	57	#line 86 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	87	57		tst 5, __D0main, __D0main
+0	86	60	#line 86 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	87	60		brtst 4, __ASM_Label_676, __D0main
+0	6921	63	#line 6921 "NXCDefs.h"
+0	6922	63	#pragma macro 6
+0	6922	63		mov __PointOutArgs.Location.X, __constVal200
+0	6922	65		mov __PointOutArgs.Location.Y, __constVal200
+0	6922	67		mov __PointOutArgs.Options, __constVal1
+0	6922	69		syscall 14, __PointOutArgs
+0	6986	72	#line 6986 "NXCDefs.h"
+0	6921	72	#line 6921 "NXCDefs.h"
+0	86	72	#line 86 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	87	72	#line 87 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	88	72		mov __XglReadPacket_7qG2_XglData_7qG2_000, __main_7qG2_xgl_7qG2_000
+0	87	74	#line 87 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	88	74		subcall XglReadPacket, __XglReadPacket_return
+0	87	76	#line 87 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	88	76		mov __main_7qG2_xgl_7qG2_000, __XglReadPacket_7qG2_XglData_7qG2_000
+0	87	78	#line 87 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	88	78	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	89	78		set __signed_stack_001main, 0
+0	88	81	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	88	81	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	89	81		set __signed_stack_002main, 56
+0	88	84	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	88	84	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	89	84		strcat __strbufmain, __constStr0009
+0	88	88	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	89	88		set __D0main, 0
+0	88	91	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	88	91	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	89	91		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	88	93	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	89	93		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	88	95	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	89	95		mov __TextOutArgs.Options, __D0main
+0	88	97	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	89	97		mov __TextOutArgs.Text, __strbufmain
+0	88	99	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	89	99		syscall 13, __TextOutArgs
+0	88	102	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	88	102	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	88	102	#line 88 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	90	102	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	102		set __signed_stack_001main, 0
+0	90	105	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	90	105	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	105		set __signed_stack_002main, 40
+0	90	108	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	90	108	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	108		strcat __strbufmain, __constStr0010
+0	90	112	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	90	112	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	112		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	90	114	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	114		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	90	116	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	116		set __TextOutArgs.Options, 0
+0	90	119	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	119		mov __TextOutArgs.Text, __strbufmain
+0	90	121	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	121		syscall 13, __TextOutArgs
+0	90	124	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	90	124	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	90	124	#line 90 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	124	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	92	124		set __signed_stack_001main, 40
+0	91	127	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	127	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	92	127		set __signed_stack_002main, 40
+0	91	130	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	130	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	92	130		mov __D0main, __main_7qG2_xgl_7qG2_000.mAng
+0	91	132	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	132	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	92	132		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	91	134	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	92	134		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	91	136	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	92	136		set __TextOutArgs.Options, 0
+0	91	139	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	92	139		numtostr __TextOutArgs.Text, __D0main
+0	91	142	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	92	142		syscall 13, __TextOutArgs
+0	91	145	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	145	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	91	145	#line 91 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	93	145	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	145		set __signed_stack_001main, 0
+0	93	148	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	93	148	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	148		set __signed_stack_002main, 32
+0	93	151	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	93	151	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	151		strcat __strbufmain, __constStr0011
+0	93	155	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	93	155	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	155		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	93	157	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	157		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	93	159	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	159		set __TextOutArgs.Options, 0
+0	93	162	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	162		mov __TextOutArgs.Text, __strbufmain
+0	93	164	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	164		syscall 13, __TextOutArgs
+0	93	167	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	93	167	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	93	167	#line 93 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	167	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	95	167		set __signed_stack_001main, 40
+0	94	170	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	170	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	95	170		set __signed_stack_002main, 32
+0	94	173	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	173	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	95	173		mov __D0main, __main_7qG2_xgl_7qG2_000.mRate
+0	94	175	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	175	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	95	175		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	94	177	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	95	177		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	94	179	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	95	179		set __TextOutArgs.Options, 0
+0	94	182	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	95	182		numtostr __TextOutArgs.Text, __D0main
+0	94	185	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	95	185		syscall 13, __TextOutArgs
+0	94	188	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	188	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	94	188	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	96	188	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	188		set __signed_stack_001main, 0
+0	96	191	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	96	191	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	191		set __signed_stack_002main, 24
+0	96	194	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	96	194	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	194		strcat __strbufmain, __constStr0012
+0	96	198	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	96	198	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	198		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	96	200	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	200		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	96	202	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	202		set __TextOutArgs.Options, 0
+0	96	205	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	205		mov __TextOutArgs.Text, __strbufmain
+0	96	207	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	207		syscall 13, __TextOutArgs
+0	96	210	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	96	210	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	96	210	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	210	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	98	210		set __signed_stack_001main, 40
+0	97	213	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	213	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	98	213		set __signed_stack_002main, 24
+0	97	216	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	216	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	98	216		mov __D0main, __main_7qG2_xgl_7qG2_000.mAccX
+0	97	218	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	218	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	98	218		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	97	220	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	98	220		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	97	222	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	98	222		set __TextOutArgs.Options, 0
+0	97	225	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	98	225		numtostr __TextOutArgs.Text, __D0main
+0	97	228	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	98	228		syscall 13, __TextOutArgs
+0	97	231	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	231	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	97	231	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	99	231	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	231		set __signed_stack_001main, 0
+0	99	234	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	99	234	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	234		set __signed_stack_002main, 16
+0	99	237	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	99	237	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	237		strcat __strbufmain, __constStr0013
+0	99	241	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	99	241	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	241		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	99	243	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	243		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	99	245	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	245		set __TextOutArgs.Options, 0
+0	99	248	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	248		mov __TextOutArgs.Text, __strbufmain
+0	99	250	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	250		syscall 13, __TextOutArgs
+0	99	253	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	99	253	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	99	253	#line 99 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	253	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	101	253		set __signed_stack_001main, 40
+0	100	256	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	256	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	101	256		set __signed_stack_002main, 16
+0	100	259	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	259	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	101	259		mov __D0main, __main_7qG2_xgl_7qG2_000.mAccY
+0	100	261	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	261	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	101	261		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	100	263	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	101	263		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	100	265	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	101	265		set __TextOutArgs.Options, 0
+0	100	268	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	101	268		numtostr __TextOutArgs.Text, __D0main
+0	100	271	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	101	271		syscall 13, __TextOutArgs
+0	100	274	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	274	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	100	274	#line 100 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	102	274	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	274		set __signed_stack_001main, 0
+0	102	277	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	102	277	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	277		set __signed_stack_002main, 8
+0	102	280	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	102	280	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	280		strcat __strbufmain, __constStr0014
+0	102	284	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	102	284	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	284		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	102	286	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	286		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	102	288	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	288		set __TextOutArgs.Options, 0
+0	102	291	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	291		mov __TextOutArgs.Text, __strbufmain
+0	102	293	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	293		syscall 13, __TextOutArgs
+0	102	296	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	102	296	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	102	296	#line 102 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	296	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	104	296		set __signed_stack_001main, 40
+0	103	299	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	299	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	104	299		set __signed_stack_002main, 8
+0	103	302	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	302	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	104	302		mov __D0main, __main_7qG2_xgl_7qG2_000.mAccZ
+0	103	304	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	304	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	104	304		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	103	306	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	104	306		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	103	308	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	104	308		set __TextOutArgs.Options, 0
+0	103	311	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	104	311		numtostr __TextOutArgs.Text, __D0main
+0	103	314	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	104	314		syscall 13, __TextOutArgs
+0	103	317	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	317	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	103	317	#line 103 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	106	317	#line 106 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	107	317		set __main_7qG2_rbArgs_7qG2_000.Index, 2
+0	106	320	#line 106 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	106	320	#line 106 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	108	320	#line 108 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	109	320	#pragma macro 4
+0	109	320	#line 109 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	109	320		syscall 20, __main_7qG2_rbArgs_7qG2_000
+0	107	323	#line 107 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	107	323	#line 107 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	107	323	#line 107 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	107	323	#line 107 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	108	323	#line 108 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	108	323	#line 108 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	109	323	#line 109 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	110	323		mov __DU0main, __main_7qG2_rbArgs_7qG2_000.Pressed
+0	110	325	#line 110 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	111	325		tst 5, __D0main, __DU0main
+0	110	328	#line 110 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	111	328		brtst 4, __ASM_Label_739, __D0main
+0	110	331	#line 110 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	111	331		subcall XglReset, __XglReset_return
+0	110	333	#line 110 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	111	333	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	112	333		set __signed_stack_001main, 0
+0	111	336	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	111	336	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	112	336		set __signed_stack_002main, 48
+0	111	339	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	111	339	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	112	339		strcat __strbufmain, __constStr0015
+0	111	343	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	112	343		set __D0main, 0
+0	111	346	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	111	346	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	112	346		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	111	348	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	112	348		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	111	350	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	112	350		mov __TextOutArgs.Options, __D0main
+0	111	352	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	112	352		mov __TextOutArgs.Text, __strbufmain
+0	111	354	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	112	354		syscall 13, __TextOutArgs
+0	111	357	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	111	357	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	111	357	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	112	357	#line 112 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	113	357		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	112	360	#line 112 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	8869	360	#line 8869 "NXCDefs.h"
+0	8870	360		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	362	#line 8869 "NXCDefs.h"
+0	112	362	#line 112 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	116	362	#line 116 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	116	362	#line 116 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	117	362		set __main_7qG2_rbArgs_7qG2_000.Index, 1
+0	116	365	#line 116 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	116	365	#line 116 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	118	365	#line 118 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	119	365	#pragma macro 4
+0	119	365	#line 119 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	119	365		syscall 20, __main_7qG2_rbArgs_7qG2_000
+0	117	368	#line 117 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	117	368	#line 117 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	117	368	#line 117 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	117	368	#line 117 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	118	368	#line 118 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	118	368	#line 118 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	119	368	#line 119 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	120	368		mov __DU0main, __main_7qG2_rbArgs_7qG2_000.Pressed
+0	120	370	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	370		tst 5, __D0main, __DU0main
+0	120	373	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	373		brtst 4, __ASM_Label_752, __D0main
+0	120	376	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	376		mov __unsigned_stack_001main, __main_7qG2_acc_sf_7qG2_000
+0	120	378	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	120	378	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	378		set __D0main, 2
+0	120	381	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	381		cmp 4, __D0main, __unsigned_stack_001main, __D0main
+0	120	385	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	385		brtst 4, __ASM_Label_757, __D0main
+0	120	388	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	388		set __DU0main, 0
+0	120	391	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	120	391	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	391		jmp __ASM_Label_758
+0	120	393	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	393		mov __unsigned_stack_001main, __main_7qG2_acc_sf_7qG2_000
+0	120	395	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	120	395	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	395		set __D0main, 1
+0	120	398	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	398		add __DU0main, __unsigned_stack_001main, __D0main
+0	120	402	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	120	402	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	402		mov __main_7qG2_acc_sf_7qG2_000, __DU0main
+0	120	404	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	404	#line 121 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	121	404	#line 121 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	122	404		mov __XglAccSF_7qG2_accSf_7qG2_000, __DU0main
+0	121	406	#line 121 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	122	406		subcall XglAccSF, __XglAccSF_return
+0	121	408	#line 121 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	122	408	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	408		set __signed_stack_001main, 0
+0	122	411	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	122	411	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	411		set __signed_stack_002main, 48
+0	122	414	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	122	414	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	414		strcat __strbufmain, __constStr0016
+0	122	418	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	122	418	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	418		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	122	420	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	420		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	122	422	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	422		set __TextOutArgs.Options, 0
+0	122	425	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	425		mov __TextOutArgs.Text, __strbufmain
+0	122	427	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	427		syscall 13, __TextOutArgs
+0	122	430	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	122	430	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	122	430	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	430	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	124	430		set __signed_stack_001main, 75
+0	123	433	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	433	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	124	433		set __signed_stack_002main, 48
+0	123	436	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	436	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	124	436		set __signed_stack_003main, 2
+0	123	439	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	439	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	439	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	124	439		asl __D0main, __signed_stack_003main, __main_7qG2_acc_sf_7qG2_000
+0	123	443	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	443	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	124	443		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	123	445	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	124	445		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	123	447	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	124	447		set __TextOutArgs.Options, 0
+0	123	450	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	124	450		numtostr __TextOutArgs.Text, __D0main
+0	123	453	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	124	453		syscall 13, __TextOutArgs
+0	123	456	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	456	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	123	456	#line 123 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	124	456	#line 124 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	125	456		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	124	459	#line 124 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	8869	459	#line 8869 "NXCDefs.h"
+0	8870	459		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	461	#line 8869 "NXCDefs.h"
+0	124	461	#line 124 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	126	461	#line 126 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	126	461	#line 126 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	127	461		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
+0	126	464	#line 126 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	8869	464	#line 8869 "NXCDefs.h"
+0	8870	464		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	466	#line 8869 "NXCDefs.h"
+0	126	466	#line 126 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	131	466	#line 131 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	132	466		jmp __ASM_Label_675
+0	131	468	#line 131 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+0	132	468		exit -1, -1
+1	5724	0		setin __constVal1, __ResetSensorPort, 5
+1	5726	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5727	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5728	11		subret ____ResetSensorSubroutine_return
+2	6520	0	#pragma macro 27
+2	6520	0		acquire __CLSWMutex0
+2	6520	1		index __LSWriteOptionsVar, __LSWriteOptions, __constVal0
+2	6520	5		or __CLSWArgs0.Port, __constVal0, __LSWriteOptionsVar
+2	6520	9		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	6520	11		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	6520	13		syscall 21, __CLSWArgs0
+2	6520	16		mov __RLSBResult0, __CLSWArgs0.Result
+2	6520	18		release __CLSWMutex0
+2	6521	19	#line 6521 "NXTDefs.h"
+2	6522	19		brtst 5, __RLSBError0, __RLSBResult0
+2	6523	22		set __RLSBIterations0, 60
+2	6525	25	#pragma macro 23
+2	6525	25		acquire __CLSCSMutex0
+2	6525	26		set __CLSCSArgs0.Port, 0
+2	6525	29		syscall 23, __CLSCSArgs0
+2	6525	32		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	6525	34		mov __RLSBResult0, __CLSCSArgs0.Result
+2	6525	36		release __CLSCSMutex0
+2	6525	37	#line 6525 "NXTDefs.h"
+2	6526	37		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	6527	41		brtst 2, __RLSBError0, __RLSBIterations0
+2	6528	44		brtst 0, __RLSBError0, __RLSBResult0
+2	6529	47		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	6531	50		wait 1
+2	6532	52		jmp __RLSBDoCheckStatus0
+2	6534	54		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	6535	57		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	6537	61	#pragma macro 25
+2	6537	61		acquire __CLSRMutex0
+2	6537	62		set __CLSRArgs0.Port, 0
+2	6537	65		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	6537	67		syscall 22, __CLSRArgs0
+2	6537	70		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	6537	72		mov __RLSBResult0, __CLSRArgs0.Result
+2	6537	74		release __CLSRMutex0
+2	6537	75	#line 6537 "NXTDefs.h"
+2	6538	75		brtst 5, __RLSBError0, __RLSBResult0
+2	6539	78		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	6540	80		jmp __RLSBDone0
+2	6542	82		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	6544	84		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	6546	87		subret ____ReadLSBytes0_return
+3	30	0	#line 30 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	31	0		arrinit __XglReset_7qG2_cmd_7qG2_000, __constVal0, __constVal2
+3	31	4	#line 31 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	32	4		set __XglReset_7qG2_n_read_7qG2_000, 0
+3	31	7	#line 31 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	32	7	#line 32 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	33	7		arrbuild __XglReset_7qG2_cmd_7qG2_000, __constVal2, __constVal96
+3	32	12	#line 32 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	32	12	#line 32 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	33	12	#line 33 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	34	12	#pragma macro 23
+3	34	12		acquire __CLSCSMutex0
+3	34	13		set __CLSCSArgs0.Port, 0
+3	34	16		syscall 23, __CLSCSArgs0
+3	34	19		mov __XglReset_7qG2_n_read_7qG2_000, __CLSCSArgs0.BytesReady
+3	34	21		mov __D0XglReset, __CLSCSArgs0.Result
+3	34	23		release __CLSCSMutex0
+3	6466	24	#line 6466 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	33	24	#line 33 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	34	24		mov __signed_stack_001XglReset, __D0XglReset
+3	33	26	#line 33 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	34	26		set __D0XglReset, 32
+3	33	29	#line 33 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	34	29		cmp 4, __D0XglReset, __signed_stack_001XglReset, __D0XglReset
+3	33	33	#line 33 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	34	33		brtst 4, __ASM_Label_617, __D0XglReset
+3	33	36	#line 33 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	33	36	#line 33 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	34	36		jmp __ASM_Label_616
+3	33	38	#line 33 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	34	38	#line 34 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	35	38	#pragma macro 27
+3	35	38		acquire __CLSWMutex0
+3	35	39		index __LSWriteOptionsVar, __LSWriteOptions, __constVal0
+3	35	43		or __CLSWArgs0.Port, __constVal0, __LSWriteOptionsVar
+3	35	47		mov __CLSWArgs0.ReturnLen, __constVal0
+3	35	49		mov __CLSWArgs0.Buffer, __XglReset_7qG2_cmd_7qG2_000
+3	35	51		syscall 21, __CLSWArgs0
+3	35	54		mov __D0XglReset, __CLSWArgs0.Result
+3	35	56		release __CLSWMutex0
+3	6485	57	#line 6485 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	34	57	#line 34 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	34	57	#line 34 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	41	57	#line 41 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+3	42	57		subret __XglReset_return
+4	43	0	#line 43 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	44	0		arrinit __XglAccSF_7qG2_cmd_7qG2_000, __constVal0, __constVal2
+4	44	4	#line 44 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	45	4		set __XglAccSF_7qG2_n_read_7qG2_000, 0
+4	44	7	#line 44 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	45	7	#line 45 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	46	7		set __signed_stack_001XglAccSF, 97
+4	45	10	#line 45 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	45	10	#line 45 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	45	10	#line 45 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	46	10		add __XglAccSF_7qG2_register_7qG2_000, __signed_stack_001XglAccSF, __XglAccSF_7qG2_accSf_7qG2_000
+4	45	14	#line 45 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	46	14	#line 46 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	47	14		arrbuild __XglAccSF_7qG2_cmd_7qG2_000, __constVal2, __XglAccSF_7qG2_register_7qG2_000
+4	46	19	#line 46 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	46	19	#line 46 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	47	19	#line 47 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	48	19	#pragma macro 23
+4	48	19		acquire __CLSCSMutex0
+4	48	20		set __CLSCSArgs0.Port, 0
+4	48	23		syscall 23, __CLSCSArgs0
+4	48	26		mov __XglAccSF_7qG2_n_read_7qG2_000, __CLSCSArgs0.BytesReady
+4	48	28		mov __D0XglAccSF, __CLSCSArgs0.Result
+4	48	30		release __CLSCSMutex0
+4	6535	31	#line 6535 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	47	31	#line 47 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	48	31		mov __signed_stack_001XglAccSF, __D0XglAccSF
+4	47	33	#line 47 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	48	33		set __D0XglAccSF, 32
+4	47	36	#line 47 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	48	36		cmp 4, __D0XglAccSF, __signed_stack_001XglAccSF, __D0XglAccSF
+4	47	40	#line 47 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	48	40		brtst 4, __ASM_Label_625, __D0XglAccSF
+4	47	43	#line 47 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	47	43	#line 47 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	48	43		jmp __ASM_Label_624
+4	47	45	#line 47 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	48	45	#line 48 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	49	45	#pragma macro 27
+4	49	45		acquire __CLSWMutex0
+4	49	46		index __LSWriteOptionsVar, __LSWriteOptions, __constVal0
+4	49	50		or __CLSWArgs0.Port, __constVal0, __LSWriteOptionsVar
+4	49	54		mov __CLSWArgs0.ReturnLen, __constVal0
+4	49	56		mov __CLSWArgs0.Buffer, __XglAccSF_7qG2_cmd_7qG2_000
+4	49	58		syscall 21, __CLSWArgs0
+4	49	61		mov __D0XglAccSF, __CLSWArgs0.Result
+4	49	63		release __CLSWMutex0
+4	6554	64	#line 6554 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	48	64	#line 48 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	48	64	#line 48 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	52	64	#line 52 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+4	53	64		subret __XglAccSF_return
+5	54	0	#line 54 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	55	0		arrinit __XglReadPacket_7qG2_data_7qG2_000, __constVal0, __constVal10
+5	55	4	#line 55 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	56	4		arrinit __XglReadPacket_7qG2_cmd_7qG2_000, __constVal0, __constVal2
+5	56	8	#line 56 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	57	8		set __XglReadPacket_7qG2_count_7qG2_000, 10
+5	56	11	#line 56 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	57	11	#line 57 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	58	11		set __XglReadPacket_7qG2_n_read_7qG2_000, 0
+5	57	14	#line 57 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	58	14	#line 58 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	59	14		arrbuild __XglReadPacket_7qG2_cmd_7qG2_000, __constVal2, __constVal66
+5	58	19	#line 58 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	58	19	#line 58 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	59	19	#line 59 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	60	19	#pragma macro 23
+5	60	19		acquire __CLSCSMutex0
+5	60	20		set __CLSCSArgs0.Port, 0
+5	60	23		syscall 23, __CLSCSArgs0
+5	60	26		mov __XglReadPacket_7qG2_n_read_7qG2_000, __CLSCSArgs0.BytesReady
+5	60	28		mov __D0XglReadPacket, __CLSCSArgs0.Result
+5	60	30		release __CLSCSMutex0
+5	6600	31	#line 6600 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	59	31	#line 59 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	60	31		mov __signed_stack_001XglReadPacket, __D0XglReadPacket
+5	59	33	#line 59 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	60	33		set __D0XglReadPacket, 32
+5	59	36	#line 59 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	60	36		cmp 4, __D0XglReadPacket, __signed_stack_001XglReadPacket, __D0XglReadPacket
+5	59	40	#line 59 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	60	40		brtst 4, __ASM_Label_633, __D0XglReadPacket
+5	59	43	#line 59 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	59	43	#line 59 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	60	43		jmp __ASM_Label_632
+5	59	45	#line 59 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	60	45	#line 60 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	61	45	#pragma macro 28
+5	61	45		acquire __RLSBmutex0
+5	61	46		mov __RLSReadBuf0, __XglReadPacket_7qG2_cmd_7qG2_000
+5	61	48		mov __RLSBytesCount0, __XglReadPacket_7qG2_count_7qG2_000
+5	61	50		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+5	61	52		tst 4, __D0XglReadPacket, __RLSBResult0
+5	61	55		mov __XglReadPacket_7qG2_count_7qG2_000, __RLSBytesCount0
+5	61	57		mov __XglReadPacket_7qG2_data_7qG2_000, __RLSReadBuf0
+5	61	59		release __RLSBmutex0
+5	6619	60	#line 6619 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	62	60	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	60		tst 5, __D0XglReadPacket, __D0XglReadPacket
+5	62	63	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	63		brtst 4, __ASM_Label_638, __D0XglReadPacket
+5	62	66	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	66		set __signed_stack_001XglReadPacket, 0
+5	62	69	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	62	69	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	69		index __unsigned_stack_001XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_001XglReadPacket
+5	62	73	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	62	73	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	62	73	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	73		set __signed_stack_002XglReadPacket, 1
+5	62	76	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	62	76	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	76		index __unsigned_stack_002XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_002XglReadPacket
+5	62	80	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	62	80	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	62	80	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	80		set __D0XglReadPacket, 256
+5	62	83	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	83		mul __D0XglReadPacket, __unsigned_stack_002XglReadPacket, __D0XglReadPacket
+5	62	87	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	87		add __XglReadPacket_7qG2_XglData_7qG2_000.mAng, __unsigned_stack_001XglReadPacket, __D0XglReadPacket
+5	62	91	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	62	91	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	91	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	91		set __signed_stack_001XglReadPacket, 2
+5	63	94	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	94	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	94		index __unsigned_stack_001XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_001XglReadPacket
+5	63	98	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	98	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	98	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	98		set __signed_stack_002XglReadPacket, 3
+5	63	101	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	101	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	101		index __unsigned_stack_002XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_002XglReadPacket
+5	63	105	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	105	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	105	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	105		set __D0XglReadPacket, 256
+5	63	108	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	108		mul __D0XglReadPacket, __unsigned_stack_002XglReadPacket, __D0XglReadPacket
+5	63	112	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	112		add __XglReadPacket_7qG2_XglData_7qG2_000.mRate, __unsigned_stack_001XglReadPacket, __D0XglReadPacket
+5	63	116	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	63	116	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	116	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	116		set __signed_stack_001XglReadPacket, 4
+5	64	119	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	119	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	119		index __unsigned_stack_001XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_001XglReadPacket
+5	64	123	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	123	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	123	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	123		set __signed_stack_002XglReadPacket, 5
+5	64	126	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	126	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	126		index __unsigned_stack_002XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_002XglReadPacket
+5	64	130	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	130	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	130	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	130		set __D0XglReadPacket, 256
+5	64	133	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	133		mul __D0XglReadPacket, __unsigned_stack_002XglReadPacket, __D0XglReadPacket
+5	64	137	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	137		add __XglReadPacket_7qG2_XglData_7qG2_000.mAccX, __unsigned_stack_001XglReadPacket, __D0XglReadPacket
+5	64	141	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	64	141	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	141	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	141		set __signed_stack_001XglReadPacket, 6
+5	65	144	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	144	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	144		index __unsigned_stack_001XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_001XglReadPacket
+5	65	148	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	148	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	148	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	148		set __signed_stack_002XglReadPacket, 7
+5	65	151	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	151	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	151		index __unsigned_stack_002XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_002XglReadPacket
+5	65	155	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	155	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	155	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	155		set __D0XglReadPacket, 256
+5	65	158	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	158		mul __D0XglReadPacket, __unsigned_stack_002XglReadPacket, __D0XglReadPacket
+5	65	162	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	162		add __XglReadPacket_7qG2_XglData_7qG2_000.mAccY, __unsigned_stack_001XglReadPacket, __D0XglReadPacket
+5	65	166	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	65	166	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	166	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	67	166		set __signed_stack_001XglReadPacket, 8
+5	66	169	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	169	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	67	169		index __unsigned_stack_001XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_001XglReadPacket
+5	66	173	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	173	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	173	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	67	173		set __signed_stack_002XglReadPacket, 9
+5	66	176	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	176	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	67	176		index __unsigned_stack_002XglReadPacket, __XglReadPacket_7qG2_data_7qG2_000, __signed_stack_002XglReadPacket
+5	66	180	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	180	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	180	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	67	180		set __D0XglReadPacket, 256
+5	66	183	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	67	183		mul __D0XglReadPacket, __unsigned_stack_002XglReadPacket, __D0XglReadPacket
+5	66	187	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	67	187		add __XglReadPacket_7qG2_XglData_7qG2_000.mAccZ, __unsigned_stack_001XglReadPacket, __D0XglReadPacket
+5	66	191	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	66	191	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	70	191	#line 70 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	70	191	#line 70 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+5	71	191		subret __XglReadPacket_return
+6	132	0	#line 132 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc"
+6	133	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc
+1	__ResetSensorSubroutine	471	NXTDefs.h
+2	__ReadLSBytes0	484	NXTDefs.h
+3	XglReset	573	C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc
+4	XglAccSF	632	C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc
+5	XglReadPacket	698	C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc
+6	__initialize_global_data	891	C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\read_sensor_data\read_sensor_data.nxc

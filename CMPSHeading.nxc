@@ -1,0 +1,29 @@
+int Compass_val, currHeading, deltaT;
+
+task read()
+{
+  while(true){
+    Compass_val=SensorHTCompass(S2);
+    Wait(100);
+  }
+}
+
+task display()
+{
+  while(true){
+     ClearLine(LCD_LINE4);
+     NumOut(30, LCD_LINE4, Compass_val);
+     //NumOut(20, LCD_LINE1, currHeading);
+     //NumOut(70, LCD_LINE1, deltaT);
+     Wait(500);
+  }
+}
+
+task main()
+{
+
+  SetSensorLowspeed(S2);
+  Precedes(read, display);
+
+
+}

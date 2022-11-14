@@ -1,0 +1,105 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	2
+1	__signed_stack_001main	6	1	4	4	4
+2	__D0main	6	1	8	4	8
+3	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	12	4	2
+4	__constVal65536	6	0	16	4	1
+5	__signed_stack_003main	6	1	20	4	2
+6	__RandomTmp	5	1	24	4	7
+7	__constVal32768	6	0	28	4	1
+8	x	4	0	32	2	5
+9	sinx	4	1	34	2	2
+10	y	4	0	36	2	1
+11	____initialize_global_data_return	1	1	38	1	3
+12	__constVal1	2	0	39	1	1
+13	__zfmain	1	1	40	1	3
+14	__PFTmp	1	1	41	1	1
+15	__RandomArgs	8	0	1	4	3
+16	__RandomArgs.Result	4	1	44	2	3
+17	__LineOutArgs	8	0	4	16	7
+18	__LineOutArgs.Result	2	1	48	1	7
+19	__LineOutArgs.StartLoc	8	0	2	4	7
+20	__LineOutArgs.StartLoc.X	4	1	52	2	7
+21	__LineOutArgs.StartLoc.Y	4	1	54	2	7
+22	__LineOutArgs.EndLoc	8	0	2	4	7
+23	__LineOutArgs.EndLoc.X	4	1	56	2	7
+24	__LineOutArgs.EndLoc.Y	4	1	58	2	7
+25	__LineOutArgs.Options	5	1	60	4	7
+#SOURCES
+Clump	Line	PC	Source
+0	4	0	#line 4 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	5	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	4	2	#line 4 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	4	2	#line 4 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	5	2		mov __signed_stack_001main, x
+0	4	4	#line 4 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	4	4	#line 4 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	5	4		set __D0main, 98
+0	4	7	#line 4 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	5	7		cmp 2, __zfmain, __signed_stack_001main, __D0main
+0	4	11	#line 4 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	5	11		mov __D0main, __zfmain
+0	5	13	#line 5 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	6	13		brtst 4, __NXC_Label_490, __zfmain
+0	5	16	#line 5 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	6	16		set __D0main, 63
+0	6	19	#line 6 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	7	19	#pragma macro 8
+0	7	19		syscall 24, __RandomArgs
+0	7	22		mov __RandomTmp, __RandomArgs.Result
+0	7	24		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	7	28		mul __RandomTmp, __RandomTmp, __D0main
+0	7	32		div __RandomTmp, __RandomTmp, __constVal65536
+0	7	36		mov sinx, __RandomTmp
+0	3554	38	#line 3554 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	6	38	#line 6 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	6	38	#line 6 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	6	38	#line 6 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	7	38		mov __signed_stack_001main, x
+0	6	40	#line 6 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	6	40	#line 6 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	7	40		mov __signed_stack_002main, y
+0	6	42	#line 6 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	6	42	#line 6 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	7	42		mov __signed_stack_003main, x
+0	6	44	#line 6 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	6	44	#line 6 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	7	44		mov __D0main, sinx
+0	7	46	#line 7 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	7	46	#line 7 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	8	46		mov __LineOutArgs.StartLoc.X, __signed_stack_001main
+0	7	48	#line 7 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	8	48		mov __LineOutArgs.StartLoc.Y, __signed_stack_002main
+0	7	50	#line 7 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	8	50		mov __LineOutArgs.EndLoc.X, __signed_stack_003main
+0	7	52	#line 7 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	8	52		mov __LineOutArgs.EndLoc.Y, __D0main
+0	7	54	#line 7 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	8	54		set __LineOutArgs.Options, 0
+0	7	57	#line 7 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	8	57		syscall 15, __LineOutArgs
+0	7	60	#line 7 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	8	60		mov __D0main, __LineOutArgs.Result
+0	7	62	#line 7 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	7	62	#line 7 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	8	62	#line 8 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	9	62		add x, x, __constVal1
+0	8	66	#line 8 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	9	66	#line 9 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	10	66		jmp __NXC_Label_489
+0	9	68	#line 9 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	9	68	#line 9 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	10	68		set __Wait_7qG2_ms_7qG2_000_inline_main, 15000
+0	9	71	#line 9 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	7921	71	#line 7921 "NXCDefs.h"
+0	7922	71		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	74	#line 7921 "NXCDefs.h"
+0	10	74	#line 10 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+0	11	74		exit -1, -1
+1	13	0	#line 13 "C:\Users\ronk\Documents\NXCprograms\o-scope.nxc"
+1	14	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\o-scope.nxc
+1	__initialize_global_data	77	C:\Users\ronk\Documents\NXCprograms\o-scope.nxc

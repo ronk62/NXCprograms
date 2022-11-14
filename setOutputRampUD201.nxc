@@ -1,0 +1,62 @@
+int i=0, tone=440, pwr=15, targRot=0, rampPwr=55;
+string msg="";
+
+void debug_trace (string msg, int tone)
+{
+ ClearScreen();
+ TextOut(15, LCD_LINE5, msg);
+ PlayTone(tone, 250);
+}
+
+
+task rampUD ()
+{
+ Wait(200);
+
+ // Ramp Up
+   msg="rampUpTo "+NumToStr(rampPwr);
+   tone=tone+110;
+   debug_trace (msg, tone);
+   while((pwr < rampPwr+1)&&(MotorRotationCount(OUT_A) < (targRot * 0.5)))
+   {
+    SetOutput(OUT_A, PowerField, pwr, UpdateFlagsField, UF_UPDATE_SPEED);
+    Wait(100);
+    pwr++;
+   }
+
+ // Hold at prw
+   msg="Hold at "+NumToStr(pwr);
+   tone=tone+110;
+   debug_trace (msg, tone);
+   until(MotorRotationCount(OUT_A) > (targRot * 0.6))
+
+ // Ramp Down
+   rampPwr=15;
+   msg="rampDownTo "+NumToStr(rampPwr);
+   tone=tone+110;
+   debug_trace (msg, tone);
+   rampPwr=15;
+   until(pwr < rampPwr||MotorRotationCount(OUT_A) > (targRot * 0.9))
+   {
+    SetOutput(OUT_A, PowerField, pwr, UpdateFlagsField, UF_UPDATE_SPEED);
+    Wait(50);
+    pwr--;
+   }
+
+ msg="Proceed to TachoLim";
+ tone=220;
+ debug_trace (msg, tone);
+}
+
+task main ()
+{
+ msg="Start motor A";
+ rampPwr=75;
+ targRot=18000;
+ tone=880;
+ debug_trace (msg, tone);
+ start rampUD;
+ RotateMotor(OUT_A, pwr, targRot);
+ Wait(15000);
+}
+

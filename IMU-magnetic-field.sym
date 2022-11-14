@@ -1,0 +1,1052 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0main	6	1	0	4	31
+1	__D0IMU_ReadMagneticField	6	1	4	4	7
+2	__D0IMU_ReadInteger	6	1	8	4	10
+3	__signed_stack_001button_handler	6	1	12	4	6
+4	__DU0SetSensorLowspeed_inline_IMU_Init	5	1	16	4	2
+5	__D0SetSensorLowspeed_inline_IMU_Init	6	1	20	4	3
+6	__RBtnMutex	9	0	24	4	4
+7	__RLSBmutex3	9	0	28	4	4
+8	__RLSBmutex2	9	0	32	4	4
+9	__D0IMU_ReadCompassHeading	6	1	36	4	2
+10	__D0IMU_MLBToInteger	6	1	40	4	5
+11	__D0button_handler	6	1	44	4	13
+12	__unsigned_stack_001IMU_MLBToInteger	5	1	48	4	2
+13	__IMU_MLBToInteger_shift_tmp	6	1	52	4	4
+14	__signed_stack_002main	6	1	56	4	14
+15	__signed_stack_001main	6	1	60	4	14
+16	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	64	4	2
+17	__Wait_7qG2_ms_7qG2_000_inline_button_handler	5	1	68	4	2
+18	__IMU_ReadInteger_shift_tmp	6	1	72	4	4
+19	__signed_stack_002IMU_ReadInteger	6	1	76	4	2
+20	__signed_stack_001IMU_ReadInteger	6	1	80	4	4
+21	__unsigned_stack_002IMU_MLBToInteger	5	1	84	4	2
+22	__signed_stack_001IMU_ReadMagneticField	6	1	88	4	14
+23	__unsigned_stack_002IMU_ReadInteger	5	1	92	4	2
+24	__unsigned_stack_001IMU_ReadInteger	5	1	96	4	2
+25	__RLSBmutex1	9	0	100	4	4
+26	__CLSRMutex2	9	0	104	4	2
+27	__CLSWMutex2	9	0	108	4	2
+28	__CLSCSMutex2	9	0	112	4	6
+29	__CLSCSMutex3	9	0	116	4	6
+30	__TextOutMutex	9	0	120	4	14
+31	__CLSRMutex3	9	0	124	4	2
+32	__CLSWMutex3	9	0	128	4	2
+33	__CLSWMutex0	9	0	132	4	2
+34	__ResetSensorMutex	9	0	136	4	2
+35	__CLSCSMutex0	9	0	140	4	6
+36	__CLSRMutex0	9	0	144	4	2
+37	__CLSRMutex1	9	0	148	4	2
+38	__CLSWMutex1	9	0	152	4	2
+39	__CLSCSMutex1	9	0	156	4	6
+40	__RLSBmutex0	9	0	160	4	4
+41	__main_7qG2_heading_7qG2_000	4	1	164	2	2
+42	__IMU_ReadMagneticField_7qG2_count_7qG2_000	4	1	166	2	3
+43	cb	4	1	168	2	5
+44	__IMU_ReadInteger_7qG2_reg_to_read_7qG2_000	4	1	170	2	2
+45	__IMU_MLBToInteger_7qG2_i_7qG2_000	4	1	172	2	2
+46	__IMU_ReadInteger_7qG2_result_7qG2_000	4	1	174	2	3
+47	__IMU_ReadInteger_7qG2_count_7qG2_000	4	1	176	2	3
+48	__constVal1	2	0	178	1	6
+49	__IMU_ReadInteger_shift_cnt	2	1	179	1	4
+50	__IMU_ReadInteger_7qG2_nByteReady_7qG2_000	1	1	180	1	2
+51	__IMU_ReadMagneticField_7qG2_port_7qG2_000	1	1	181	1	3
+52	__IMU_Init_return	1	1	182	1	3
+53	__button_handler_Spawner_return	1	1	183	1	1
+54	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	184	1	2
+55	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	185	1	2
+56	__IMU_ReadInteger_7qG2_i2cAddr_7qG2_000	1	1	186	1	2
+57	__IMU_ReadInteger_7qG2_port_7qG2_000	1	1	187	1	3
+58	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init	1	1	188	1	4
+59	__IMU_ReadInteger_return	1	1	189	1	4
+60	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_IMU_Init	1	1	190	1	2
+61	__IMU_ReadCompassHeading_7qG2_i2cAddr_7qG2_000	1	1	191	1	2
+62	__IMU_ReadMagneticField_7qG2_nByteReady_7qG2_000	1	1	192	1	2
+63	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	193	1	2
+64	__IMU_Init_7qG2_port_7qG2_000	1	1	194	1	2
+65	__IMU_ReadCompassHeading_7qG2_port_7qG2_000	1	1	195	1	2
+66	__constVal77	2	0	196	1	1
+67	__IMU_ReadMagneticField_return	1	1	197	1	3
+68	__constVal0	2	1	198	1	3
+69	____initialize_global_data_return	1	1	199	1	3
+70	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	200	1	2
+71	__IMU_ReadCompassHeading_return	1	1	201	1	4
+72	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	202	1	2
+73	__IMU_ReadMagneticField_7qG2_i2cAddr_7qG2_000	1	1	203	1	2
+74	__ArrHelper__IMU_ReadInteger_98_0	1	1	204	1	4
+75	__ArrHelper__IMU_ReadMagneticField_98_0	1	1	205	1	12
+76	__PFTmp	1	1	206	1	1
+77	__constVal12	2	0	207	1	1
+78	__zfIMU_ReadMagneticField	1	1	208	1	5
+79	__zfmain	1	1	209	1	2
+80	__zfbutton_handler	1	1	210	1	9
+81	__zfIMU_ReadInteger	1	1	211	1	5
+82	____ReadLSBytesVar_return	1	1	212	1	4
+83	__RLSBResultVar	2	1	213	1	9
+84	__constVal15	2	0	214	1	1
+85	__constVal2	2	0	215	1	2
+86	__RLSReadPort	1	1	216	1	5
+87	__constVal20	2	0	217	1	1
+88	__RLSBytesCountVar	1	1	218	1	10
+89	__RLSBIterationsVar	1	1	219	1	4
+90	__IMU_MLBToInteger_7qG2_lsb_7qG2_000	1	1	220	1	4
+91	__ResetSensorTmp	1	1	221	1	2
+92	____ResetSensorSubroutine_return	1	1	222	1	3
+93	__IMU_MLBToInteger_7qG2_msb_7qG2_000	1	1	223	1	4
+94	__ResetSensorPort	1	1	224	1	3
+95	__IMU_MLBToInteger_shift_cnt	2	1	225	1	4
+96	__IMU_MLBToInteger_return	1	1	226	1	6
+97	__zfSetSensorLowspeed_inline_IMU_Init	1	1	227	1	2
+98	__TextOutArgs	8	0	4	16	42
+99	__TextOutArgs.Result	2	1	228	1	42
+100	__TextOutArgs.Location	8	0	2	4	42
+101	__TextOutArgs.Location.X	4	1	232	2	42
+102	__TextOutArgs.Location.Y	4	1	234	2	42
+103	__TextOutArgs.Text	7	0	236	4	42
+104	__TextOutArgs.Text.Text_type	1	0	0	1	0
+105	__TextOutArgs.Options	5	1	240	4	42
+106	__main_7qG2_currMF_7qG2_000	8	0	3	8	5
+107	__main_7qG2_currMF_7qG2_000.mx	4	1	244	2	5
+108	__main_7qG2_currMF_7qG2_000.my	4	1	246	2	5
+109	__main_7qG2_currMF_7qG2_000.mz	4	1	248	2	5
+110	__IMU_ReadMagneticField_7qG2_currMF_7qG2_000	8	0	3	8	8
+111	__IMU_ReadMagneticField_7qG2_currMF_7qG2_000.mx	4	1	252	2	8
+112	__IMU_ReadMagneticField_7qG2_currMF_7qG2_000.my	4	1	254	2	8
+113	__IMU_ReadMagneticField_7qG2_currMF_7qG2_000.mz	4	1	256	2	8
+114	__RBtnArgs	8	0	5	8	8
+115	__RBtnArgs.Result	2	1	260	1	8
+116	__RBtnArgs.Index	1	1	261	1	8
+117	__RBtnArgs.Pressed	1	1	262	1	8
+118	__RBtnArgs.Count	1	1	263	1	8
+119	__RBtnArgs.Reset	1	1	264	1	8
+120	__CLSWArgs0	8	0	4	12	5
+121	__CLSWArgs0.Result	2	1	268	1	5
+122	__CLSWArgs0.Port	1	1	269	1	5
+123	__CLSWArgs0.Buffer	7	0	270	4	5
+124	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+125	__CLSWArgs0.ReturnLen	1	1	272	1	5
+126	__CLSCSArgs0	8	0	3	4	12
+127	__CLSCSArgs0.Result	2	1	276	1	12
+128	__CLSCSArgs0.Port	1	1	277	1	12
+129	__CLSCSArgs0.BytesReady	1	1	278	1	12
+130	__CLSRArgs0	8	0	4	12	5
+131	__CLSRArgs0.Result	2	1	280	1	5
+132	__CLSRArgs0.Port	1	1	281	1	5
+133	__CLSRArgs0.Buffer	7	0	282	4	5
+134	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+135	__CLSRArgs0.BufferLen	1	1	284	1	5
+136	__constStr0013	7	0	286	4	1
+137	__constStr0013.__constStr0013_type	1	1	0	1	0
+138	__constStr0012	7	0	288	4	1
+139	__constStr0012.__constStr0012_type	1	1	0	1	0
+140	__constStr0010	7	0	290	4	1
+141	__constStr0010.__constStr0010_type	1	1	0	1	0
+142	__constStr0011	7	0	292	4	1
+143	__constStr0011.__constStr0011_type	1	1	0	1	0
+144	__constStr0014	7	0	294	4	3
+145	__constStr0014.__constStr0014_type	1	1	0	1	0
+146	__constStr0018	7	0	296	4	1
+147	__constStr0018.__constStr0018_type	1	1	0	1	0
+148	__IMU_ReadMagneticField_7qG2_buf_7qG2_000	7	0	298	4	8
+149	__IMU_ReadMagneticField_7qG2_buf_7qG2_000.__IMU_ReadMagneticField_7qG2_buf_7qG2_000_type	1	0	0	1	0
+150	__constStr0017	7	0	300	4	1
+151	__constStr0017.__constStr0017_type	1	1	0	1	0
+152	__constStr0015	7	0	302	4	1
+153	__constStr0015.__constStr0015_type	1	1	0	1	0
+154	__constStr0016	7	0	304	4	1
+155	__constStr0016.__constStr0016_type	1	1	0	1	0
+156	__strbufmain	7	0	306	4	50
+157	__strbufmain.__strbufmain_type	1	0	0	1	0
+158	__strretvalmain	7	0	308	4	8
+159	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+160	__RLSLastGoodReadVar	7	0	310	4	2
+161	__RLSLastGoodReadVar.__RLSLastGoodReadVar_type	1	0	0	1	0
+162	__IMU_ReadInteger_7qG2_message_7qG2_000	7	0	312	4	2
+163	__IMU_ReadInteger_7qG2_message_7qG2_000.__IMU_ReadInteger_7qG2_message_7qG2_000_type	1	0	0	1	0
+164	__RLSReadBufVar	7	0	314	4	10
+165	__RLSReadBufVar.__RLSReadBufVar_type	1	0	0	1	0
+166	__IMU_ReadInteger_7qG2_buf_7qG2_000	7	0	316	4	4
+167	__IMU_ReadInteger_7qG2_buf_7qG2_000.__IMU_ReadInteger_7qG2_buf_7qG2_000_type	1	0	0	1	0
+168	__main_7qG2_mz_7qG2_000	7	0	318	4	2
+169	__main_7qG2_mz_7qG2_000.__main_7qG2_mz_7qG2_000_type	1	0	0	1	0
+170	__IMU_ReadMagneticField_7qG2_message_7qG2_000	7	0	320	4	2
+171	__IMU_ReadMagneticField_7qG2_message_7qG2_000.__IMU_ReadMagneticField_7qG2_message_7qG2_000_type	1	0	0	1	0
+172	__main_7qG2_my_7qG2_000	7	0	322	4	2
+173	__main_7qG2_my_7qG2_000.__main_7qG2_my_7qG2_000_type	1	0	0	1	0
+174	__main_7qG2_msg_7qG2_000	7	0	324	4	30
+175	__main_7qG2_msg_7qG2_000.__main_7qG2_msg_7qG2_000_type	1	0	0	1	0
+176	__main_7qG2_mx_7qG2_000	7	0	326	4	2
+177	__main_7qG2_mx_7qG2_000.__main_7qG2_mx_7qG2_000_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	67	0	#line 67 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	68	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	67	2	#line 67 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	77	2	#line 77 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	78	2		set cb, 0
+0	77	5	#line 77 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	77	5	#line 77 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	78	5	#line 78 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	78	5	#line 78 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	78	5	#line 78 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	79	5	#line 79 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	80	5		subcall __button_handler_Spawner, __button_handler_Spawner_return
+0	79	7	#line 79 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	81	7	#line 81 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	81	7	#line 81 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	81	7	#line 81 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	81	7	#line 81 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	82	7		set __IMU_Init_7qG2_port_7qG2_000, 0
+0	81	10	#line 81 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	83	10	#line 83 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	84	10		subcall IMU_Init, __IMU_Init_return
+0	83	12	#line 83 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	83	12	#line 83 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	84	12		set __D0main, 1
+0	88	15	#line 88 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	89	15		tst 5, __zfmain, __D0main
+0	88	18	#line 88 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	89	18		brtst 4, __NXC_Label_949, __zfmain
+0	88	21	#line 88 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	89	21		set __IMU_ReadMagneticField_7qG2_port_7qG2_000, 0
+0	88	24	#line 88 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	88	24	#line 88 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	89	24		set __IMU_ReadMagneticField_7qG2_i2cAddr_7qG2_000, 34
+0	88	27	#line 88 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	88	27	#line 88 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	89	27		mov __IMU_ReadMagneticField_7qG2_currMF_7qG2_000, __main_7qG2_currMF_7qG2_000
+0	90	29	#line 90 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	91	29		subcall IMU_ReadMagneticField, __IMU_ReadMagneticField_return
+0	90	31	#line 90 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	91	31		mov __main_7qG2_currMF_7qG2_000, __IMU_ReadMagneticField_7qG2_currMF_7qG2_000
+0	90	33	#line 90 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	91	33	#line 91 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	92	33		strcat __strbufmain, __constStr0010
+0	91	37	#line 91 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	92	37		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	91	39	#line 91 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	91	39	#line 91 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	92	39		set __signed_stack_001main, 0
+0	91	42	#line 91 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	91	42	#line 91 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	92	42		set __signed_stack_002main, 56
+0	91	45	#line 91 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	91	45	#line 91 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	92	45		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	91	49	#line 91 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	92	49		set __D0main, 0
+0	92	52	#line 92 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	52		acquire __TextOutMutex
+0	92	53	#line 92 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	53		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	92	55	#line 92 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	55		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	92	57	#line 92 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	57		mov __TextOutArgs.Options, __D0main
+0	92	59	#line 92 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	59		mov __TextOutArgs.Text, __strbufmain
+0	92	61	#line 92 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	61		syscall 13, __TextOutArgs
+0	92	64	#line 92 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	64		mov __D0main, __TextOutArgs.Result
+0	92	66	#line 92 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	66		release __TextOutMutex
+0	92	67	#line 92 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	67	#line 93 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	94	67		strcat __strbufmain, __constStr0011
+0	93	71	#line 93 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	94	71		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	93	73	#line 93 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	73	#line 93 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	94	73		set __signed_stack_001main, 0
+0	93	76	#line 93 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	76	#line 93 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	94	76		set __signed_stack_002main, 48
+0	93	79	#line 93 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	93	79	#line 93 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	94	79		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	93	83	#line 93 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	94	83		set __D0main, 0
+0	95	86	#line 95 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	86		acquire __TextOutMutex
+0	95	87	#line 95 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	87		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	95	89	#line 95 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	89		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	95	91	#line 95 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	91		mov __TextOutArgs.Options, __D0main
+0	95	93	#line 95 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	93		mov __TextOutArgs.Text, __strbufmain
+0	95	95	#line 95 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	95		syscall 13, __TextOutArgs
+0	95	98	#line 95 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	98		mov __D0main, __TextOutArgs.Result
+0	95	100	#line 95 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	100		release __TextOutMutex
+0	95	101	#line 95 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	101	#line 96 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	97	101		strcat __strbufmain, __constStr0012
+0	96	105	#line 96 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	97	105		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	96	107	#line 96 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	107	#line 96 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	97	107		set __signed_stack_001main, 0
+0	96	110	#line 96 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	110	#line 96 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	97	110		set __signed_stack_002main, 40
+0	96	113	#line 96 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	96	113	#line 96 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	97	113		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	96	117	#line 96 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	97	117		set __D0main, 0
+0	98	120	#line 98 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	99	120		acquire __TextOutMutex
+0	98	121	#line 98 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	99	121		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	98	123	#line 98 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	99	123		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	98	125	#line 98 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	99	125		mov __TextOutArgs.Options, __D0main
+0	98	127	#line 98 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	99	127		mov __TextOutArgs.Text, __strbufmain
+0	98	129	#line 98 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	99	129		syscall 13, __TextOutArgs
+0	98	132	#line 98 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	99	132		mov __D0main, __TextOutArgs.Result
+0	98	134	#line 98 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	99	134		release __TextOutMutex
+0	98	135	#line 98 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	99	135	#line 99 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	100	135		strcat __strbufmain, __constStr0013
+0	99	139	#line 99 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	100	139		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	99	141	#line 99 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	99	141	#line 99 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	100	141		mov __D0main, __main_7qG2_currMF_7qG2_000.mx
+0	100	143	#line 100 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	101	143		numtostr __strretvalmain, __D0main
+0	100	146	#line 100 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	101	146		strcat __strbufmain, __strretvalmain
+0	100	150	#line 100 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	101	150		mov __main_7qG2_mx_7qG2_000, __strbufmain
+0	100	152	#line 100 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	101	152	#line 101 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	102	152		strcat __strbufmain, __main_7qG2_msg_7qG2_000, __main_7qG2_mx_7qG2_000
+0	101	157	#line 101 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	102	157		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	101	159	#line 101 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	102	159	#line 102 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	103	159		strcat __strbufmain, __main_7qG2_msg_7qG2_000, __constStr0014
+0	102	164	#line 102 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	103	164		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	102	166	#line 102 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	102	166	#line 102 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	103	166		set __signed_stack_001main, 0
+0	102	169	#line 102 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	102	169	#line 102 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	103	169		set __signed_stack_002main, 32
+0	102	172	#line 102 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	102	172	#line 102 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	103	172		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	102	176	#line 102 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	103	176		set __D0main, 0
+0	104	179	#line 104 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	105	179		acquire __TextOutMutex
+0	104	180	#line 104 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	105	180		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	104	182	#line 104 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	105	182		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	104	184	#line 104 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	105	184		mov __TextOutArgs.Options, __D0main
+0	104	186	#line 104 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	105	186		mov __TextOutArgs.Text, __strbufmain
+0	104	188	#line 104 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	105	188		syscall 13, __TextOutArgs
+0	104	191	#line 104 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	105	191		mov __D0main, __TextOutArgs.Result
+0	104	193	#line 104 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	105	193		release __TextOutMutex
+0	104	194	#line 104 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	105	194	#line 105 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	106	194		strcat __strbufmain, __constStr0015
+0	105	198	#line 105 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	106	198		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	105	200	#line 105 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	105	200	#line 105 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	106	200		mov __D0main, __main_7qG2_currMF_7qG2_000.my
+0	106	202	#line 106 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	107	202		numtostr __strretvalmain, __D0main
+0	106	205	#line 106 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	107	205		strcat __strbufmain, __strretvalmain
+0	106	209	#line 106 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	107	209		mov __main_7qG2_my_7qG2_000, __strbufmain
+0	106	211	#line 106 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	107	211	#line 107 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	108	211		strcat __strbufmain, __main_7qG2_msg_7qG2_000, __main_7qG2_my_7qG2_000
+0	107	216	#line 107 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	108	216		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	107	218	#line 107 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	108	218	#line 108 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	109	218		strcat __strbufmain, __main_7qG2_msg_7qG2_000, __constStr0014
+0	108	223	#line 108 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	109	223		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	108	225	#line 108 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	108	225	#line 108 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	109	225		set __signed_stack_001main, 0
+0	108	228	#line 108 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	108	228	#line 108 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	109	228		set __signed_stack_002main, 24
+0	108	231	#line 108 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	108	231	#line 108 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	109	231		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	108	235	#line 108 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	109	235		set __D0main, 0
+0	110	238	#line 110 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	111	238		acquire __TextOutMutex
+0	110	239	#line 110 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	111	239		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	110	241	#line 110 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	111	241		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	110	243	#line 110 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	111	243		mov __TextOutArgs.Options, __D0main
+0	110	245	#line 110 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	111	245		mov __TextOutArgs.Text, __strbufmain
+0	110	247	#line 110 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	111	247		syscall 13, __TextOutArgs
+0	110	250	#line 110 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	111	250		mov __D0main, __TextOutArgs.Result
+0	110	252	#line 110 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	111	252		release __TextOutMutex
+0	110	253	#line 110 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	111	253	#line 111 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	112	253		strcat __strbufmain, __constStr0016
+0	111	257	#line 111 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	112	257		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	111	259	#line 111 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	111	259	#line 111 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	112	259		mov __D0main, __main_7qG2_currMF_7qG2_000.mz
+0	112	261	#line 112 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	113	261		numtostr __strretvalmain, __D0main
+0	112	264	#line 112 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	113	264		strcat __strbufmain, __strretvalmain
+0	112	268	#line 112 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	113	268		mov __main_7qG2_mz_7qG2_000, __strbufmain
+0	112	270	#line 112 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	113	270	#line 113 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	114	270		strcat __strbufmain, __main_7qG2_msg_7qG2_000, __main_7qG2_mz_7qG2_000
+0	113	275	#line 113 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	114	275		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	113	277	#line 113 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	114	277	#line 114 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	115	277		strcat __strbufmain, __main_7qG2_msg_7qG2_000, __constStr0014
+0	114	282	#line 114 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	115	282		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	114	284	#line 114 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	114	284	#line 114 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	115	284		set __signed_stack_001main, 0
+0	114	287	#line 114 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	114	287	#line 114 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	115	287		set __signed_stack_002main, 16
+0	114	290	#line 114 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	114	290	#line 114 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	115	290		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	114	294	#line 114 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	115	294		set __D0main, 0
+0	116	297	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	117	297		acquire __TextOutMutex
+0	116	298	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	117	298		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	116	300	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	117	300		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	116	302	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	117	302		mov __TextOutArgs.Options, __D0main
+0	116	304	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	117	304		mov __TextOutArgs.Text, __strbufmain
+0	116	306	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	117	306		syscall 13, __TextOutArgs
+0	116	309	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	117	309		mov __D0main, __TextOutArgs.Result
+0	116	311	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	117	311		release __TextOutMutex
+0	116	312	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	116	312	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	117	312		set __IMU_ReadCompassHeading_7qG2_port_7qG2_000, 0
+0	116	315	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	116	315	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	117	315		set __IMU_ReadCompassHeading_7qG2_i2cAddr_7qG2_000, 34
+0	116	318	#line 116 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	118	318	#line 118 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	119	318		subcall IMU_ReadCompassHeading, __IMU_ReadCompassHeading_return
+0	118	320	#line 118 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	119	320		mov __main_7qG2_heading_7qG2_000, __D0IMU_ReadCompassHeading
+0	118	322	#line 118 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	118	322	#line 118 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	119	322	#line 119 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	120	322		strcat __strbufmain, __constStr0017
+0	119	326	#line 119 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	120	326		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	119	328	#line 119 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	119	328	#line 119 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	120	328		mov __D0main, __main_7qG2_heading_7qG2_000
+0	120	330	#line 120 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	121	330		numtostr __strretvalmain, __D0main
+0	120	333	#line 120 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	121	333		strcat __strbufmain, __main_7qG2_msg_7qG2_000, __strretvalmain
+0	120	338	#line 120 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	121	338		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	120	340	#line 120 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	121	340	#line 121 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	122	340		strcat __strbufmain, __main_7qG2_msg_7qG2_000, __constStr0018
+0	121	345	#line 121 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	122	345		mov __main_7qG2_msg_7qG2_000, __strbufmain
+0	121	347	#line 121 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	121	347	#line 121 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	122	347		set __signed_stack_001main, 0
+0	121	350	#line 121 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	121	350	#line 121 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	122	350		set __signed_stack_002main, 8
+0	121	353	#line 121 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	121	353	#line 121 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	122	353		strcat __strbufmain, __main_7qG2_msg_7qG2_000
+0	121	357	#line 121 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	122	357		set __D0main, 0
+0	122	360	#line 122 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	123	360		acquire __TextOutMutex
+0	122	361	#line 122 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	123	361		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	122	363	#line 122 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	123	363		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	122	365	#line 122 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	123	365		mov __TextOutArgs.Options, __D0main
+0	122	367	#line 122 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	123	367		mov __TextOutArgs.Text, __strbufmain
+0	122	369	#line 122 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	123	369		syscall 13, __TextOutArgs
+0	122	372	#line 122 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	123	372		mov __D0main, __TextOutArgs.Result
+0	122	374	#line 122 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	123	374		release __TextOutMutex
+0	122	375	#line 122 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	122	375	#line 122 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	123	375		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	122	378	#line 122 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	7921	378	#line 7921 "NXCDefs.h"
+0	7922	378		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	381	#line 7921 "NXCDefs.h"
+0	123	381	#line 123 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	127	381	#line 127 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	128	381		jmp __NXC_Label_948
+0	127	383	#line 127 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+0	128	383		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5821	0	#pragma macro 25
+2	5821	0		acquire __CLSWMutex0
+2	5821	1		acquire __CLSWMutex1
+2	5821	2		acquire __CLSWMutex2
+2	5821	3		acquire __CLSWMutex3
+2	5821	4		mov __CLSWArgs0.Port, __RLSReadPort
+2	5821	6		mov __CLSWArgs0.ReturnLen, __RLSBytesCountVar
+2	5821	8		mov __CLSWArgs0.Buffer, __RLSReadBufVar
+2	5821	10		syscall 21, __CLSWArgs0
+2	5821	13		mov __RLSBResultVar, __CLSWArgs0.Result
+2	5821	15		release __CLSWMutex0
+2	5821	16		release __CLSWMutex1
+2	5821	17		release __CLSWMutex2
+2	5821	18		release __CLSWMutex3
+2	5821	19	#line 5821 "NXTDefs.h"
+2	5822	19		brtst 4, __RLSBReturnVar, __RLSBytesCountVar
+2	5823	22		arrinit __RLSReadBufVar, __constVal0, __RLSBytesCountVar
+2	5824	26		brtst 5, __RLSBErrorVar, __RLSBResultVar
+2	5825	29		set __RLSBIterationsVar, 4
+2	5827	32	#pragma macro 23
+2	5827	32		acquire __CLSCSMutex0
+2	5827	33		acquire __CLSCSMutex1
+2	5827	34		acquire __CLSCSMutex2
+2	5827	35		acquire __CLSCSMutex3
+2	5827	36		mov __CLSCSArgs0.Port, __RLSReadPort
+2	5827	38		syscall 23, __CLSCSArgs0
+2	5827	41		mov __RLSBytesCountVar, __CLSCSArgs0.BytesReady
+2	5827	43		mov __RLSBResultVar, __CLSCSArgs0.Result
+2	5827	45		release __CLSCSMutex0
+2	5827	46		release __CLSCSMutex1
+2	5827	47		release __CLSCSMutex2
+2	5827	48		release __CLSCSMutex3
+2	5827	49	#line 5827 "NXTDefs.h"
+2	5828	49		sub __RLSBIterationsVar, __RLSBIterationsVar, __constVal1
+2	5829	53		brtst 2, __RLSBErrorVar, __RLSBIterationsVar
+2	5830	56		brtst 0, __RLSBErrorVar, __RLSBResultVar
+2	5831	59		brtst 4, __RLSBReadyToReadVar, __RLSBResultVar
+2	5833	62		wait2 NA, __constVal15
+2	5834	65		jmp __RLSBDoCheckStatusVar
+2	5837	67	#pragma macro 25
+2	5837	67		acquire __CLSRMutex0
+2	5837	68		acquire __CLSRMutex1
+2	5837	69		acquire __CLSRMutex2
+2	5837	70		acquire __CLSRMutex3
+2	5837	71		mov __CLSRArgs0.Port, __RLSReadPort
+2	5837	73		mov __CLSRArgs0.BufferLen, __RLSBytesCountVar
+2	5837	75		syscall 22, __CLSRArgs0
+2	5837	78		mov __RLSReadBufVar, __CLSRArgs0.Buffer
+2	5837	80		mov __RLSBResultVar, __CLSRArgs0.Result
+2	5837	82		release __CLSRMutex0
+2	5837	83		release __CLSRMutex1
+2	5837	84		release __CLSRMutex2
+2	5837	85		release __CLSRMutex3
+2	5837	86	#line 5837 "NXTDefs.h"
+2	5838	86		brtst 5, __RLSBErrorVar, __RLSBResultVar
+2	5839	89		mov __RLSLastGoodReadVar, __RLSReadBufVar
+2	5840	91		jmp __RLSBDoneVar
+2	5842	93		mov __RLSReadBufVar, __RLSLastGoodReadVar
+2	5844	95		arrsize __RLSBytesCountVar, __RLSReadBufVar
+2	5846	98		subret ____ReadLSBytesVar_return
+3	71	0	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	72	0		mov __unsigned_stack_001IMU_MLBToInteger, __IMU_MLBToInteger_7qG2_lsb_7qG2_000
+3	71	2	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	71	2	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	72	2		mov __unsigned_stack_002IMU_MLBToInteger, __IMU_MLBToInteger_7qG2_msb_7qG2_000
+3	71	4	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	71	4	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	72	4		set __IMU_MLBToInteger_shift_cnt, 8
+3	71	7	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	72	7		mov __IMU_MLBToInteger_shift_tmp, __unsigned_stack_002IMU_MLBToInteger
+3	72	9	__shiftstart_1:	brtst LTEQ, __shiftdone_1, __IMU_MLBToInteger_shift_cnt
+3	72	12		mul __IMU_MLBToInteger_shift_tmp, __IMU_MLBToInteger_shift_tmp, __constVal2
+3	72	16		sub __IMU_MLBToInteger_shift_cnt, __IMU_MLBToInteger_shift_cnt, __constVal1
+3	72	20		jmp __shiftstart_1
+3	73	22	#line 73 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	74	22		add __IMU_MLBToInteger_7qG2_i_7qG2_000, __unsigned_stack_001IMU_MLBToInteger, __IMU_MLBToInteger_shift_tmp
+3	73	26	#line 73 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	73	26	#line 73 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	74	26	#line 74 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	75	26		mov __D0IMU_MLBToInteger, __IMU_MLBToInteger_7qG2_i_7qG2_000
+3	74	28	#line 74 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	75	28		subret __IMU_MLBToInteger_return
+3	74	30	#line 74 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	76	30	#line 76 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+3	77	30		subret __IMU_MLBToInteger_return
+4	122	0	#line 122 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	123	0		arrinit __IMU_ReadInteger_7qG2_buf_7qG2_000, __constVal0, __constVal20
+4	124	4	#line 124 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	125	4		set __IMU_ReadInteger_7qG2_result_7qG2_000, 0
+4	124	7	#line 124 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	126	7	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	127	7		set __IMU_ReadInteger_7qG2_nByteReady_7qG2_000, 0
+4	126	10	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	126	10	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	127	10		arrbuild __IMU_ReadInteger_7qG2_message_7qG2_000, __IMU_ReadInteger_7qG2_i2cAddr_7qG2_000, __IMU_ReadInteger_7qG2_reg_to_read_7qG2_000
+4	126	15	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	126	15	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	127	15	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	128	15	#pragma macro 23
+4	128	15		acquire __CLSCSMutex0
+4	128	16		acquire __CLSCSMutex1
+4	128	17		acquire __CLSCSMutex2
+4	128	18		acquire __CLSCSMutex3
+4	128	19		mov __CLSCSArgs0.Port, __IMU_ReadInteger_7qG2_port_7qG2_000
+4	128	21		syscall 23, __CLSCSArgs0
+4	128	24		mov __IMU_ReadInteger_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+4	128	26		mov __D0IMU_ReadInteger, __CLSCSArgs0.Result
+4	128	28		release __CLSCSMutex0
+4	128	29		release __CLSCSMutex1
+4	128	30		release __CLSCSMutex2
+4	128	31		release __CLSCSMutex3
+4	4889	32	#line 4889 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	127	32	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	128	32		mov __signed_stack_001IMU_ReadInteger, __D0IMU_ReadInteger
+4	127	34	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	128	34		set __D0IMU_ReadInteger, 32
+4	127	37	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	128	37		cmp 4, __zfIMU_ReadInteger, __signed_stack_001IMU_ReadInteger, __D0IMU_ReadInteger
+4	127	41	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	128	41		mov __D0IMU_ReadInteger, __zfIMU_ReadInteger
+4	128	43	#line 128 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	129	43		brtst 4, __NXC_Label_533, __zfIMU_ReadInteger
+4	128	46	#line 128 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	128	46	#line 128 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	129	46		jmp __NXC_Label_532
+4	128	48	#line 128 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	129	48	#line 129 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	130	48		set __IMU_ReadInteger_7qG2_count_7qG2_000, 2
+4	129	51	#line 129 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	129	51	#line 129 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	129	51	#line 129 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	130	51	#pragma macro 28
+4	130	51		acquire __RLSBmutex0
+4	130	52		acquire __RLSBmutex1
+4	130	53		acquire __RLSBmutex2
+4	130	54		acquire __RLSBmutex3
+4	130	55		mov __RLSReadPort, __IMU_ReadInteger_7qG2_port_7qG2_000
+4	130	57		mov __RLSReadBufVar, __IMU_ReadInteger_7qG2_message_7qG2_000
+4	130	59		mov __RLSBytesCountVar, __IMU_ReadInteger_7qG2_count_7qG2_000
+4	130	61		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+4	130	63		tst 4, __D0IMU_ReadInteger, __RLSBResultVar
+4	130	66		mov __IMU_ReadInteger_7qG2_count_7qG2_000, __RLSBytesCountVar
+4	130	68		mov __IMU_ReadInteger_7qG2_buf_7qG2_000, __RLSReadBufVar
+4	130	70		release __RLSBmutex0
+4	130	71		release __RLSBmutex1
+4	130	72		release __RLSBmutex2
+4	130	73		release __RLSBmutex3
+4	4915	74	#line 4915 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	130	74	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	131	74		tst 5, __zfIMU_ReadInteger, __D0IMU_ReadInteger
+4	130	77	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	131	77		brtst 4, __NXC_Label_540, __zfIMU_ReadInteger
+4	130	80	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	131	80		set __signed_stack_001IMU_ReadInteger, 0
+4	130	83	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	130	83	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	131	83		index __ArrHelper__IMU_ReadInteger_98_0, __IMU_ReadInteger_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadInteger
+4	130	87	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	131	87		mov __unsigned_stack_001IMU_ReadInteger, __ArrHelper__IMU_ReadInteger_98_0
+4	130	89	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	130	89	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	131	89		set __signed_stack_002IMU_ReadInteger, 1
+4	130	92	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	130	92	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	131	92		index __ArrHelper__IMU_ReadInteger_98_0, __IMU_ReadInteger_7qG2_buf_7qG2_000, __signed_stack_002IMU_ReadInteger
+4	130	96	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	131	96		mov __unsigned_stack_002IMU_ReadInteger, __ArrHelper__IMU_ReadInteger_98_0
+4	130	98	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	130	98	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	131	98		set __IMU_ReadInteger_shift_cnt, 8
+4	130	101	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	131	101		mov __IMU_ReadInteger_shift_tmp, __unsigned_stack_002IMU_ReadInteger
+4	131	103	__shiftstart_2:	brtst LTEQ, __shiftdone_2, __IMU_ReadInteger_shift_cnt
+4	131	106		mul __IMU_ReadInteger_shift_tmp, __IMU_ReadInteger_shift_tmp, __constVal2
+4	131	110		sub __IMU_ReadInteger_shift_cnt, __IMU_ReadInteger_shift_cnt, __constVal1
+4	131	114		jmp __shiftstart_2
+4	131	116	#line 131 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	132	116		add __IMU_ReadInteger_7qG2_result_7qG2_000, __unsigned_stack_001IMU_ReadInteger, __IMU_ReadInteger_shift_tmp
+4	131	120	#line 131 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	131	120	#line 131 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	132	120	#line 132 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	133	120	#line 133 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	134	120		mov __D0IMU_ReadInteger, __IMU_ReadInteger_7qG2_result_7qG2_000
+4	133	122	#line 133 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	134	122		subret __IMU_ReadInteger_return
+4	133	124	#line 133 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	135	124	#line 135 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	136	124		subret __IMU_ReadInteger_return
+5	188	0	#line 188 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	189	0		arrinit __IMU_ReadMagneticField_7qG2_buf_7qG2_000, __constVal0, __constVal12
+5	191	4	#line 191 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	192	4		set __IMU_ReadMagneticField_7qG2_nByteReady_7qG2_000, 0
+5	191	7	#line 191 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	191	7	#line 191 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	192	7		arrbuild __IMU_ReadMagneticField_7qG2_message_7qG2_000, __IMU_ReadMagneticField_7qG2_i2cAddr_7qG2_000, __constVal77
+5	191	12	#line 191 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	191	12	#line 191 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	192	12	#line 192 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	193	12	#pragma macro 23
+5	193	12		acquire __CLSCSMutex0
+5	193	13		acquire __CLSCSMutex1
+5	193	14		acquire __CLSCSMutex2
+5	193	15		acquire __CLSCSMutex3
+5	193	16		mov __CLSCSArgs0.Port, __IMU_ReadMagneticField_7qG2_port_7qG2_000
+5	193	18		syscall 23, __CLSCSArgs0
+5	193	21		mov __IMU_ReadMagneticField_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+5	193	23		mov __D0IMU_ReadMagneticField, __CLSCSArgs0.Result
+5	193	25		release __CLSCSMutex0
+5	193	26		release __CLSCSMutex1
+5	193	27		release __CLSCSMutex2
+5	193	28		release __CLSCSMutex3
+5	5540	29	#line 5540 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	192	29	#line 192 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	193	29		mov __signed_stack_001IMU_ReadMagneticField, __D0IMU_ReadMagneticField
+5	192	31	#line 192 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	193	31		set __D0IMU_ReadMagneticField, 32
+5	192	34	#line 192 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	193	34		cmp 4, __zfIMU_ReadMagneticField, __signed_stack_001IMU_ReadMagneticField, __D0IMU_ReadMagneticField
+5	192	38	#line 192 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	193	38		mov __D0IMU_ReadMagneticField, __zfIMU_ReadMagneticField
+5	193	40	#line 193 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	194	40		brtst 4, __NXC_Label_649, __zfIMU_ReadMagneticField
+5	193	43	#line 193 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	193	43	#line 193 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	194	43		jmp __NXC_Label_648
+5	193	45	#line 193 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	194	45	#line 194 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	195	45		set __IMU_ReadMagneticField_7qG2_count_7qG2_000, 6
+5	194	48	#line 194 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	194	48	#line 194 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	194	48	#line 194 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	195	48	#pragma macro 28
+5	195	48		acquire __RLSBmutex0
+5	195	49		acquire __RLSBmutex1
+5	195	50		acquire __RLSBmutex2
+5	195	51		acquire __RLSBmutex3
+5	195	52		mov __RLSReadPort, __IMU_ReadMagneticField_7qG2_port_7qG2_000
+5	195	54		mov __RLSReadBufVar, __IMU_ReadMagneticField_7qG2_message_7qG2_000
+5	195	56		mov __RLSBytesCountVar, __IMU_ReadMagneticField_7qG2_count_7qG2_000
+5	195	58		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+5	195	60		tst 4, __D0IMU_ReadMagneticField, __RLSBResultVar
+5	195	63		mov __IMU_ReadMagneticField_7qG2_count_7qG2_000, __RLSBytesCountVar
+5	195	65		mov __IMU_ReadMagneticField_7qG2_buf_7qG2_000, __RLSReadBufVar
+5	195	67		release __RLSBmutex0
+5	195	68		release __RLSBmutex1
+5	195	69		release __RLSBmutex2
+5	195	70		release __RLSBmutex3
+5	5566	71	#line 5566 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	195	71	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	71		tst 5, __zfIMU_ReadMagneticField, __D0IMU_ReadMagneticField
+5	195	74	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	74		brtst 4, __NXC_Label_656, __zfIMU_ReadMagneticField
+5	195	77	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	77		set __signed_stack_001IMU_ReadMagneticField, 0
+5	195	80	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	195	80	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	80		index __ArrHelper__IMU_ReadMagneticField_98_0, __IMU_ReadMagneticField_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadMagneticField
+5	195	84	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	84		mov __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__IMU_ReadMagneticField_98_0
+5	195	86	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	195	86	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	86		set __signed_stack_001IMU_ReadMagneticField, 1
+5	195	89	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	195	89	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	89		index __ArrHelper__IMU_ReadMagneticField_98_0, __IMU_ReadMagneticField_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadMagneticField
+5	195	93	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	93		mov __IMU_MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__IMU_ReadMagneticField_98_0
+5	195	95	#line 195 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	95	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	95		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+5	196	97	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	97		mov __IMU_ReadMagneticField_7qG2_currMF_7qG2_000.mx, __D0IMU_MLBToInteger
+5	196	99	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	99	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	99	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	99		set __signed_stack_001IMU_ReadMagneticField, 2
+5	196	102	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	102	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	102		index __ArrHelper__IMU_ReadMagneticField_98_0, __IMU_ReadMagneticField_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadMagneticField
+5	196	106	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	106		mov __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__IMU_ReadMagneticField_98_0
+5	196	108	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	108	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	108		set __signed_stack_001IMU_ReadMagneticField, 3
+5	196	111	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	196	111	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	111		index __ArrHelper__IMU_ReadMagneticField_98_0, __IMU_ReadMagneticField_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadMagneticField
+5	196	115	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	115		mov __IMU_MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__IMU_ReadMagneticField_98_0
+5	196	117	#line 196 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	117	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	198	117		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+5	197	119	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	198	119		mov __IMU_ReadMagneticField_7qG2_currMF_7qG2_000.my, __D0IMU_MLBToInteger
+5	197	121	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	121	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	121	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	198	121		set __signed_stack_001IMU_ReadMagneticField, 4
+5	197	124	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	124	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	198	124		index __ArrHelper__IMU_ReadMagneticField_98_0, __IMU_ReadMagneticField_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadMagneticField
+5	197	128	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	198	128		mov __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __ArrHelper__IMU_ReadMagneticField_98_0
+5	197	130	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	130	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	198	130		set __signed_stack_001IMU_ReadMagneticField, 5
+5	197	133	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	197	133	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	198	133		index __ArrHelper__IMU_ReadMagneticField_98_0, __IMU_ReadMagneticField_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadMagneticField
+5	197	137	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	198	137		mov __IMU_MLBToInteger_7qG2_msb_7qG2_000, __ArrHelper__IMU_ReadMagneticField_98_0
+5	197	139	#line 197 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	198	139	#line 198 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	199	139		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+5	198	141	#line 198 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	199	141		mov __IMU_ReadMagneticField_7qG2_currMF_7qG2_000.mz, __D0IMU_MLBToInteger
+5	198	143	#line 198 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	198	143	#line 198 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	199	143	#line 199 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	200	143		jmp __NXC_Label_687
+5	200	145	#line 200 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	201	145		set __IMU_ReadMagneticField_7qG2_currMF_7qG2_000.mx, 0
+5	200	148	#line 200 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	200	148	#line 200 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	201	148	#line 201 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	202	148		set __IMU_ReadMagneticField_7qG2_currMF_7qG2_000.my, 0
+5	201	151	#line 201 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	201	151	#line 201 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	202	151	#line 202 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	203	151		set __IMU_ReadMagneticField_7qG2_currMF_7qG2_000.mz, 0
+5	202	154	#line 202 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	202	154	#line 202 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	205	154	#line 205 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	205	154	#line 205 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	206	154		subret __IMU_ReadMagneticField_return
+6	277	0	#line 277 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	278	0		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init, __IMU_Init_7qG2_port_7qG2_000
+6	277	2	#line 277 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	278	2	#line 278 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	279	2		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_IMU_Init, __constVal1
+6	3758	4	#line 3758 "NXCDefs.h"
+6	3759	4		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init
+6	3758	6	#line 3758 "NXCDefs.h"
+6	3758	6	#line 3758 "NXCDefs.h"
+6	3759	6		mov __DU0SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_IMU_Init
+6	3758	8	#line 3758 "NXCDefs.h"
+6	3759	8		tst 5, __zfSetSensorLowspeed_inline_IMU_Init, __DU0SetSensorLowspeed_inline_IMU_Init
+6	3758	11	#line 3758 "NXCDefs.h"
+6	3759	11		brtst 4, __005__NXC_Label_36, __zfSetSensorLowspeed_inline_IMU_Init
+6	3758	14	#line 3758 "NXCDefs.h"
+6	3759	14		set __D0SetSensorLowspeed_inline_IMU_Init, 11
+6	3758	17	#line 3758 "NXCDefs.h"
+6	3759	17		jmp __005__NXC_Label_37
+6	3758	19	#line 3758 "NXCDefs.h"
+6	3759	19		set __D0SetSensorLowspeed_inline_IMU_Init, 10
+6	3758	22	#line 3758 "NXCDefs.h"
+6	3759	22		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __D0SetSensorLowspeed_inline_IMU_Init
+6	3663	24	#line 3663 "NXCDefs.h"
+6	3664	24		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, 0
+6	3663	28	#line 3663 "NXCDefs.h"
+6	3759	28	#line 3759 "NXCDefs.h"
+6	3759	28	#line 3759 "NXCDefs.h"
+6	3760	28		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init
+6	3759	30	#line 3759 "NXCDefs.h"
+6	3759	30	#line 3759 "NXCDefs.h"
+6	3760	30		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, 0
+6	3759	33	#line 3759 "NXCDefs.h"
+6	3676	33	#line 3676 "NXCDefs.h"
+6	3677	33		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, 1
+6	3676	37	#line 3676 "NXCDefs.h"
+6	3760	37	#line 3760 "NXCDefs.h"
+6	3760	37	#line 3760 "NXCDefs.h"
+6	3761	37		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init
+6	3760	39	#line 3760 "NXCDefs.h"
+6	3694	39	#line 3694 "NXCDefs.h"
+6	3695	39	#pragma macro 4
+6	3695	39		acquire __ResetSensorMutex
+6	3695	40		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init
+6	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+6	3695	44		release __ResetSensorMutex
+6	6442	45	#line 6442 "NXCDefs.h"
+6	3694	45	#line 3694 "NXCDefs.h"
+6	3761	45	#line 3761 "NXCDefs.h"
+6	278	45	#line 278 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	280	45	#line 280 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	281	45		subret __IMU_Init_return
+7	282	0	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	283	0		mov __IMU_ReadInteger_7qG2_port_7qG2_000, __IMU_ReadCompassHeading_7qG2_port_7qG2_000
+7	282	2	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	282	2	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	283	2		mov __IMU_ReadInteger_7qG2_i2cAddr_7qG2_000, __IMU_ReadCompassHeading_7qG2_i2cAddr_7qG2_000
+7	282	4	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	282	4	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	283	4		set __IMU_ReadInteger_7qG2_reg_to_read_7qG2_000, 75
+7	282	7	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	282	7	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	283	7		subcall IMU_ReadInteger, __IMU_ReadInteger_return
+7	282	9	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	283	9		mov __D0IMU_ReadCompassHeading, __D0IMU_ReadInteger
+7	283	11	#line 283 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	284	11		subret __IMU_ReadCompassHeading_return
+7	283	13	#line 283 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	285	13	#line 285 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	286	13		subret __IMU_ReadCompassHeading_return
+8	27	0	#line 27 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	28	0		set __D0button_handler, 1
+8	29	3	#line 29 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	30	3		tst 5, __zfbutton_handler, __D0button_handler
+8	29	6	#line 29 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	30	6		brtst 4, __NXC_Label_883, __zfbutton_handler
+8	29	9	#line 29 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	30	9		set __signed_stack_001button_handler, 3
+8	29	12	#line 29 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	29	12	#line 29 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	30	12		set __D0button_handler, 1
+8	29	15	#line 29 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	30	15		acquire __RBtnMutex
+8	29	16	#line 29 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	30	16		mov __RBtnArgs.Index, __signed_stack_001button_handler
+8	29	18	#line 29 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	30	18		mov __RBtnArgs.Reset, __D0button_handler
+8	29	20	#line 29 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	30	20		syscall 20, __RBtnArgs
+8	29	23	#line 29 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	30	23		mov __D0button_handler, __RBtnArgs.Pressed
+8	29	25	#line 29 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	30	25		release __RBtnMutex
+8	30	26	#line 30 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	26		tst 5, __zfbutton_handler, __D0button_handler
+8	30	29	#line 30 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	29		brtst 4, __NXC_Label_892, __zfbutton_handler
+8	30	32	#line 30 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	32		set __signed_stack_001button_handler, 3
+8	30	35	#line 30 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	30	35	#line 30 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	35		set __D0button_handler, 1
+8	30	38	#line 30 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	38		acquire __RBtnMutex
+8	30	39	#line 30 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	39		mov __RBtnArgs.Index, __signed_stack_001button_handler
+8	30	41	#line 30 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	41		mov __RBtnArgs.Reset, __D0button_handler
+8	30	43	#line 30 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	43		syscall 20, __RBtnArgs
+8	30	46	#line 30 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	46		mov __D0button_handler, __RBtnArgs.Pressed
+8	30	48	#line 30 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	48		release __RBtnMutex
+8	31	49	#line 31 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	32	49		tst 5, __zfbutton_handler, __D0button_handler
+8	31	52	#line 31 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	32	52		brtst 4, __NXC_Label_894, __zfbutton_handler
+8	31	55	#line 31 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	55	#line 31 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	32	55		jmp __NXC_Label_893
+8	31	57	#line 31 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	57	#line 31 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	32	57		mov __signed_stack_001button_handler, cb
+8	31	59	#line 31 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	31	59	#line 31 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	32	59		set __D0button_handler, 4
+8	31	62	#line 31 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	32	62		cmp 3, __zfbutton_handler, __signed_stack_001button_handler, __D0button_handler
+8	31	66	#line 31 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	32	66		mov __D0button_handler, __zfbutton_handler
+8	32	68	#line 32 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	33	68		brtst 4, __NXC_Label_903, __zfbutton_handler
+8	33	71	#line 33 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	34	71		set cb, 0
+8	33	74	#line 33 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	33	74	#line 33 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	34	74	#line 34 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	35	74		jmp __NXC_Label_906
+8	35	76	#line 35 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	36	76		add cb, cb, __constVal1
+8	35	80	#line 35 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	38	80	#line 38 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	38	80	#line 38 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	38	80	#line 38 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	39	80		set __Wait_7qG2_ms_7qG2_000_inline_button_handler, 100
+8	38	83	#line 38 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	7921	83	#line 7921 "NXCDefs.h"
+8	7922	83		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_button_handler
+8	7921	86	#line 7921 "NXCDefs.h"
+8	39	86	#line 39 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	42	86	#line 42 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	43	86		jmp __NXC_Label_882
+8	42	88	#line 42 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+8	43	88		exit -1, -1
+9	0	0		subret __button_handler_Spawner_return
+10	0	0		exit 0, 1
+11	128	0	#line 128 "C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc"
+11	129	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc
+1	__ResetSensorSubroutine	386	NXTDefs.h
+2	__ReadLSBytesVar	399	NXTDefs.h
+3	IMU_MLBToInteger	499	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+4	IMU_ReadInteger	531	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+5	IMU_ReadMagneticField	657	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+6	IMU_Init	813	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+7	IMU_ReadCompassHeading	860	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+8	button_handler	875	C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc
+9	__button_handler_Returner	966	C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc
+10	__button_handler_Spawner	968	C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc
+11	__initialize_global_data	971	C:\Users\ronk\Documents\NXCprograms\IMU-magnetic-field.nxc

@@ -1,0 +1,103 @@
+#define GYRO_PORT IN_3        //Gyro on port 3
+#define GYRO_Offset 603       //offset value to apply to the output value
+
+int T=0, deltaT=0;
+float gSum=0, gAve=0;
+long Gyro_val;
+int i=1;
+
+float g_offset = 603;
+
+
+
+task read()
+{
+// read gyro and update offset with low-pass filter
+PlayTone(880, 1000);
+while (true){
+   T=CurrentTick();
+   Gyro_val=SensorRaw(GYRO_PORT)-g_offset;  //read the gyro sensor
+   gSum+=Gyro_val;
+   gAve=(gAve+Gyro_val)/2;
+   g_offset=g_offset+(Gyro_val*0.01);  // update offset with low-pass filter
+   Wait(100);
+   deltaT=CurrentTick()-T;
+} //end while
+}
+
+
+task display()
+{
+  int dir=1;
+
+  TextOut(0, LCD_LINE1, "Gyro_val");
+  TextOut(20, LCD_LINE1, "gSum");
+  TextOut(70, LCD_LINE1, "gAve");
+
+  while(true){
+     ClearLine(LCD_LINE3);
+     ClearLine(LCD_LINE6);
+     NumOut(0, LCD_LINE3, Gyro_val);
+     NumOut(20, LCD_LINE3, gSum);
+     NumOut(70, LCD_LINE3, gAve);
+     NumOut(70, LCD_LINE6, g_offset);
+     Wait(500);
+  }
+}
+
+
+task move()
+{
+  int a,n,pwr;
+  while (true ) {
+
+    PlayTone(600, 250);
+    Wait(300);
+    PlayTone(1200, 250);
+
+    pwr=35+Random(45);
+    OnFwd(OUT_A, pwr);
+    Wait(100+Random(900));
+    Off(OUT_A);
+
+    //Wait(SEC_3);
+
+  } //end while
+}
+
+
+task main()
+{
+
+  SetSensor(IN_3, SENSOR_LIGHT);
+  Wait(1000);
+
+  int pwr;
+  
+  // calibrate offset
+  pwr=35+Random(45);
+  OnFwd(OUT_A, pwr);  // add noise to the system from motor during offset calibration
+  while (i<10001){
+    //PlayTone(600, 250);
+    //Wait(300);
+    //PlayTone(1200, 250);
+
+    //pwr=35+Random(45);
+    //OnFwd(OUT_A, pwr);  // add noise to the system from motor during offset calibration
+    //Wait(100+Random(900));
+    Gyro_val+=SensorRaw(GYRO_PORT);   //sum i samples of the gyro sensor
+    //Off(OUT_A);
+    NumOut(0, LCD_LINE1, i);
+    i++;
+   }
+
+  Off(OUT_A);
+  g_offset=Gyro_val/10000;
+  NumOut(70, LCD_LINE6, g_offset);
+  PlayTone(440, 500);
+  Wait(5000);
+
+  Precedes(read, display, move);
+
+
+}

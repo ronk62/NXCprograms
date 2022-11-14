@@ -1,0 +1,38 @@
+#define GYRO_PORT IN_3        //Gyro on port 3
+#define GYRO_Offset 603       //offset value to apply to the output value
+
+long g_offset = 603;
+long Gyro_val;
+long pPeak_val;
+long nPeak_val;
+
+task main()
+{
+pPeak_val=0;
+nPeak_val=0;
+
+SetSensorTouch(IN_1);
+SetSensor(IN_3, SENSOR_LIGHT);
+
+TextOut(0,LCD_LINE4,"GyroOut=");
+TextOut(0,LCD_LINE6,"PosPeak_val=");
+TextOut(0,LCD_LINE7,"NegPeak_val=");
+
+Wait(1000);
+
+while(true){
+   Gyro_val=SensorRaw(GYRO_PORT)-g_offset;  //read the gyro sensor
+   if ((Gyro_val)>pPeak_val)
+     pPeak_val=(Gyro_val);
+   if ((Gyro_val)<nPeak_val)
+     nPeak_val=(Gyro_val);
+   TextOut(70,LCD_LINE4,"      ");
+   NumOut(70, LCD_LINE4, Gyro_val);
+   TextOut(70,LCD_LINE6,"             ");
+   NumOut(70, LCD_LINE6, pPeak_val);
+   TextOut(70,LCD_LINE7,"             ");
+   NumOut(70, LCD_LINE7, nPeak_val);
+   Wait(300);
+   }
+
+}

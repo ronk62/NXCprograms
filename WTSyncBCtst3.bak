@@ -1,0 +1,23 @@
+task main()
+{
+  int x1 = 0, x2 = 0, n = 0;
+  ResetAllTachoCounts(OUT_BC);
+  OnFwdSync(OUT_BC, 55, 0);
+
+  //while (true)
+  repeat (8)
+  {
+    //x1 = MotorBlockTachoCount(OUT_B);
+    x1 = MotorTachoCount(OUT_B);
+    //x2 = MotorBlockTachoCount(OUT_C);
+    x2 = MotorTachoCount(OUT_C);
+    NumOut(10, LCD_LINE1-n*8, x1, DRAW_OPT_NORMAL);
+    NumOut(54, LCD_LINE1-n*8, x2, DRAW_OPT_NORMAL);
+    //until (ButtonPressed(BTNRIGHT, false));
+    Wait(Random(3000)+2000);
+    n ++;
+  }
+  Off(OUT_BC);
+  Wait(25000);
+}
+

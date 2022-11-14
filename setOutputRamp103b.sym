@@ -1,0 +1,454 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__Wait_7qG2_ms_7qG2_000_inline_update	5	1	0	4	8
+1	__D0update	6	1	4	4	26
+2	__signed_stack_001debug_trace	6	1	8	4	4
+3	__signed_stack_003debug_trace	6	1	12	4	2
+4	__signed_stack_002debug_trace	6	1	16	4	4
+5	__D0debug_trace	6	1	20	4	3
+6	__SPTArgsMutex	9	0	24	4	2
+7	__rotate_theAngle5	5	1	28	4	2
+8	__signed_stack_003update	6	1	32	4	2
+9	__D0main	6	1	36	4	2
+10	__signed_stack_002update	6	1	40	4	12
+11	__rotate_angle5	6	1	44	4	4
+12	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	48	4	2
+13	__rotateMutex1	9	0	52	4	2
+14	__rotateMutex2	9	0	56	4	2
+15	__signed_stack_001update	6	1	60	4	4
+16	__signed_stack_002main	6	1	64	4	2
+17	__signed_stack_003main	6	1	68	4	2
+18	__signed_stack_001main	6	1	72	4	2
+19	__signed_stack_004main	6	1	76	4	2
+20	tone	4	0	80	2	7
+21	__constVal200	4	0	82	2	2
+22	__debug_trace_7qG2_tone_7qG2_000	4	1	84	2	4
+23	pwr	4	0	86	2	9
+24	__rotate_OldRotCount5	4	1	88	2	2
+25	__update_7qG2_rampPwr_7qG2_000	4	1	90	2	4
+26	__rotate_RotCount5	4	1	92	2	4
+27	i	4	1	94	2	3
+28	____initialize_global_data_return	1	1	96	1	3
+29	__rotate_theUF5	1	1	97	1	6
+30	__rotate_turnpct5	2	1	98	1	3
+31	__rotate_theOM5	1	1	99	1	7
+32	__rotate_theRS5	1	1	100	1	3
+33	__rotate_theRM5	1	1	101	1	4
+34	__constVal96	2	0	102	1	1
+35	__rotate_power5	1	1	103	1	4
+36	__rotate_firstPort5	1	1	104	1	5
+37	__rotate_stop5	1	1	105	1	2
+38	__rotate_sync5	1	1	106	1	2
+39	__rotate_theRVP5	1	1	107	1	2
+40	__constVal1	2	0	108	1	8
+41	__constVal32	2	0	109	1	5
+42	__constVal0	2	1	110	1	4
+43	__debug_trace_return	1	1	111	1	5
+44	____RotateMotor5_return	1	1	112	1	3
+45	__rotate_theRVD5	1	1	113	1	2
+46	__rotate_theRVI5	1	1	114	1	2
+47	__rotate_rs5	1	1	115	1	2
+48	__rotate_theTurnPct5	2	1	116	1	4
+49	__rotate_thePower5	2	1	117	1	4
+50	__SPTArgs	8	0	5	8	6
+51	__SPTArgs.Result	2	1	120	1	6
+52	__SPTArgs.Frequency	3	1	122	2	6
+53	__SPTArgs.Duration	3	1	124	2	6
+54	__SPTArgs.Loop	1	1	126	1	6
+55	__SPTArgs.Volume	1	1	127	1	6
+56	__PointOutArgs	8	0	3	12	4
+57	__PointOutArgs.Result	2	1	128	1	4
+58	__PointOutArgs.Location	8	0	2	4	4
+59	__PointOutArgs.Location.X	4	1	132	2	4
+60	__PointOutArgs.Location.Y	4	1	134	2	4
+61	__PointOutArgs.Options	5	1	136	4	4
+62	__TextOutArgs	8	0	4	16	5
+63	__TextOutArgs.Result	2	1	140	1	5
+64	__TextOutArgs.Location	8	0	2	4	5
+65	__TextOutArgs.Location.X	4	1	144	2	5
+66	__TextOutArgs.Location.Y	4	1	146	2	5
+67	__TextOutArgs.Text	7	0	148	4	5
+68	__TextOutArgs.Text.Text_type	1	0	0	1	0
+69	__TextOutArgs.Options	5	1	152	4	5
+70	__constStr0009	7	0	156	4	1
+71	__constStr0009.__constStr0009_type	1	1	0	1	0
+72	__constStr0010	7	0	158	4	1
+73	__constStr0010.__constStr0010_type	1	1	0	1	0
+74	__constStr0011	7	0	160	4	1
+75	__constStr0011.__constStr0011_type	1	1	0	1	0
+76	__ArrHelper__update_244_1	7	0	162	4	2
+77	__ArrHelper__update_244_1.__ArrHelper__update_244_1_type	1	0	0	1	0
+78	__strbufdebug_trace	7	0	164	4	2
+79	__strbufdebug_trace.__strbufdebug_trace_type	1	0	0	1	0
+80	__ArrHelper__update_244_0	7	0	166	4	2
+81	__ArrHelper__update_244_0.__ArrHelper__update_244_0_type	1	0	0	1	0
+82	__OUT_BC	7	0	168	4	3
+83	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+84	__rotate_ports5	7	0	170	4	6
+85	__rotate_ports5.__rotate_ports5_type	1	0	0	1	0
+86	msg	7	0	172	4	6
+87	msg.msg_type	1	0	0	1	0
+88	__debug_trace_7qG2_msg_7qG2_000	7	0	174	4	4
+89	__debug_trace_7qG2_msg_7qG2_000.__debug_trace_7qG2_msg_7qG2_000_type	1	0	0	1	0
+90	__strretvalupdate	7	0	176	4	2
+91	__strretvalupdate.__strretvalupdate_type	1	0	0	1	0
+92	__strbufmain	7	0	178	4	4
+93	__strbufmain.__strbufmain_type	1	0	0	1	0
+94	__strbufupdate	7	0	180	4	10
+95	__strbufupdate.__strbufupdate_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	49	0	#line 49 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	50	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	49	2	#line 49 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	49	2	#line 49 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	50	2		strcat __strbufmain, __constStr0011
+0	49	6	#line 49 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	50	6		mov msg, __strbufmain
+0	49	8	#line 49 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	50	8	#line 50 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	51	8		set tone, 880
+0	50	11	#line 50 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	50	11	#line 50 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	51	11	#line 51 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	52	11		strcat __strbufmain, msg
+0	51	15	#line 51 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	52	15		mov __debug_trace_7qG2_msg_7qG2_000, __strbufmain
+0	51	17	#line 51 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	52	17		mov __debug_trace_7qG2_tone_7qG2_000, tone
+0	51	19	#line 51 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	51	19	#line 51 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	52	19		subcall debug_trace, __debug_trace_return
+0	51	21	#line 51 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	52	21	#line 52 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	53	21		start update
+0	52	23	#line 52 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	54	23	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	55	23		mov __signed_stack_001main, pwr
+0	54	25	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	54	25	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	55	25		set __signed_stack_002main, 18000
+0	54	28	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	54	28	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	55	28		set __signed_stack_003main, 0
+0	54	31	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	54	31	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	55	31		set __signed_stack_004main, 1
+0	54	34	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	54	34	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	55	34		set __D0main, 1
+0	54	37	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	55	37	#pragma macro 35
+0	55	37		acquire __rotateMutex1
+0	55	38		acquire __rotateMutex2
+0	55	39		mov __rotate_ports5, __OUT_BC
+0	55	41		mov __rotate_power5, __signed_stack_001main
+0	55	43		mov __rotate_angle5, __signed_stack_002main
+0	55	45		mov __rotate_turnpct5, __signed_stack_003main
+0	55	47		mov __rotate_sync5, __signed_stack_004main
+0	55	49		mov __rotate_stop5, __D0main
+0	55	51		mov __rotate_theRVP5, __constVal96
+0	55	53		mov __rotate_theRVI5, __constVal32
+0	55	55		mov __rotate_theRVD5, __constVal32
+0	55	57		subcall __RotateMotor5, ____RotateMotor5_return
+0	55	59		release __rotateMutex2
+0	55	60		release __rotateMutex1
+0	6787	61	#line 6787 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	54	61	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	56	61	#line 56 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	57	61		set __Wait_7qG2_ms_7qG2_000_inline_main, 30000
+0	56	64	#line 56 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	8869	64	#line 8869 "NXCDefs.h"
+0	8870	64		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	66	#line 8869 "NXCDefs.h"
+0	56	66	#line 56 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+0	57	66		exit -1, -1
+1	5560	0		brtst 4, __rotate_Done5, __rotate_angle5
+1	5561	3		sign __rotate_thePower5, __rotate_angle5
+1	5562	6		abs __rotate_theAngle5, __rotate_angle5
+1	5563	9		mul __rotate_thePower5, __rotate_thePower5, __rotate_power5
+1	5565	13		set __rotate_theUF5, 23
+1	5566	16		brtst 4, __rotate_NoSync5, __rotate_sync5
+1	5567	19		set __rotate_theOM5, 7
+1	5568	22		set __rotate_theRM5, 2
+1	5569	25		mov __rotate_theTurnPct5, __rotate_turnpct5
+1	5570	27		brtst 4, __rotate_Start5, __rotate_theTurnPct5
+1	5571	30		add __rotate_theUF5, __rotate_theUF5, __constVal32
+1	5572	34		jmp __rotate_Start5
+1	5574	36		set __rotate_theOM5, 3
+1	5575	39		set __rotate_theRM5, 0
+1	5576	42		set __rotate_theTurnPct5, 0
+1	5578	45		set __rotate_theRS5, 32
+1	5579	48		setout __rotate_ports5, 1, __rotate_theOM5, 8, __rotate_theRM5, 5, __rotate_theAngle5, 6, __rotate_theRS5, 10, __rotate_theRVP5, 11, __rotate_theRVI5, 12, __rotate_theRVD5, 2, __rotate_thePower5, 7, __rotate_turnpct5, 0, __rotate_theUF5
+1	5581	71		wait 0
+1	5584	73		index __rotate_firstPort5, __rotate_ports5, 65535
+1	5586	77		getout __rotate_power5, __rotate_firstPort5, 2
+1	5587	81		brtst 4, __rotate_doneRunning5, __rotate_power5
+1	5588	84		getout __rotate_rs5, __rotate_firstPort5, 6
+1	5589	88		brcmp 4, __rotate_Running5, __rotate_rs5, __constVal32
+1	5591	92		brtst 4, __rotate_Reset5, __rotate_stop5
+1	5594	95		set __rotate_theOM5, 7
+1	5595	98		set __rotate_theUF5, 7
+1	5596	101		setout __rotate_ports5, 1, __rotate_theOM5, 8, __constVal1, 6, __rotate_theRS5, 2, __constVal0, 7, __constVal0, 5, __constVal0, 0, __rotate_theUF5
+1	5598	118		wait 0
+1	5601	120		getout __rotate_RotCount5, __rotate_firstPort5, 4
+1	5603	124		mov __rotate_OldRotCount5, __rotate_RotCount5
+1	5604	126		wait 50
+1	5606	128		getout __rotate_RotCount5, __rotate_firstPort5, 4
+1	5607	132		brcmp 5, __rotate_Stabilize5, __rotate_OldRotCount5, __rotate_RotCount5
+1	5610	136		set __rotate_theOM5, 4
+1	5611	139		setout __rotate_ports5, 8, __rotate_theRM5, 6, __constVal0, 1, __rotate_theOM5, 0, __constVal1
+1	5612	150		wait 0
+1	5616	152		brtst 4, __rotate_Done5, __rotate_theTurnPct5
+1	5617	155		setout __rotate_ports5, 0, __constVal32
+1	5619	160		subret ____RotateMotor5_return
+2	6921	0	#line 6921 "NXCDefs.h"
+2	6922	0	#pragma macro 6
+2	6922	0		mov __PointOutArgs.Location.X, __constVal200
+2	6922	2		mov __PointOutArgs.Location.Y, __constVal200
+2	6922	4		mov __PointOutArgs.Options, __constVal1
+2	6922	6		syscall 14, __PointOutArgs
+2	6386	9	#line 6386 "NXCDefs.h"
+2	6921	9	#line 6921 "NXCDefs.h"
+2	5	9	#line 5 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	6	9	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	9		set __signed_stack_001debug_trace, 15
+2	6	12	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	6	12	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	12		set __signed_stack_002debug_trace, 24
+2	6	15	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	6	15	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	15		strcat __strbufdebug_trace, __debug_trace_7qG2_msg_7qG2_000
+2	6	19	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	6	19	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	19		mov __TextOutArgs.Location.X, __signed_stack_001debug_trace
+2	6	21	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	21		mov __TextOutArgs.Location.Y, __signed_stack_002debug_trace
+2	6	23	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	23		set __TextOutArgs.Options, 0
+2	6	26	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	26		mov __TextOutArgs.Text, __strbufdebug_trace
+2	6	28	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	28		syscall 13, __TextOutArgs
+2	6	31	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	6	31	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	6	31	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	31	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	31		mov __signed_stack_001debug_trace, __debug_trace_7qG2_tone_7qG2_000
+2	7	33	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	33	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	33		set __signed_stack_002debug_trace, 250
+2	7	36	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	36	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	36		set __signed_stack_003debug_trace, 4
+2	7	39	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	7	39	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	39		set __D0debug_trace, 0
+2	7	42	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	42		acquire __SPTArgsMutex
+2	7	43	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	43		mov __SPTArgs.Frequency, __signed_stack_001debug_trace
+2	7	45	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	45		mov __SPTArgs.Duration, __signed_stack_002debug_trace
+2	7	47	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	47		mov __SPTArgs.Volume, __signed_stack_003debug_trace
+2	7	49	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	49		mov __SPTArgs.Loop, __D0debug_trace
+2	7	51	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	51		syscall 10, __SPTArgs
+2	7	54	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	54		mov __D0debug_trace, __SPTArgs.Result
+2	7	56	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	8	56		release __SPTArgsMutex
+2	7	57	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	11	57	#line 11 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+2	12	57		subret __debug_trace_return
+3	14	0	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	15	0		set __Wait_7qG2_ms_7qG2_000_inline_update, 2000
+3	14	3	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	8869	3	#line 8869 "NXCDefs.h"
+3	8870	3		waitv __Wait_7qG2_ms_7qG2_000_inline_update
+3	8869	5	#line 8869 "NXCDefs.h"
+3	14	5	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	16	5	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	17	5		set __signed_stack_001update, 1
+3	17	8	#line 17 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	17	8	#line 17 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	18	8		sub __signed_stack_001update, __signed_stack_001update, __constVal1
+3	17	12	#line 17 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	18	12		add i, i, __constVal1
+3	17	16	#line 17 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	18	16	#line 18 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	19	16		mov __ArrHelper__update_244_0, __constStr0009
+3	18	18	#line 18 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	19	18		mov __D0update, i
+3	18	20	#line 18 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	19	20		numtostr __strretvalupdate, __D0update
+3	18	23	#line 18 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	19	23		strcat __strbufupdate, __strretvalupdate
+3	18	27	#line 18 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	19	27		mov __ArrHelper__update_244_1, __strbufupdate
+3	18	29	#line 18 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	19	29		strcat __strbufupdate, __ArrHelper__update_244_0, __ArrHelper__update_244_1
+3	18	34	#line 18 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	19	34		mov msg, __strbufupdate
+3	18	36	#line 18 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	19	36	#line 19 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	20	36		mov __signed_stack_002update, tone
+3	19	38	#line 19 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	19	38	#line 19 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	20	38		set __D0update, 110
+3	19	41	#line 19 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	20	41		add tone, __signed_stack_002update, __D0update
+3	19	45	#line 19 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	19	45	#line 19 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	20	45	#line 20 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	21	45		strcat __strbufupdate, msg
+3	20	49	#line 20 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	21	49		mov __debug_trace_7qG2_msg_7qG2_000, __strbufupdate
+3	20	51	#line 20 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	21	51		mov __debug_trace_7qG2_tone_7qG2_000, tone
+3	20	53	#line 20 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	20	53	#line 20 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	21	53		subcall debug_trace, __debug_trace_return
+3	20	55	#line 20 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	21	55	#line 21 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	22	55		set __update_7qG2_rampPwr_7qG2_000, 75
+3	21	58	#line 21 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	21	58	#line 21 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	22	58	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	23	58		mov __signed_stack_002update, pwr
+3	22	60	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	22	60	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	23	60		mov __signed_stack_003update, __update_7qG2_rampPwr_7qG2_000
+3	22	62	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	23	62	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	24	62		set __D0update, 1
+3	23	65	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	24	65		add __D0update, __signed_stack_003update, __D0update
+3	23	69	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	24	69		cmp 5, __D0update, __signed_stack_002update, __D0update
+3	24	73	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	25	73		brtst 4, __ASM_Label_641, __D0update
+3	24	76	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	25	76		mov __signed_stack_002update, pwr
+3	24	78	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	24	78	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	25	78		set __D0update, 2
+3	24	81	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	24	81	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	24	81	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	24	81	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	24	81	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	24	81	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	25	81		setout __OUT_BC, 2, __signed_stack_002update, 0, __D0update
+3	24	88	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	24	88	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	25	88	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	26	88		set __Wait_7qG2_ms_7qG2_000_inline_update, 200
+3	25	91	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	8869	91	#line 8869 "NXCDefs.h"
+3	8870	91		waitv __Wait_7qG2_ms_7qG2_000_inline_update
+3	8869	93	#line 8869 "NXCDefs.h"
+3	25	93	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	26	93	#line 26 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	27	93		add pwr, pwr, __constVal1
+3	26	97	#line 26 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	31	97	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	32	97		jmp __ASM_Label_640
+3	31	99	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	31	99	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	32	99		getout __signed_stack_002update, __constVal1, 14
+3	31	103	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	31	103	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	32	103		set __D0update, 13000
+3	31	106	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	32	106		cmp 1, __D0update, __signed_stack_002update, __D0update
+3	32	110	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	33	110		not __D0update, __D0update
+3	32	113	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	33	113		tst 5, __D0update, __D0update
+3	32	116	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	33	116		brtst 4, __ASM_Label_651, __D0update
+3	32	119	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	33	119		set __update_7qG2_rampPwr_7qG2_000, 15
+3	32	122	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	32	122	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	32	122	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	33	122		jmp __ASM_Label_650
+3	32	124	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	33	124	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	34	124		mov __signed_stack_002update, pwr
+3	33	126	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	34	126	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	35	126		mov __D0update, __update_7qG2_rampPwr_7qG2_000
+3	34	128	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	35	128		cmp 1, __D0update, __signed_stack_002update, __D0update
+3	35	132	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	36	132		brtst 4, __ASM_Label_659, __D0update
+3	35	135	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	36	135		mov __signed_stack_002update, pwr
+3	35	137	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	35	137	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	36	137		set __D0update, 2
+3	35	140	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	35	140	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	35	140	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	35	140	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	35	140	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	35	140	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	36	140		setout __OUT_BC, 2, __signed_stack_002update, 0, __D0update
+3	35	147	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	35	147	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	36	147	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	37	147		set __Wait_7qG2_ms_7qG2_000_inline_update, 200
+3	36	150	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	8869	150	#line 8869 "NXCDefs.h"
+3	8870	150		waitv __Wait_7qG2_ms_7qG2_000_inline_update
+3	8869	152	#line 8869 "NXCDefs.h"
+3	36	152	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	37	152	#line 37 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	38	152		sub pwr, pwr, __constVal1
+3	37	156	#line 37 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	39	156	#line 39 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	40	156		jmp __ASM_Label_658
+3	39	158	#line 39 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	39	158	#line 39 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	40	158		set __Wait_7qG2_ms_7qG2_000_inline_update, 5000
+3	39	161	#line 39 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	8869	161	#line 8869 "NXCDefs.h"
+3	8870	161		waitv __Wait_7qG2_ms_7qG2_000_inline_update
+3	8869	163	#line 8869 "NXCDefs.h"
+3	39	163	#line 39 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	42	163	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	43	163		brtst 1, __ASM_Label_628, __signed_stack_001update
+3	42	166	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	42	166	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	43	166		strcat __strbufupdate, __constStr0010
+3	42	170	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	43	170		mov msg, __strbufupdate
+3	42	172	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	43	172	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	44	172		set tone, 220
+3	43	175	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	43	175	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	44	175	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	45	175		strcat __strbufupdate, msg
+3	44	179	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	45	179		mov __debug_trace_7qG2_msg_7qG2_000, __strbufupdate
+3	44	181	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	45	181		mov __debug_trace_7qG2_tone_7qG2_000, tone
+3	44	183	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	44	183	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	45	183		subcall debug_trace, __debug_trace_return
+3	44	185	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+3	45	185		exit -1, -1
+4	60	0	#line 60 "C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc"
+4	61	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc
+1	__RotateMotor5	69	NXTDefs.h
+2	debug_trace	231	C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc
+3	update	290	C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc
+4	__initialize_global_data	478	C:\Users\ronk\Documents\NXCprograms\setOutputRamp103b.nxc

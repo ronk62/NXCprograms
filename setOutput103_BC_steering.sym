@@ -1,0 +1,497 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0move	6	1	0	4	2
+1	__signed_stack_001debug_trace	6	1	4	4	4
+2	__signed_stack_002debug_trace	6	1	8	4	4
+3	__D0main	6	1	12	4	28
+4	__rotate_theAngle5	5	1	16	4	2
+5	__SPTArgsMutex	9	0	20	4	2
+6	__D0debug_trace	6	1	24	4	3
+7	__signed_stack_003debug_trace	6	1	28	4	2
+8	__signed_stack_003move	6	1	32	4	2
+9	__signed_stack_004move	6	1	36	4	2
+10	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	40	4	8
+11	__signed_stack_002move	6	1	44	4	2
+12	__signed_stack_001main	6	1	48	4	4
+13	__signed_stack_002main	6	1	52	4	2
+14	__signed_stack_001move	6	1	56	4	2
+15	__rotateMutex2	9	0	60	4	2
+16	__rotateMutex1	9	0	64	4	2
+17	__rotate_angle5	6	1	68	4	4
+18	i	4	1	72	2	3
+19	tone	4	0	74	2	7
+20	__constVal200	4	0	76	2	2
+21	pwr	4	0	78	2	1
+22	__debug_trace_7qG2_tone_7qG2_000	4	1	80	2	4
+23	__rotate_RotCount5	4	1	82	2	4
+24	__rotate_OldRotCount5	4	1	84	2	2
+25	__rotate_stop5	1	1	86	1	2
+26	__rotate_sync5	1	1	87	1	2
+27	__rotate_firstPort5	1	1	88	1	5
+28	__rotate_theUF5	1	1	89	1	6
+29	__rotate_theOM5	1	1	90	1	7
+30	__rotate_turnpct5	2	1	91	1	3
+31	____initialize_global_data_return	1	1	92	1	3
+32	__constVal96	2	0	93	1	2
+33	__debug_trace_return	1	1	94	1	5
+34	__constVal63	2	0	95	1	1
+35	__constValNeg10	2	0	96	1	1
+36	__rotate_power5	1	1	97	1	4
+37	__constVal1	2	0	98	1	5
+38	__constVal32	2	0	99	1	8
+39	__constVal0	2	1	100	1	8
+40	__constVal3	2	0	101	1	1
+41	____RotateMotor5_return	1	1	102	1	3
+42	__rotate_theTurnPct5	2	1	103	1	4
+43	__rotate_theRVD5	1	1	104	1	2
+44	__rotate_theRVI5	1	1	105	1	2
+45	__rotate_rs5	1	1	106	1	2
+46	__rotate_theRVP5	1	1	107	1	2
+47	__rotate_thePower5	2	1	108	1	4
+48	__rotate_theRM5	1	1	109	1	4
+49	__rotate_theRS5	1	1	110	1	3
+50	__SPTArgs	8	0	5	8	6
+51	__SPTArgs.Result	2	1	112	1	6
+52	__SPTArgs.Frequency	3	1	114	2	6
+53	__SPTArgs.Duration	3	1	116	2	6
+54	__SPTArgs.Loop	1	1	118	1	6
+55	__SPTArgs.Volume	1	1	119	1	6
+56	__TextOutArgs	8	0	4	16	5
+57	__TextOutArgs.Result	2	1	120	1	5
+58	__TextOutArgs.Location	8	0	2	4	5
+59	__TextOutArgs.Location.X	4	1	124	2	5
+60	__TextOutArgs.Location.Y	4	1	126	2	5
+61	__TextOutArgs.Text	7	0	128	4	5
+62	__TextOutArgs.Text.Text_type	1	0	0	1	0
+63	__TextOutArgs.Options	5	1	132	4	5
+64	__PointOutArgs	8	0	3	12	4
+65	__PointOutArgs.Result	2	1	136	1	4
+66	__PointOutArgs.Location	8	0	2	4	4
+67	__PointOutArgs.Location.X	4	1	140	2	4
+68	__PointOutArgs.Location.Y	4	1	142	2	4
+69	__PointOutArgs.Options	5	1	144	4	4
+70	__OUT_BC	7	0	148	4	14
+71	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+72	__strretvalmain	7	0	150	4	2
+73	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+74	__constStr0010	7	0	152	4	1
+75	__constStr0010.__constStr0010_type	1	1	0	1	0
+76	__strbufdebug_trace	7	0	154	4	2
+77	__strbufdebug_trace.__strbufdebug_trace_type	1	0	0	1	0
+78	__constStr0011	7	0	156	4	1
+79	__constStr0011.__constStr0011_type	1	1	0	1	0
+80	__strbufmain	7	0	158	4	10
+81	__strbufmain.__strbufmain_type	1	0	0	1	0
+82	msg	7	0	160	4	6
+83	msg.msg_type	1	0	0	1	0
+84	__ArrHelper__main_244_0	7	0	162	4	2
+85	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+86	__rotate_ports5	7	0	164	4	6
+87	__rotate_ports5.__rotate_ports5_type	1	0	0	1	0
+88	__debug_trace_7qG2_msg_7qG2_000	7	0	166	4	4
+89	__debug_trace_7qG2_msg_7qG2_000.__debug_trace_7qG2_msg_7qG2_000_type	1	0	0	1	0
+90	__constStr0009	7	0	168	4	1
+91	__constStr0009.__constStr0009_type	1	1	0	1	0
+92	__strbufmove	7	0	170	4	4
+93	__strbufmove.__strbufmove_type	1	0	0	1	0
+94	__ArrHelper__main_244_1	7	0	172	4	2
+95	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	23	0	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	24	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	23	2	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	23	2	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	24	2		start move
+0	23	4	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	25	4	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	26	4		set __Wait_7qG2_ms_7qG2_000_inline_main, 4000
+0	25	7	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	8869	7	#line 8869 "NXCDefs.h"
+0	8870	7		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	9	#line 8869 "NXCDefs.h"
+0	25	9	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	28	9	#line 28 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	29	9		set __signed_stack_001main, 5
+0	29	12	#line 29 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	29	12	#line 29 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	30	12		sub __signed_stack_001main, __signed_stack_001main, __constVal1
+0	29	16	#line 29 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	30	16		add i, i, __constVal1
+0	29	20	#line 29 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	30	20	#line 30 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	31	20		mov __ArrHelper__main_244_0, __constStr0010
+0	30	22	#line 30 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	31	22		mov __D0main, i
+0	30	24	#line 30 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	31	24		numtostr __strretvalmain, __D0main
+0	30	27	#line 30 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	31	27		strcat __strbufmain, __strretvalmain
+0	30	31	#line 30 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	31	31		mov __ArrHelper__main_244_1, __strbufmain
+0	30	33	#line 30 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	31	33		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	30	38	#line 30 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	31	38		mov msg, __strbufmain
+0	30	40	#line 30 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	31	40	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	32	40		mov __signed_stack_002main, tone
+0	31	42	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	31	42	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	32	42		set __D0main, 110
+0	31	45	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	32	45		add tone, __signed_stack_002main, __D0main
+0	31	49	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	31	49	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	32	49	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	33	49		strcat __strbufmain, msg
+0	32	53	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	33	53		mov __debug_trace_7qG2_msg_7qG2_000, __strbufmain
+0	32	55	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	33	55		mov __debug_trace_7qG2_tone_7qG2_000, tone
+0	32	57	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	32	57	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	33	57		subcall debug_trace, __debug_trace_return
+0	32	59	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	33	59	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	34	59		set __D0main, 5
+0	33	62	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	33	62	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	33	62	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	33	62	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	33	62	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	33	62	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	34	62		setout __OUT_BC, 1, __D0main
+0	33	67	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	33	67	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	34	67	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	35	67		set __D0main, 2
+0	34	70	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	34	70	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	34	70	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	34	70	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	34	70	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	34	70	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	35	70		setout __OUT_BC, 8, __D0main
+0	34	75	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	34	75	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	35	75	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	36	75		set __D0main, 32
+0	35	78	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	35	78	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	35	78	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	35	78	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	35	78	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	35	78	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	36	78		setout __OUT_BC, 6, __D0main
+0	35	83	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	35	83	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	36	83	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	37	83		set __D0main, 40
+0	36	86	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	36	86	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	36	86	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	36	86	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	36	86	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	36	86	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	37	86		setout __OUT_BC, 2, __D0main
+0	36	91	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	36	91	#line 36 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	37	91	#line 37 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	38	91		mov __D0main, __constValNeg10
+0	37	93	#line 37 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	37	93	#line 37 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	37	93	#line 37 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	37	93	#line 37 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	37	93	#line 37 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	37	93	#line 37 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	38	93		setout __OUT_BC, 7, __D0main
+0	37	98	#line 37 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	37	98	#line 37 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	38	98	#line 38 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	39	98		set __D0main, 3
+0	38	101	#line 38 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	38	101	#line 38 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	38	101	#line 38 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	38	101	#line 38 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	38	101	#line 38 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	38	101	#line 38 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	39	101		setout __OUT_BC, 0, __D0main
+0	38	106	#line 38 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	38	106	#line 38 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	40	106	#line 40 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	41	106		set __Wait_7qG2_ms_7qG2_000_inline_main, 4000
+0	40	109	#line 40 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	8869	109	#line 8869 "NXCDefs.h"
+0	8870	109		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	111	#line 8869 "NXCDefs.h"
+0	40	111	#line 40 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	42	111	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	43	111		set __D0main, 5
+0	42	114	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	42	114	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	42	114	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	42	114	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	42	114	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	42	114	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	43	114		setout __OUT_BC, 1, __D0main
+0	42	119	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	42	119	#line 42 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	43	119	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	44	119		set __D0main, 2
+0	43	122	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	43	122	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	43	122	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	43	122	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	43	122	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	43	122	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	44	122		setout __OUT_BC, 8, __D0main
+0	43	127	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	43	127	#line 43 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	44	127	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	45	127		set __D0main, 32
+0	44	130	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	44	130	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	44	130	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	44	130	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	44	130	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	44	130	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	45	130		setout __OUT_BC, 6, __D0main
+0	44	135	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	44	135	#line 44 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	45	135	#line 45 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	46	135		set __D0main, 40
+0	45	138	#line 45 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	45	138	#line 45 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	45	138	#line 45 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	45	138	#line 45 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	45	138	#line 45 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	45	138	#line 45 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	46	138		setout __OUT_BC, 2, __D0main
+0	45	143	#line 45 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	45	143	#line 45 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	46	143	#line 46 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	47	143		set __D0main, 10
+0	46	146	#line 46 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	46	146	#line 46 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	46	146	#line 46 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	46	146	#line 46 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	46	146	#line 46 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	46	146	#line 46 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	47	146		setout __OUT_BC, 7, __D0main
+0	46	151	#line 46 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	46	151	#line 46 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	47	151	#line 47 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	48	151		set __D0main, 3
+0	47	154	#line 47 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	47	154	#line 47 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	47	154	#line 47 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	47	154	#line 47 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	47	154	#line 47 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	47	154	#line 47 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	48	154		setout __OUT_BC, 0, __D0main
+0	47	159	#line 47 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	47	159	#line 47 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	49	159	#line 49 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	50	159		set __Wait_7qG2_ms_7qG2_000_inline_main, 4000
+0	49	162	#line 49 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	8869	162	#line 8869 "NXCDefs.h"
+0	8870	162		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	164	#line 8869 "NXCDefs.h"
+0	49	164	#line 49 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	52	164	#line 52 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	53	164		brtst 1, __ASM_Label_642, __signed_stack_001main
+0	52	167	#line 52 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	52	167	#line 52 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	53	167		strcat __strbufmain, __constStr0011
+0	52	171	#line 52 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	53	171		mov msg, __strbufmain
+0	52	173	#line 52 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	53	173	#line 53 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	54	173		set tone, 220
+0	53	176	#line 53 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	53	176	#line 53 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	54	176	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	55	176		strcat __strbufmain, msg
+0	54	180	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	55	180		mov __debug_trace_7qG2_msg_7qG2_000, __strbufmain
+0	54	182	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	55	182		mov __debug_trace_7qG2_tone_7qG2_000, tone
+0	54	184	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	54	184	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	55	184		subcall debug_trace, __debug_trace_return
+0	54	186	#line 54 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	55	186	#line 55 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	56	186		set __Wait_7qG2_ms_7qG2_000_inline_main, 30000
+0	55	189	#line 55 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	8869	189	#line 8869 "NXCDefs.h"
+0	8870	189		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	191	#line 8869 "NXCDefs.h"
+0	55	191	#line 55 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	56	191	#line 56 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	57	191	#pragma macro 7
+0	57	191		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6779	214	#line 6779 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	56	214	#line 56 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+0	57	214		exit -1, -1
+1	5560	0		brtst 4, __rotate_Done5, __rotate_angle5
+1	5561	3		sign __rotate_thePower5, __rotate_angle5
+1	5562	6		abs __rotate_theAngle5, __rotate_angle5
+1	5563	9		mul __rotate_thePower5, __rotate_thePower5, __rotate_power5
+1	5565	13		set __rotate_theUF5, 23
+1	5566	16		brtst 4, __rotate_NoSync5, __rotate_sync5
+1	5567	19		set __rotate_theOM5, 7
+1	5568	22		set __rotate_theRM5, 2
+1	5569	25		mov __rotate_theTurnPct5, __rotate_turnpct5
+1	5570	27		brtst 4, __rotate_Start5, __rotate_theTurnPct5
+1	5571	30		add __rotate_theUF5, __rotate_theUF5, __constVal32
+1	5572	34		jmp __rotate_Start5
+1	5574	36		set __rotate_theOM5, 3
+1	5575	39		set __rotate_theRM5, 0
+1	5576	42		set __rotate_theTurnPct5, 0
+1	5578	45		set __rotate_theRS5, 32
+1	5579	48		setout __rotate_ports5, 1, __rotate_theOM5, 8, __rotate_theRM5, 5, __rotate_theAngle5, 6, __rotate_theRS5, 10, __rotate_theRVP5, 11, __rotate_theRVI5, 12, __rotate_theRVD5, 2, __rotate_thePower5, 7, __rotate_turnpct5, 0, __rotate_theUF5
+1	5581	71		wait 0
+1	5584	73		index __rotate_firstPort5, __rotate_ports5, 65535
+1	5586	77		getout __rotate_power5, __rotate_firstPort5, 2
+1	5587	81		brtst 4, __rotate_doneRunning5, __rotate_power5
+1	5588	84		getout __rotate_rs5, __rotate_firstPort5, 6
+1	5589	88		brcmp 4, __rotate_Running5, __rotate_rs5, __constVal32
+1	5591	92		brtst 4, __rotate_Reset5, __rotate_stop5
+1	5594	95		set __rotate_theOM5, 7
+1	5595	98		set __rotate_theUF5, 7
+1	5596	101		setout __rotate_ports5, 1, __rotate_theOM5, 8, __constVal1, 6, __rotate_theRS5, 2, __constVal0, 7, __constVal0, 5, __constVal0, 0, __rotate_theUF5
+1	5598	118		wait 0
+1	5601	120		getout __rotate_RotCount5, __rotate_firstPort5, 4
+1	5603	124		mov __rotate_OldRotCount5, __rotate_RotCount5
+1	5604	126		wait 50
+1	5606	128		getout __rotate_RotCount5, __rotate_firstPort5, 4
+1	5607	132		brcmp 5, __rotate_Stabilize5, __rotate_OldRotCount5, __rotate_RotCount5
+1	5610	136		set __rotate_theOM5, 4
+1	5611	139		setout __rotate_ports5, 8, __rotate_theRM5, 6, __constVal0, 1, __rotate_theOM5, 0, __constVal1
+1	5612	150		wait 0
+1	5616	152		brtst 4, __rotate_Done5, __rotate_theTurnPct5
+1	5617	155		setout __rotate_ports5, 0, __constVal32
+1	5619	160		subret ____RotateMotor5_return
+2	6921	0	#line 6921 "NXCDefs.h"
+2	6922	0	#pragma macro 6
+2	6922	0		mov __PointOutArgs.Location.X, __constVal200
+2	6922	2		mov __PointOutArgs.Location.Y, __constVal200
+2	6922	4		mov __PointOutArgs.Options, __constVal1
+2	6922	6		syscall 14, __PointOutArgs
+2	6308	9	#line 6308 "NXCDefs.h"
+2	6921	9	#line 6921 "NXCDefs.h"
+2	5	9	#line 5 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	6	9	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	9		set __signed_stack_001debug_trace, 15
+2	6	12	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	6	12	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	12		set __signed_stack_002debug_trace, 24
+2	6	15	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	6	15	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	15		strcat __strbufdebug_trace, __debug_trace_7qG2_msg_7qG2_000
+2	6	19	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	6	19	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	19		mov __TextOutArgs.Location.X, __signed_stack_001debug_trace
+2	6	21	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	21		mov __TextOutArgs.Location.Y, __signed_stack_002debug_trace
+2	6	23	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	23		set __TextOutArgs.Options, 0
+2	6	26	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	26		mov __TextOutArgs.Text, __strbufdebug_trace
+2	6	28	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	28		syscall 13, __TextOutArgs
+2	6	31	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	6	31	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	6	31	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	31	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	31		mov __signed_stack_001debug_trace, __debug_trace_7qG2_tone_7qG2_000
+2	7	33	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	33	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	33		set __signed_stack_002debug_trace, 250
+2	7	36	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	36	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	36		set __signed_stack_003debug_trace, 4
+2	7	39	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	7	39	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	39		set __D0debug_trace, 0
+2	7	42	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	42		acquire __SPTArgsMutex
+2	7	43	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	43		mov __SPTArgs.Frequency, __signed_stack_001debug_trace
+2	7	45	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	45		mov __SPTArgs.Duration, __signed_stack_002debug_trace
+2	7	47	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	47		mov __SPTArgs.Volume, __signed_stack_003debug_trace
+2	7	49	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	49		mov __SPTArgs.Loop, __D0debug_trace
+2	7	51	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	51		syscall 10, __SPTArgs
+2	7	54	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	54		mov __D0debug_trace, __SPTArgs.Result
+2	7	56	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	8	56		release __SPTArgsMutex
+2	7	57	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	10	57	#line 10 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+2	11	57		subret __debug_trace_return
+3	12	0	#line 12 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	13	0		strcat __strbufmove, __constStr0009
+3	12	4	#line 12 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	13	4		mov msg, __strbufmove
+3	12	6	#line 12 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	13	6	#line 13 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	14	6		set tone, 880
+3	13	9	#line 13 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	13	9	#line 13 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	14	9	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	15	9		strcat __strbufmove, msg
+3	14	13	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	15	13		mov __debug_trace_7qG2_msg_7qG2_000, __strbufmove
+3	14	15	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	15	15		mov __debug_trace_7qG2_tone_7qG2_000, tone
+3	14	17	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	14	17	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	15	17		subcall debug_trace, __debug_trace_return
+3	14	19	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	16	19	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	17	19		mov __signed_stack_001move, pwr
+3	16	21	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	16	21	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	17	21		set __signed_stack_002move, 18000
+3	16	24	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	16	24	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	17	24		set __signed_stack_003move, 0
+3	16	27	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	16	27	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	17	27		set __signed_stack_004move, 1
+3	16	30	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	16	30	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	17	30		set __D0move, 1
+3	16	33	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	17	33	#pragma macro 35
+3	17	33		acquire __rotateMutex1
+3	17	34		acquire __rotateMutex2
+3	17	35		mov __rotate_ports5, __OUT_BC
+3	17	37		mov __rotate_power5, __signed_stack_001move
+3	17	39		mov __rotate_angle5, __signed_stack_002move
+3	17	41		mov __rotate_turnpct5, __signed_stack_003move
+3	17	43		mov __rotate_sync5, __signed_stack_004move
+3	17	45		mov __rotate_stop5, __D0move
+3	17	47		mov __rotate_theRVP5, __constVal96
+3	17	49		mov __rotate_theRVI5, __constVal32
+3	17	51		mov __rotate_theRVD5, __constVal32
+3	17	53		subcall __RotateMotor5, ____RotateMotor5_return
+3	17	55		release __rotateMutex2
+3	17	56		release __rotateMutex1
+3	6434	57	#line 6434 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	16	57	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+3	17	57		exit -1, -1
+4	60	0	#line 60 "C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc"
+4	61	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc
+1	__RotateMotor5	217	NXTDefs.h
+2	debug_trace	379	C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc
+3	move	438	C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc
+4	__initialize_global_data	498	C:\Users\ronk\Documents\NXCprograms\setOutput103_BC_steering.nxc

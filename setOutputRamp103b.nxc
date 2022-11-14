@@ -1,0 +1,58 @@
+int i=0, tone=440, pwr=25;
+string msg="";
+
+void debug_trace (string msg, int tone)
+{
+ ClearScreen();
+ TextOut(15, LCD_LINE5, msg);
+ PlayTone(tone, 250);
+}
+
+
+task update ()
+{
+ int rampPwr;
+ Wait(2000);
+ repeat (1)
+ {
+   i++;
+   msg="repeat "+NumToStr(i);
+   tone=tone+110;
+   debug_trace (msg, tone);
+   rampPwr=75;
+   while(pwr != rampPwr+1)
+   {
+    SetOutput(OUT_BC, PowerField, pwr, UpdateFlagsField, UF_UPDATE_SPEED);
+    Wait(200);
+    pwr++;
+   }
+
+   //Wait(5000);
+
+   until(MotorRotationCount(OUT_B) > 13000)
+   rampPwr=15;
+   while(pwr > rampPwr)
+   {
+    SetOutput(OUT_BC, PowerField, pwr, UpdateFlagsField, UF_UPDATE_SPEED);
+    Wait(200);
+    pwr--;
+   }
+   Wait(5000);
+ }
+
+ msg="end/wait";
+ tone=220;
+ debug_trace (msg, tone);
+}
+
+task main ()
+{
+ msg="Start motors B&C";
+ tone=880;
+ debug_trace (msg, tone);
+ start update;
+ RotateMotorEx(OUT_BC, pwr, 18000, 0, true, true);
+
+ Wait(30000);
+}
+

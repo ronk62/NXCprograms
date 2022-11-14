@@ -1,0 +1,22 @@
+byte buf[] = {0x02, 0x41, 0x43};
+
+task main()
+{
+  int result;
+  SetSensorLowspeed(S2);
+  result = LowspeedWrite(S2, 0, buf);
+  
+  // now rotate slowly 1.5 to 2 times
+  // on turn in about 20 seconds
+  
+  PlayTone(440, 250);
+  ResetAllTachoCounts(OUT_BC);
+  RotateMotorEx(OUT_BC, 15, 2200, 100, true, true);
+  PlayTone(880, 250);
+  
+  buf[2] = 0;
+  result = LowspeedWrite(S2, 0, buf);
+  // calibration complete
+}
+
+

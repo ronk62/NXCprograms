@@ -1,0 +1,36 @@
+int indx=0;
+int vol;
+
+int space[] = {0, 0, 0, 0, 0};
+int h[] = {0, 1, 0, 0, 0};
+int e[] = {0, 0, 1, 0, 1};
+int l[] = {0, 1, 1, 0, 0};
+int o[] = {0, 1, 1, 1, 1};
+int w[] = {1, 0, 1, 1, 1};
+int r[] = {0, 1, 0, 1, 1};
+int d[] = {0, 0, 1, 0, 0};
+
+
+// int msg=[] = {h, e, l, l, o, space, w, o, r, l, d};
+
+int msg=[] = {h[], e[]}; //this is a fail...likely need arrayBuild
+
+int len = ArrayLen(msg);
+
+
+task main(){
+
+//int len = 0;
+
+while (indx < len+1)
+      {
+       ClearLine(LCD_LINE1);
+       ClearLine(LCD_LINE3);
+       NumOut(0, LCD_LINE1, msg[len]);
+       NumOut(0, LCD_LINE3, len);
+       Wait(2000);
+       indx ++;
+      }
+
+Wait(5000);
+}

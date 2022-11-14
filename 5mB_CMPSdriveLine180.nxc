@@ -1,0 +1,69 @@
+int Compass_val, relative_heading, pwr = 20, target_heading = 30, steer = 0;
+
+task read()
+{
+  while(true){
+    Compass_val=SensorHTCompass(S2);
+    Wait(50);
+  }
+}
+
+task display()
+{
+  while(true){
+     ClearLine(LCD_LINE4);
+     ClearLine(LCD_LINE6);
+     ClearLine(LCD_LINE7);
+     ClearLine(LCD_LINE8);
+     NumOut(30, LCD_LINE4, Compass_val);
+     NumOut(30, LCD_LINE6, target_heading);
+     NumOut(30, LCD_LINE7, target_heading - Compass_val);
+     NumOut(30, LCD_LINE8, relative_heading);
+     Wait(500);
+  }
+}
+
+task move()
+{
+  Wait(500);
+  while (true){
+// calculate relative heading and use Proportional correction to pivot
+// towards target heading..."relative_heading" is equal to the angle
+// difference between "target_heading" and current compass heading
+    target_heading=30;
+    while (abs(target_heading - Compass_val) > 1){
+// do the needful (make the pivot turn)
+     OnFwdReg(OUT_B, pwr, OUT_REGMODE_SPEED);
+    }
+// stop, wait and set new "target_heading" (new target heading)
+    Off(OUT_B);
+    ResetAllTachoCounts(OUT_BC);
+    Wait(1000);
+    RotateMotorEx(OUT_BC, 45, 2000, 0, true, true);
+    ResetAllTachoCounts(OUT_BC);
+    Wait(3000);
+
+    target_heading=210;
+    while (abs(target_heading - Compass_val) > 1){
+// do the needful (make the pivot turn)
+     OnFwdReg(OUT_B, pwr, OUT_REGMODE_SPEED);
+    }
+// stop, wait and set new "target_heading" (new target heading)
+    Off(OUT_B);
+    ResetAllTachoCounts(OUT_BC);
+    Wait(1000);
+    RotateMotorEx(OUT_BC, 45, 2000, 0, true, true);
+    ResetAllTachoCounts(OUT_BC);
+    Wait(3000);
+  }
+}
+
+
+task main()
+{
+
+  SetSensorLowspeed(S2);
+  Precedes(read, display, move);
+
+
+}

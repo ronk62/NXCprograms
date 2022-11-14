@@ -1,0 +1,480 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_003main	6	1	0	4	2
+1	__signed_stack_002main	6	1	4	4	6
+2	__signed_stack_002read	6	1	8	4	2
+3	__signed_stack_001read	6	1	12	4	4
+4	__signed_stack_001display	6	1	16	4	12
+5	__DF0read	10	1	20	4	2
+6	__signed_stack_001main	6	1	24	4	10
+7	__signed_stack_002display	6	1	28	4	12
+8	__signed_stack_003read	6	1	32	4	2
+9	__Wait_7qG2_ms_7qG2_000_inline_read	5	1	36	4	2
+10	g_offset	6	0	40	4	3
+11	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	44	4	4
+12	__Wait_7qG2_ms_7qG2_000_inline_display	5	1	48	4	2
+13	gSum	10	1	52	4	3
+14	__float_stack_001read	10	1	56	4	2
+15	Gyro_val	6	1	60	4	7
+16	gAve	10	1	64	4	3
+17	__D0read	6	1	68	4	7
+18	__D0display	6	1	72	4	12
+19	__SPTArgsMutex	9	0	76	4	4
+20	__TextOutMutex	9	0	80	4	18
+21	__D0main	6	1	84	4	17
+22	__DF0display	10	1	88	4	4
+23	i	4	0	92	2	4
+24	__constVal128	4	0	94	2	1
+25	__constVal3	2	0	96	1	1
+26	__ResetSensorPort	1	1	97	1	3
+27	__constVal1	2	0	98	1	2
+28	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	99	1	4
+29	____initialize_global_data_return	1	1	100	1	3
+30	__constVal0	2	1	101	1	2
+31	__ClearLine_7qG2_line_7qG2_000_inline_display	1	1	102	1	2
+32	__constVal2	2	0	103	1	3
+33	____ResetSensorSubroutine_return	1	1	104	1	3
+34	__ResetSensorTmp	1	1	105	1	2
+35	__SPTArgs	8	0	5	8	12
+36	__SPTArgs.Result	2	1	108	1	12
+37	__SPTArgs.Frequency	3	1	110	2	12
+38	__SPTArgs.Duration	3	1	112	2	12
+39	__SPTArgs.Loop	1	1	114	1	12
+40	__SPTArgs.Volume	1	1	115	1	12
+41	__TextOutArgs	8	0	4	16	53
+42	__TextOutArgs.Result	2	1	116	1	53
+43	__TextOutArgs.Location	8	0	2	4	53
+44	__TextOutArgs.Location.X	4	1	120	2	53
+45	__TextOutArgs.Location.Y	4	1	122	2	53
+46	__TextOutArgs.Text	7	0	124	4	53
+47	__TextOutArgs.Text.Text_type	1	0	0	1	0
+48	__TextOutArgs.Options	5	1	128	4	53
+49	__strbufdisplay	7	0	132	4	6
+50	__strbufdisplay.__strbufdisplay_type	1	0	0	1	0
+51	__BlankLine	7	0	134	4	1
+52	__BlankLine.__BlankLine_type	1	0	0	1	0
+53	__constStr0009	7	0	136	4	1
+54	__constStr0009.__constStr0009_type	1	1	0	1	0
+55	__constStr0010	7	0	138	4	1
+56	__constStr0010.__constStr0010_type	1	1	0	1	0
+57	__constStr0011	7	0	140	4	1
+58	__constStr0011.__constStr0011_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	49	0	#line 49 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	50	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	49	2	#line 49 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	49	2	#line 49 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	50	2		set __SetSensor_7qG2_port_7qG2_000_inline_main, 2
+0	49	5	#line 49 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	49	5	#line 49 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	4472	5	#line 4472 "NXCDefs.h"
+0	4473	5		setin __constVal3, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	4474	9		setin __constVal128, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
+0	4475	13	#pragma macro 4
+0	4475	13		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
+0	4475	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6934	17	#line 6934 "NXCDefs.h"
+0	4476	17	#line 4476 "NXCDefs.h"
+0	49	17	#line 49 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	50	17	#line 50 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	51	17		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	50	20	#line 50 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	8869	20	#line 8869 "NXCDefs.h"
+0	8870	20		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	22	#line 8869 "NXCDefs.h"
+0	50	22	#line 50 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	53	22	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	54	22		mov __signed_stack_001main, i
+0	53	24	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	53	24	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	54	24		set __D0main, 10001
+0	53	27	#line 53 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	54	27		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	54	31	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	55	31		brtst 4, __ASM_Label_685, __D0main
+0	54	34	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	55	34		getin __D0main, __constVal2, 2
+0	54	38	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	55	38		add Gyro_val, Gyro_val, __D0main
+0	54	42	#line 54 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	55	42	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	42		set __signed_stack_001main, 0
+0	55	45	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	55	45	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	45		set __signed_stack_002main, 56
+0	55	48	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	55	48	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	48		mov __D0main, i
+0	55	50	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	50		acquire __TextOutMutex
+0	55	51	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	51		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	55	53	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	53		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	55	55	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	55		set __TextOutArgs.Options, 0
+0	55	58	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	58		numtostr __TextOutArgs.Text, __D0main
+0	55	61	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	61		syscall 13, __TextOutArgs
+0	55	64	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	64		mov __D0main, __TextOutArgs.Result
+0	55	66	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	66		release __TextOutMutex
+0	55	67	#line 55 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	56	67	#line 56 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	57	67		add i, i, __constVal1
+0	56	71	#line 56 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	59	71	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	60	71		jmp __ASM_Label_684
+0	59	73	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	59	73	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	60	73		mov __signed_stack_001main, Gyro_val
+0	59	75	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	59	75	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	60	75		set __D0main, 10000
+0	59	78	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	60	78		div g_offset, __signed_stack_001main, __D0main
+0	59	82	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	59	82	#line 59 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	60	82	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	82		set __signed_stack_001main, 70
+0	60	85	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	60	85	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	85		set __signed_stack_002main, 16
+0	60	88	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	60	88	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	88		mov __D0main, g_offset
+0	60	90	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	90		acquire __TextOutMutex
+0	60	91	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	91		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	60	93	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	93		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	60	95	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	95		set __TextOutArgs.Options, 0
+0	60	98	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	98		numtostr __TextOutArgs.Text, __D0main
+0	60	101	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	101		syscall 13, __TextOutArgs
+0	60	104	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	104		mov __D0main, __TextOutArgs.Result
+0	60	106	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	106		release __TextOutMutex
+0	60	107	#line 60 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	107	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	107		set __signed_stack_001main, 440
+0	61	110	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	110	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	110		set __signed_stack_002main, 500
+0	61	113	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	113	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	113		set __signed_stack_003main, 4
+0	61	116	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	61	116	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	116		set __D0main, 0
+0	61	119	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	119		acquire __SPTArgsMutex
+0	61	120	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	120		mov __SPTArgs.Frequency, __signed_stack_001main
+0	61	122	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	122		mov __SPTArgs.Duration, __signed_stack_002main
+0	61	124	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	124		mov __SPTArgs.Volume, __signed_stack_003main
+0	61	126	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	126		mov __SPTArgs.Loop, __D0main
+0	61	128	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	128		syscall 10, __SPTArgs
+0	61	131	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	131		mov __D0main, __SPTArgs.Result
+0	61	133	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	133		release __SPTArgsMutex
+0	61	134	#line 61 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	62	134	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	63	134		set __Wait_7qG2_ms_7qG2_000_inline_main, 5000
+0	62	137	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	8869	137	#line 8869 "NXCDefs.h"
+0	8870	137		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	139	#line 8869 "NXCDefs.h"
+0	62	139	#line 62 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	64	139	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	64	139	#line 64 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+0	65	139		exit 0, 1
+1	5724	0		setin __constVal1, __ResetSensorPort, 5
+1	5726	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5727	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5728	11		subret ____ResetSensorSubroutine_return
+2	15	0	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	0		set __signed_stack_001read, 880
+2	15	3	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	15	3	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	3		set __signed_stack_002read, 1000
+2	15	6	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	15	6	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	6		set __signed_stack_003read, 4
+2	15	9	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	15	9	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	9		set __D0read, 0
+2	15	12	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	12		acquire __SPTArgsMutex
+2	15	13	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	13		mov __SPTArgs.Frequency, __signed_stack_001read
+2	15	15	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	15		mov __SPTArgs.Duration, __signed_stack_002read
+2	15	17	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	17		mov __SPTArgs.Volume, __signed_stack_003read
+2	15	19	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	19		mov __SPTArgs.Loop, __D0read
+2	15	21	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	21		syscall 10, __SPTArgs
+2	15	24	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	24		mov __D0read, __SPTArgs.Result
+2	15	26	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	26		release __SPTArgsMutex
+2	15	27	#line 15 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	16	27	#line 16 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	17	27		set __D0read, 1
+2	17	30	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	18	30		tst 5, __D0read, __D0read
+2	17	33	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	18	33		brtst 4, __ASM_Label_623, __D0read
+2	17	36	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	17	36	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	17	36	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	17	36	#line 17 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	18	36	#line 18 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	19	36		getin __signed_stack_001read, __constVal2, 2
+2	18	40	#line 18 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	18	40	#line 18 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	18	40	#line 18 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	19	40		sub Gyro_val, __signed_stack_001read, g_offset
+2	18	44	#line 18 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	18	44	#line 18 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	19	44	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	19	44	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	20	44		add gSum, gSum, Gyro_val
+2	19	48	#line 19 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	20	48	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	20	48	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	20	48	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	20	48	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	21	48		add __float_stack_001read, gAve, Gyro_val
+2	20	52	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	20	52	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	21	52		mov __DF0read, __constVal2
+2	20	54	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	21	54		div gAve, __float_stack_001read, __DF0read
+2	20	58	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	20	58	#line 20 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	21	58	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	22	58		set __Wait_7qG2_ms_7qG2_000_inline_read, 100
+2	21	61	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	8869	61	#line 8869 "NXCDefs.h"
+2	8870	61		waitv __Wait_7qG2_ms_7qG2_000_inline_read
+2	8869	63	#line 8869 "NXCDefs.h"
+2	21	63	#line 21 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	22	63	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	22	63	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	22	63	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	22	63	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	22	63	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	22	63	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	22	63	#line 22 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	27	63	#line 27 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	28	63		jmp __ASM_Label_622
+2	27	65	#line 27 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+2	28	65		exit -1, -1
+3	29	0	#line 29 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	29	0	#line 29 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	31	0	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	0		set __signed_stack_001display, 0
+3	31	3	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	31	3	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	3		set __signed_stack_002display, 56
+3	31	6	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	31	6	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	6		strcat __strbufdisplay, __constStr0009
+3	31	10	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	10		acquire __TextOutMutex
+3	31	11	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	11		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	31	13	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	13		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	31	15	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	15		set __TextOutArgs.Options, 0
+3	31	18	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	18		mov __TextOutArgs.Text, __strbufdisplay
+3	31	20	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	20		syscall 13, __TextOutArgs
+3	31	23	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	23		mov __D0display, __TextOutArgs.Result
+3	31	25	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	25		release __TextOutMutex
+3	31	26	#line 31 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	26	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	26		set __signed_stack_001display, 20
+3	32	29	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	29	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	29		set __signed_stack_002display, 56
+3	32	32	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	32	32	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	32		strcat __strbufdisplay, __constStr0010
+3	32	36	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	36		acquire __TextOutMutex
+3	32	37	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	37		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	32	39	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	39		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	32	41	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	41		set __TextOutArgs.Options, 0
+3	32	44	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	44		mov __TextOutArgs.Text, __strbufdisplay
+3	32	46	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	46		syscall 13, __TextOutArgs
+3	32	49	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	49		mov __D0display, __TextOutArgs.Result
+3	32	51	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	51		release __TextOutMutex
+3	32	52	#line 32 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	52	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	34	52		set __signed_stack_001display, 70
+3	33	55	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	55	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	34	55		set __signed_stack_002display, 56
+3	33	58	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	33	58	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	34	58		strcat __strbufdisplay, __constStr0011
+3	33	62	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	34	62		acquire __TextOutMutex
+3	33	63	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	34	63		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	33	65	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	34	65		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	33	67	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	34	67		set __TextOutArgs.Options, 0
+3	33	70	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	34	70		mov __TextOutArgs.Text, __strbufdisplay
+3	33	72	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	34	72		syscall 13, __TextOutArgs
+3	33	75	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	34	75		mov __D0display, __TextOutArgs.Result
+3	33	77	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	34	77		release __TextOutMutex
+3	33	78	#line 33 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	35	78	#line 35 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	36	78		set __D0display, 1
+3	36	81	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	37	81		tst 5, __D0display, __D0display
+3	36	84	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	37	84		brtst 4, __ASM_Label_655, __D0display
+3	36	87	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	37	87		set __ClearLine_7qG2_line_7qG2_000_inline_display, 40
+3	36	90	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	6928	90	#line 6928 "NXCDefs.h"
+3	6929	90	#pragma macro 7
+3	6929	90		acquire __TextOutMutex
+3	6929	91		mov __TextOutArgs.Location.X, __constVal0
+3	6929	93		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+3	6929	95		mov __TextOutArgs.Options, __constVal0
+3	6929	97		mov __TextOutArgs.Text, __BlankLine
+3	6929	99		syscall 13, __TextOutArgs
+3	6929	102		release __TextOutMutex
+3	6792	103	#line 6792 "NXCDefs.h"
+3	6928	103	#line 6928 "NXCDefs.h"
+3	36	103	#line 36 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	37	103	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	103		set __signed_stack_001display, 0
+3	37	106	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	37	106	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	106		set __signed_stack_002display, 40
+3	37	109	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	37	109	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	109		mov __D0display, Gyro_val
+3	37	111	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	111		acquire __TextOutMutex
+3	37	112	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	112		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	37	114	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	114		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	37	116	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	116		set __TextOutArgs.Options, 0
+3	37	119	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	119		numtostr __TextOutArgs.Text, __D0display
+3	37	122	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	122		syscall 13, __TextOutArgs
+3	37	125	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	125		mov __D0display, __TextOutArgs.Result
+3	37	127	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	127		release __TextOutMutex
+3	37	128	#line 37 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	128	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	128		set __signed_stack_001display, 20
+3	38	131	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	131	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	131		set __signed_stack_002display, 40
+3	38	134	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	38	134	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	134		mov __DF0display, gSum
+3	38	136	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	136		acquire __TextOutMutex
+3	38	137	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	137		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	38	139	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	139		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	38	141	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	141		set __TextOutArgs.Options, 0
+3	38	144	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	144		numtostr __TextOutArgs.Text, __DF0display
+3	38	147	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	147		syscall 13, __TextOutArgs
+3	38	150	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	150		mov __D0display, __TextOutArgs.Result
+3	38	152	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	152		release __TextOutMutex
+3	38	153	#line 38 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	153	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	153		set __signed_stack_001display, 70
+3	39	156	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	156	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	156		set __signed_stack_002display, 40
+3	39	159	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	39	159	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	159		mov __DF0display, gAve
+3	39	161	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	161		acquire __TextOutMutex
+3	39	162	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	162		mov __TextOutArgs.Location.X, __signed_stack_001display
+3	39	164	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	164		mov __TextOutArgs.Location.Y, __signed_stack_002display
+3	39	166	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	166		set __TextOutArgs.Options, 0
+3	39	169	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	169		numtostr __TextOutArgs.Text, __DF0display
+3	39	172	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	172		syscall 13, __TextOutArgs
+3	39	175	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	175		mov __D0display, __TextOutArgs.Result
+3	39	177	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	177		release __TextOutMutex
+3	39	178	#line 39 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	40	178	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	41	178		set __Wait_7qG2_ms_7qG2_000_inline_display, 500
+3	40	181	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	8869	181	#line 8869 "NXCDefs.h"
+3	8870	181		waitv __Wait_7qG2_ms_7qG2_000_inline_display
+3	8869	183	#line 8869 "NXCDefs.h"
+3	40	183	#line 40 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	46	183	#line 46 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	47	183		jmp __ASM_Label_654
+3	46	185	#line 46 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+3	47	185		exit -1, -1
+4	70	0	#line 70 "C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc"
+4	71	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc
+1	__ResetSensorSubroutine	142	NXTDefs.h
+2	read	155	C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc
+3	display	223	C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc
+4	__initialize_global_data	411	C:\Users\ronk\Documents\NXCprograms\GyroReadingsRawSumAve.nxc

@@ -1,0 +1,27 @@
+task main()
+{
+  int x1 = 0, x2 = 0, x3 = 0, n = 0;
+  float err = 0.0;
+  ResetAllTachoCounts(OUT_BC);
+  OnFwdSync(OUT_BC, 55, 100);
+
+  //while (true)
+  repeat (8)
+  {
+    //x1 = MotorBlockTachoCount(OUT_B);
+    x1 = MotorTachoCount(OUT_B);
+    //x2 = MotorBlockTachoCount(OUT_C);
+    x2 = MotorTachoCount(OUT_C);
+    x3 = x2 + x1;
+    err = (x3*1000)/x1;
+    NumOut(10, LCD_LINE1-n*8, x1, DRAW_OPT_NORMAL);
+    NumOut(54, LCD_LINE1-n*8, x3, DRAW_OPT_NORMAL);
+    NumOut(74, LCD_LINE1-n*8, err, DRAW_OPT_NORMAL);
+    //until (ButtonPressed(BTNRIGHT, false));
+    Wait(Random(3000)+2000);
+    n ++;
+  }
+  Off(OUT_BC);
+  Wait(120000);
+}
+

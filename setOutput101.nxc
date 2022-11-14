@@ -1,0 +1,36 @@
+int i=0, tone=440;
+string msg="";
+
+void debug_trace (string msg, int tone)
+{
+ ClearScreen();
+ TextOut(15, LCD_LINE5, msg);
+ PlayTone(tone, 250);
+}
+
+task main ()
+{
+ msg="Start motor A";
+ tone=880;
+ debug_trace (msg, tone);
+ OnFwd(OUT_A, 25);
+ Wait(4000);
+
+ repeat (5)
+ {
+   i++;
+   msg="repeat "+NumToStr(i);
+   tone=tone+110;
+   debug_trace (msg, tone);
+   SetOutput(OUT_A, PowerField, 75, UpdateFlagsField, UF_UPDATE_SPEED);
+   Wait(4000);
+   SetOutput(OUT_A, PowerField, 15, UpdateFlagsField, UF_UPDATE_SPEED);
+   Wait(4000);
+ }
+
+ msg="end/wait";
+ tone=220;
+ debug_trace (msg, tone);
+ Wait(30000);
+ Off(OUT_A);
+}

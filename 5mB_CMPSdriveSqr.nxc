@@ -1,0 +1,75 @@
+int Compass_val, relative_heading, pwr, target_heading = 0, steer = 0;
+
+task read()
+{
+  while(true){
+    Compass_val=SensorHTCompass(S2);
+    Wait(50);
+  }
+}
+
+task display()
+{
+  while(true){
+     ClearLine(LCD_LINE4);
+     ClearLine(LCD_LINE6);
+     ClearLine(LCD_LINE7);
+     ClearLine(LCD_LINE8);
+     NumOut(30, LCD_LINE4, Compass_val);
+     NumOut(30, LCD_LINE6, target_heading);
+     NumOut(30, LCD_LINE7, target_heading - Compass_val);
+     NumOut(30, LCD_LINE8, relative_heading);
+     Wait(500);
+  }
+}
+
+task move()
+{
+  while (true){
+// calculate relative heading and use Proportional correction to pivot
+// towards target heading..."relative_heading" is equal to the angle
+// difference between "target_heading" and current compass heading
+    while (abs(target_heading - Compass_val) > 1){
+     if (target_heading - Compass_val < -179){
+        relative_heading = target_heading - Compass_val + 360;
+     }
+     else{
+        relative_heading = target_heading - Compass_val;
+     }
+// set pwr for use in OnFwdReg
+     pwr = abs(relative_heading);
+// limit min/max pwr (to prevent stalls and whirling dervish spins)
+     if (pwr > 35)
+     {
+        pwr=35;
+     }
+          if (pwr < 15)
+     {
+        pwr=15;
+     }
+// do the needful (make the pivot turn)
+     OnFwdReg(OUT_B, pwr, OUT_REGMODE_SPEED);
+    }
+// stop, wait and set new "target_heading" (new target heading)
+    Off(OUT_B);
+    Wait(1000);
+    RotateMotorEx(OUT_BC, 45, 2000, 0, true, true);
+    Wait(3000);
+    target_heading=target_heading+180;
+// limit target heading to 0->359 deg
+    if (target_heading > 359)
+    {
+      target_heading = 0;
+    }
+  }
+}
+
+
+task main()
+{
+
+  SetSensorLowspeed(S2);
+  Precedes(read, display, move);
+
+
+}

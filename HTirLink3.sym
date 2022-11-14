@@ -1,0 +1,472 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0StopAllTasks_inline_main	6	1	0	4	2
+1	__CLSWMutex0	9	0	4	4	4
+2	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	8	4	6
+3	__signed_stack_002main	6	1	12	4	6
+4	__signed_stack_003main	6	1	16	4	2
+5	__signed_stack_001main	6	1	20	4	16
+6	__D0main	6	1	24	4	22
+7	__SPTArgsMutex	9	0	28	4	2
+8	____HTPowerFunctionCalcBits_shift_tmp	6	1	32	4	4
+9	__D0SetSensorLowspeed_inline_main	6	1	36	4	3
+10	__DU0SetSensorLowspeed_inline_main	5	1	40	4	2
+11	__HTPFJ	4	1	44	2	10
+12	__HTPFI	4	1	46	2	11
+13	__main_7qG2_bSpeed_7qG2_000	4	1	48	2	5
+14	__main_7qG2_aSpeed_7qG2_000	4	1	50	2	2
+15	__constVal11	2	0	52	1	1
+16	____HTPowerFunctionCalcBits_shift_cnt	2	1	53	1	4
+17	__constVal7	2	0	54	1	2
+18	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	55	1	2
+19	__constVal88	2	0	56	1	2
+20	____PFCalcChecksum_return	1	1	57	1	3
+21	__constVal8	2	0	58	1	5
+22	____HTPowerFunctionCalcBits_return	1	1	59	1	4
+23	____PFComboPWMSub_return	1	1	60	1	4
+24	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	61	1	4
+25	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	62	1	2
+26	____initialize_global_data_return	1	1	63	1	3
+27	__zfSetSensorLowspeed_inline_main	1	1	64	1	2
+28	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	65	1	2
+29	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	66	1	2
+30	__constVal16	2	0	67	1	4
+31	__zfmain	1	1	68	1	9
+32	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	69	1	2
+33	__constVal2	2	0	70	1	6
+34	__constVal15	2	0	71	1	2
+35	____ResetSensorSubroutine_return	1	1	72	1	3
+36	__PFNx	1	1	73	1	14
+37	__HTPFDx	1	1	74	1	6
+38	__HTPFValue	1	1	75	1	8
+39	__constVal3	2	0	76	1	2
+40	__constVal0	2	1	77	1	6
+41	__constVal1	2	0	78	1	19
+42	__ResetSensorTmp	1	1	79	1	2
+43	__ResetSensorPort	1	1	80	1	3
+44	__constVal4	2	0	81	1	3
+45	__PFPowerFuncMode	1	1	82	1	4
+46	__PFChToggle	1	1	83	1	5
+47	____PFApplyToggle_return	1	1	84	1	3
+48	__PFIdx	1	1	85	1	17
+49	__PF_p1	1	1	86	1	8
+50	__PF_p3	1	1	87	1	3
+51	____PFUpdateToggle_return	1	1	88	1	3
+52	__PF_p2	1	1	89	1	3
+53	__PFTmp	1	1	90	1	17
+54	__SPFArgs	8	0	4	12	8
+55	__SPFArgs.Result	2	1	92	1	8
+56	__SPFArgs.Filename	7	0	94	4	8
+57	__SPFArgs.Filename.Filename_type	1	0	0	1	0
+58	__SPFArgs.Loop	1	1	96	1	8
+59	__SPFArgs.Volume	1	1	97	1	8
+60	__RBtnArgs	8	0	5	8	8
+61	__RBtnArgs.Result	2	1	100	1	8
+62	__RBtnArgs.Index	1	1	101	1	8
+63	__RBtnArgs.Pressed	1	1	102	1	8
+64	__RBtnArgs.Count	1	1	103	1	8
+65	__RBtnArgs.Reset	1	1	104	1	8
+66	__SPTArgs	8	0	5	8	6
+67	__SPTArgs.Result	2	1	108	1	6
+68	__SPTArgs.Frequency	3	1	110	2	6
+69	__SPTArgs.Duration	3	1	112	2	6
+70	__SPTArgs.Loop	1	1	114	1	6
+71	__SPTArgs.Volume	1	1	115	1	6
+72	__CLSWArgs0	8	0	4	12	10
+73	__CLSWArgs0.Result	2	1	116	1	10
+74	__CLSWArgs0.Port	1	1	117	1	10
+75	__CLSWArgs0.Buffer	7	0	118	4	10
+76	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+77	__CLSWArgs0.ReturnLen	1	1	120	1	10
+78	__constStr0010	7	0	122	4	1
+79	__constStr0010.__constStr0010_type	1	1	0	1	0
+80	__PFToggles	7	0	124	4	3
+81	__PFToggles.__PFToggles_type	1	0	0	1	0
+82	__HTPFI2CBuf	7	0	126	4	3
+83	__HTPFI2CBuf.__HTPFI2CBuf_type	1	0	0	1	0
+84	__HTPFBits	7	0	128	4	8
+85	__HTPFBits.__HTPFBits_type	1	0	0	1	0
+86	__PFBytes	7	0	130	4	4
+87	__PFBytes.__PFBytes_type	1	0	0	1	0
+88	__strbufmain	7	0	132	4	4
+89	__strbufmain.__strbufmain_type	1	0	0	1	0
+90	__PFNibbles	7	0	134	4	15
+91	__PFNibbles.__PFNibbles_type	1	0	0	1	0
+92	__constStr0009	7	0	136	4	1
+93	__constStr0009.__constStr0009_type	1	1	0	1	0
+94	__HTPFCommitIRLink	7	0	138	4	3
+95	__HTPFCommitIRLink.__HTPFCommitIRLink_type	1	0	0	1	0
+96	__HTPFStartIRLink	7	0	140	4	1
+97	__HTPFStartIRLink.__HTPFStartIRLink_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	2	0	#line 2 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	2	2	#line 2 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	2	2	#line 2 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	3	2		set __main_7qG2_aSpeed_7qG2_000, 7
+0	2	5	#line 2 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	3	5	#line 3 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	4	5		set __main_7qG2_bSpeed_7qG2_000, 7
+0	3	8	#line 3 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	4	8	#line 4 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	5	8		set __signed_stack_001main, 2
+0	5	11	#line 5 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	5	11	#line 5 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	6	11		sub __signed_stack_001main, __signed_stack_001main, __constVal1
+0	5	15	#line 5 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	6	15		brtst 0, __NXC_Label_494, __signed_stack_001main
+0	5	18	#line 5 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	6	18		strcat __strbufmain, __constStr0009
+0	5	22	#line 5 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	6	22		set __signed_stack_002main, 4
+0	5	25	#line 5 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	5	25	#line 5 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	6	25		set __D0main, 0
+0	6	28	#line 6 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	6	28	#line 6 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	7	28		mov __SPFArgs.Filename, __strbufmain
+0	6	30	#line 6 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	7	30		mov __SPFArgs.Volume, __signed_stack_002main
+0	6	32	#line 6 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	7	32		mov __SPFArgs.Loop, __D0main
+0	6	34	#line 6 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	7	34		syscall 9, __SPFArgs
+0	6	37	#line 6 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	6	37	#line 6 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	6	37	#line 6 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	6	37	#line 6 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	7	37		set __Wait_7qG2_ms_7qG2_000_inline_main, 1200
+0	6	40	#line 6 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	7921	40	#line 7921 "NXCDefs.h"
+0	7922	40		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	43	#line 7921 "NXCDefs.h"
+0	7	43	#line 7 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	10	43	#line 10 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	11	43		jmp __NXC_Label_493
+0	10	45	#line 10 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	10	45	#line 10 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	11	45		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	10	48	#line 10 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	11	48	#line 11 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	12	48		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	50	#line 3758 "NXCDefs.h"
+0	3759	50		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	52	#line 3758 "NXCDefs.h"
+0	3758	52	#line 3758 "NXCDefs.h"
+0	3759	52		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	54	#line 3758 "NXCDefs.h"
+0	3759	54		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	57	#line 3758 "NXCDefs.h"
+0	3759	57		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	60	#line 3758 "NXCDefs.h"
+0	3759	60		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	63	#line 3758 "NXCDefs.h"
+0	3759	63		jmp __004__NXC_Label_37
+0	3758	65	#line 3758 "NXCDefs.h"
+0	3759	65		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	68	#line 3758 "NXCDefs.h"
+0	3759	68		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	70	#line 3663 "NXCDefs.h"
+0	3664	70		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	74	#line 3663 "NXCDefs.h"
+0	3759	74	#line 3759 "NXCDefs.h"
+0	3759	74	#line 3759 "NXCDefs.h"
+0	3760	74		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	76	#line 3759 "NXCDefs.h"
+0	3759	76	#line 3759 "NXCDefs.h"
+0	3760	76		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	79	#line 3759 "NXCDefs.h"
+0	3676	79	#line 3676 "NXCDefs.h"
+0	3677	79		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	83	#line 3676 "NXCDefs.h"
+0	3760	83	#line 3760 "NXCDefs.h"
+0	3760	83	#line 3760 "NXCDefs.h"
+0	3760	83	#line 3760 "NXCDefs.h"
+0	3694	83	#line 3694 "NXCDefs.h"
+0	3695	83	#pragma macro 4
+0	3695	83		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	85		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3773	87	#line 3773 "NXCDefs.h"
+0	3694	87	#line 3694 "NXCDefs.h"
+0	3761	87	#line 3761 "NXCDefs.h"
+0	11	87	#line 11 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	12	87	#line 12 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	13	87		set __D0main, 1
+0	13	90	#line 13 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	14	90		tst 5, __zfmain, __D0main
+0	13	93	#line 13 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	14	93		brtst 4, __NXC_Label_506, __zfmain
+0	13	96	#line 13 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	14	96	#pragma macro 34
+0	14	96		mod __PF_p1, __constVal0, __constVal4
+0	14	100		mod __PF_p2, __main_7qG2_aSpeed_7qG2_000, __constVal16
+0	14	104		mod __PF_p3, __main_7qG2_bSpeed_7qG2_000, __constVal16
+0	14	108		subcall __PFComboPWMSub, ____PFComboPWMSub_return
+0	14	110		set __PFPowerFuncMode, 1
+0	14	113		subcall __HTPowerFunctionCalcBits, ____HTPowerFunctionCalcBits_return
+0	14	115		acquire __CLSWMutex0
+0	14	116		mov __CLSWArgs0.Buffer, __HTPFI2CBuf
+0	14	118		set __CLSWArgs0.Port, 0
+0	14	121		mov __CLSWArgs0.ReturnLen, __constVal0
+0	14	123		syscall 21, __CLSWArgs0
+0	14	126		mov __D0main, __CLSWArgs0.Result
+0	14	128		release __CLSWMutex0
+0	3787	129	#line 3787 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	13	129	#line 13 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	13	129	#line 13 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	16	129	#line 16 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	17	129		set __signed_stack_001main, 1
+0	16	132	#line 16 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	16	132	#line 16 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	17	132		set __D0main, 1
+0	17	135	#line 17 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	17	135	#line 17 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	18	135		mov __RBtnArgs.Index, __signed_stack_001main
+0	17	137	#line 17 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	18	137		mov __RBtnArgs.Reset, __D0main
+0	17	139	#line 17 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	18	139		syscall 20, __RBtnArgs
+0	17	142	#line 17 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	18	142		mov __D0main, __RBtnArgs.Pressed
+0	17	144	#line 17 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	18	144	#line 18 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	19	144		tst 5, __zfmain, __D0main
+0	18	147	#line 18 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	19	147		brtst 4, __NXC_Label_515, __zfmain
+0	18	150	#line 18 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	19	150		set __signed_stack_001main, 440
+0	18	153	#line 18 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	18	153	#line 18 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	19	153		set __signed_stack_002main, 200
+0	18	156	#line 18 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	18	156	#line 18 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	19	156		set __signed_stack_003main, 4
+0	18	159	#line 18 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	18	159	#line 18 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	19	159		set __D0main, 0
+0	19	162	#line 19 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	20	162		acquire __SPTArgsMutex
+0	19	163	#line 19 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	20	163		mov __SPTArgs.Frequency, __signed_stack_001main
+0	19	165	#line 19 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	20	165		mov __SPTArgs.Duration, __signed_stack_002main
+0	19	167	#line 19 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	20	167		mov __SPTArgs.Volume, __signed_stack_003main
+0	19	169	#line 19 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	20	169		mov __SPTArgs.Loop, __D0main
+0	19	171	#line 19 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	20	171		syscall 10, __SPTArgs
+0	19	174	#line 19 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	20	174		mov __D0main, __SPTArgs.Result
+0	19	176	#line 19 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	20	176		release __SPTArgsMutex
+0	19	177	#line 19 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	19	177	#line 19 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	20	177		mov __signed_stack_001main, __main_7qG2_bSpeed_7qG2_000
+0	19	179	#line 19 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	20	179	#line 20 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	21	179		set __D0main, 7
+0	20	182	#line 20 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	21	182		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	20	186	#line 20 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	21	186		mov __D0main, __zfmain
+0	20	188	#line 20 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	21	188		brtst 4, __NXC_Label_526, __zfmain
+0	21	191	#line 21 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	22	191		set __main_7qG2_bSpeed_7qG2_000, 9
+0	21	194	#line 21 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	21	194	#line 21 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	22	194	#line 22 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	23	194		jmp __NXC_Label_529
+0	23	196	#line 23 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	24	196		set __main_7qG2_bSpeed_7qG2_000, 7
+0	23	199	#line 23 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	23	199	#line 23 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	23	199	#line 23 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	25	199	#line 25 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	25	199	#line 25 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	26	199		set __signed_stack_001main, 3
+0	25	202	#line 25 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	25	202	#line 25 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	26	202		set __D0main, 1
+0	26	205	#line 26 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	26	205	#line 26 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	27	205		mov __RBtnArgs.Index, __signed_stack_001main
+0	26	207	#line 26 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	27	207		mov __RBtnArgs.Reset, __D0main
+0	26	209	#line 26 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	27	209		syscall 20, __RBtnArgs
+0	26	212	#line 26 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	27	212		mov __D0main, __RBtnArgs.Pressed
+0	26	214	#line 26 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	27	214	#line 27 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	28	214		tst 5, __zfmain, __D0main
+0	27	217	#line 27 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	28	217		brtst 4, __NXC_Label_538, __zfmain
+0	27	220	#line 27 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	28	220	#pragma macro 34
+0	28	220		mod __PF_p1, __constVal0, __constVal4
+0	28	224		mod __PF_p2, __constVal8, __constVal16
+0	28	228		mod __PF_p3, __constVal8, __constVal16
+0	28	232		subcall __PFComboPWMSub, ____PFComboPWMSub_return
+0	28	234		set __PFPowerFuncMode, 1
+0	28	237		subcall __HTPowerFunctionCalcBits, ____HTPowerFunctionCalcBits_return
+0	28	239		acquire __CLSWMutex0
+0	28	240		mov __CLSWArgs0.Buffer, __HTPFI2CBuf
+0	28	242		set __CLSWArgs0.Port, 0
+0	28	245		mov __CLSWArgs0.ReturnLen, __constVal0
+0	28	247		syscall 21, __CLSWArgs0
+0	28	250		mov __D0main, __CLSWArgs0.Result
+0	28	252		release __CLSWMutex0
+0	3921	253	#line 3921 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	27	253	#line 27 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	27	253	#line 27 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	29	253	#line 29 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	30	253		set __signed_stack_001main, 3
+0	30	256	#line 30 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	30	256	#line 30 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	31	256		sub __signed_stack_001main, __signed_stack_001main, __constVal1
+0	30	260	#line 30 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	31	260		brtst 0, __NXC_Label_540, __signed_stack_001main
+0	30	263	#line 30 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	31	263		strcat __strbufmain, __constStr0010
+0	30	267	#line 30 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	31	267		set __signed_stack_002main, 4
+0	30	270	#line 30 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	30	270	#line 30 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	31	270		set __D0main, 0
+0	31	273	#line 31 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	31	273	#line 31 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	32	273		mov __SPFArgs.Filename, __strbufmain
+0	31	275	#line 31 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	32	275		mov __SPFArgs.Volume, __signed_stack_002main
+0	31	277	#line 31 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	32	277		mov __SPFArgs.Loop, __D0main
+0	31	279	#line 31 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	32	279		syscall 9, __SPFArgs
+0	31	282	#line 31 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	31	282	#line 31 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	31	282	#line 31 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	31	282	#line 31 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	32	282		set __Wait_7qG2_ms_7qG2_000_inline_main, 850
+0	31	285	#line 31 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	7921	285	#line 7921 "NXCDefs.h"
+0	7922	285		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	288	#line 7921 "NXCDefs.h"
+0	32	288	#line 32 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	33	288	#line 33 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	34	288		jmp __NXC_Label_539
+0	33	290	#line 33 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	7934	290	#line 7934 "NXCDefs.h"
+0	7935	290		set __D0StopAllTasks_inline_main, 1
+0	7934	293	#line 7934 "NXCDefs.h"
+0	7935	293		stop __D0StopAllTasks_inline_main
+0	7934	295	#line 7934 "NXCDefs.h"
+0	34	295	#line 34 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	35	295	#line 35 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	35	295	#line 35 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	36	295		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	35	298	#line 35 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	7921	298	#line 7921 "NXCDefs.h"
+0	7922	298		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	301	#line 7921 "NXCDefs.h"
+0	36	301	#line 36 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	40	301	#line 40 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	41	301		jmp __NXC_Label_505
+0	40	303	#line 40 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+0	41	303		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	9434	0		mov __PFIdx, __PF_p1
+2	9435	2		index __PFChToggle, __PFToggles, __PFIdx
+2	9436	6		add __PF_p1, __PF_p1, __PFChToggle
+2	9437	10		subret ____PFApplyToggle_return
+3	9441	0		xor __PFChToggle, __PFChToggle, __constVal8
+3	9442	4		replace __PFToggles, __PFToggles, __PFIdx, __PFChToggle
+3	9443	9		subret ____PFUpdateToggle_return
+4	9461	0		brtst 4, __PFUseIRTrainMode, __PFPowerFuncMode
+4	9462	3		index __PFNx, __PFNibbles, 65535
+4	9463	7		xor __PFTmp, __constVal15, __PFNx
+4	9464	11		index __PFNx, __PFNibbles, __constVal1
+4	9465	15		xor __PFTmp, __PFTmp, __PFNx
+4	9466	19		index __PFNx, __PFNibbles, __constVal2
+4	9467	23		xor __PFTmp, __PFTmp, __PFNx
+4	9468	27		jmp __PFEndPowerFuncModeCheck
+4	9470	29		index __PFNx, __PFNibbles, 65535
+4	9471	33		sub __PFTmp, __constVal15, __PFNx
+4	9472	37		index __PFNx, __PFNibbles, __constVal1
+4	9473	41		sub __PFTmp, __PFTmp, __PFNx
+4	9474	45		index __PFNx, __PFNibbles, __constVal2
+4	9475	49		sub __PFTmp, __PFTmp, __PFNx
+4	9477	53		replace __PFNibbles, __PFNibbles, __constVal3, __PFTmp
+4	9478	58		subret ____PFCalcChecksum_return
+5	9524	0		subcall __PFApplyToggle, ____PFApplyToggle_return
+5	9525	2		add __PF_p1, __PF_p1, __constVal4
+5	9526	6		replace __PFNibbles, __PFNibbles, 65535, __PF_p1
+5	9527	11		replace __PFNibbles, __PFNibbles, __constVal1, __PF_p3
+5	9528	16		replace __PFNibbles, __PFNibbles, __constVal2, __PF_p2
+5	9529	21		subcall __PFUpdateToggle, ____PFUpdateToggle_return
+5	9530	23		subret ____PFComboPWMSub_return
+6	9561	0		subcall __PFCalcChecksum, ____PFCalcChecksum_return
+6	9562	2		brtst 4, __HTPFUseIRTrainMode, __PFPowerFuncMode
+6	9563	5		set __HTPFDx, 3
+6	9564	8		jmp __HTPFEndPowerFuncModeCheck
+6	9566	10		set __HTPFDx, 2
+6	9568	13		arrinit __HTPFBits, __constVal0, __constVal88
+6	9569	17		arrinit __PFBytes, __constVal0, __constVal11
+6	9571	21		set __PFIdx, 0
+6	9572	24		replace __HTPFBits, __HTPFBits, __PFIdx, __constVal1
+6	9573	29		add __PFIdx, __PFIdx, __constVal8
+6	9575	33		set __HTPFI, 0
+6	9577	36		index __PFNx, __PFNibbles, __HTPFI
+6	9578	40		set __HTPFJ, 3
+6	9580	43		replace __HTPFBits, __HTPFBits, __PFIdx, __constVal1
+6	9581	48		mov ____HTPowerFunctionCalcBits_shift_cnt, __HTPFJ
+6	9581	50		mov ____HTPowerFunctionCalcBits_shift_tmp, __constVal1
+6	9581	52	__shiftstart_0:	brtst LTEQ, __shiftdone_0, ____HTPowerFunctionCalcBits_shift_cnt
+6	9581	55		mul ____HTPowerFunctionCalcBits_shift_tmp, ____HTPowerFunctionCalcBits_shift_tmp, __constVal2
+6	9581	59		sub ____HTPowerFunctionCalcBits_shift_cnt, ____HTPowerFunctionCalcBits_shift_cnt, __constVal1
+6	9581	63		jmp __shiftstart_0
+6	9581	65		mov __PFTmp, ____HTPowerFunctionCalcBits_shift_tmp
+6	9582	67		and __HTPFValue, __PFNx, __PFTmp
+6	9583	71		add __PFIdx, __PFIdx, __HTPFDx
+6	9584	75		brcmp 5, __lblCalcBitsFoundZero, __HTPFValue, __PFTmp
+6	9585	79		add __PFIdx, __PFIdx, __constVal2
+6	9587	83		sub __HTPFJ, __HTPFJ, __constVal1
+6	9588	87		brtst 3, __lblCalcBitsForJBitSet, __HTPFJ
+6	9589	90		add __HTPFI, __HTPFI, __constVal1
+6	9590	94		brcmp 2, __lblCalcBitsForIBitSet, __HTPFI, __constVal3
+6	9591	98		replace __HTPFBits, __HTPFBits, __PFIdx, __constVal1
+6	9593	103		set __HTPFI, 0
+6	9595	106		set __HTPFValue, 0
+6	9596	109		set __HTPFJ, 0
+6	9598	112		index __PFTmp, __HTPFBits, __HTPFI
+6	9599	116		add __HTPFValue, __HTPFValue, __PFTmp
+6	9600	120		brcmp 3, __lblCalcBitsByteCalcLastBit, __HTPFJ, __constVal7
+6	9601	124		mul __HTPFValue, __HTPFValue, __constVal2
+6	9603	128		add __HTPFI, __HTPFI, __constVal1
+6	9604	132		add __HTPFJ, __HTPFJ, __constVal1
+6	9605	136		brcmp 2, __lblCalcBitsForJByteCalc, __HTPFJ, __constVal7
+6	9606	140		div __PFIdx, __HTPFI, __constVal8
+6	9607	144		sub __PFIdx, __PFIdx, __constVal1
+6	9608	148		replace __PFBytes, __PFBytes, __PFIdx, __HTPFValue
+6	9609	153		brcmp 0, __lblCalcBitsWhileIByteCalc, __HTPFI, __constVal88
+6	9611	157		sub __HTPFDx, __HTPFDx, __constVal1
+6	9612	161		replace __HTPFCommitIRLink, __HTPFCommitIRLink, __constVal1, __HTPFDx
+6	9614	166		arrbuild __HTPFI2CBuf, __HTPFStartIRLink, __PFBytes, __HTPFCommitIRLink
+6	9615	172		subret ____HTPowerFunctionCalcBits_return
+7	41	0	#line 41 "C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc"
+7	42	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc
+1	__ResetSensorSubroutine	306	NXTDefs.h
+2	__PFApplyToggle	319	NXTDefs.h
+3	__PFUpdateToggle	331	NXTDefs.h
+4	__PFCalcChecksum	342	NXTDefs.h
+5	__PFComboPWMSub	402	NXTDefs.h
+6	__HTPowerFunctionCalcBits	427	NXTDefs.h
+7	__initialize_global_data	601	C:\Users\ronk\Documents\NXCprograms\HTirLink3.nxc

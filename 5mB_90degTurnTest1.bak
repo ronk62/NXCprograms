@@ -1,0 +1,30 @@
+
+// the swing turn (one active motor/wheel) circumference of 1 full rotation of the 5mB (5 min bot) = 2 * pi * R
+// or, 2 * pi * 160mm = 1005.31mm
+// NXT v1 wheels are 56mm in diameter (radius of 28mm)
+// the distance of rotation of that one wheel for 1 full bot rotation is 1005.31mm
+// the motor rotation degrees to get a full robot swing turn rotation is (1005.31mm / 28mm * 2 pi) * 360deg
+// or (1005.31 / 175.93) * 360 = 2057.14
+// a 90deg turn would then equal 2057.14 / 4 = 514.285
+// we'll use 514 as the interger value for motor rotation degrees to get a 90deg robot swing turn
+
+
+int toggle = -1;
+
+task main()
+{
+  
+  while (true)
+  {
+    ResetRotationCount(OUT_BC);
+    Wait(2000);
+    PlayTone(880, 250);
+    RotateMotor(OUT_B, 35, toggle*514);
+    PlayTone(440, 250);
+    toggle *= -1;
+  }
+
+
+}
+
+

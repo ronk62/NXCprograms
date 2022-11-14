@@ -1,0 +1,249 @@
+// Ramp up / ramp down for a motor.
+
+#ifndef MaximumRampAngle
+// If the user has not spicified this, use 360 degrees;
+//  otherwise, large angles result in excessive ramp distances.
+#define MaximumRampAngle 360
+#endif
+
+void RotateMotorRURD(byte output,
+                     char pwr,
+                     long angle,
+                     bool UseSpeedControl = true,
+                     bool BrakeAtEnd = true);
+
+void RampUp(byte output,
+            char pwr,
+            long angle,             // Number of degrees to do the ramp up.
+            bool WaitForCompletion = false,
+            bool UseSpeedControl = true);
+void ContinueRun(byte output, char pwr);
+
+void RampDown(byte output,
+              long angle,           // Number of degrees to do the ramp down.
+              bool UseSpeedControl = true,
+              bool BrakeAtEnd = true);
+              
+void WaitUntilStoppedl(byte output);
+
+
+#define RURD_DELAY 200
+
+void WaitUntilStopped(byte output)
+{
+    // Wait until the motor has stopped turning.
+    long rc = MotorRotationCount(output);
+    long oldrc = rc+1;
+    while (oldrc <> rc) {
+        oldrc = rc;
+        Wait(RURD_DELAY);  // adjust this wait time to see what impact it has on accuracy.
+        rc = MotorRotationCount(output);
+    }
+}
+
+
+void RotateMotorRURD(byte output,
+                     char pwr,
+                     long angle,
+                     bool UseSpeedControl = true,
+                     bool BrakeAtEnd = true)
+{
+    long l1, l2, l3;
+    char power = sign(angle);
+    angle = abs(angle);
+    power *= pwr;
+
+    // Calculate ramp up distance.
+    if (angle > 1000)
+        l1 = angle*0.10;
+    else
+        l1 = angle*0.20;
+    if (l1 > MaximumRampAngle)
+        l1 = MaximumRampAngle;
+    l3 = l1;                // Ramp down same as ramp up.
+    l2 = angle-(l1+l3);
+
+    byte om = OUT_MODE_MOTORON|OUT_MODE_BRAKE;
+    byte rm = OUT_REGMODE_IDLE;
+    if (UseSpeedControl) {
+        om += OUT_MODE_REGULATED;
+        rm = OUT_REGMODE_SPEED;
+    }
+    // we want to rotate a total of <angle> degrees
+    // we'll rampup from 0 power to specified power through 20% of the angle
+    // then run at the specified power for 60% of the angle
+    SetOutput(output, OutputModeField, om,
+                    TachoLimitField, l1,
+                    PowerField, power,
+                    RegModeField, rm,
+                    RunStateField, OUT_RUNSTATE_RAMPUP,
+                    UpdateFlagsField, UF_UPDATE_MODE|UF_UPDATE_SPEED|UF_UPDATE_TACHO_LIMIT);
+    Yield(); // give firmware a chance to process this request to update motor state
+    
+    // monitor runstate
+    while(MotorRunState(output) != OUT_RUNSTATE_IDLE) Yield();
+    // as soon as it goes idle put the motor into the running state
+    SetOutput(output, OutputModeField, om,
+                    TachoLimitField, l2,
+                    PowerField, power,
+                    RegModeField, rm,
+                    RunStateField, OUT_RUNSTATE_RUNNING,
+                    UpdateFlagsField, UF_UPDATE_MODE|UF_UPDATE_SPEED|UF_UPDATE_TACHO_LIMIT);
+    Yield(); // give firmware a chance to process this request to update motor state
+    
+    // monitor runstate
+    while(MotorRunState(output) != OUT_RUNSTATE_IDLE) Yield();
+    // as soon as the runstate goes idle we rampdown to zero power
+    SetOutput(output, OutputModeField, om,
+                    TachoLimitField, l3,
+                    PowerField, 0,
+                    RegModeField, OUT_REGMODE_IDLE,        // OUT_REGMODE_SPEED won't work here
+                    RunStateField, OUT_RUNSTATE_RAMPDOWN,
+                    UpdateFlagsField, UF_UPDATE_MODE|UF_UPDATE_SPEED|UF_UPDATE_TACHO_LIMIT);
+    Yield(); // give firmware a chance to process this request to update motor state
+    
+    // monitor runstate
+    while(MotorRunState(output) != OUT_RUNSTATE_IDLE) Yield();
+    // now apply powered braking for a little while
+    SetOutput(output, OutputModeField, OUT_MODE_MOTORON+OUT_MODE_BRAKE+OUT_MODE_REGULATED,
+                    TachoLimitField, 0,
+                    PowerField, 0,
+                    RegModeField, OUT_REGMODE_SPEED,
+                    RunStateField, OUT_RUNSTATE_RUNNING,
+                    UpdateFlagsField, UF_UPDATE_MODE|UF_UPDATE_SPEED|UF_UPDATE_TACHO_LIMIT);
+    Yield(); // give firmware a chance to process this request to update motor state
+    
+    // Wait until the motor has stopped turning.
+    long rc = MotorRotationCount(output);
+    long oldrc = rc+1;
+    while (oldrc <> rc) {
+        oldrc = rc;
+        Wait(RURD_DELAY);  // adjust this wait time to see what impact it has on accuracy.
+        rc = MotorRotationCount(output);
+    }
+    
+    if (!BrakeAtEnd) {
+        // finally, go idle
+        SetOutput(output, OutputModeField, OUT_MODE_COAST+OUT_MODE_REGULATED,
+                        TachoLimitField, 0,
+                        PowerField, 0,
+                        RegModeField, OUT_REGMODE_SPEED,
+                        RunStateField, OUT_RUNSTATE_IDLE,
+                        UpdateFlagsField, UF_UPDATE_MODE);
+        Yield(); // give firmware a chance to process this request to update motor state
+    }
+}
+
+
+void RampUp(byte output,
+            char pwr,
+            long angle,             // Number of degrees to do the rampup.
+            bool WaitForCompletion = false,
+            bool UseSpeedControl = true)
+{
+    // Ramp up for a motor.
+    char power = sign(angle);
+    angle = abs(angle);
+    power *= pwr;
+
+    byte om = OUT_MODE_MOTORON|OUT_MODE_BRAKE;
+    byte rm = OUT_REGMODE_IDLE;
+    if (UseSpeedControl) {
+        om += OUT_MODE_REGULATED;
+        rm = OUT_REGMODE_SPEED;
+    }
+    // we want to rotate a total of <angle> degrees
+    // we'll rampup from 0 power to specified power
+    SetOutput(output, OutputModeField, om,
+                    TachoLimitField, angle,
+                    PowerField, power,
+                    RegModeField, rm,
+                    RunStateField, OUT_RUNSTATE_RAMPUP,
+                    UpdateFlagsField, UF_UPDATE_MODE|UF_UPDATE_SPEED|UF_UPDATE_TACHO_LIMIT);
+    Yield(); // give firmware a chance to process this request to update motor state
+
+    if (WaitForCompletion)
+    {
+        // monitor runstate
+        while(MotorRunState(output) != OUT_RUNSTATE_IDLE) Yield();
+    }
+}
+
+void ContinueRun(byte output, char pwr)
+{
+    // If RampUp has completed, turn motor on.
+    if (MotorRunState(output) == OUT_RUNSTATE_IDLE)
+        OnFwd(output, pwr);
+}
+
+
+
+void RampDown(byte output,
+              long angle,
+              bool UseSpeedControl = true,
+              bool BrakeAtEnd = true)
+{
+    long l1, l3;
+    char power = sign(angle);
+    angle = abs(angle);
+    power *= MotorPower(output);
+
+ClearLine(LCD_LINE8);
+
+    byte om = OUT_MODE_MOTORON|OUT_MODE_BRAKE;
+    if (UseSpeedControl)
+        om += OUT_MODE_REGULATED;
+
+    SetOutput(output, OutputModeField, om,
+                    TachoLimitField, angle,
+                    PowerField, 0,
+                    RegModeField, OUT_REGMODE_IDLE,
+                    RunStateField, OUT_RUNSTATE_RAMPDOWN,
+                    UpdateFlagsField, UF_UPDATE_MODE|UF_UPDATE_SPEED|UF_UPDATE_TACHO_LIMIT);
+    Yield(); // give firmware a chance to process this request to update motor state
+    // monitor runstate
+
+    while(MotorRunState(output) != OUT_RUNSTATE_IDLE)
+    {
+        if (MotorRunState(output) != OUT_RUNSTATE_RAMPDOWN)
+        {
+            NumOut(24,LCD_LINE8,MotorRunState(output));
+            Bump();     // stop it right here so I can read the code.
+        }
+        Yield();
+    }
+TextOut(88,LCD_LINE8,"A"); Yield();
+
+    // now apply powered braking for a little while
+    SetOutput(output, OutputModeField, OUT_MODE_MOTORON+OUT_MODE_BRAKE+OUT_MODE_REGULATED,
+                    TachoLimitField, 0,
+                    PowerField, 0,
+                    RegModeField, OUT_REGMODE_SPEED,
+                    RunStateField, OUT_RUNSTATE_RUNNING,
+                    UpdateFlagsField, UF_UPDATE_MODE|UF_UPDATE_SPEED|UF_UPDATE_TACHO_LIMIT);
+    Yield(); // give firmware a chance to process this request to update motor state
+
+    // Wait until the motor has stopped turning.
+    long rc = MotorRotationCount(output);
+    long oldrc = rc+1;
+    while (oldrc <> rc)
+    {
+        oldrc = rc;
+        Wait(RURD_DELAY);  // adjust this wait time to see what impact it has on accuracy.
+        rc = MotorRotationCount(output);
+    }
+    // It should be stopped moving at this point.
+TextOut(94,LCD_LINE8,"B");
+
+    if (!BrakeAtEnd)
+    {
+        // finally, go idle
+        SetOutput(output, OutputModeField, OUT_MODE_COAST+OUT_MODE_REGULATED,
+                        TachoLimitField, 0,
+                        PowerField, 0,
+                        RegModeField, OUT_REGMODE_SPEED,
+                        RunStateField, OUT_RUNSTATE_IDLE,
+                        UpdateFlagsField, UF_UPDATE_MODE);
+        Yield(); // give firmware a chance to process this request to update motor state
+    }
+}

@@ -1,0 +1,80 @@
+int Compass_val, relative_heading, pwr, dir = 0, steer = 100;
+
+task read()
+{
+  while(true){
+    Compass_val=SensorHTCompass(S2);
+    Wait(50);
+  }
+}
+
+task display()
+{
+  while(true){
+     ClearLine(LCD_LINE4);
+     ClearLine(LCD_LINE6);
+     ClearLine(LCD_LINE7);
+     ClearLine(LCD_LINE8);
+     NumOut(30, LCD_LINE4, Compass_val);
+     NumOut(30, LCD_LINE6, dir);
+     NumOut(30, LCD_LINE7, dir - Compass_val);
+     NumOut(30, LCD_LINE8, relative_heading);
+     Wait(500);
+  }
+}
+
+task move()
+{
+  while (true){
+// calculate relative heading
+// "dir" is target diretion and "speed" is equal to the angle diff
+//  between "dir" and current heading
+    while (abs(dir - Compass_val) > 1){
+     if (dir - Compass_val < -179){
+        speed = 1 * (dir - Compass_val + 360);
+     }
+     else{
+        speed = 1 * (dir - Compass_val);
+     }
+// calculate pivot direction, always taking shortest CW or CCW path
+     if (speed < 0){
+        steer = -100;
+     }
+     else{
+        steer = 100;
+     }
+// set speed to a positive number for use in OnFwdSync
+     speed = abs(speed);
+// limit min/max speeds
+     if (speed > 35)
+     {
+        speed=35;
+     }
+          if (speed < 15)
+     {
+        speed=15;
+     }
+// do the needful (make the pivot turn)
+     OnFwdSync(OUT_BC, speed, steer);
+    }
+// stop, wait and set new "dir" (new target heading)
+    Off(OUT_BC);
+    Wait(3000);
+    dir=dir+90;
+// limit target heading to 0->359 deg
+    if (dir > 359)
+    {
+      dir = 0;
+    }
+  }
+}
+
+
+task main()
+{
+
+  SetSensorLowspeed(S2);
+  Precedes(read, display, move);
+
+
+}

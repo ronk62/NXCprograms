@@ -1,0 +1,22 @@
+float gyro[];
+int i,max;
+
+task main()
+{
+
+SensorHTGyro(3, 0);
+ClearScreen();
+
+i=1;
+ArrayInit(gyro, 0, 100); // allocate 10 elements = 0
+
+     while (i < 101);
+     {
+       // gyro[i]=SensorValue(GyroSensor)-0;//
+       //read the gyro sensor//
+       CircleOut(i, 45, i,0);
+     }
+     
+}
+
+

@@ -1,0 +1,17 @@
+task main()
+{
+  int x1 = 5, x2 = 9;
+  ResetAllTachoCounts(OUT_BC);
+  OnFwdSync(OUT_BC, 75, 0);
+
+  while (true)
+  {
+    x1 = MotorBlockTachoCount(OUT_B);
+    NumOut(10, LCD_LINE1, x1, DRAW_OPT_NORMAL);
+    NumOut(30, LCD_LINE2, x2, DRAW_OPT_NORMAL);
+    until (ButtonPressed(BTNRIGHT, false));
+    x2 = x2+1;
+    ClearScreen();
+  }
+}
+

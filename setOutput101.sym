@@ -1,0 +1,289 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001debug_trace	6	1	0	4	4
+1	__signed_stack_002debug_trace	6	1	4	4	4
+2	__D0debug_trace	6	1	8	4	3
+3	__D0main	6	1	12	4	8
+4	__signed_stack_002main	6	1	16	4	4
+5	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	20	4	4
+6	__signed_stack_003debug_trace	6	1	24	4	2
+7	__signed_stack_001main	6	1	28	4	4
+8	__SPTArgsMutex	9	0	32	4	2
+9	i	4	1	36	2	3
+10	__constVal200	4	0	38	2	2
+11	__debug_trace_7qG2_tone_7qG2_000	4	1	40	2	4
+12	tone	4	0	42	2	7
+13	__constVal63	2	0	44	1	2
+14	__constVal32	2	0	45	1	6
+15	__constVal1	2	0	46	1	3
+16	____initialize_global_data_return	1	1	47	1	3
+17	__debug_trace_return	1	1	48	1	5
+18	__constVal96	2	0	49	1	2
+19	__constVal0	2	1	50	1	11
+20	__constVal110	2	0	51	1	1
+21	__constVal3	2	0	52	1	2
+22	__PointOutArgs	8	0	3	12	4
+23	__PointOutArgs.Result	2	1	56	1	4
+24	__PointOutArgs.Location	8	0	2	4	4
+25	__PointOutArgs.Location.X	4	1	60	2	4
+26	__PointOutArgs.Location.Y	4	1	62	2	4
+27	__PointOutArgs.Options	5	1	64	4	4
+28	__SPTArgs	8	0	5	8	6
+29	__SPTArgs.Result	2	1	68	1	6
+30	__SPTArgs.Frequency	3	1	70	2	6
+31	__SPTArgs.Duration	3	1	72	2	6
+32	__SPTArgs.Loop	1	1	74	1	6
+33	__SPTArgs.Volume	1	1	75	1	6
+34	__TextOutArgs	8	0	4	16	5
+35	__TextOutArgs.Result	2	1	76	1	5
+36	__TextOutArgs.Location	8	0	2	4	5
+37	__TextOutArgs.Location.X	4	1	80	2	5
+38	__TextOutArgs.Location.Y	4	1	82	2	5
+39	__TextOutArgs.Text	7	0	84	4	5
+40	__TextOutArgs.Text.Text_type	1	0	0	1	0
+41	__TextOutArgs.Options	5	1	88	4	5
+42	__constStr0011	7	0	92	4	1
+43	__constStr0011.__constStr0011_type	1	1	0	1	0
+44	__constStr0010	7	0	94	4	1
+45	__constStr0010.__constStr0010_type	1	1	0	1	0
+46	__constStr0009	7	0	96	4	1
+47	__constStr0009.__constStr0009_type	1	1	0	1	0
+48	__strretvalmain	7	0	98	4	2
+49	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+50	__strbufmain	7	0	100	4	14
+51	__strbufmain.__strbufmain_type	1	0	0	1	0
+52	__strbufdebug_trace	7	0	102	4	2
+53	__strbufdebug_trace.__strbufdebug_trace_type	1	0	0	1	0
+54	__ArrHelper__main_244_1	7	0	104	4	2
+55	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+56	__ArrHelper__main_244_0	7	0	106	4	2
+57	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+58	__debug_trace_7qG2_msg_7qG2_000	7	0	108	4	4
+59	__debug_trace_7qG2_msg_7qG2_000.__debug_trace_7qG2_msg_7qG2_000_type	1	0	0	1	0
+60	msg	7	0	110	4	6
+61	msg.msg_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	12	0	#line 12 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	13	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	12	2	#line 12 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	13	2	#line 13 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	14	2		strcat __strbufmain, __constStr0009
+0	13	6	#line 13 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	14	6		mov msg, __strbufmain
+0	13	8	#line 13 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	14	8	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	15	8		set tone, 880
+0	14	11	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	14	11	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	14	11	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	15	11		strcat __strbufmain, msg
+0	14	15	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	15	15		mov __debug_trace_7qG2_msg_7qG2_000, __strbufmain
+0	14	17	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	15	17		mov __debug_trace_7qG2_tone_7qG2_000, tone
+0	14	19	#line 14 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	15	19	#line 15 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	16	19		subcall debug_trace, __debug_trace_return
+0	15	21	#line 15 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	15	21	#line 15 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	16	21		set __D0main, 25
+0	16	24	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	17	24	#pragma macro 7
+0	17	24		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6074	47	#line 6074 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	16	47	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	16	47	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	17	47		set __Wait_7qG2_ms_7qG2_000_inline_main, 4000
+0	16	50	#line 16 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	7921	50	#line 7921 "NXCDefs.h"
+0	7922	50		wait 4000
+0	7921	52	#line 7921 "NXCDefs.h"
+0	18	52	#line 18 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	19	52	#line 19 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	20	52		set __signed_stack_001main, 5
+0	20	55	#line 20 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	20	55	#line 20 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	21	55		sub __signed_stack_001main, __signed_stack_001main, __constVal1
+0	20	59	#line 20 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	21	59		brtst 0, __NXC_Label_625, __signed_stack_001main
+0	21	62	#line 21 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	22	62		add i, i, __constVal1
+0	21	66	#line 21 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	21	66	#line 21 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	22	66		mov __ArrHelper__main_244_0, __constStr0010
+0	21	68	#line 21 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	22	68		mov __D0main, i
+0	22	70	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	23	70		numtostr __strretvalmain, __D0main
+0	22	73	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	23	73		strcat __strbufmain, __strretvalmain
+0	22	77	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	23	77		mov __ArrHelper__main_244_1, __strbufmain
+0	22	79	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	23	79		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	22	84	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	23	84		mov msg, __strbufmain
+0	22	86	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	22	86	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	22	86	#line 22 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	23	86	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	23	86	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	24	86		add tone, tone, __constVal110
+0	23	90	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	23	90	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	23	90	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	24	90		strcat __strbufmain, msg
+0	23	94	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	24	94		mov __debug_trace_7qG2_msg_7qG2_000, __strbufmain
+0	23	96	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	24	96		mov __debug_trace_7qG2_tone_7qG2_000, tone
+0	23	98	#line 23 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	24	98	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	25	98		subcall debug_trace, __debug_trace_return
+0	24	100	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	24	100	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	25	100		set __signed_stack_002main, 75
+0	24	103	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	24	103	#line 24 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	25	103		set __D0main, 2
+0	25	106	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	25	106	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	25	106	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	25	106	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	25	106	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	25	106	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	26	106		setout __constVal0, 2, __signed_stack_002main, 0, __D0main
+0	25	113	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	25	113	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	25	113	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	26	113		set __Wait_7qG2_ms_7qG2_000_inline_main, 4000
+0	25	116	#line 25 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	7921	116	#line 7921 "NXCDefs.h"
+0	7922	116		wait 4000
+0	7921	118	#line 7921 "NXCDefs.h"
+0	26	118	#line 26 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	26	118	#line 26 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	27	118		set __signed_stack_002main, 15
+0	26	121	#line 26 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	26	121	#line 26 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	27	121		set __D0main, 2
+0	27	124	#line 27 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	27	124	#line 27 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	27	124	#line 27 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	27	124	#line 27 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	27	124	#line 27 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	27	124	#line 27 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	28	124		setout __constVal0, 2, __signed_stack_002main, 0, __D0main
+0	27	131	#line 27 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	27	131	#line 27 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	27	131	#line 27 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	28	131		set __Wait_7qG2_ms_7qG2_000_inline_main, 4000
+0	27	134	#line 27 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	7921	134	#line 7921 "NXCDefs.h"
+0	7922	134		wait 4000
+0	7921	136	#line 7921 "NXCDefs.h"
+0	28	136	#line 28 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	30	136	#line 30 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	31	136		jmp __NXC_Label_624
+0	30	138	#line 30 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	31	138	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	32	138		strcat __strbufmain, __constStr0011
+0	31	142	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	32	142		mov msg, __strbufmain
+0	31	144	#line 31 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	32	144	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	33	144		set tone, 220
+0	32	147	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	32	147	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	32	147	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	33	147		strcat __strbufmain, msg
+0	32	151	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	33	151		mov __debug_trace_7qG2_msg_7qG2_000, __strbufmain
+0	32	153	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	33	153		mov __debug_trace_7qG2_tone_7qG2_000, tone
+0	32	155	#line 32 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	33	155	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	34	155		subcall debug_trace, __debug_trace_return
+0	33	157	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	33	157	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	34	157		set __Wait_7qG2_ms_7qG2_000_inline_main, 30000
+0	33	160	#line 33 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	7921	160	#line 7921 "NXCDefs.h"
+0	7922	160		wait 30000
+0	7921	162	#line 7921 "NXCDefs.h"
+0	34	162	#line 34 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	35	162	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	36	162	#pragma macro 7
+0	36	162		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6257	185	#line 6257 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	35	185	#line 35 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+0	36	185		exit -1, -1
+1	6069	0	#line 6069 "NXCDefs.h"
+1	6070	0	#pragma macro 6
+1	6070	0		mov __PointOutArgs.Location.X, __constVal200
+1	6070	2		mov __PointOutArgs.Location.Y, __constVal200
+1	6070	4		mov __PointOutArgs.Options, __constVal1
+1	6070	6		syscall 14, __PointOutArgs
+1	5962	9	#line 5962 "NXCDefs.h"
+1	6069	9	#line 6069 "NXCDefs.h"
+1	6	9	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	6	9	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	7	9		set __signed_stack_001debug_trace, 15
+1	6	12	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	6	12	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	7	12		set __signed_stack_002debug_trace, 24
+1	6	15	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	6	15	#line 6 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	7	15		strcat __strbufdebug_trace, __debug_trace_7qG2_msg_7qG2_000
+1	7	19	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	7	19	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	8	19		mov __TextOutArgs.Location.X, __signed_stack_001debug_trace
+1	7	21	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	8	21		mov __TextOutArgs.Location.Y, __signed_stack_002debug_trace
+1	7	23	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	8	23		set __TextOutArgs.Options, 0
+1	7	26	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	8	26		mov __TextOutArgs.Text, __strbufdebug_trace
+1	7	28	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	8	28		syscall 13, __TextOutArgs
+1	7	31	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	7	31	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	7	31	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	7	31	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	8	31		mov __signed_stack_001debug_trace, __debug_trace_7qG2_tone_7qG2_000
+1	7	33	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	7	33	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	8	33		set __signed_stack_002debug_trace, 250
+1	7	36	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	7	36	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	8	36		set __signed_stack_003debug_trace, 4
+1	7	39	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	7	39	#line 7 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	8	39		set __D0debug_trace, 0
+1	8	42	#line 8 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	9	42		acquire __SPTArgsMutex
+1	8	43	#line 8 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	9	43		mov __SPTArgs.Frequency, __signed_stack_001debug_trace
+1	8	45	#line 8 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	9	45		mov __SPTArgs.Duration, __signed_stack_002debug_trace
+1	8	47	#line 8 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	9	47		mov __SPTArgs.Volume, __signed_stack_003debug_trace
+1	8	49	#line 8 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	9	49		mov __SPTArgs.Loop, __D0debug_trace
+1	8	51	#line 8 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	9	51		syscall 10, __SPTArgs
+1	8	54	#line 8 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	9	54		mov __D0debug_trace, __SPTArgs.Result
+1	8	56	#line 8 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	9	56		release __SPTArgsMutex
+1	8	57	#line 8 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	10	57	#line 10 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+1	11	57		subret __debug_trace_return
+2	38	0	#line 38 "C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc"
+2	39	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc
+1	debug_trace	188	C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc
+2	__initialize_global_data	247	C:\Users\ronk\Documents\NXCprograms\setOutput101.nxc

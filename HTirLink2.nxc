@@ -1,0 +1,14 @@
+task main ()
+{
+  PlaySound(SOUND_UP);
+  PlayTone(440,5000);
+  SetSensorLowspeed(S1); // HTirLink is an i2c device
+  while (true)
+  {
+    HTPFComboPWM(S1, PF_CHANNEL_1, PF_PWM_FWD1, PF_PWM_FWD7);
+    Wait (500);
+    //PlayTone(440,200);
+
+  }
+
+}

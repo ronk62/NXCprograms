@@ -1,0 +1,86 @@
+    mutex MotorBMutex;
+    mutex MotorCMutex;
+
+    long degreesB, degreesC, holdTimeB, holdTimeC;
+    int powerB, powerC;
+
+    inline void HoldAtPosition(byte motor)
+    {
+      SetOutput(motor,
+        PowerField, 0,
+        OutputModeField, OUT_MODE_MOTORON+OUT_MODE_BRAKE+OUT_MODE_REGULATED,
+        RegModeField, OUT_REGMODE_SPEED,
+        RunStateField, OUT_RUNSTATE_RUNNING,
+    // experiment with the PID values if you want
+        RegPValueField, PID_3, RegIValueField, PID_1, RegDValueField, PID_1,
+        UpdateFlagsField, UF_UPDATE_SPEED+UF_UPDATE_MODE+UF_UPDATE_PID_VALUES);
+    }
+
+    task rotateBThenHold()
+    {
+      Acquire(MotorBMutex);
+      RotateMotor(OUT_B, powerB, degreesB);
+      HoldAtPosition(OUT_B);
+      Wait(holdTimeB);
+      Release(MotorBMutex);
+    }
+
+    task rotateCThenHold()
+    {
+      Acquire(MotorCMutex);
+      RotateMotor(OUT_C, powerC, degreesC);
+      HoldAtPosition(OUT_C);
+      Wait(holdTimeC);
+      Release(MotorCMutex);
+    }
+
+    void MoveMotors(int pwrB = 75, int pwrC = 75, long degB = 400, long degC = 400, int holdB = SEC_1, int holdC = SEC_1)
+    {
+      // setup the global motor parameters
+      degreesB  = degB;
+      degreesC  = degC;
+      holdTimeB = holdB;
+      holdTimeC = holdC;
+      powerB    = pwrB;
+      powerC    = pwrC;
+      // start the two motor tasks
+      start rotateBThenHold;
+      start rotateCThenHold;
+      // wait a bit to give the threads a chance to get started
+      Wait(MS_1); // 1 ms is probably sufficient. adjust if needed.
+      // the code below will make this subroutine wait here until both
+      // rotate tasks are finished
+      Acquire(MotorBMutex);
+      Acquire(MotorCMutex);
+      Release(MotorCMutex);
+      Release(MotorBMutex);
+    }
+
+    void DrawBPosition()
+    {
+      ResetRotationCount(OUT_B);
+      int x = 0;
+      while (true) {
+        int y = MotorRotationCount(OUT_B) + 32;
+        PointOut(x, y);
+        Wait(MS_10);
+        x++;
+        if ((x % 100) == 0)
+          ClearScreen();
+        x %= 100;
+      }
+    }
+
+    task main()
+    {
+      MoveMotors(75, -75);
+      // the motors should stay "locked" in their position while DrawBPosition runs (forever)
+      // try turning the B motor by hand to see how the firmware responds to deviations from
+      // current position
+      DrawBPosition();
+    //  Off(OUT_B);
+    //  Off(OUT_C);
+    //  while(true);
+    }
+
+

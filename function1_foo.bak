@@ -1,0 +1,11 @@
+int foo(int x, int y = 20)
+{
+        return x*y;
+}
+task main()
+{
+        NumOut(0, LCD_LINE1, foo(10)); outputs 200
+        NumOut(0, LCD_LINE2, foo(10, 5)); outputs 50
+        Wait(SEC_10); // wait 10 seconds
+}
+

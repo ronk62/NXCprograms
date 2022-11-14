@@ -1,0 +1,39 @@
+task main ()
+{
+  int aSpeed=7, bSpeed=7;
+  repeat (2)
+  {
+    PlayFile("Malfunction.rso");
+    Wait (1200);
+  }
+
+  //PlayTone(440,700);
+  SetSensorLowspeed(S1); // HTirLink is an i2c device
+  while (true)                                      //drive in a circle continuously
+  {
+    HTPFComboPWM(S1, PF_CHANNEL_1, aSpeed, bSpeed);
+    //PlayTone(440,200);
+
+    if (ButtonPressed(BTNRIGHT,true))          //switch circle direction - figure-8 style
+    {
+      PlayTone(440,200);
+      if (bSpeed==7)
+        bSpeed=9;
+      else
+        bSpeed=7;
+    }
+    
+    if (ButtonPressed(BTNCENTER,true))
+    {
+      HTPFComboPWM(S1, PF_CHANNEL_1, PF_PWM_BRAKE, PF_PWM_BRAKE);
+        repeat (3)
+        {
+          PlayFile("Woops.rso");
+          Wait (850);
+        }
+      StopAllTasks(); // stop the program
+    }
+    Wait (200);
+  }
+
+}

@@ -1,0 +1,70 @@
+#define GYRO_PORT IN_3        //Gyro on port 3
+#define GYRO_Offset 603       //offset value to apply to the output value
+
+int T=0, deltaT=0;
+float currHeading=0, prevHeading=0;
+long Gyro_val;
+int i=1;
+
+long g_offset = 603;
+
+
+
+task read()
+{
+// read gyro and calc heading
+PlayTone(880, 1000);
+while (true){
+   T=CurrentTick();
+   Gyro_val=SensorRaw(GYRO_PORT)-g_offset;  //read the gyro sensor
+   if(abs(Gyro_val) > 2){
+     currHeading=prevHeading+(Gyro_val*deltaT/1000);
+     if (currHeading > 360)
+       currHeading -= 360;
+     else if (currHeading < 0)
+       currHeading += 360;
+     prevHeading=currHeading;
+     Wait(100);
+     deltaT=CurrentTick()-T;
+     }
+   }
+}
+
+
+task display()
+{
+  int dir=1;
+  while(true){
+     ClearLine(LCD_LINE1);
+     NumOut(0, LCD_LINE1, Gyro_val);
+     NumOut(20, LCD_LINE1, currHeading);
+     NumOut(70, LCD_LINE1, deltaT);
+     Wait(500);
+  }
+}
+
+
+
+
+task main()
+{
+
+  SetSensor(IN_3, SENSOR_LIGHT);
+  Wait(1000);
+
+  // calibrate offset
+  while (i<10001){
+   Gyro_val+=SensorRaw(GYRO_PORT);   //sum i samples of the gyro sensor
+   NumOut(0, LCD_LINE1, i);
+   i++;
+   }
+
+  g_offset=Gyro_val/10000;
+  NumOut(70, LCD_LINE4, g_offset);
+  PlayTone(440, 500);
+  Wait(5000);
+
+  Precedes(read, display);
+
+
+}

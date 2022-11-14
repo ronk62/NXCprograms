@@ -1,0 +1,677 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0display	6	1	0	4	16
+1	__RLSBmutex1	9	0	4	4	2
+2	__D0move	6	1	8	4	24
+3	__D0SetSensorLowspeed_inline_main	6	1	12	4	2
+4	__D0read	6	1	16	4	11
+5	__CLSCSMutex1	9	0	20	4	2
+6	__rotate_theAngle5	5	1	24	4	2
+7	__CLSWMutex1	9	0	28	4	2
+8	__TextOutMutex	9	0	32	4	16
+9	__CLSRMutex1	9	0	36	4	2
+10	__signed_stack_004move	6	1	40	4	4
+11	__signed_stack_003move	6	1	44	4	4
+12	__Wait_7qG2_ms_7qG2_000_inline_read	5	1	48	4	2
+13	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	52	4	10
+14	__Wait_7qG2_ms_7qG2_000_inline_display	5	1	56	4	2
+15	__signed_stack_001display	6	1	60	4	8
+16	__DU0SetSensorLowspeed_inline_main	5	1	64	4	5
+17	__signed_stack_002display	6	1	68	4	8
+18	__signed_stack_002move	6	1	72	4	4
+19	__signed_stack_001move	6	1	76	4	12
+20	__rotateMutex1	9	0	80	4	4
+21	__rotateMutex2	9	0	84	4	4
+22	__rotate_angle5	6	1	88	4	5
+23	target_heading	4	0	92	2	6
+24	pwr	4	0	94	2	2
+25	__rotate_OldRotCount5	4	1	96	2	2
+26	Compass_val	4	1	98	2	5
+27	relative_heading	4	1	100	2	1
+28	__rotate_RotCount5	4	1	102	2	4
+29	__rotate_theUF5	1	1	104	1	6
+30	__RLSBIterations1	1	1	105	1	4
+31	__rotate_stop5	1	1	106	1	3
+32	__rotate_turnpct5	2	1	107	1	4
+33	__rotate_theOM5	1	1	108	1	7
+34	__constVal7	2	0	109	1	2
+35	__rotate_theRS5	1	1	110	1	3
+36	__rotate_theRM5	1	1	111	1	4
+37	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	112	1	2
+38	__constVal96	2	0	113	1	6
+39	____initialize_global_data_return	1	1	114	1	3
+40	__constVal104	2	0	115	1	4
+41	__constVal63	2	0	116	1	4
+42	__ClearLine_7qG2_line_7qG2_000_inline_display	1	1	117	1	8
+43	__rotate_firstPort5	1	1	118	1	5
+44	__rotate_sync5	1	1	119	1	3
+45	__rotate_power5	1	1	120	1	5
+46	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	121	1	4
+47	__RLSBytesCount1	1	1	122	1	9
+48	__ResetSensorPort	1	1	123	1	3
+49	__constVal3	2	0	124	1	2
+50	__ResetSensorTmp	1	1	125	1	2
+51	__rotate_rs5	1	1	126	1	2
+52	____ResetSensorSubroutine_return	1	1	127	1	3
+53	____RotateMotor5_return	1	1	128	1	4
+54	__rotate_theTurnPct5	2	1	129	1	4
+55	__rotate_thePower5	2	1	130	1	4
+56	__constVal32	2	0	131	1	19
+57	__constVal0	2	1	132	1	25
+58	__constVal1	2	0	133	1	12
+59	____ReadLSBytes1_return	1	1	134	1	3
+60	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	135	1	2
+61	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	136	1	2
+62	__RLSBResult1	2	1	137	1	7
+63	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	138	1	2
+64	__rotate_theRVP5	1	1	139	1	3
+65	__rotate_theRVI5	1	1	140	1	3
+66	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	141	1	2
+67	__rotate_theRVD5	1	1	142	1	3
+68	__LSWriteOptionsVar	1	1	143	1	2
+69	__CLSRArgs1	8	0	4	12	5
+70	__CLSRArgs1.Result	2	1	144	1	5
+71	__CLSRArgs1.Port	1	1	145	1	5
+72	__CLSRArgs1.Buffer	7	0	146	4	5
+73	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+74	__CLSRArgs1.BufferLen	1	1	148	1	5
+75	__CLSWArgs1	8	0	4	12	5
+76	__CLSWArgs1.Result	2	1	152	1	5
+77	__CLSWArgs1.Port	1	1	153	1	5
+78	__CLSWArgs1.Buffer	7	0	154	4	5
+79	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+80	__CLSWArgs1.ReturnLen	1	1	156	1	5
+81	__TextOutArgs	8	0	4	16	44
+82	__TextOutArgs.Result	2	1	160	1	44
+83	__TextOutArgs.Location	8	0	2	4	44
+84	__TextOutArgs.Location.X	4	1	164	2	44
+85	__TextOutArgs.Location.Y	4	1	166	2	44
+86	__TextOutArgs.Text	7	0	168	4	44
+87	__TextOutArgs.Text.Text_type	1	0	0	1	0
+88	__TextOutArgs.Options	5	1	172	4	44
+89	__CLSCSArgs1	8	0	3	4	4
+90	__CLSCSArgs1.Result	2	1	176	1	4
+91	__CLSCSArgs1.Port	1	1	177	1	4
+92	__CLSCSArgs1.BytesReady	1	1	178	1	4
+93	__RLSBbufLSWrite1	7	0	180	4	1
+94	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+95	__BlankLine	7	0	182	4	4
+96	__BlankLine.__BlankLine_type	1	0	0	1	0
+97	__LSWriteOptions	7	0	184	4	1
+98	__LSWriteOptions.__LSWriteOptions_type	1	0	0	1	0
+99	__RLSLastGoodRead1	7	0	186	4	2
+100	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+101	__OUT_BC	7	0	188	4	6
+102	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+103	__rotate_ports5	7	0	190	4	7
+104	__rotate_ports5.__rotate_ports5_type	1	0	0	1	0
+105	__RLSReadBuf1	7	0	192	4	9
+106	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	64	0	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+0	65	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	64	2	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+0	64	2	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+0	65	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
+0	64	5	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+0	64	5	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+0	65	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4523	7	#line 4523 "NXCDefs.h"
+0	4524	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4523	9	#line 4523 "NXCDefs.h"
+0	4523	9	#line 4523 "NXCDefs.h"
+0	4524	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4523	11	#line 4523 "NXCDefs.h"
+0	4524	11		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4523	14	#line 4523 "NXCDefs.h"
+0	4524	14		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4523	17	#line 4523 "NXCDefs.h"
+0	4524	17		set __DU0SetSensorLowspeed_inline_main, 11
+0	4523	20	#line 4523 "NXCDefs.h"
+0	4523	20	#line 4523 "NXCDefs.h"
+0	4524	20		jmp __004__ASM_Label_37
+0	4523	22	#line 4523 "NXCDefs.h"
+0	4524	22		set __DU0SetSensorLowspeed_inline_main, 10
+0	4523	25	#line 4523 "NXCDefs.h"
+0	4523	25	#line 4523 "NXCDefs.h"
+0	4524	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4428	27	#line 4428 "NXCDefs.h"
+0	4429	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4428	31	#line 4428 "NXCDefs.h"
+0	4523	31	#line 4523 "NXCDefs.h"
+0	4524	31	#line 4524 "NXCDefs.h"
+0	4525	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4524	33	#line 4524 "NXCDefs.h"
+0	4524	33	#line 4524 "NXCDefs.h"
+0	4525	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4524	36	#line 4524 "NXCDefs.h"
+0	4441	36	#line 4441 "NXCDefs.h"
+0	4442	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4441	40	#line 4441 "NXCDefs.h"
+0	4524	40	#line 4524 "NXCDefs.h"
+0	4525	40	#line 4525 "NXCDefs.h"
+0	4525	40	#line 4525 "NXCDefs.h"
+0	4459	40	#line 4459 "NXCDefs.h"
+0	4460	40	#pragma macro 4
+0	4460	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4460	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7170	44	#line 7170 "NXCDefs.h"
+0	4459	44	#line 4459 "NXCDefs.h"
+0	4525	44	#line 4525 "NXCDefs.h"
+0	64	44	#line 64 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+0	65	44	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+0	65	44	#line 65 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+0	66	44		exit 0, 2
+1	5560	0		brtst 4, __rotate_Done5, __rotate_angle5
+1	5561	3		sign __rotate_thePower5, __rotate_angle5
+1	5562	6		abs __rotate_theAngle5, __rotate_angle5
+1	5563	9		mul __rotate_thePower5, __rotate_thePower5, __rotate_power5
+1	5565	13		set __rotate_theUF5, 23
+1	5566	16		brtst 4, __rotate_NoSync5, __rotate_sync5
+1	5567	19		set __rotate_theOM5, 7
+1	5568	22		set __rotate_theRM5, 2
+1	5569	25		mov __rotate_theTurnPct5, __rotate_turnpct5
+1	5570	27		brtst 4, __rotate_Start5, __rotate_theTurnPct5
+1	5571	30		add __rotate_theUF5, __rotate_theUF5, __constVal32
+1	5572	34		jmp __rotate_Start5
+1	5574	36		set __rotate_theOM5, 3
+1	5575	39		set __rotate_theRM5, 0
+1	5576	42		set __rotate_theTurnPct5, 0
+1	5578	45		set __rotate_theRS5, 32
+1	5579	48		setout __rotate_ports5, 1, __rotate_theOM5, 8, __rotate_theRM5, 5, __rotate_theAngle5, 6, __rotate_theRS5, 10, __rotate_theRVP5, 11, __rotate_theRVI5, 12, __rotate_theRVD5, 2, __rotate_thePower5, 7, __rotate_turnpct5, 0, __rotate_theUF5
+1	5581	71		wait 0
+1	5584	73		index __rotate_firstPort5, __rotate_ports5, 65535
+1	5586	77		getout __rotate_power5, __rotate_firstPort5, 2
+1	5587	81		brtst 4, __rotate_doneRunning5, __rotate_power5
+1	5588	84		getout __rotate_rs5, __rotate_firstPort5, 6
+1	5589	88		brcmp 4, __rotate_Running5, __rotate_rs5, __constVal32
+1	5591	92		brtst 4, __rotate_Reset5, __rotate_stop5
+1	5594	95		set __rotate_theOM5, 7
+1	5595	98		set __rotate_theUF5, 7
+1	5596	101		setout __rotate_ports5, 1, __rotate_theOM5, 8, __constVal1, 6, __rotate_theRS5, 2, __constVal0, 7, __constVal0, 5, __constVal0, 0, __rotate_theUF5
+1	5598	118		wait 0
+1	5601	120		getout __rotate_RotCount5, __rotate_firstPort5, 4
+1	5603	124		mov __rotate_OldRotCount5, __rotate_RotCount5
+1	5604	126		wait 50
+1	5606	128		getout __rotate_RotCount5, __rotate_firstPort5, 4
+1	5607	132		brcmp 5, __rotate_Stabilize5, __rotate_OldRotCount5, __rotate_RotCount5
+1	5610	136		set __rotate_theOM5, 4
+1	5611	139		setout __rotate_ports5, 8, __rotate_theRM5, 6, __constVal0, 1, __rotate_theOM5, 0, __constVal1
+1	5612	150		wait 0
+1	5616	152		brtst 4, __rotate_Done5, __rotate_theTurnPct5
+1	5617	155		setout __rotate_ports5, 0, __constVal32
+1	5619	160		subret ____RotateMotor5_return
+2	5724	0		setin __constVal1, __ResetSensorPort, 5
+2	5726	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	5727	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	5728	11		subret ____ResetSensorSubroutine_return
+3	6558	0	#pragma macro 27
+3	6558	0		acquire __CLSWMutex1
+3	6558	1		index __LSWriteOptionsVar, __LSWriteOptions, __constVal1
+3	6558	5		or __CLSWArgs1.Port, __constVal1, __LSWriteOptionsVar
+3	6558	9		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+3	6558	11		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+3	6558	13		syscall 21, __CLSWArgs1
+3	6558	16		mov __RLSBResult1, __CLSWArgs1.Result
+3	6558	18		release __CLSWMutex1
+3	6558	19	#line 6558 "NXTDefs.h"
+3	6559	19		brtst 5, __RLSBError1, __RLSBResult1
+3	6560	22		set __RLSBIterations1, 60
+3	6562	25	#pragma macro 23
+3	6562	25		acquire __CLSCSMutex1
+3	6562	26		set __CLSCSArgs1.Port, 1
+3	6562	29		syscall 23, __CLSCSArgs1
+3	6562	32		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+3	6562	34		mov __RLSBResult1, __CLSCSArgs1.Result
+3	6562	36		release __CLSCSMutex1
+3	6562	37	#line 6562 "NXTDefs.h"
+3	6563	37		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+3	6564	41		brtst 2, __RLSBError1, __RLSBIterations1
+3	6565	44		brtst 0, __RLSBError1, __RLSBResult1
+3	6566	47		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+3	6568	50		wait 1
+3	6569	52		jmp __RLSBDoCheckStatus1
+3	6571	54		brtst 4, __RLSBReturn1, __RLSBytesCount1
+3	6572	57		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+3	6574	61	#pragma macro 25
+3	6574	61		acquire __CLSRMutex1
+3	6574	62		set __CLSRArgs1.Port, 1
+3	6574	65		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+3	6574	67		syscall 22, __CLSRArgs1
+3	6574	70		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+3	6574	72		mov __RLSBResult1, __CLSRArgs1.Result
+3	6574	74		release __CLSRMutex1
+3	6574	75	#line 6574 "NXTDefs.h"
+3	6575	75		brtst 5, __RLSBError1, __RLSBResult1
+3	6576	78		mov __RLSLastGoodRead1, __RLSReadBuf1
+3	6577	80		jmp __RLSBDone1
+3	6579	82		mov __RLSReadBuf1, __RLSLastGoodRead1
+3	6581	84		arrsize __RLSBytesCount1, __RLSReadBuf1
+3	6583	87		subret ____ReadLSBytes1_return
+4	4	0	#line 4 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	5	0		set __D0read, 1
+4	5	3	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	6	3		tst 5, __D0read, __D0read
+4	5	6	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	6	6		brtst 4, __ASM_Label_615, __D0read
+4	5	9	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	6	9	#pragma macro 30
+4	6	9		acquire __RLSBmutex1
+4	6	10		mov __RLSReadBuf1, __RLSBbufLSWrite1
+4	6	12		set __RLSBytesCount1, 2
+4	6	15		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+4	6	17		index __D0read, __RLSReadBuf1, 65535
+4	6	21		index __RLSBytesCount1, __RLSReadBuf1, __constVal1
+4	6	25		add __D0read, __D0read, __D0read
+4	6	29		add __D0read, __D0read, __RLSBytesCount1
+4	6	33		release __RLSBmutex1
+4	6619	34	#line 6619 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	5	34	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	6	34		mov Compass_val, __D0read
+4	5	36	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	5	36	#line 5 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	6	36	#line 6 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	7	36		set __Wait_7qG2_ms_7qG2_000_inline_read, 50
+4	6	39	#line 6 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	8869	39	#line 8869 "NXCDefs.h"
+4	8870	39		waitv __Wait_7qG2_ms_7qG2_000_inline_read
+4	8869	41	#line 8869 "NXCDefs.h"
+4	6	41	#line 6 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	10	41	#line 10 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	11	41		jmp __ASM_Label_614
+4	10	43	#line 10 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+4	11	43		exit -1, -1
+5	12	0	#line 12 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	13	0		set __D0display, 1
+5	13	3	#line 13 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	14	3		tst 5, __D0display, __D0display
+5	13	6	#line 13 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	14	6		brtst 4, __ASM_Label_623, __D0display
+5	13	9	#line 13 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	14	9		set __ClearLine_7qG2_line_7qG2_000_inline_display, 32
+5	13	12	#line 13 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	6928	12	#line 6928 "NXCDefs.h"
+5	6929	12	#pragma macro 7
+5	6929	12		acquire __TextOutMutex
+5	6929	13		mov __TextOutArgs.Location.X, __constVal0
+5	6929	15		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+5	6929	17		mov __TextOutArgs.Options, __constVal0
+5	6929	19		mov __TextOutArgs.Text, __BlankLine
+5	6929	21		syscall 13, __TextOutArgs
+5	6929	24		release __TextOutMutex
+5	6661	25	#line 6661 "NXCDefs.h"
+5	6928	25	#line 6928 "NXCDefs.h"
+5	13	25	#line 13 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	14	25	#line 14 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	15	25		set __ClearLine_7qG2_line_7qG2_000_inline_display, 16
+5	14	28	#line 14 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	6928	28	#line 6928 "NXCDefs.h"
+5	6929	28	#pragma macro 7
+5	6929	28		acquire __TextOutMutex
+5	6929	29		mov __TextOutArgs.Location.X, __constVal0
+5	6929	31		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+5	6929	33		mov __TextOutArgs.Options, __constVal0
+5	6929	35		mov __TextOutArgs.Text, __BlankLine
+5	6929	37		syscall 13, __TextOutArgs
+5	6929	40		release __TextOutMutex
+5	6669	41	#line 6669 "NXCDefs.h"
+5	6928	41	#line 6928 "NXCDefs.h"
+5	14	41	#line 14 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	15	41	#line 15 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	16	41		set __ClearLine_7qG2_line_7qG2_000_inline_display, 8
+5	15	44	#line 15 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	6928	44	#line 6928 "NXCDefs.h"
+5	6929	44	#pragma macro 7
+5	6929	44		acquire __TextOutMutex
+5	6929	45		mov __TextOutArgs.Location.X, __constVal0
+5	6929	47		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+5	6929	49		mov __TextOutArgs.Options, __constVal0
+5	6929	51		mov __TextOutArgs.Text, __BlankLine
+5	6929	53		syscall 13, __TextOutArgs
+5	6929	56		release __TextOutMutex
+5	6677	57	#line 6677 "NXCDefs.h"
+5	6928	57	#line 6928 "NXCDefs.h"
+5	15	57	#line 15 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	16	57	#line 16 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	17	57		set __ClearLine_7qG2_line_7qG2_000_inline_display, 0
+5	16	60	#line 16 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	6928	60	#line 6928 "NXCDefs.h"
+5	6929	60	#pragma macro 7
+5	6929	60		acquire __TextOutMutex
+5	6929	61		mov __TextOutArgs.Location.X, __constVal0
+5	6929	63		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+5	6929	65		mov __TextOutArgs.Options, __constVal0
+5	6929	67		mov __TextOutArgs.Text, __BlankLine
+5	6929	69		syscall 13, __TextOutArgs
+5	6929	72		release __TextOutMutex
+5	6685	73	#line 6685 "NXCDefs.h"
+5	6928	73	#line 6928 "NXCDefs.h"
+5	16	73	#line 16 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	17	73	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	73		set __signed_stack_001display, 30
+5	17	76	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	17	76	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	76		set __signed_stack_002display, 32
+5	17	79	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	17	79	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	79		mov __D0display, Compass_val
+5	17	81	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	81		acquire __TextOutMutex
+5	17	82	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	82		mov __TextOutArgs.Location.X, __signed_stack_001display
+5	17	84	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	84		mov __TextOutArgs.Location.Y, __signed_stack_002display
+5	17	86	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	86		set __TextOutArgs.Options, 0
+5	17	89	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	89		numtostr __TextOutArgs.Text, __D0display
+5	17	92	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	92		syscall 13, __TextOutArgs
+5	17	95	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	95		mov __D0display, __TextOutArgs.Result
+5	17	97	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	97		release __TextOutMutex
+5	17	98	#line 17 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	98	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	98		set __signed_stack_001display, 30
+5	18	101	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	101	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	101		set __signed_stack_002display, 16
+5	18	104	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	18	104	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	104		mov __D0display, target_heading
+5	18	106	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	106		acquire __TextOutMutex
+5	18	107	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	107		mov __TextOutArgs.Location.X, __signed_stack_001display
+5	18	109	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	109		mov __TextOutArgs.Location.Y, __signed_stack_002display
+5	18	111	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	111		set __TextOutArgs.Options, 0
+5	18	114	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	114		numtostr __TextOutArgs.Text, __D0display
+5	18	117	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	117		syscall 13, __TextOutArgs
+5	18	120	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	120		mov __D0display, __TextOutArgs.Result
+5	18	122	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	122		release __TextOutMutex
+5	18	123	#line 18 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	123	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	123		set __signed_stack_001display, 30
+5	19	126	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	126	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	126		set __signed_stack_002display, 8
+5	19	129	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	129	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	129	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	129	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	19	129	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	129		sub __D0display, target_heading, Compass_val
+5	19	133	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	133		acquire __TextOutMutex
+5	19	134	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	134		mov __TextOutArgs.Location.X, __signed_stack_001display
+5	19	136	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	136		mov __TextOutArgs.Location.Y, __signed_stack_002display
+5	19	138	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	138		set __TextOutArgs.Options, 0
+5	19	141	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	141		numtostr __TextOutArgs.Text, __D0display
+5	19	144	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	144		syscall 13, __TextOutArgs
+5	19	147	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	147		mov __D0display, __TextOutArgs.Result
+5	19	149	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	149		release __TextOutMutex
+5	19	150	#line 19 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	150	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	150		set __signed_stack_001display, 30
+5	20	153	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	153	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	153		set __signed_stack_002display, 0
+5	20	156	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	20	156	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	156		mov __D0display, relative_heading
+5	20	158	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	158		acquire __TextOutMutex
+5	20	159	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	159		mov __TextOutArgs.Location.X, __signed_stack_001display
+5	20	161	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	161		mov __TextOutArgs.Location.Y, __signed_stack_002display
+5	20	163	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	163		set __TextOutArgs.Options, 0
+5	20	166	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	166		numtostr __TextOutArgs.Text, __D0display
+5	20	169	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	169		syscall 13, __TextOutArgs
+5	20	172	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	172		mov __D0display, __TextOutArgs.Result
+5	20	174	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	174		release __TextOutMutex
+5	20	175	#line 20 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	21	175	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	22	175		set __Wait_7qG2_ms_7qG2_000_inline_display, 500
+5	21	178	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	8869	178	#line 8869 "NXCDefs.h"
+5	8870	178		waitv __Wait_7qG2_ms_7qG2_000_inline_display
+5	8869	180	#line 8869 "NXCDefs.h"
+5	21	180	#line 21 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	25	180	#line 25 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	26	180		jmp __ASM_Label_622
+5	25	182	#line 25 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+5	26	182		exit -1, -1
+6	27	0	#line 27 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	28	0		set __Wait_7qG2_ms_7qG2_000_inline_move, 500
+6	27	3	#line 27 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	8869	3	#line 8869 "NXCDefs.h"
+6	8870	3		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+6	8869	5	#line 8869 "NXCDefs.h"
+6	27	5	#line 27 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	28	5	#line 28 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	29	5		set __D0move, 1
+6	32	8	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	33	8		tst 5, __D0move, __D0move
+6	32	11	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	33	11		brtst 4, __ASM_Label_663, __D0move
+6	32	14	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	33	14		set target_heading, 30
+6	32	17	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	32	17	#line 32 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	33	17	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	33	17	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	33	17	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	33	17	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	34	17		sub __D0move, target_heading, Compass_val
+6	33	21	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	34	21		abs __signed_stack_001move, __D0move
+6	33	24	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	33	24	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	34	24		set __D0move, 1
+6	33	27	#line 33 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	34	27		cmp 1, __D0move, __signed_stack_001move, __D0move
+6	35	31	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	36	31		brtst 4, __ASM_Label_669, __D0move
+6	35	34	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	36	34		mov __signed_stack_001move, pwr
+6	35	36	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	35	36	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	36	36		set __D0move, 1
+6	35	39	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	36	39	#pragma macro 7
+6	36	39		setout __constVal1, 2, __signed_stack_001move, 1, __constVal7, 8, __D0move, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	6908	62	#line 6908 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	35	62	#line 35 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	38	62	#line 38 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	39	62		jmp __ASM_Label_668
+6	38	64	#line 38 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	38	64	#line 38 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	39	64	#pragma macro 7
+6	39	64		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	6916	87	#line 6916 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	38	87	#line 38 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	39	87	#line 39 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	40	87	#pragma macro 7
+6	40	87		setout __OUT_BC, 0, __constVal104
+6	6919	92	#line 6919 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	39	92	#line 39 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	40	92	#line 40 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	41	92		set __Wait_7qG2_ms_7qG2_000_inline_move, 1000
+6	40	95	#line 40 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	8869	95	#line 8869 "NXCDefs.h"
+6	8870	95		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+6	8869	97	#line 8869 "NXCDefs.h"
+6	40	97	#line 40 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	41	97	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	42	97		set __signed_stack_001move, 45
+6	41	100	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	41	100	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	42	100		set __signed_stack_002move, 2000
+6	41	103	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	41	103	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	42	103		set __signed_stack_003move, 0
+6	41	106	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	41	106	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	42	106		set __signed_stack_004move, 1
+6	41	109	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	41	109	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	42	109		set __D0move, 1
+6	41	112	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	42	112	#pragma macro 35
+6	42	112		acquire __rotateMutex1
+6	42	113		acquire __rotateMutex2
+6	42	114		mov __rotate_ports5, __OUT_BC
+6	42	116		mov __rotate_power5, __signed_stack_001move
+6	42	118		mov __rotate_angle5, __signed_stack_002move
+6	42	120		mov __rotate_turnpct5, __signed_stack_003move
+6	42	122		mov __rotate_sync5, __signed_stack_004move
+6	42	124		mov __rotate_stop5, __D0move
+6	42	126		mov __rotate_theRVP5, __constVal96
+6	42	128		mov __rotate_theRVI5, __constVal32
+6	42	130		mov __rotate_theRVD5, __constVal32
+6	42	132		subcall __RotateMotor5, ____RotateMotor5_return
+6	42	134		release __rotateMutex2
+6	42	135		release __rotateMutex1
+6	6952	136	#line 6952 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	41	136	#line 41 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	42	136	#line 42 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	43	136	#pragma macro 7
+6	43	136		setout __OUT_BC, 0, __constVal104
+6	6959	141	#line 6959 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	42	141	#line 42 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	43	141	#line 43 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	44	141		set __Wait_7qG2_ms_7qG2_000_inline_move, 3000
+6	43	144	#line 43 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	8869	144	#line 8869 "NXCDefs.h"
+6	8870	144		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+6	8869	146	#line 8869 "NXCDefs.h"
+6	43	146	#line 43 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	45	146	#line 45 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	46	146		set target_heading, 210
+6	45	149	#line 45 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	45	149	#line 45 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	46	149	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	46	149	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	46	149	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	46	149	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	47	149		sub __D0move, target_heading, Compass_val
+6	46	153	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	47	153		abs __signed_stack_001move, __D0move
+6	46	156	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	46	156	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	47	156		set __D0move, 1
+6	46	159	#line 46 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	47	159		cmp 1, __D0move, __signed_stack_001move, __D0move
+6	48	163	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	49	163		brtst 4, __ASM_Label_695, __D0move
+6	48	166	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	49	166		mov __signed_stack_001move, pwr
+6	48	168	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	48	168	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	49	168		set __D0move, 1
+6	48	171	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	49	171	#pragma macro 7
+6	49	171		setout __constVal1, 2, __signed_stack_001move, 1, __constVal7, 8, __D0move, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	7011	194	#line 7011 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	48	194	#line 48 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	51	194	#line 51 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	52	194		jmp __ASM_Label_694
+6	51	196	#line 51 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	51	196	#line 51 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	52	196	#pragma macro 7
+6	52	196		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	7019	219	#line 7019 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	51	219	#line 51 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	52	219	#line 52 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	53	219	#pragma macro 7
+6	53	219		setout __OUT_BC, 0, __constVal104
+6	7022	224	#line 7022 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	52	224	#line 52 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	53	224	#line 53 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	54	224		set __Wait_7qG2_ms_7qG2_000_inline_move, 1000
+6	53	227	#line 53 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	8869	227	#line 8869 "NXCDefs.h"
+6	8870	227		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+6	8869	229	#line 8869 "NXCDefs.h"
+6	53	229	#line 53 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	54	229	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	55	229		set __signed_stack_001move, 45
+6	54	232	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	54	232	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	55	232		set __signed_stack_002move, 2000
+6	54	235	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	54	235	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	55	235		set __signed_stack_003move, 0
+6	54	238	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	54	238	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	55	238		set __signed_stack_004move, 1
+6	54	241	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	54	241	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	55	241		set __D0move, 1
+6	54	244	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	55	244	#pragma macro 35
+6	55	244		acquire __rotateMutex1
+6	55	245		acquire __rotateMutex2
+6	55	246		mov __rotate_ports5, __OUT_BC
+6	55	248		mov __rotate_power5, __signed_stack_001move
+6	55	250		mov __rotate_angle5, __signed_stack_002move
+6	55	252		mov __rotate_turnpct5, __signed_stack_003move
+6	55	254		mov __rotate_sync5, __signed_stack_004move
+6	55	256		mov __rotate_stop5, __D0move
+6	55	258		mov __rotate_theRVP5, __constVal96
+6	55	260		mov __rotate_theRVI5, __constVal32
+6	55	262		mov __rotate_theRVD5, __constVal32
+6	55	264		subcall __RotateMotor5, ____RotateMotor5_return
+6	55	266		release __rotateMutex2
+6	55	267		release __rotateMutex1
+6	7055	268	#line 7055 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	54	268	#line 54 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	55	268	#line 55 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	56	268	#pragma macro 7
+6	56	268		setout __OUT_BC, 0, __constVal104
+6	7062	273	#line 7062 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	55	273	#line 55 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	56	273	#line 56 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	57	273		set __Wait_7qG2_ms_7qG2_000_inline_move, 3000
+6	56	276	#line 56 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	8869	276	#line 8869 "NXCDefs.h"
+6	8870	276		waitv __Wait_7qG2_ms_7qG2_000_inline_move
+6	8869	278	#line 8869 "NXCDefs.h"
+6	56	278	#line 56 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	61	278	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	62	278		jmp __ASM_Label_662
+6	61	280	#line 61 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+6	62	280		exit -1, -1
+7	71	0	#line 71 "C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc"
+7	72	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc
+1	__RotateMotor5	47	NXTDefs.h
+2	__ResetSensorSubroutine	209	NXTDefs.h
+3	__ReadLSBytes1	222	NXTDefs.h
+4	read	311	C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc
+5	display	357	C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc
+6	move	542	C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc
+7	__initialize_global_data	825	C:\Users\ronk\Documents\NXCprograms\5mB_CMPSdriveLine180.nxc

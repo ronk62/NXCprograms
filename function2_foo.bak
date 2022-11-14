@@ -1,0 +1,15 @@
+void foo(int x)
+{
+        x = 2;
+}
+task main()
+{
+        int y;
+        NumOut(0, LCD_LINE1, y); // y defaults to 0
+        y = 1;      // y is now equal to 1
+        NumOut(0, LCD_LINE2, y);
+        foo(y); // y is still equal to 1!
+        NumOut(0, LCD_LINE3, y);
+        Wait(SEC_10); // wait 10 seconds
+}
+

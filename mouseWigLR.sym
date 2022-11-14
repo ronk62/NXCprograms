@@ -1,0 +1,118 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001main	6	1	0	4	2
+1	__D0main	6	1	4	4	6
+2	__rotate_theAngle0	5	1	8	4	2
+3	__rotate_angle0	6	1	12	4	4
+4	__constVal180000	6	0	16	4	1
+5	__rotate_RotCount0	4	1	20	2	4
+6	__rotate_OldRotCount0	4	1	22	2	2
+7	__rotate_theTurnPct0	2	1	24	1	4
+8	__rotate_thePower0	2	1	25	1	4
+9	____RotateMotor0_return	1	1	26	1	3
+10	____initialize_global_data_return	1	1	27	1	3
+11	__constVal96	2	0	28	1	1
+12	__constVal0	2	1	29	1	7
+13	__constVal32	2	0	30	1	5
+14	__constVal1	2	0	31	1	3
+15	__rotate_stop0	1	1	32	1	2
+16	__rotate_turnpct0	2	1	33	1	3
+17	__rotate_theUF0	1	1	34	1	6
+18	__rotate_power0	1	1	35	1	4
+19	__rotate_firstPort0	1	1	36	1	5
+20	__rotate_sync0	1	1	37	1	2
+21	__rotate_theOM0	1	1	38	1	7
+22	__rotate_theRVI0	1	1	39	1	2
+23	__rotate_theRVD0	1	1	40	1	2
+24	__rotate_rs0	1	1	41	1	2
+25	__rotate_theRM0	1	1	42	1	4
+26	__rotate_theRS0	1	1	43	1	3
+27	__rotate_theRVP0	1	1	44	1	2
+28	__rotate_ports0	7	0	46	4	6
+29	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	2	0	#line 2 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	2	2	#line 2 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	3	2	#line 3 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	4	2		set __D0main, 1
+0	5	5	#line 5 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	6	5		tst 5, __D0main, __D0main
+0	5	8	#line 5 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	6	8		brtst 4, __ASM_Label_615, __D0main
+0	5	11	#line 5 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	6	11		set __signed_stack_001main, 70
+0	5	14	#line 5 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	5	14	#line 5 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	6	14		set __D0main, 1000
+0	5	17	#line 5 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	6	17	#pragma macro 33
+0	6	17		arrbuild __rotate_ports0, __constVal0
+0	6	21		mov __rotate_power0, __signed_stack_001main
+0	6	23		mov __rotate_angle0, __D0main
+0	6	25		mov __rotate_turnpct0, __constVal0
+0	6	27		mov __rotate_sync0, __constVal0
+0	6	29		mov __rotate_stop0, __constVal1
+0	6	31		mov __rotate_theRVP0, __constVal96
+0	6	33		mov __rotate_theRVI0, __constVal32
+0	6	35		mov __rotate_theRVD0, __constVal32
+0	6	37		subcall __RotateMotor0, ____RotateMotor0_return
+0	6064	39	#line 6064 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	5	39	#line 5 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	6	39	#line 6 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	6	39	#line 6 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	8869	39	#line 8869 "NXCDefs.h"
+0	8870	39		waitv __constVal180000
+0	8869	41	#line 8869 "NXCDefs.h"
+0	6	41	#line 6 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	10	41	#line 10 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	11	41		jmp __ASM_Label_614
+0	10	43	#line 10 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+0	11	43		exit -1, -1
+1	5245	0		brtst 4, __rotate_Done0, __rotate_angle0
+1	5246	3		sign __rotate_thePower0, __rotate_angle0
+1	5247	6		abs __rotate_theAngle0, __rotate_angle0
+1	5248	9		mul __rotate_thePower0, __rotate_thePower0, __rotate_power0
+1	5250	13		set __rotate_theUF0, 23
+1	5251	16		brtst 4, __rotate_NoSync0, __rotate_sync0
+1	5252	19		set __rotate_theOM0, 7
+1	5253	22		set __rotate_theRM0, 2
+1	5254	25		mov __rotate_theTurnPct0, __rotate_turnpct0
+1	5255	27		brtst 4, __rotate_Start0, __rotate_theTurnPct0
+1	5256	30		add __rotate_theUF0, __rotate_theUF0, __constVal32
+1	5257	34		jmp __rotate_Start0
+1	5259	36		set __rotate_theOM0, 3
+1	5260	39		set __rotate_theRM0, 0
+1	5261	42		set __rotate_theTurnPct0, 0
+1	5263	45		set __rotate_theRS0, 32
+1	5264	48		setout __rotate_ports0, 1, __rotate_theOM0, 8, __rotate_theRM0, 5, __rotate_theAngle0, 6, __rotate_theRS0, 10, __rotate_theRVP0, 11, __rotate_theRVI0, 12, __rotate_theRVD0, 2, __rotate_thePower0, 7, __rotate_turnpct0, 0, __rotate_theUF0
+1	5266	71		wait 0
+1	5269	73		index __rotate_firstPort0, __rotate_ports0, 65535
+1	5271	77		getout __rotate_power0, __rotate_firstPort0, 2
+1	5272	81		brtst 4, __rotate_doneRunning0, __rotate_power0
+1	5273	84		getout __rotate_rs0, __rotate_firstPort0, 6
+1	5274	88		brcmp 4, __rotate_Running0, __rotate_rs0, __constVal32
+1	5276	92		brtst 4, __rotate_Reset0, __rotate_stop0
+1	5279	95		set __rotate_theOM0, 7
+1	5280	98		set __rotate_theUF0, 7
+1	5281	101		setout __rotate_ports0, 1, __rotate_theOM0, 8, __constVal1, 6, __rotate_theRS0, 2, __constVal0, 7, __constVal0, 5, __constVal0, 0, __rotate_theUF0
+1	5283	118		wait 0
+1	5286	120		getout __rotate_RotCount0, __rotate_firstPort0, 4
+1	5288	124		mov __rotate_OldRotCount0, __rotate_RotCount0
+1	5289	126		wait 50
+1	5291	128		getout __rotate_RotCount0, __rotate_firstPort0, 4
+1	5292	132		brcmp 5, __rotate_Stabilize0, __rotate_OldRotCount0, __rotate_RotCount0
+1	5295	136		set __rotate_theOM0, 4
+1	5296	139		setout __rotate_ports0, 8, __rotate_theRM0, 6, __constVal0, 1, __rotate_theOM0, 0, __constVal1
+1	5297	150		wait 0
+1	5301	152		brtst 4, __rotate_Done0, __rotate_theTurnPct0
+1	5302	155		setout __rotate_ports0, 0, __constVal32
+1	5304	160		subret ____RotateMotor0_return
+2	11	0	#line 11 "C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc"
+2	12	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc
+1	__RotateMotor0	46	NXTDefs.h
+2	__initialize_global_data	208	C:\Users\ronk\Documents\NXCprograms\mouseWigLR.nxc

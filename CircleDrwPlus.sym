@@ -1,0 +1,308 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001main	6	1	0	4	16
+1	__D0main	6	1	4	4	13
+2	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	8	4	4
+3	__signed_stack_002main	6	1	12	4	14
+4	i	4	1	16	2	11
+5	__constVal200	4	0	18	2	4
+6	j	4	1	20	2	5
+7	__constVal1	2	0	22	1	3
+8	__constVal3	2	0	23	1	3
+9	____initialize_global_data_return	1	1	24	1	3
+10	__constVal0	2	1	25	1	3
+11	__zfmain	1	1	26	1	3
+12	__constVal16	2	0	27	1	1
+13	__CircleOutArgs	8	0	4	16	15
+14	__CircleOutArgs.Result	2	1	28	1	15
+15	__CircleOutArgs.Center	8	0	2	4	15
+16	__CircleOutArgs.Center.X	4	1	32	2	15
+17	__CircleOutArgs.Center.Y	4	1	34	2	15
+18	__CircleOutArgs.Size	1	1	36	1	15
+19	__CircleOutArgs.Options	5	1	40	4	15
+20	__GraphicOutArgs	8	0	5	20	12
+21	__GraphicOutArgs.Result	2	1	44	1	12
+22	__GraphicOutArgs.Location	8	0	2	4	12
+23	__GraphicOutArgs.Location.X	4	1	48	2	12
+24	__GraphicOutArgs.Location.Y	4	1	50	2	12
+25	__GraphicOutArgs.Filename	7	0	52	4	12
+26	__GraphicOutArgs.Filename.Filename_type	1	0	0	1	0
+27	__GraphicOutArgs.Variables	7	0	54	4	12
+28	__GraphicOutArgs.Variables.Variables_type	6	0	0	4	0
+29	__GraphicOutArgs.Options	5	1	56	4	12
+30	__TextOutArgs	8	0	4	16	10
+31	__TextOutArgs.Result	2	1	60	1	10
+32	__TextOutArgs.Location	8	0	2	4	10
+33	__TextOutArgs.Location.X	4	1	64	2	10
+34	__TextOutArgs.Location.Y	4	1	66	2	10
+35	__TextOutArgs.Text	7	0	68	4	10
+36	__TextOutArgs.Text.Text_type	1	0	0	1	0
+37	__TextOutArgs.Options	5	1	72	4	10
+38	__PointOutArgs	8	0	3	12	8
+39	__PointOutArgs.Result	2	1	76	1	8
+40	__PointOutArgs.Location	8	0	2	4	8
+41	__PointOutArgs.Location.X	4	1	80	2	8
+42	__PointOutArgs.Location.Y	4	1	82	2	8
+43	__PointOutArgs.Options	5	1	84	4	8
+44	__constStr0009	7	0	88	4	1
+45	__constStr0009.__constStr0009_type	1	1	0	1	0
+46	__constStr0010	7	0	90	4	1
+47	__constStr0010.__constStr0010_type	1	1	0	1	0
+48	__GraphicOutEmptyVars	7	0	92	4	3
+49	__GraphicOutEmptyVars.__GraphicOutEmptyVars_type	6	0	0	4	0
+50	__strbufmain	7	0	94	4	4
+51	__strbufmain.__strbufmain_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	7	0	#line 7 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	8	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	7	2	#line 7 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	8	2		arrinit __GraphicOutEmptyVars, __constVal0, __constVal16
+0	8	6	#line 8 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	9	6		set i, 5
+0	8	9	#line 8 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	8	9	#line 8 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	10	9	#line 10 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	11	9		set j, 1
+0	10	12	#line 10 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	10	12	#line 10 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	10	12	#line 10 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	11	12		mov __signed_stack_001main, j
+0	10	14	#line 10 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	11	14	#line 11 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	12	14		set __D0main, 4
+0	11	17	#line 11 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	12	17		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	11	21	#line 11 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	12	21		mov __D0main, __zfmain
+0	12	23	#line 12 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	13	23		brtst 4, __NXC_Label_609, __zfmain
+0	12	26	#line 12 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	13	26		set __signed_stack_001main, 50
+0	12	29	#line 12 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	12	29	#line 12 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	13	29		set __signed_stack_002main, 30
+0	12	32	#line 12 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	12	32	#line 12 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	13	32		mov __D0main, i
+0	13	34	#line 13 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	13	34	#line 13 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	14	34		mov __CircleOutArgs.Center.X, __signed_stack_001main
+0	13	36	#line 13 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	14	36		mov __CircleOutArgs.Center.Y, __signed_stack_002main
+0	13	38	#line 13 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	14	38		mov __CircleOutArgs.Size, __D0main
+0	13	40	#line 13 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	14	40		set __CircleOutArgs.Options, 0
+0	13	43	#line 13 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	14	43		syscall 16, __CircleOutArgs
+0	13	46	#line 13 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	13	46	#line 13 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	13	46	#line 13 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	14	46	#line 14 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	14	46	#line 14 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	15	46		add i, i, __constVal3
+0	14	50	#line 14 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	14	50	#line 14 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	15	50		set __signed_stack_001main, 50
+0	14	53	#line 14 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	14	53	#line 14 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	15	53		set __signed_stack_002main, 30
+0	14	56	#line 14 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	14	56	#line 14 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	15	56		mov __D0main, i
+0	15	58	#line 15 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	15	58	#line 15 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	16	58		mov __CircleOutArgs.Center.X, __signed_stack_001main
+0	15	60	#line 15 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	16	60		mov __CircleOutArgs.Center.Y, __signed_stack_002main
+0	15	62	#line 15 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	16	62		mov __CircleOutArgs.Size, __D0main
+0	15	64	#line 15 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	16	64		set __CircleOutArgs.Options, 0
+0	15	67	#line 15 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	16	67		syscall 16, __CircleOutArgs
+0	15	70	#line 15 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	15	70	#line 15 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	15	70	#line 15 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	16	70	#line 16 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	16	70	#line 16 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	17	70		add i, i, __constVal3
+0	16	74	#line 16 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	16	74	#line 16 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	17	74		set __signed_stack_001main, 50
+0	16	77	#line 16 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	16	77	#line 16 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	17	77		set __signed_stack_002main, 30
+0	16	80	#line 16 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	16	80	#line 16 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	17	80		mov __D0main, i
+0	17	82	#line 17 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	17	82	#line 17 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	18	82		mov __CircleOutArgs.Center.X, __signed_stack_001main
+0	17	84	#line 17 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	18	84		mov __CircleOutArgs.Center.Y, __signed_stack_002main
+0	17	86	#line 17 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	18	86		mov __CircleOutArgs.Size, __D0main
+0	17	88	#line 17 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	18	88		set __CircleOutArgs.Options, 0
+0	17	91	#line 17 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	18	91		syscall 16, __CircleOutArgs
+0	17	94	#line 17 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	17	94	#line 17 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	17	94	#line 17 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	18	94	#line 18 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	18	94	#line 18 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	19	94		add i, i, __constVal3
+0	18	98	#line 18 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	18	98	#line 18 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	19	98		set __signed_stack_001main, 50
+0	18	101	#line 18 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	18	101	#line 18 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	19	101		set __signed_stack_002main, 56
+0	18	104	#line 18 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	18	104	#line 18 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	19	104		mov __D0main, i
+0	19	106	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	19	106	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	106		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	19	108	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	108		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	19	110	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	110		set __TextOutArgs.Options, 0
+0	19	113	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	113		numtostr __TextOutArgs.Text, __D0main
+0	19	116	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	116		syscall 13, __TextOutArgs
+0	19	119	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	19	119	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	19	119	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	19	119	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	119		set __signed_stack_001main, 50
+0	19	122	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	19	122	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	122		set __signed_stack_002main, 48
+0	19	125	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	19	125	#line 19 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	125		mov __D0main, j
+0	20	127	#line 20 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	127	#line 20 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	21	127		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	20	129	#line 20 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	21	129		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	20	131	#line 20 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	21	131		set __TextOutArgs.Options, 0
+0	20	134	#line 20 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	21	134		numtostr __TextOutArgs.Text, __D0main
+0	20	137	#line 20 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	21	137		syscall 13, __TextOutArgs
+0	20	140	#line 20 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	140	#line 20 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	140	#line 20 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	20	140	#line 20 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	21	140		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	20	143	#line 20 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	7921	143	#line 7921 "NXCDefs.h"
+0	7922	143		wait 200
+0	7921	145	#line 7921 "NXCDefs.h"
+0	21	145	#line 21 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	22	145	#line 22 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	23	145		add j, j, __constVal1
+0	22	149	#line 22 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	23	149	#line 23 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	24	149		jmp __NXC_Label_608
+0	23	151	#line 23 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	23	151	#line 23 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	24	151		set __Wait_7qG2_ms_7qG2_000_inline_main, 8000
+0	23	154	#line 23 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	7921	154	#line 7921 "NXCDefs.h"
+0	7922	154		wait 8000
+0	7921	156	#line 7921 "NXCDefs.h"
+0	24	156	#line 24 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	6069	156	#line 6069 "NXCDefs.h"
+0	6070	156	#pragma macro 6
+0	6070	156		mov __PointOutArgs.Location.X, __constVal200
+0	6070	158		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	160		mov __PointOutArgs.Options, __constVal1
+0	6070	162		syscall 14, __PointOutArgs
+0	6118	165	#line 6118 "NXCDefs.h"
+0	6069	165	#line 6069 "NXCDefs.h"
+0	25	165	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	25	165	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	26	165		set __signed_stack_001main, 30
+0	25	168	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	25	168	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	26	168		set __signed_stack_002main, 10
+0	25	171	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	25	171	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	26	171		strcat __strbufmain, __constStr0009
+0	25	175	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	25	175	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	26	175		mov __GraphicOutArgs.Location.X, __signed_stack_001main
+0	25	177	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	26	177		mov __GraphicOutArgs.Location.Y, __signed_stack_002main
+0	25	179	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	26	179		mov __GraphicOutArgs.Options, __constVal0
+0	25	181	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	26	181		mov __GraphicOutArgs.Filename, __strbufmain
+0	25	183	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	26	183		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+0	25	185	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	26	185		syscall 18, __GraphicOutArgs
+0	25	188	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	25	188	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	25	188	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	25	188	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	26	188		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	25	191	#line 25 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	7921	191	#line 7921 "NXCDefs.h"
+0	7922	191		wait 500
+0	7921	193	#line 7921 "NXCDefs.h"
+0	26	193	#line 26 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	6069	193	#line 6069 "NXCDefs.h"
+0	6070	193	#pragma macro 6
+0	6070	193		mov __PointOutArgs.Location.X, __constVal200
+0	6070	195		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	197		mov __PointOutArgs.Options, __constVal1
+0	6070	199		syscall 14, __PointOutArgs
+0	6165	202	#line 6165 "NXCDefs.h"
+0	6069	202	#line 6069 "NXCDefs.h"
+0	27	202	#line 27 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	27	202	#line 27 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	28	202		set __signed_stack_001main, 30
+0	27	205	#line 27 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	27	205	#line 27 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	28	205		set __signed_stack_002main, 10
+0	27	208	#line 27 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	27	208	#line 27 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	28	208		strcat __strbufmain, __constStr0010
+0	28	212	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	28	212	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	29	212		mov __GraphicOutArgs.Location.X, __signed_stack_001main
+0	28	214	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	29	214		mov __GraphicOutArgs.Location.Y, __signed_stack_002main
+0	28	216	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	29	216		mov __GraphicOutArgs.Options, __constVal0
+0	28	218	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	29	218		mov __GraphicOutArgs.Filename, __strbufmain
+0	28	220	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	29	220		mov __GraphicOutArgs.Variables, __GraphicOutEmptyVars
+0	28	222	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	29	222		syscall 18, __GraphicOutArgs
+0	28	225	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	28	225	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	28	225	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	28	225	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	29	225		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	28	228	#line 28 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	7921	228	#line 7921 "NXCDefs.h"
+0	7922	228		wait 1000
+0	7921	230	#line 7921 "NXCDefs.h"
+0	29	230	#line 29 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+0	30	230		exit -1, -1
+1	32	0	#line 32 "C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc"
+1	33	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc
+1	__initialize_global_data	233	C:\Users\ronk\Documents\NXCprograms\CircleDrwPlus.nxc

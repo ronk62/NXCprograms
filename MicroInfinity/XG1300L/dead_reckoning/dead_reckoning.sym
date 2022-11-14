@@ -1,0 +1,1233 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0XglReadAngle	6	1	0	4	16
+1	__DF0main	10	1	4	4	18
+2	__signed_stack_001XglReadAngle	6	1	8	4	6
+3	__constValf0P38	10	0	12	4	1
+4	__cos_7qG2_x_7qG2_000_inline_EstimatePosition	10	1	16	4	2
+5	__constValf3P141593	10	0	20	4	3
+6	__RLSBmutex0	9	0	24	4	2
+7	__DU0main	5	1	28	4	10
+8	__signed_stack_002XglReadAngle	6	1	32	4	2
+9	__D0EstimatePosition	6	1	36	4	6
+10	__DF0EstimatePosition	10	1	40	4	10
+11	__unsigned_stack_001XglReadAngle	5	1	44	4	2
+12	__D0main	6	1	48	4	86
+13	__signed_stack_001XglReset	6	1	52	4	2
+14	__unsigned_stack_002XglReadAngle	5	1	56	4	2
+15	__signed_stack_001main	6	1	60	4	56
+16	__main_7qG2_last_ang_7qG2_000	10	1	64	4	3
+17	__float_stack_001EstimatePosition	10	1	68	4	6
+18	__signed_stack_002main	6	1	72	4	28
+19	__float_stack_003main	10	1	76	4	14
+20	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	80	4	4
+21	__signed_stack_003main	6	1	84	4	2
+22	__CLSCSMutex0	9	0	88	4	6
+23	__D0SetSensorLowspeed_inline_main	6	1	92	4	2
+24	__D0XglReset	6	1	96	4	7
+25	__sin_7qG2_x_7qG2_000_inline_EstimatePosition	10	1	100	4	2
+26	__CLSRMutex0	9	0	104	4	2
+27	__signed_stack_001EstimatePosition	6	1	108	4	10
+28	__CLSWMutex0	9	0	112	4	4
+29	__DU0SetSensorLowspeed_inline_main	5	1	116	4	5
+30	__main_7qG2_last_cnt_center_7qG2_000	4	1	120	2	11
+31	__main_7qG2_cnt_7qG2_000	4	1	122	2	6
+32	__main_7qG2_period_7qG2_000	4	1	124	2	5
+33	__main_7qG2_dir_7qG2_000	4	1	126	2	10
+34	__constVal1000	4	0	128	2	2
+35	__main_7qG2_motor_left_7qG2_000	4	1	130	2	9
+36	__main_7qG2_motor_right_7qG2_000	4	1	132	2	9
+37	__XglReadAngle_7qG2_ang_7qG2_000	4	1	134	2	3
+38	last_right_cnt	4	1	136	2	2
+39	last_left_cnt	4	1	138	2	2
+40	__EstimatePosition_7qG2_right_cnt_7qG2_000	4	1	140	2	3
+41	__main_7qG2_new_time_7qG2_000	4	1	142	2	3
+42	__main_7qG2_last_time_7qG2_000	4	1	144	2	3
+43	__EstimatePosition_7qG2_left_cnt_7qG2_000	4	1	146	2	3
+44	__constVal180	4	0	148	2	3
+45	__constVal200	4	0	150	2	2
+46	____ResetSensorSubroutine_return	1	1	152	1	3
+47	__ResetSensorTmp	1	1	153	1	2
+48	__constVal0	2	1	154	1	15
+49	__ResetSensorPort	1	1	155	1	3
+50	__main_7qG2_right_bttn_pressed_7qG2_000	1	1	156	1	4
+51	____initialize_global_data_return	1	1	157	1	3
+52	____ReadLSBytes0_return	1	1	158	1	3
+53	__main_7qG2_left_bttn_pressed_7qG2_000	1	1	159	1	4
+54	__LSWriteOptionsVar	1	1	160	1	4
+55	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	161	1	4
+56	__constValNeg1	2	0	162	1	2
+57	__constVal1	2	0	163	1	5
+58	__constVal32	2	0	164	1	6
+59	__constVal63	2	0	165	1	2
+60	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	166	1	2
+61	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	167	1	2
+62	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	168	1	2
+63	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	169	1	2
+64	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	170	1	2
+65	__XglReadAngle_return	1	1	171	1	4
+66	__constVal96	2	0	172	1	3
+67	__XglReset_7qG2_n_read_7qG2_000	1	1	173	1	2
+68	__RLSBIterations0	1	1	174	1	4
+69	__XglReadAngle_7qG2_n_read_7qG2_000	1	1	175	1	2
+70	__XglReadAngle_7qG2_count_7qG2_000	1	1	176	1	3
+71	__EstimatePosition_return	1	1	177	1	3
+72	__constVal7	2	0	178	1	2
+73	__RLSBResult0	2	1	179	1	8
+74	__constVal66	2	0	180	1	1
+75	__XglReset_return	1	1	181	1	3
+76	__RLSBytesCount0	1	1	182	1	8
+77	__constVal2	2	0	183	1	7
+78	__main_7qG2_pos_7qG2_000	8	0	4	16	8
+79	__main_7qG2_pos_7qG2_000.mX	10	1	184	4	8
+80	__main_7qG2_pos_7qG2_000.mY	10	1	188	4	8
+81	__main_7qG2_pos_7qG2_000.mAng	10	1	192	4	8
+82	__main_7qG2_pos_7qG2_000.mDist	10	1	196	4	8
+83	__PointOutArgs	8	0	3	12	4
+84	__PointOutArgs.Result	2	1	200	1	4
+85	__PointOutArgs.Location	8	0	2	4	4
+86	__PointOutArgs.Location.X	4	1	204	2	4
+87	__PointOutArgs.Location.Y	4	1	206	2	4
+88	__PointOutArgs.Options	5	1	208	4	4
+89	__CLSRArgs0	8	0	4	12	5
+90	__CLSRArgs0.Result	2	1	212	1	5
+91	__CLSRArgs0.Port	1	1	213	1	5
+92	__CLSRArgs0.Buffer	7	0	214	4	5
+93	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+94	__CLSRArgs0.BufferLen	1	1	216	1	5
+95	__main_7qG2_rbArgs_7qG2_000	8	0	5	8	12
+96	__main_7qG2_rbArgs_7qG2_000.Result	2	1	220	1	12
+97	__main_7qG2_rbArgs_7qG2_000.Index	1	1	221	1	12
+98	__main_7qG2_rbArgs_7qG2_000.Pressed	1	1	222	1	12
+99	__main_7qG2_rbArgs_7qG2_000.Count	1	1	223	1	12
+100	__main_7qG2_rbArgs_7qG2_000.Reset	1	1	224	1	12
+101	__TextOutArgs	8	0	4	16	73
+102	__TextOutArgs.Result	2	1	228	1	73
+103	__TextOutArgs.Location	8	0	2	4	73
+104	__TextOutArgs.Location.X	4	1	232	2	73
+105	__TextOutArgs.Location.Y	4	1	234	2	73
+106	__TextOutArgs.Text	7	0	236	4	73
+107	__TextOutArgs.Text.Text_type	1	0	0	1	0
+108	__TextOutArgs.Options	5	1	240	4	73
+109	__CLSWArgs0	8	0	4	12	10
+110	__CLSWArgs0.Result	2	1	244	1	10
+111	__CLSWArgs0.Port	1	1	245	1	10
+112	__CLSWArgs0.Buffer	7	0	246	4	10
+113	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+114	__CLSWArgs0.ReturnLen	1	1	248	1	10
+115	__CLSCSArgs0	8	0	3	4	12
+116	__CLSCSArgs0.Result	2	1	252	1	12
+117	__CLSCSArgs0.Port	1	1	253	1	12
+118	__CLSCSArgs0.BytesReady	1	1	254	1	12
+119	__EstimatePosition_7qG2_pos_7qG2_000	8	0	4	16	12
+120	__EstimatePosition_7qG2_pos_7qG2_000.mX	10	1	256	4	12
+121	__EstimatePosition_7qG2_pos_7qG2_000.mY	10	1	260	4	12
+122	__EstimatePosition_7qG2_pos_7qG2_000.mAng	10	1	264	4	12
+123	__EstimatePosition_7qG2_pos_7qG2_000.mDist	10	1	268	4	12
+124	__constStr0015	7	0	272	4	1
+125	__constStr0015.__constStr0015_type	1	1	0	1	0
+126	__constStr0010	7	0	274	4	1
+127	__constStr0010.__constStr0010_type	1	1	0	1	0
+128	__constStr0011	7	0	276	4	1
+129	__constStr0011.__constStr0011_type	1	1	0	1	0
+130	__constStr0013	7	0	278	4	1
+131	__constStr0013.__constStr0013_type	1	1	0	1	0
+132	__constStr0014	7	0	280	4	1
+133	__constStr0014.__constStr0014_type	1	1	0	1	0
+134	__constStr0012	7	0	282	4	1
+135	__constStr0012.__constStr0012_type	1	1	0	1	0
+136	__strbufmain	7	0	284	4	14
+137	__strbufmain.__strbufmain_type	1	0	0	1	0
+138	__XglReadAngle_7qG2_cmd_7qG2_000	7	0	286	4	3
+139	__XglReadAngle_7qG2_cmd_7qG2_000.__XglReadAngle_7qG2_cmd_7qG2_000_type	1	0	0	1	0
+140	__LSWriteOptions	7	0	288	4	2
+141	__LSWriteOptions.__LSWriteOptions_type	1	0	0	1	0
+142	__RLSLastGoodRead0	7	0	290	4	2
+143	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+144	__XglReadAngle_7qG2_data_7qG2_000	7	0	292	4	4
+145	__XglReadAngle_7qG2_data_7qG2_000.__XglReadAngle_7qG2_data_7qG2_000_type	1	0	0	1	0
+146	__constStr0009	7	0	294	4	1
+147	__constStr0009.__constStr0009_type	1	1	0	1	0
+148	__RLSReadBuf0	7	0	296	4	8
+149	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+150	__XglReset_7qG2_cmd_7qG2_000	7	0	298	4	3
+151	__XglReset_7qG2_cmd_7qG2_000.__XglReset_7qG2_cmd_7qG2_000_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	89	0	#line 89 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	90	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	89	2	#line 89 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	94	2	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	95	2		set __main_7qG2_cnt_7qG2_000, 0
+0	94	5	#line 94 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	95	5	#line 95 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	96	5		set __main_7qG2_last_cnt_center_7qG2_000, 0
+0	95	8	#line 95 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	96	8	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	97	8		set __main_7qG2_left_bttn_pressed_7qG2_000, 0
+0	96	11	#line 96 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	97	11	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	98	11		set __main_7qG2_right_bttn_pressed_7qG2_000, 0
+0	97	14	#line 97 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	101	14	#line 101 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	102	14		set __D0main, 0
+0	101	17	#line 101 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	102	17		mov __main_7qG2_last_ang_7qG2_000, __D0main
+0	104	19	#line 104 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	105	19		set __main_7qG2_dir_7qG2_000, 1
+0	104	22	#line 104 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	105	22	#line 105 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	106	22		set __main_7qG2_motor_right_7qG2_000, 0
+0	105	25	#line 105 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	106	25	#line 106 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	107	25		set __main_7qG2_motor_left_7qG2_000, 0
+0	106	28	#line 106 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	110	28	#line 110 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	111	28		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	110	31	#line 110 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	110	31	#line 110 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	111	31		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4523	33	#line 4523 "NXCDefs.h"
+0	4524	33		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4523	35	#line 4523 "NXCDefs.h"
+0	4523	35	#line 4523 "NXCDefs.h"
+0	4524	35		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4523	37	#line 4523 "NXCDefs.h"
+0	4524	37		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4523	40	#line 4523 "NXCDefs.h"
+0	4524	40		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4523	43	#line 4523 "NXCDefs.h"
+0	4524	43		set __DU0SetSensorLowspeed_inline_main, 11
+0	4523	46	#line 4523 "NXCDefs.h"
+0	4523	46	#line 4523 "NXCDefs.h"
+0	4524	46		jmp __004__ASM_Label_37
+0	4523	48	#line 4523 "NXCDefs.h"
+0	4524	48		set __DU0SetSensorLowspeed_inline_main, 10
+0	4523	51	#line 4523 "NXCDefs.h"
+0	4523	51	#line 4523 "NXCDefs.h"
+0	4524	51		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4428	53	#line 4428 "NXCDefs.h"
+0	4429	53		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4428	57	#line 4428 "NXCDefs.h"
+0	4523	57	#line 4523 "NXCDefs.h"
+0	4524	57	#line 4524 "NXCDefs.h"
+0	4525	57		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4524	59	#line 4524 "NXCDefs.h"
+0	4524	59	#line 4524 "NXCDefs.h"
+0	4525	59		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4524	62	#line 4524 "NXCDefs.h"
+0	4441	62	#line 4441 "NXCDefs.h"
+0	4442	62		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4441	66	#line 4441 "NXCDefs.h"
+0	4524	66	#line 4524 "NXCDefs.h"
+0	4525	66	#line 4525 "NXCDefs.h"
+0	4525	66	#line 4525 "NXCDefs.h"
+0	4459	66	#line 4459 "NXCDefs.h"
+0	4460	66	#pragma macro 4
+0	4460	66		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4460	68		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7151	70	#line 7151 "NXCDefs.h"
+0	4459	70	#line 4459 "NXCDefs.h"
+0	4525	70	#line 4525 "NXCDefs.h"
+0	110	70	#line 110 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	111	70	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	112	70		subcall XglReset, __XglReset_return
+0	111	72	#line 111 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	112	72	#line 112 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	113	72		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	112	75	#line 112 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	8869	75	#line 8869 "NXCDefs.h"
+0	8870	75		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	77	#line 8869 "NXCDefs.h"
+0	112	77	#line 112 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	6921	77	#line 6921 "NXCDefs.h"
+0	6922	77	#pragma macro 6
+0	6922	77		mov __PointOutArgs.Location.X, __constVal200
+0	6922	79		mov __PointOutArgs.Location.Y, __constVal200
+0	6922	81		mov __PointOutArgs.Options, __constVal1
+0	6922	83		syscall 14, __PointOutArgs
+0	7171	86	#line 7171 "NXCDefs.h"
+0	6921	86	#line 6921 "NXCDefs.h"
+0	113	86	#line 113 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	114	86	#line 114 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	115	86		gettick __main_7qG2_last_time_7qG2_000
+0	114	88	#line 114 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	114	88	#line 114 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	114	88	#line 114 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	118	88	#line 118 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	119	88		set __D0main, 1
+0	120	91	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	121	91		tst 5, __D0main, __D0main
+0	120	94	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	121	94		brtst 4, __ASM_Label_692, __D0main
+0	120	97	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	121	97		gettick __main_7qG2_new_time_7qG2_000
+0	120	99	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	120	99	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	120	99	#line 120 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	121	99	#line 121 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	121	99	#line 121 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	121	99	#line 121 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	121	99	#line 121 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	122	99		sub __main_7qG2_period_7qG2_000, __main_7qG2_new_time_7qG2_000, __main_7qG2_last_time_7qG2_000
+0	121	103	#line 121 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	121	103	#line 121 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	122	103	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	123	103		mov __main_7qG2_last_time_7qG2_000, __main_7qG2_new_time_7qG2_000
+0	122	105	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	122	105	#line 122 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	125	105	#line 125 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	126	105		mov __EstimatePosition_7qG2_pos_7qG2_000, __main_7qG2_pos_7qG2_000
+0	125	107	#line 125 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	126	107		subcall EstimatePosition, __EstimatePosition_return
+0	125	109	#line 125 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	126	109		mov __main_7qG2_pos_7qG2_000, __EstimatePosition_7qG2_pos_7qG2_000
+0	125	111	#line 125 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	130	111	#line 130 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	131	111		set __main_7qG2_rbArgs_7qG2_000.Index, 3
+0	130	114	#line 130 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	130	114	#line 130 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	132	114	#line 132 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	133	114	#pragma macro 4
+0	133	114	#line 133 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	133	114		syscall 20, __main_7qG2_rbArgs_7qG2_000
+0	131	117	#line 131 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	131	117	#line 131 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	131	117	#line 131 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	131	117	#line 131 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	132	117	#line 132 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	132	117	#line 132 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	133	117	#line 133 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	134	117		mov __DU0main, __main_7qG2_rbArgs_7qG2_000.Pressed
+0	134	119	#line 134 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	119		tst 5, __D0main, __DU0main
+0	134	122	#line 134 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	122		brtst 4, __ASM_Label_705, __D0main
+0	134	125	#line 134 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	134	125	#line 134 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	125		not __D0main, __main_7qG2_last_cnt_center_7qG2_000
+0	134	128	#line 134 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	128		tst 5, __D0main, __D0main
+0	134	131	#line 134 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	131		brtst 4, __ASM_Label_708, __D0main
+0	134	134	#line 134 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	134		mov __main_7qG2_last_cnt_center_7qG2_000, __main_7qG2_cnt_7qG2_000
+0	134	136	#line 134 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	134	136	#line 134 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	136	#line 135 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	136	#line 135 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	136	136		mov __signed_stack_001main, __main_7qG2_last_cnt_center_7qG2_000
+0	135	138	#line 135 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	138	#line 135 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	136	138		set __D0main, 0
+0	135	141	#line 135 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	136	141		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	135	145	#line 135 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	136	145		brtst 4, __ASM_Label_712, __D0main
+0	135	148	#line 135 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	148	#line 135 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	148	#line 135 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	135	148	#line 135 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	136	148		sub __signed_stack_001main, __main_7qG2_cnt_7qG2_000, __main_7qG2_last_cnt_center_7qG2_000
+0	135	152	#line 135 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	136	152	#line 136 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	137	152		set __D0main, 3
+0	136	155	#line 136 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	137	155		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	137	159	#line 137 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	138	159		brtst 4, __ASM_Label_715, __D0main
+0	137	162	#line 137 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	138	162		set __main_7qG2_motor_left_7qG2_000, 0
+0	137	165	#line 137 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	137	165	#line 137 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	138	165	#line 138 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	139	165		set __main_7qG2_motor_right_7qG2_000, 0
+0	138	168	#line 138 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	138	168	#line 138 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	139	168	#line 139 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	140	168		mov __signed_stack_001main, __main_7qG2_dir_7qG2_000
+0	139	170	#line 139 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	139	170	#line 139 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	140	170		set __D0main, 1
+0	139	173	#line 139 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	140	173		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	139	177	#line 139 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	140	177		brtst 4, __ASM_Label_724, __D0main
+0	139	180	#line 139 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	140	180		mov __D0main, __constValNeg1
+0	139	182	#line 139 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	140	182		jmp __ASM_Label_725
+0	139	184	#line 139 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	140	184		set __D0main, 1
+0	139	187	#line 139 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	140	187		mov __main_7qG2_dir_7qG2_000, __D0main
+0	139	189	#line 139 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	140	189	#line 140 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	141	189		mov __main_7qG2_last_cnt_center_7qG2_000, __constValNeg1
+0	140	191	#line 140 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	140	191	#line 140 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	143	191	#line 143 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	143	191	#line 143 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	144	191		jmp __ASM_Label_732
+0	143	193	#line 143 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	144	193		mov __signed_stack_001main, __main_7qG2_last_cnt_center_7qG2_000
+0	143	195	#line 143 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	144	195	#line 144 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	145	195		set __D0main, 0
+0	144	198	#line 144 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	145	198		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	145	202	#line 145 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	146	202		brtst 4, __ASM_Label_735, __D0main
+0	145	205	#line 145 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	146	205		set __signed_stack_001main, 5
+0	145	208	#line 145 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	145	208	#line 145 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	145	208	#line 145 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	146	208		mul __D0main, __signed_stack_001main, __main_7qG2_dir_7qG2_000
+0	145	212	#line 145 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	146	212		add __main_7qG2_motor_left_7qG2_000, __main_7qG2_motor_left_7qG2_000, __D0main
+0	145	216	#line 145 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	146	216	#line 146 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	147	216		set __signed_stack_001main, 5
+0	146	219	#line 146 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	146	219	#line 146 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	146	219	#line 146 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	147	219		mul __D0main, __signed_stack_001main, __main_7qG2_dir_7qG2_000
+0	146	223	#line 146 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	147	223		add __main_7qG2_motor_right_7qG2_000, __main_7qG2_motor_right_7qG2_000, __D0main
+0	146	227	#line 146 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	147	227	#line 147 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	148	227		set __main_7qG2_last_cnt_center_7qG2_000, 0
+0	147	230	#line 147 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	147	230	#line 147 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	150	230	#line 150 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	151	230		jmp __ASM_Label_742
+0	150	232	#line 150 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	151	232		mov __signed_stack_001main, __main_7qG2_last_cnt_center_7qG2_000
+0	150	234	#line 150 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	150	234	#line 150 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	151	234		set __D0main, 0
+0	150	237	#line 150 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	151	237		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	150	241	#line 150 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	151	241		brtst 4, __ASM_Label_745, __D0main
+0	150	244	#line 150 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	151	244		set __main_7qG2_last_cnt_center_7qG2_000, 0
+0	150	247	#line 150 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	150	247	#line 150 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	153	247	#line 153 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	153	247	#line 153 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	153	247	#line 153 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	153	247	#line 153 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	154	247		set __main_7qG2_rbArgs_7qG2_000.Index, 2
+0	153	250	#line 153 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	153	250	#line 153 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	155	250	#line 155 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	156	250	#pragma macro 4
+0	156	250	#line 156 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	156	250		syscall 20, __main_7qG2_rbArgs_7qG2_000
+0	154	253	#line 154 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	154	253	#line 154 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	154	253	#line 154 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	154	253	#line 154 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	155	253	#line 155 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	155	253	#line 155 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	156	253	#line 156 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	157	253		mov __DU0main, __main_7qG2_rbArgs_7qG2_000.Pressed
+0	156	255	#line 156 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	157	255		tst 5, __D0main, __DU0main
+0	156	258	#line 156 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	157	258		brtst 4, __ASM_Label_752, __D0main
+0	156	261	#line 156 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	157	261		set __main_7qG2_left_bttn_pressed_7qG2_000, 1
+0	156	264	#line 156 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	156	264	#line 156 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	157	264	#line 157 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	158	264		jmp __ASM_Label_755
+0	158	266	#line 158 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	159	266		mov __DU0main, __main_7qG2_left_bttn_pressed_7qG2_000
+0	159	268	#line 159 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	160	268		tst 5, __D0main, __DU0main
+0	159	271	#line 159 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	160	271		brtst 4, __ASM_Label_758, __D0main
+0	159	274	#line 159 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	160	274		set __signed_stack_001main, 5
+0	159	277	#line 159 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	159	277	#line 159 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	159	277	#line 159 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	160	277		mul __D0main, __signed_stack_001main, __main_7qG2_dir_7qG2_000
+0	159	281	#line 159 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	160	281		add __main_7qG2_motor_left_7qG2_000, __main_7qG2_motor_left_7qG2_000, __D0main
+0	159	285	#line 159 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	160	285	#line 160 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	161	285		set __signed_stack_001main, 5
+0	160	288	#line 160 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	160	288	#line 160 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	160	288	#line 160 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	161	288		mul __D0main, __signed_stack_001main, __main_7qG2_dir_7qG2_000
+0	160	292	#line 160 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	161	292		sub __main_7qG2_motor_right_7qG2_000, __main_7qG2_motor_right_7qG2_000, __D0main
+0	160	296	#line 160 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	161	296	#line 161 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	162	296		set __main_7qG2_left_bttn_pressed_7qG2_000, 0
+0	161	299	#line 161 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	161	299	#line 161 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	165	299	#line 165 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	165	299	#line 165 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	165	299	#line 165 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	166	299		set __main_7qG2_rbArgs_7qG2_000.Index, 1
+0	165	302	#line 165 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	165	302	#line 165 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	167	302	#line 167 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	168	302	#pragma macro 4
+0	168	302	#line 168 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	168	302		syscall 20, __main_7qG2_rbArgs_7qG2_000
+0	166	305	#line 166 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	166	305	#line 166 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	166	305	#line 166 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	166	305	#line 166 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	167	305	#line 167 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	167	305	#line 167 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	168	305	#line 168 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	169	305		mov __DU0main, __main_7qG2_rbArgs_7qG2_000.Pressed
+0	168	307	#line 168 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	169	307		tst 5, __D0main, __DU0main
+0	168	310	#line 168 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	169	310		brtst 4, __ASM_Label_769, __D0main
+0	168	313	#line 168 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	169	313		set __main_7qG2_right_bttn_pressed_7qG2_000, 1
+0	168	316	#line 168 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	168	316	#line 168 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	169	316	#line 169 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	170	316		jmp __ASM_Label_772
+0	170	318	#line 170 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	171	318		mov __DU0main, __main_7qG2_right_bttn_pressed_7qG2_000
+0	171	320	#line 171 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	172	320		tst 5, __D0main, __DU0main
+0	171	323	#line 171 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	172	323		brtst 4, __ASM_Label_775, __D0main
+0	171	326	#line 171 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	172	326		set __signed_stack_001main, 5
+0	171	329	#line 171 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	171	329	#line 171 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	171	329	#line 171 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	172	329		mul __D0main, __signed_stack_001main, __main_7qG2_dir_7qG2_000
+0	171	333	#line 171 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	172	333		sub __main_7qG2_motor_left_7qG2_000, __main_7qG2_motor_left_7qG2_000, __D0main
+0	171	337	#line 171 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	172	337	#line 172 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	173	337		set __signed_stack_001main, 5
+0	172	340	#line 172 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	172	340	#line 172 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	172	340	#line 172 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	173	340		mul __D0main, __signed_stack_001main, __main_7qG2_dir_7qG2_000
+0	172	344	#line 172 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	173	344		add __main_7qG2_motor_right_7qG2_000, __main_7qG2_motor_right_7qG2_000, __D0main
+0	172	348	#line 172 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	173	348	#line 173 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	174	348		set __main_7qG2_right_bttn_pressed_7qG2_000, 0
+0	173	351	#line 173 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	173	351	#line 173 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	177	351	#line 177 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	177	351	#line 177 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	177	351	#line 177 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	178	351		mov __signed_stack_001main, __main_7qG2_motor_right_7qG2_000
+0	177	353	#line 177 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	177	353	#line 177 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	178	353		set __D0main, 1
+0	177	356	#line 177 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	178	356	#pragma macro 7
+0	178	356		setout __constVal2, 2, __signed_stack_001main, 1, __constVal7, 8, __D0main, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7597	379	#line 7597 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	177	379	#line 177 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	178	379	#line 178 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	179	379		mov __signed_stack_001main, __main_7qG2_motor_left_7qG2_000
+0	178	381	#line 178 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	178	381	#line 178 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	179	381		set __D0main, 1
+0	178	384	#line 178 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	179	384	#pragma macro 7
+0	179	384		setout __constVal0, 2, __signed_stack_001main, 1, __constVal7, 8, __D0main, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7610	407	#line 7610 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	178	407	#line 178 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	181	407	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	407		set __signed_stack_001main, 0
+0	181	410	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	181	410	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	410		set __signed_stack_002main, 56
+0	181	413	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	181	413	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	181	413	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	181	413	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	181	413	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	413		mul __signed_stack_003main, __main_7qG2_period_7qG2_000, __main_7qG2_cnt_7qG2_000
+0	181	417	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	181	417	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	417		set __D0main, 1000
+0	181	420	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	420		div __D0main, __signed_stack_003main, __D0main
+0	181	424	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	181	424	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	424		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	181	426	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	426		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	181	428	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	428		set __TextOutArgs.Options, 0
+0	181	431	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	431		numtostr __TextOutArgs.Text, __D0main
+0	181	434	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	434		syscall 13, __TextOutArgs
+0	181	437	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	181	437	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	181	437	#line 181 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	437	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	437		set __signed_stack_001main, 60
+0	182	440	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	440	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	440		set __signed_stack_002main, 56
+0	182	443	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	443	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	443		mov __D0main, __main_7qG2_period_7qG2_000
+0	182	445	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	445	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	445		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	182	447	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	447		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	182	449	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	449		set __TextOutArgs.Options, 0
+0	182	452	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	452		numtostr __TextOutArgs.Text, __D0main
+0	182	455	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	455		syscall 13, __TextOutArgs
+0	182	458	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	458	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	182	458	#line 182 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	458	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	458		mov __signed_stack_001main, __main_7qG2_dir_7qG2_000
+0	183	460	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	460	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	460		set __D0main, 1
+0	183	463	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	463		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	183	467	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	467		brtst 4, __ASM_Label_804, __D0main
+0	183	470	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	470		set __signed_stack_001main, 0
+0	183	473	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	473	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	473		set __signed_stack_002main, 48
+0	183	476	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	476	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	476		strcat __strbufmain, __constStr0009
+0	183	480	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	480		set __D0main, 0
+0	183	483	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	483	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	483		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	183	485	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	485		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	183	487	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	487		mov __TextOutArgs.Options, __D0main
+0	183	489	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	489		mov __TextOutArgs.Text, __strbufmain
+0	183	491	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	491		syscall 13, __TextOutArgs
+0	183	494	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	494		mov __D0main, __TextOutArgs.Result
+0	183	496	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	183	496	#line 183 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	496	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	496		jmp __ASM_Label_811
+0	184	498	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	498		set __signed_stack_001main, 0
+0	184	501	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	501	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	501		set __signed_stack_002main, 48
+0	184	504	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	504	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	504		strcat __strbufmain, __constStr0010
+0	184	508	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	508		set __D0main, 0
+0	184	511	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	511	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	511		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	184	513	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	513		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	184	515	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	515		mov __TextOutArgs.Options, __D0main
+0	184	517	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	517		mov __TextOutArgs.Text, __strbufmain
+0	184	519	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	519		syscall 13, __TextOutArgs
+0	184	522	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	522		mov __D0main, __TextOutArgs.Result
+0	184	524	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	524	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	184	524	#line 184 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	524	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	524		set __signed_stack_001main, 0
+0	185	527	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	527	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	527		set __signed_stack_002main, 32
+0	185	530	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	530	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	530		strcat __strbufmain, __constStr0011
+0	185	534	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	534		set __D0main, 0
+0	185	537	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	537	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	537		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	185	539	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	539		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	185	541	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	541		mov __TextOutArgs.Options, __D0main
+0	185	543	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	543		mov __TextOutArgs.Text, __strbufmain
+0	185	545	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	545		syscall 13, __TextOutArgs
+0	185	548	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	548	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	185	548	#line 185 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	548	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	548		set __signed_stack_001main, 60
+0	186	551	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	551	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	551		set __signed_stack_002main, 32
+0	186	554	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	554	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	554		mov __DF0main, __main_7qG2_pos_7qG2_000.mX
+0	186	556	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	556	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	556		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	186	558	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	558		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	186	560	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	560		set __TextOutArgs.Options, 0
+0	186	563	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	563		numtostr __TextOutArgs.Text, __DF0main
+0	186	566	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	566		syscall 13, __TextOutArgs
+0	186	569	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	569	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	186	569	#line 186 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	569	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	569		set __signed_stack_001main, 0
+0	187	572	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	572	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	572		set __signed_stack_002main, 24
+0	187	575	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	575	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	575		strcat __strbufmain, __constStr0012
+0	187	579	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	579		set __D0main, 0
+0	187	582	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	582	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	582		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	187	584	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	584		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	187	586	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	586		mov __TextOutArgs.Options, __D0main
+0	187	588	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	588		mov __TextOutArgs.Text, __strbufmain
+0	187	590	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	590		syscall 13, __TextOutArgs
+0	187	593	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	593	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	187	593	#line 187 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	593	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	593		set __signed_stack_001main, 60
+0	188	596	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	596	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	596		set __signed_stack_002main, 24
+0	188	599	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	599	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	599		mov __DF0main, __main_7qG2_pos_7qG2_000.mY
+0	188	601	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	601	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	601		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	188	603	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	603		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	188	605	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	605		set __TextOutArgs.Options, 0
+0	188	608	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	608		numtostr __TextOutArgs.Text, __DF0main
+0	188	611	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	611		syscall 13, __TextOutArgs
+0	188	614	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	614	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	188	614	#line 188 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	614	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	614		set __signed_stack_001main, 0
+0	189	617	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	617	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	617		set __signed_stack_002main, 16
+0	189	620	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	620	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	620		strcat __strbufmain, __constStr0013
+0	189	624	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	624		set __D0main, 0
+0	189	627	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	627	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	627		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	189	629	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	629		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	189	631	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	631		mov __TextOutArgs.Options, __D0main
+0	189	633	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	633		mov __TextOutArgs.Text, __strbufmain
+0	189	635	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	635		syscall 13, __TextOutArgs
+0	189	638	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	638	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	189	638	#line 189 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	638	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	638		set __signed_stack_001main, 60
+0	190	641	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	641	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	641		set __signed_stack_002main, 16
+0	190	644	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	644	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	644		mov __float_stack_003main, __main_7qG2_pos_7qG2_000.mAng
+0	190	646	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	646	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	646		mov __DF0main, __constVal180
+0	190	648	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	648		mul __float_stack_003main, __float_stack_003main, __DF0main
+0	190	652	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	652	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	652	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	652		div __DF0main, __float_stack_003main, __constValf3P141593
+0	190	656	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	656	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	656		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	190	658	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	658		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	190	660	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	660		set __TextOutArgs.Options, 0
+0	190	663	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	663		numtostr __TextOutArgs.Text, __DF0main
+0	190	666	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	666		syscall 13, __TextOutArgs
+0	190	669	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	669	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	190	669	#line 190 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	669	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	669		set __signed_stack_001main, 0
+0	191	672	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	672	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	672		set __signed_stack_002main, 8
+0	191	675	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	675	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	675		strcat __strbufmain, __constStr0014
+0	191	679	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	679		set __D0main, 0
+0	191	682	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	682	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	682		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	191	684	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	684		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	191	686	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	686		mov __TextOutArgs.Options, __D0main
+0	191	688	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	688		mov __TextOutArgs.Text, __strbufmain
+0	191	690	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	690		syscall 13, __TextOutArgs
+0	191	693	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	693	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	191	693	#line 191 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	693	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	693		set __signed_stack_001main, 60
+0	192	696	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	696	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	696		set __signed_stack_002main, 8
+0	192	699	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	699	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	699	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	699	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	699	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	699		div __float_stack_003main, __main_7qG2_pos_7qG2_000.mDist, __main_7qG2_period_7qG2_000
+0	192	703	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	703	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	703		mov __DF0main, __constVal1000
+0	192	705	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	705		mul __DF0main, __float_stack_003main, __DF0main
+0	192	709	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	709	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	709		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	192	711	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	711		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	192	713	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	713		set __TextOutArgs.Options, 0
+0	192	716	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	716		numtostr __TextOutArgs.Text, __DF0main
+0	192	719	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	719		syscall 13, __TextOutArgs
+0	192	722	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	722	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	192	722	#line 192 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	722	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	722		set __signed_stack_001main, 0
+0	193	725	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	725	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	725		set __signed_stack_002main, 0
+0	193	728	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	728	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	728		strcat __strbufmain, __constStr0015
+0	193	732	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	732		set __D0main, 0
+0	193	735	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	735	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	735		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	193	737	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	737		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	193	739	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	739		mov __TextOutArgs.Options, __D0main
+0	193	741	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	741		mov __TextOutArgs.Text, __strbufmain
+0	193	743	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	743		syscall 13, __TextOutArgs
+0	193	746	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	746	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	193	746	#line 193 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	746	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	746		set __signed_stack_001main, 60
+0	194	749	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	749	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	749		set __signed_stack_002main, 0
+0	194	752	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	752	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	752	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	752	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	752	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	752		sub __float_stack_003main, __main_7qG2_last_ang_7qG2_000, __main_7qG2_pos_7qG2_000.mAng
+0	194	756	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	756	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	756	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	756		div __float_stack_003main, __float_stack_003main, __main_7qG2_period_7qG2_000
+0	194	760	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	760	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	760		mov __DF0main, __constVal180
+0	194	762	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	762		mul __float_stack_003main, __float_stack_003main, __DF0main
+0	194	766	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	766	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	766	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	766		div __float_stack_003main, __float_stack_003main, __constValf3P141593
+0	194	770	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	770	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	770		mov __DF0main, __constVal1000
+0	194	772	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	772		mul __DF0main, __float_stack_003main, __DF0main
+0	194	776	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	776	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	776		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	194	778	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	778		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	194	780	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	780		set __TextOutArgs.Options, 0
+0	194	783	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	783		numtostr __TextOutArgs.Text, __DF0main
+0	194	786	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	786		syscall 13, __TextOutArgs
+0	194	789	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	195	789		mov __D0main, __TextOutArgs.Result
+0	194	791	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	194	791	#line 194 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	196	791	#line 196 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	197	791		mov __main_7qG2_last_ang_7qG2_000, __main_7qG2_pos_7qG2_000.mAng
+0	196	793	#line 196 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	196	793	#line 196 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	197	793	#line 197 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	198	793		add __main_7qG2_cnt_7qG2_000, __main_7qG2_cnt_7qG2_000, __constVal1
+0	197	797	#line 197 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	198	797	#line 198 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	199	797		set __Wait_7qG2_ms_7qG2_000_inline_main, 80
+0	198	800	#line 198 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	8869	800	#line 8869 "NXCDefs.h"
+0	8870	800		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	802	#line 8869 "NXCDefs.h"
+0	198	802	#line 198 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	202	802	#line 202 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	203	802		jmp __ASM_Label_691
+0	202	804	#line 202 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+0	203	804		exit -1, -1
+1	5724	0		setin __constVal1, __ResetSensorPort, 5
+1	5726	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5727	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5728	11		subret ____ResetSensorSubroutine_return
+2	6520	0	#pragma macro 27
+2	6520	0		acquire __CLSWMutex0
+2	6520	1		index __LSWriteOptionsVar, __LSWriteOptions, __constVal0
+2	6520	5		or __CLSWArgs0.Port, __constVal0, __LSWriteOptionsVar
+2	6520	9		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	6520	11		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	6520	13		syscall 21, __CLSWArgs0
+2	6520	16		mov __RLSBResult0, __CLSWArgs0.Result
+2	6520	18		release __CLSWMutex0
+2	6521	19	#line 6521 "NXTDefs.h"
+2	6522	19		brtst 5, __RLSBError0, __RLSBResult0
+2	6523	22		set __RLSBIterations0, 60
+2	6525	25	#pragma macro 23
+2	6525	25		acquire __CLSCSMutex0
+2	6525	26		set __CLSCSArgs0.Port, 0
+2	6525	29		syscall 23, __CLSCSArgs0
+2	6525	32		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	6525	34		mov __RLSBResult0, __CLSCSArgs0.Result
+2	6525	36		release __CLSCSMutex0
+2	6525	37	#line 6525 "NXTDefs.h"
+2	6526	37		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	6527	41		brtst 2, __RLSBError0, __RLSBIterations0
+2	6528	44		brtst 0, __RLSBError0, __RLSBResult0
+2	6529	47		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	6531	50		wait 1
+2	6532	52		jmp __RLSBDoCheckStatus0
+2	6534	54		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	6535	57		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	6537	61	#pragma macro 25
+2	6537	61		acquire __CLSRMutex0
+2	6537	62		set __CLSRArgs0.Port, 0
+2	6537	65		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	6537	67		syscall 22, __CLSRArgs0
+2	6537	70		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	6537	72		mov __RLSBResult0, __CLSRArgs0.Result
+2	6537	74		release __CLSRMutex0
+2	6537	75	#line 6537 "NXTDefs.h"
+2	6538	75		brtst 5, __RLSBError0, __RLSBResult0
+2	6539	78		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	6540	80		jmp __RLSBDone0
+2	6542	82		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	6544	84		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	6546	87		subret ____ReadLSBytes0_return
+3	48	0	#line 48 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	49	0		arrinit __XglReset_7qG2_cmd_7qG2_000, __constVal0, __constVal2
+3	49	4	#line 49 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	50	4		set __XglReset_7qG2_n_read_7qG2_000, 0
+3	49	7	#line 49 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	50	7	#line 50 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	51	7		arrbuild __XglReset_7qG2_cmd_7qG2_000, __constVal2, __constVal96
+3	50	12	#line 50 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	50	12	#line 50 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	51	12	#line 51 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	52	12	#pragma macro 23
+3	52	12		acquire __CLSCSMutex0
+3	52	13		set __CLSCSArgs0.Port, 0
+3	52	16		syscall 23, __CLSCSArgs0
+3	52	19		mov __XglReset_7qG2_n_read_7qG2_000, __CLSCSArgs0.BytesReady
+3	52	21		mov __D0XglReset, __CLSCSArgs0.Result
+3	52	23		release __CLSCSMutex0
+3	6629	24	#line 6629 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	51	24	#line 51 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	52	24		mov __signed_stack_001XglReset, __D0XglReset
+3	51	26	#line 51 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	52	26		set __D0XglReset, 32
+3	51	29	#line 51 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	52	29		cmp 4, __D0XglReset, __signed_stack_001XglReset, __D0XglReset
+3	51	33	#line 51 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	52	33		brtst 4, __ASM_Label_617, __D0XglReset
+3	51	36	#line 51 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	51	36	#line 51 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	52	36		jmp __ASM_Label_616
+3	51	38	#line 51 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	52	38	#line 52 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	53	38	#pragma macro 27
+3	53	38		acquire __CLSWMutex0
+3	53	39		index __LSWriteOptionsVar, __LSWriteOptions, __constVal0
+3	53	43		or __CLSWArgs0.Port, __constVal0, __LSWriteOptionsVar
+3	53	47		mov __CLSWArgs0.ReturnLen, __constVal0
+3	53	49		mov __CLSWArgs0.Buffer, __XglReset_7qG2_cmd_7qG2_000
+3	53	51		syscall 21, __CLSWArgs0
+3	53	54		mov __D0XglReset, __CLSWArgs0.Result
+3	53	56		release __CLSWMutex0
+3	6648	57	#line 6648 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	52	57	#line 52 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	52	57	#line 52 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	56	57	#line 56 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+3	57	57		subret __XglReset_return
+4	58	0	#line 58 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	59	0		arrinit __XglReadAngle_7qG2_data_7qG2_000, __constVal0, __constVal2
+4	59	4	#line 59 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	60	4		arrinit __XglReadAngle_7qG2_cmd_7qG2_000, __constVal0, __constVal2
+4	60	8	#line 60 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	61	8		set __XglReadAngle_7qG2_count_7qG2_000, 2
+4	60	11	#line 60 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	61	11	#line 61 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	62	11		set __XglReadAngle_7qG2_n_read_7qG2_000, 0
+4	61	14	#line 61 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	62	14	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	63	14		set __XglReadAngle_7qG2_ang_7qG2_000, 0
+4	62	17	#line 62 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	63	17	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	64	17		arrbuild __XglReadAngle_7qG2_cmd_7qG2_000, __constVal2, __constVal66
+4	63	22	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	63	22	#line 63 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	64	22	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	65	22	#pragma macro 23
+4	65	22		acquire __CLSCSMutex0
+4	65	23		set __CLSCSArgs0.Port, 0
+4	65	26		syscall 23, __CLSCSArgs0
+4	65	29		mov __XglReadAngle_7qG2_n_read_7qG2_000, __CLSCSArgs0.BytesReady
+4	65	31		mov __D0XglReadAngle, __CLSCSArgs0.Result
+4	65	33		release __CLSCSMutex0
+4	6698	34	#line 6698 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	64	34	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	65	34		mov __signed_stack_001XglReadAngle, __D0XglReadAngle
+4	64	36	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	65	36		set __D0XglReadAngle, 32
+4	64	39	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	65	39		cmp 4, __D0XglReadAngle, __signed_stack_001XglReadAngle, __D0XglReadAngle
+4	64	43	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	65	43		brtst 4, __ASM_Label_627, __D0XglReadAngle
+4	64	46	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	64	46	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	65	46		jmp __ASM_Label_626
+4	64	48	#line 64 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	65	48	#line 65 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	66	48	#pragma macro 28
+4	66	48		acquire __RLSBmutex0
+4	66	49		mov __RLSReadBuf0, __XglReadAngle_7qG2_cmd_7qG2_000
+4	66	51		mov __RLSBytesCount0, __XglReadAngle_7qG2_count_7qG2_000
+4	66	53		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+4	66	55		tst 4, __D0XglReadAngle, __RLSBResult0
+4	66	58		mov __XglReadAngle_7qG2_count_7qG2_000, __RLSBytesCount0
+4	66	60		mov __XglReadAngle_7qG2_data_7qG2_000, __RLSReadBuf0
+4	66	62		release __RLSBmutex0
+4	6717	63	#line 6717 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	66	63	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	63		tst 5, __D0XglReadAngle, __D0XglReadAngle
+4	66	66	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	66		brtst 4, __ASM_Label_632, __D0XglReadAngle
+4	66	69	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	69		set __signed_stack_001XglReadAngle, 0
+4	66	72	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	66	72	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	72		index __unsigned_stack_001XglReadAngle, __XglReadAngle_7qG2_data_7qG2_000, __signed_stack_001XglReadAngle
+4	66	76	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	66	76	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	66	76	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	76		set __signed_stack_002XglReadAngle, 1
+4	66	79	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	66	79	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	79		index __unsigned_stack_002XglReadAngle, __XglReadAngle_7qG2_data_7qG2_000, __signed_stack_002XglReadAngle
+4	66	83	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	66	83	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	66	83	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	83		set __D0XglReadAngle, 256
+4	66	86	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	86		mul __D0XglReadAngle, __unsigned_stack_002XglReadAngle, __D0XglReadAngle
+4	66	90	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	90		add __XglReadAngle_7qG2_ang_7qG2_000, __unsigned_stack_001XglReadAngle, __D0XglReadAngle
+4	66	94	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	66	94	#line 66 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	94	#line 67 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	94	#line 67 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	68	94		set __signed_stack_001XglReadAngle, 0
+4	67	97	#line 67 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	97	#line 67 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	67	97	#line 67 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	68	97		sub __D0XglReadAngle, __signed_stack_001XglReadAngle, __XglReadAngle_7qG2_ang_7qG2_000
+4	67	101	#line 67 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	68	101		subret __XglReadAngle_return
+4	67	103	#line 67 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	70	103	#line 70 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+4	71	103		subret __XglReadAngle_return
+5	73	0	#line 73 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	74	0		getout __EstimatePosition_7qG2_right_cnt_7qG2_000, __constVal2, 14
+5	73	4	#line 73 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	74	4	#line 74 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	75	4		getout __EstimatePosition_7qG2_left_cnt_7qG2_000, __constVal0, 14
+5	74	8	#line 74 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	8	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	8	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	8	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	8	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	77	8		sub __signed_stack_001EstimatePosition, __EstimatePosition_7qG2_right_cnt_7qG2_000, last_right_cnt
+5	76	12	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	12	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	12	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	12	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	12	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	77	12		sub __D0EstimatePosition, __EstimatePosition_7qG2_left_cnt_7qG2_000, last_left_cnt
+5	76	16	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	77	16		add __signed_stack_001EstimatePosition, __signed_stack_001EstimatePosition, __D0EstimatePosition
+5	76	20	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	20	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	77	20		set __D0EstimatePosition, 2
+5	76	23	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	77	23		div __signed_stack_001EstimatePosition, __signed_stack_001EstimatePosition, __D0EstimatePosition
+5	76	27	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	27	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	27	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	77	27		mul __EstimatePosition_7qG2_pos_7qG2_000.mDist, __signed_stack_001EstimatePosition, __constValf0P38
+5	76	31	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	76	31	#line 76 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	78	31	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	79	31		subcall XglReadAngle, __XglReadAngle_return
+5	78	33	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	79	33		mov __signed_stack_001EstimatePosition, __D0XglReadAngle
+5	78	35	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	78	35	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	79	35		set __D0EstimatePosition, 100
+5	78	38	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	79	38		div __signed_stack_001EstimatePosition, __signed_stack_001EstimatePosition, __D0EstimatePosition
+5	78	42	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	78	42	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	78	42	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	79	42		mul __float_stack_001EstimatePosition, __signed_stack_001EstimatePosition, __constValf3P141593
+5	78	46	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	78	46	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	79	46		mov __DF0EstimatePosition, __constVal180
+5	78	48	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	79	48		div __EstimatePosition_7qG2_pos_7qG2_000.mAng, __float_stack_001EstimatePosition, __DF0EstimatePosition
+5	78	52	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	78	52	#line 78 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	80	52	#line 80 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	81	52		mov __float_stack_001EstimatePosition, __EstimatePosition_7qG2_pos_7qG2_000.mDist
+5	80	54	#line 80 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	80	54	#line 80 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	81	54		mov __cos_7qG2_x_7qG2_000_inline_EstimatePosition, __EstimatePosition_7qG2_pos_7qG2_000.mAng
+5	80	56	#line 80 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	19244	56	#line 19244 "NXCDefs.h"
+5	19245	56		cos __DF0EstimatePosition, __cos_7qG2_x_7qG2_000_inline_EstimatePosition
+5	19244	59	#line 19244 "NXCDefs.h"
+5	80	59	#line 80 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	80	59	#line 80 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	81	59		mul __DF0EstimatePosition, __float_stack_001EstimatePosition, __DF0EstimatePosition
+5	80	63	#line 80 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	81	63		add __EstimatePosition_7qG2_pos_7qG2_000.mX, __EstimatePosition_7qG2_pos_7qG2_000.mX, __DF0EstimatePosition
+5	80	67	#line 80 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	81	67	#line 81 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	82	67		mov __float_stack_001EstimatePosition, __EstimatePosition_7qG2_pos_7qG2_000.mDist
+5	81	69	#line 81 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	81	69	#line 81 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	82	69		mov __sin_7qG2_x_7qG2_000_inline_EstimatePosition, __EstimatePosition_7qG2_pos_7qG2_000.mAng
+5	81	71	#line 81 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	19255	71	#line 19255 "NXCDefs.h"
+5	19256	71		sin __DF0EstimatePosition, __sin_7qG2_x_7qG2_000_inline_EstimatePosition
+5	19255	74	#line 19255 "NXCDefs.h"
+5	81	74	#line 81 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	81	74	#line 81 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	82	74		mul __DF0EstimatePosition, __float_stack_001EstimatePosition, __DF0EstimatePosition
+5	81	78	#line 81 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	82	78		add __EstimatePosition_7qG2_pos_7qG2_000.mY, __EstimatePosition_7qG2_pos_7qG2_000.mY, __DF0EstimatePosition
+5	81	82	#line 81 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	82	82	#line 82 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	83	82		mov last_right_cnt, __EstimatePosition_7qG2_right_cnt_7qG2_000
+5	82	84	#line 82 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	82	84	#line 82 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	83	84	#line 83 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	84	84		mov last_left_cnt, __EstimatePosition_7qG2_left_cnt_7qG2_000
+5	83	86	#line 83 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	83	86	#line 83 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	87	86	#line 87 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+5	88	86		subret __EstimatePosition_return
+6	203	0	#line 203 "C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc"
+6	204	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc
+1	__ResetSensorSubroutine	807	NXTDefs.h
+2	__ReadLSBytes0	820	NXTDefs.h
+3	XglReset	909	C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc
+4	XglReadAngle	968	C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc
+5	EstimatePosition	1073	C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc
+6	__initialize_global_data	1161	C:\Users\ronk\Documents\NXCprograms\MicroInfinity\XG1300L\dead_reckoning\dead_reckoning.nxc

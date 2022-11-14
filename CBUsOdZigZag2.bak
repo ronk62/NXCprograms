@@ -1,0 +1,28 @@
+
+int toggle = 1;
+int dist = 255
+
+task main()
+{
+
+  SetSensorType(S4, SENSOR_TYPE_LOWSPEED);
+
+  
+  while (true)
+  {
+    ResetRotationCount(OUT_BC);
+    OnFwdReg(OUT_BC, 65, OUT_REGMODE_SYNC);
+    dist = SensorUS(S4);
+    until(SensorUS(S4)<10);   // wait for the US to return val < 10
+    Off(OUT_BC);
+    Wait(1000);
+    RotateMotor(OUT_BC, 55, -180);
+    RotateMotorEx(OUT_BC, 55, 185, 100*toggle, true, true);
+    toggle *= -1;
+    Wait(1000);
+  }
+
+
+}
+
+

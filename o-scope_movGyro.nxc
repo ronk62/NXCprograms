@@ -1,0 +1,72 @@
+#define GYRO_PORT IN_3        //Gyro on port 3
+#define GYRO_Offset 603       //offset value to apply to the output value
+
+int x=1, y=32;
+long Gyro_val;
+int i=1;
+
+long g_offset = 603;
+
+
+
+task read()
+{
+
+// read gyro and displ results
+while (true){
+      while (x<=98){
+            Gyro_val=SensorRaw(GYRO_PORT)-g_offset;  //read the gyro sensor
+            Gyro_val /=10;
+            LineOut(x, y, x, Gyro_val+32);
+            ClearLine(LCD_LINE1);
+            NumOut(0, LCD_LINE1, Gyro_val+32);
+            NumOut(30, LCD_LINE1, x);
+            NumOut(60, LCD_LINE1, y);
+            x++;
+            Wait (20);
+            }
+       Wait(500);
+       x=1;
+       ClearScreen();
+       }
+Wait(SEC_15);
+}
+
+
+task move()
+{
+  int dir=1;
+  while(true){
+    PlayTone(800, 250);
+    RotateMotor(OUT_A, 60, (dir*90));
+    PlayTone(100, 250);
+    dir = dir * -1;
+    Wait(200);
+  }
+}
+
+
+
+
+task main()
+{
+
+  SetSensor(IN_3, SENSOR_LIGHT);
+  Wait(1000);
+
+  // calibrate offset
+  while (i<10001){
+   Gyro_val+=SensorRaw(GYRO_PORT);   //sum i samples of the gyro sensor
+   NumOut(0, LCD_LINE1, i);
+   i++;
+   }
+
+  g_offset=Gyro_val/10000;
+  NumOut(70, LCD_LINE4, g_offset);
+  PlayTone(440, 500);
+  Wait(5000);
+
+  Precedes(read, move);
+
+
+}

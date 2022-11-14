@@ -1,0 +1,34 @@
+int Compass_val, int x=1, y=32, sinx;
+
+task read()
+{
+  while(true){
+    Compass_val=SensorHTCompass(S2);
+    Wait(50);
+  }
+}
+
+task display()
+{
+  while(true){
+    //while (x<=98){
+      //LineOut(x, y, x, Compass_val);
+      //x++;
+    ClearLine(LCD_LINE4);
+    NumOut(30, LCD_LINE4, Compass_val);
+      }
+    Wait(SEC_1);
+  x=1;
+  //}
+}
+
+
+
+task main()
+{
+
+  SetSensorLowspeed(S2);
+  Precedes(read, display);
+
+
+}

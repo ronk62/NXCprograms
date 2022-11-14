@@ -1,0 +1,499 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__rotate_theAngle2	5	1	0	4	2
+1	__signed_stack_004HoldAtPosition_inline_rotateCThenHold	6	1	4	4	2
+2	__signed_stack_005HoldAtPosition_inline_rotateCThenHold	6	1	8	4	2
+3	__signed_stack_003HoldAtPosition_inline_rotateCThenHold	6	1	12	4	2
+4	__signed_stack_007HoldAtPosition_inline_rotateBThenHold	6	1	16	4	2
+5	__signed_stack_001HoldAtPosition_inline_rotateCThenHold	6	1	20	4	2
+6	__signed_stack_002HoldAtPosition_inline_rotateCThenHold	6	1	24	4	2
+7	degreesB	6	1	28	4	2
+8	degreesC	6	1	32	4	2
+9	holdTimeB	6	1	36	4	2
+10	MotorCMutex	9	0	40	4	4
+11	__signed_stack_006HoldAtPosition_inline_rotateCThenHold	6	1	44	4	2
+12	__signed_stack_007HoldAtPosition_inline_rotateCThenHold	6	1	48	4	2
+13	MotorBMutex	9	0	52	4	4
+14	__D0HoldAtPosition_inline_rotateCThenHold	6	1	56	4	2
+15	__D0HoldAtPosition_inline_rotateBThenHold	6	1	60	4	2
+16	__D0rotateCThenHold	6	1	64	4	2
+17	__signed_stack_001DrawBPosition	6	1	68	4	8
+18	__signed_stack_001HoldAtPosition_inline_rotateBThenHold	6	1	72	4	2
+19	__signed_stack_001rotateCThenHold	6	1	76	4	2
+20	__signed_stack_001rotateBThenHold	6	1	80	4	2
+21	__signed_stack_004HoldAtPosition_inline_rotateBThenHold	6	1	84	4	2
+22	__signed_stack_005HoldAtPosition_inline_rotateBThenHold	6	1	88	4	2
+23	__signed_stack_006HoldAtPosition_inline_rotateBThenHold	6	1	92	4	2
+24	__signed_stack_003HoldAtPosition_inline_rotateBThenHold	6	1	96	4	2
+25	__D0rotateBThenHold	6	1	100	4	2
+26	__D0DrawBPosition	6	1	104	4	16
+27	__signed_stack_002HoldAtPosition_inline_rotateBThenHold	6	1	108	4	2
+28	holdTimeC	6	1	112	4	2
+29	__rotate_theAngle1	5	1	116	4	2
+30	__Wait_7qG2_ms_7qG2_000_inline_DrawBPosition	5	1	120	4	2
+31	__Wait_7qG2_ms_7qG2_000_inline_MoveMotors	5	1	124	4	2
+32	__MoveMotors_7qG2_degC_7qG2_000	6	1	128	4	2
+33	__MoveMotors_7qG2_degB_7qG2_000	6	1	132	4	2
+34	__rotate_angle1	6	1	136	4	4
+35	__rotateMutex2	9	0	140	4	2
+36	__rotateMutex1	9	0	144	4	2
+37	__rotate_angle2	6	1	148	4	4
+38	__constVal1000	4	0	152	2	2
+39	__MoveMotors_7qG2_holdC_7qG2_000	4	1	154	2	2
+40	__DrawBPosition_7qG2_y_7qG2_001	4	1	156	2	2
+41	__constVal400	4	0	158	2	2
+42	__DrawBPosition_7qG2_x_7qG2_000	4	1	160	2	7
+43	__constVal200	4	0	162	2	2
+44	__MoveMotors_7qG2_holdB_7qG2_000	4	1	164	2	2
+45	__rotate_OldRotCount2	4	1	166	2	2
+46	__rotate_RotCount2	4	1	168	2	4
+47	__MoveMotors_7qG2_pwrB_7qG2_000	4	1	170	2	2
+48	powerB	4	1	172	2	2
+49	powerC	4	1	174	2	2
+50	__rotate_RotCount1	4	1	176	2	4
+51	__rotate_OldRotCount1	4	1	178	2	2
+52	__MoveMotors_7qG2_pwrC_7qG2_000	4	1	180	2	2
+53	__HoldAtPosition_7qG2_motor_7qG2_000_inline_rotateBThenHold	1	1	182	1	2
+54	__constVal96	2	0	183	1	2
+55	__MoveMotors_return	1	1	184	1	3
+56	____initialize_global_data_return	1	1	185	1	3
+57	__DrawBPosition_return	1	1	186	1	3
+58	__HoldAtPosition_7qG2_motor_7qG2_000_inline_rotateCThenHold	1	1	187	1	2
+59	__constValNeg75	2	0	188	1	1
+60	__rotate_rs1	1	1	189	1	2
+61	__rotate_thePower1	2	1	190	1	4
+62	__rotate_theRVI1	1	1	191	1	2
+63	__rotate_theRVD1	1	1	192	1	2
+64	__rotate_theTurnPct1	2	1	193	1	4
+65	__rotate_sync2	1	1	194	1	2
+66	__rotate_stop2	1	1	195	1	2
+67	__rotate_power2	1	1	196	1	4
+68	__rotate_firstPort2	1	1	197	1	5
+69	__rotate_theRVP1	1	1	198	1	2
+70	__rotate_sync1	1	1	199	1	2
+71	__rotate_stop1	1	1	200	1	2
+72	__rotate_power1	1	1	201	1	4
+73	__rotate_firstPort1	1	1	202	1	5
+74	__rotate_turnpct1	2	1	203	1	3
+75	__rotate_theRM1	1	1	204	1	4
+76	__rotate_theRS1	1	1	205	1	3
+77	__rotate_theUF1	1	1	206	1	6
+78	__rotate_theOM1	1	1	207	1	7
+79	__constVal32	2	0	208	1	10
+80	__constVal1	2	0	209	1	11
+81	__rotate_thePower2	2	1	210	1	4
+82	__rotate_theTurnPct2	2	1	211	1	4
+83	__constVal0	2	1	212	1	12
+84	__constVal2	2	0	213	1	1
+85	__constVal64	2	0	214	1	1
+86	____RotateMotor1_return	1	1	215	1	3
+87	____RotateMotor2_return	1	1	216	1	3
+88	__rotate_rs2	1	1	217	1	2
+89	__rotate_turnpct2	2	1	218	1	3
+90	__rotate_theRM2	1	1	219	1	4
+91	__rotate_theUF2	1	1	220	1	6
+92	__rotate_theOM2	1	1	221	1	7
+93	__rotate_theRVI2	1	1	222	1	2
+94	__rotate_theRVD2	1	1	223	1	2
+95	__rotate_theRS2	1	1	224	1	3
+96	__rotate_theRVP2	1	1	225	1	2
+97	__PointOutArgs	8	0	3	12	8
+98	__PointOutArgs.Result	2	1	228	1	8
+99	__PointOutArgs.Location	8	0	2	4	8
+100	__PointOutArgs.Location.X	4	1	232	2	8
+101	__PointOutArgs.Location.Y	4	1	234	2	8
+102	__PointOutArgs.Options	5	1	236	4	8
+103	__rotate_ports1	7	0	240	4	6
+104	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+105	__rotate_ports2	7	0	242	4	6
+106	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	75	0	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	76	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	75	2	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	75	2	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	76	2		set __MoveMotors_7qG2_pwrB_7qG2_000, 75
+0	75	5	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	75	5	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	76	5		mov __MoveMotors_7qG2_pwrC_7qG2_000, __constValNeg75
+0	75	7	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	75	7	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	76	7		mov __MoveMotors_7qG2_degB_7qG2_000, __constVal400
+0	75	9	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	76	9		mov __MoveMotors_7qG2_degC_7qG2_000, __constVal400
+0	75	11	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	76	11		mov __MoveMotors_7qG2_holdB_7qG2_000, __constVal1000
+0	75	13	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	76	13		mov __MoveMotors_7qG2_holdC_7qG2_000, __constVal1000
+0	75	15	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	76	15		subcall MoveMotors, __MoveMotors_return
+0	75	17	#line 75 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	79	17	#line 79 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	80	17		subcall DrawBPosition, __DrawBPosition_return
+0	79	19	#line 79 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+0	80	19		exit -1, -1
+1	5308	0		brtst 4, __rotate_Done1, __rotate_angle1
+1	5309	3		sign __rotate_thePower1, __rotate_angle1
+1	5310	6		abs __rotate_theAngle1, __rotate_angle1
+1	5311	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	5313	13		set __rotate_theUF1, 23
+1	5314	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	5315	19		set __rotate_theOM1, 7
+1	5316	22		set __rotate_theRM1, 2
+1	5317	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	5318	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	5319	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	5320	34		jmp __rotate_Start1
+1	5322	36		set __rotate_theOM1, 3
+1	5323	39		set __rotate_theRM1, 0
+1	5324	42		set __rotate_theTurnPct1, 0
+1	5326	45		set __rotate_theRS1, 32
+1	5327	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	5329	71		wait 0
+1	5332	73		index __rotate_firstPort1, __rotate_ports1, 65535
+1	5334	77		getout __rotate_power1, __rotate_firstPort1, 2
+1	5335	81		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	5336	84		getout __rotate_rs1, __rotate_firstPort1, 6
+1	5337	88		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	5339	92		brtst 4, __rotate_Reset1, __rotate_stop1
+1	5342	95		set __rotate_theOM1, 7
+1	5343	98		set __rotate_theUF1, 7
+1	5344	101		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 7, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	5346	118		wait 0
+1	5349	120		getout __rotate_RotCount1, __rotate_firstPort1, 4
+1	5351	124		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	5352	126		wait 50
+1	5354	128		getout __rotate_RotCount1, __rotate_firstPort1, 4
+1	5355	132		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	5358	136		set __rotate_theOM1, 4
+1	5359	139		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	5360	150		wait 0
+1	5364	152		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	5365	155		setout __rotate_ports1, 0, __constVal32
+1	5367	160		subret ____RotateMotor1_return
+2	5371	0		brtst 4, __rotate_Done2, __rotate_angle2
+2	5372	3		sign __rotate_thePower2, __rotate_angle2
+2	5373	6		abs __rotate_theAngle2, __rotate_angle2
+2	5374	9		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
+2	5376	13		set __rotate_theUF2, 23
+2	5377	16		brtst 4, __rotate_NoSync2, __rotate_sync2
+2	5378	19		set __rotate_theOM2, 7
+2	5379	22		set __rotate_theRM2, 2
+2	5380	25		mov __rotate_theTurnPct2, __rotate_turnpct2
+2	5381	27		brtst 4, __rotate_Start2, __rotate_theTurnPct2
+2	5382	30		add __rotate_theUF2, __rotate_theUF2, __constVal32
+2	5383	34		jmp __rotate_Start2
+2	5385	36		set __rotate_theOM2, 3
+2	5386	39		set __rotate_theRM2, 0
+2	5387	42		set __rotate_theTurnPct2, 0
+2	5389	45		set __rotate_theRS2, 32
+2	5390	48		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
+2	5392	71		wait 0
+2	5395	73		index __rotate_firstPort2, __rotate_ports2, 65535
+2	5397	77		getout __rotate_power2, __rotate_firstPort2, 2
+2	5398	81		brtst 4, __rotate_doneRunning2, __rotate_power2
+2	5399	84		getout __rotate_rs2, __rotate_firstPort2, 6
+2	5400	88		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
+2	5402	92		brtst 4, __rotate_Reset2, __rotate_stop2
+2	5405	95		set __rotate_theOM2, 7
+2	5406	98		set __rotate_theUF2, 7
+2	5407	101		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 7, __constVal0, 5, __constVal0, 0, __rotate_theUF2
+2	5409	118		wait 0
+2	5412	120		getout __rotate_RotCount2, __rotate_firstPort2, 4
+2	5414	124		mov __rotate_OldRotCount2, __rotate_RotCount2
+2	5415	126		wait 50
+2	5417	128		getout __rotate_RotCount2, __rotate_firstPort2, 4
+2	5418	132		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
+2	5421	136		set __rotate_theOM2, 4
+2	5422	139		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
+2	5423	150		wait 0
+2	5427	152		brtst 4, __rotate_Done2, __rotate_theTurnPct2
+2	5428	155		setout __rotate_ports2, 0, __constVal32
+2	5430	160		subret ____RotateMotor2_return
+3	20	0	#line 20 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	21	0		acquire MotorBMutex
+3	20	1	#line 20 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	21	1	#line 21 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	22	1		mov __signed_stack_001rotateBThenHold, powerB
+3	21	3	#line 21 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	21	3	#line 21 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	22	3		mov __D0rotateBThenHold, degreesB
+3	21	5	#line 21 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	22	5	#pragma macro 33
+3	22	5		acquire __rotateMutex1
+3	22	6		arrbuild __rotate_ports1, __constVal1
+3	22	10		mov __rotate_power1, __signed_stack_001rotateBThenHold
+3	22	12		mov __rotate_angle1, __D0rotateBThenHold
+3	22	14		mov __rotate_turnpct1, __constVal0
+3	22	16		mov __rotate_sync1, __constVal0
+3	22	18		mov __rotate_stop1, __constVal1
+3	22	20		mov __rotate_theRVP1, __constVal96
+3	22	22		mov __rotate_theRVI1, __constVal32
+3	22	24		mov __rotate_theRVD1, __constVal32
+3	22	26		subcall __RotateMotor1, ____RotateMotor1_return
+3	22	28		release __rotateMutex1
+3	6873	29	#line 6873 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	21	29	#line 21 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	22	29	#line 22 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	23	29		set __HoldAtPosition_7qG2_motor_7qG2_000_inline_rotateBThenHold, 1
+3	22	32	#line 22 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	10	32	#line 10 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	11	32		set __signed_stack_001HoldAtPosition_inline_rotateBThenHold, 0
+3	10	35	#line 10 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	11	35	#line 11 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	12	35		set __signed_stack_002HoldAtPosition_inline_rotateBThenHold, 7
+3	11	38	#line 11 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	12	38	#line 12 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	13	38		set __signed_stack_003HoldAtPosition_inline_rotateBThenHold, 1
+3	12	41	#line 12 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	14	41	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	15	41		set __signed_stack_004HoldAtPosition_inline_rotateBThenHold, 32
+3	14	44	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	14	44	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	15	44		set __signed_stack_005HoldAtPosition_inline_rotateBThenHold, 96
+3	14	47	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	14	47	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	15	47		set __signed_stack_006HoldAtPosition_inline_rotateBThenHold, 32
+3	14	50	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	15	50	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	16	50		set __signed_stack_007HoldAtPosition_inline_rotateBThenHold, 32
+3	15	53	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	15	53	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	16	53		set __D0HoldAtPosition_inline_rotateBThenHold, 19
+3	15	56	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	15	56	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	16	56		setout __HoldAtPosition_7qG2_motor_7qG2_000_inline_rotateBThenHold, 2, __signed_stack_001HoldAtPosition_inline_rotateBThenHold, 1, __signed_stack_002HoldAtPosition_inline_rotateBThenHold, 8, __signed_stack_003HoldAtPosition_inline_rotateBThenHold, 6, __signed_stack_004HoldAtPosition_inline_rotateBThenHold, 10, __signed_stack_005HoldAtPosition_inline_rotateBThenHold, 11, __signed_stack_006HoldAtPosition_inline_rotateBThenHold, 12, __signed_stack_007HoldAtPosition_inline_rotateBThenHold, 0, __D0HoldAtPosition_inline_rotateBThenHold
+3	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	22	75	#line 22 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	23	75	#line 23 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	23	75	#line 23 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	8869	75	#line 8869 "NXCDefs.h"
+3	8870	75		waitv holdTimeB
+3	8869	77	#line 8869 "NXCDefs.h"
+3	23	77	#line 23 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	24	77	#line 24 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	25	77		release MotorBMutex
+3	24	78	#line 24 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+3	25	78		exit -1, -1
+4	29	0	#line 29 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	30	0		acquire MotorCMutex
+4	29	1	#line 29 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	30	1	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	31	1		mov __signed_stack_001rotateCThenHold, powerC
+4	30	3	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	30	3	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	31	3		mov __D0rotateCThenHold, degreesC
+4	30	5	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	31	5	#pragma macro 33
+4	31	5		acquire __rotateMutex2
+4	31	6		arrbuild __rotate_ports2, __constVal2
+4	31	10		mov __rotate_power2, __signed_stack_001rotateCThenHold
+4	31	12		mov __rotate_angle2, __D0rotateCThenHold
+4	31	14		mov __rotate_turnpct2, __constVal0
+4	31	16		mov __rotate_sync2, __constVal0
+4	31	18		mov __rotate_stop2, __constVal1
+4	31	20		mov __rotate_theRVP2, __constVal96
+4	31	22		mov __rotate_theRVI2, __constVal32
+4	31	24		mov __rotate_theRVD2, __constVal32
+4	31	26		subcall __RotateMotor2, ____RotateMotor2_return
+4	31	28		release __rotateMutex2
+4	6979	29	#line 6979 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	30	29	#line 30 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	31	29	#line 31 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	32	29		set __HoldAtPosition_7qG2_motor_7qG2_000_inline_rotateCThenHold, 2
+4	31	32	#line 31 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	10	32	#line 10 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	11	32		set __signed_stack_001HoldAtPosition_inline_rotateCThenHold, 0
+4	10	35	#line 10 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	11	35	#line 11 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	12	35		set __signed_stack_002HoldAtPosition_inline_rotateCThenHold, 7
+4	11	38	#line 11 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	12	38	#line 12 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	13	38		set __signed_stack_003HoldAtPosition_inline_rotateCThenHold, 1
+4	12	41	#line 12 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	14	41	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	15	41		set __signed_stack_004HoldAtPosition_inline_rotateCThenHold, 32
+4	14	44	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	14	44	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	15	44		set __signed_stack_005HoldAtPosition_inline_rotateCThenHold, 96
+4	14	47	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	14	47	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	15	47		set __signed_stack_006HoldAtPosition_inline_rotateCThenHold, 32
+4	14	50	#line 14 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	15	50	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	16	50		set __signed_stack_007HoldAtPosition_inline_rotateCThenHold, 32
+4	15	53	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	15	53	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	16	53		set __D0HoldAtPosition_inline_rotateCThenHold, 19
+4	15	56	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	15	56	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	16	56		setout __HoldAtPosition_7qG2_motor_7qG2_000_inline_rotateCThenHold, 2, __signed_stack_001HoldAtPosition_inline_rotateCThenHold, 1, __signed_stack_002HoldAtPosition_inline_rotateCThenHold, 8, __signed_stack_003HoldAtPosition_inline_rotateCThenHold, 6, __signed_stack_004HoldAtPosition_inline_rotateCThenHold, 10, __signed_stack_005HoldAtPosition_inline_rotateCThenHold, 11, __signed_stack_006HoldAtPosition_inline_rotateCThenHold, 12, __signed_stack_007HoldAtPosition_inline_rotateCThenHold, 0, __D0HoldAtPosition_inline_rotateCThenHold
+4	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	15	75	#line 15 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	31	75	#line 31 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	32	75	#line 32 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	32	75	#line 32 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	8869	75	#line 8869 "NXCDefs.h"
+4	8870	75		waitv holdTimeC
+4	8869	77	#line 8869 "NXCDefs.h"
+4	32	77	#line 32 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	33	77	#line 33 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	34	77		release MotorCMutex
+4	33	78	#line 33 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+4	34	78		exit -1, -1
+5	39	0	#line 39 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	40	0		mov degreesB, __MoveMotors_7qG2_degB_7qG2_000
+5	39	2	#line 39 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	39	2	#line 39 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	40	2	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	41	2		mov degreesC, __MoveMotors_7qG2_degC_7qG2_000
+5	40	4	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	40	4	#line 40 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	41	4	#line 41 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	42	4		mov holdTimeB, __MoveMotors_7qG2_holdB_7qG2_000
+5	41	6	#line 41 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	41	6	#line 41 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	42	6	#line 42 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	43	6		mov holdTimeC, __MoveMotors_7qG2_holdC_7qG2_000
+5	42	8	#line 42 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	42	8	#line 42 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	43	8	#line 43 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	44	8		mov powerB, __MoveMotors_7qG2_pwrB_7qG2_000
+5	43	10	#line 43 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	43	10	#line 43 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	44	10	#line 44 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	45	10		mov powerC, __MoveMotors_7qG2_pwrC_7qG2_000
+5	44	12	#line 44 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	44	12	#line 44 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	46	12	#line 46 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	47	12		start rotateBThenHold
+5	46	14	#line 46 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	47	14	#line 47 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	48	14		start rotateCThenHold
+5	47	16	#line 47 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	49	16	#line 49 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	50	16		set __Wait_7qG2_ms_7qG2_000_inline_MoveMotors, 1
+5	49	19	#line 49 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	8869	19	#line 8869 "NXCDefs.h"
+5	8870	19		waitv __Wait_7qG2_ms_7qG2_000_inline_MoveMotors
+5	8869	21	#line 8869 "NXCDefs.h"
+5	49	21	#line 49 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	52	21	#line 52 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	53	21		acquire MotorBMutex
+5	52	22	#line 52 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	53	22	#line 53 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	54	22		acquire MotorCMutex
+5	53	23	#line 53 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	54	23	#line 54 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	55	23		release MotorCMutex
+5	54	24	#line 54 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	55	24	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	56	24		release MotorBMutex
+5	55	25	#line 55 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	58	25	#line 58 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+5	59	25		subret __MoveMotors_return
+6	60	0	#line 60 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	61	0	#pragma macro 7
+6	61	0		setout __constVal1, 0, __constVal64
+6	7172	5	#line 7172 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	60	5	#line 60 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	61	5	#line 61 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	62	5		set __DrawBPosition_7qG2_x_7qG2_000, 0
+6	61	8	#line 61 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	62	8	#line 62 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	63	8		set __D0DrawBPosition, 1
+6	63	11	#line 63 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	64	11		tst 5, __D0DrawBPosition, __D0DrawBPosition
+6	63	14	#line 63 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	64	14		brtst 4, __ASM_Label_663, __D0DrawBPosition
+6	63	17	#line 63 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	64	17		getout __signed_stack_001DrawBPosition, __constVal1, 14
+6	63	21	#line 63 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	63	21	#line 63 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	64	21		set __D0DrawBPosition, 32
+6	63	24	#line 63 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	64	24		add __DrawBPosition_7qG2_y_7qG2_001, __signed_stack_001DrawBPosition, __D0DrawBPosition
+6	63	28	#line 63 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	64	28	#line 64 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	65	28		mov __signed_stack_001DrawBPosition, __DrawBPosition_7qG2_x_7qG2_000
+6	64	30	#line 64 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	64	30	#line 64 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	65	30		mov __D0DrawBPosition, __DrawBPosition_7qG2_y_7qG2_001
+6	64	32	#line 64 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	64	32	#line 64 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	65	32		mov __PointOutArgs.Location.X, __signed_stack_001DrawBPosition
+6	64	34	#line 64 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	65	34		mov __PointOutArgs.Location.Y, __D0DrawBPosition
+6	64	36	#line 64 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	65	36		set __PointOutArgs.Options, 0
+6	64	39	#line 64 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	65	39		syscall 14, __PointOutArgs
+6	64	42	#line 64 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	64	42	#line 64 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	64	42	#line 64 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	65	42	#line 65 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	66	42		set __Wait_7qG2_ms_7qG2_000_inline_DrawBPosition, 10
+6	65	45	#line 65 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	8869	45	#line 8869 "NXCDefs.h"
+6	8870	45		waitv __Wait_7qG2_ms_7qG2_000_inline_DrawBPosition
+6	8869	47	#line 8869 "NXCDefs.h"
+6	65	47	#line 65 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	66	47	#line 66 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	67	47		add __DrawBPosition_7qG2_x_7qG2_000, __DrawBPosition_7qG2_x_7qG2_000, __constVal1
+6	66	51	#line 66 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	67	51	#line 67 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	68	51		mov __signed_stack_001DrawBPosition, __DrawBPosition_7qG2_x_7qG2_000
+6	67	53	#line 67 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	67	53	#line 67 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	68	53		set __D0DrawBPosition, 100
+6	67	56	#line 67 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	68	56		mod __signed_stack_001DrawBPosition, __signed_stack_001DrawBPosition, __D0DrawBPosition
+6	67	60	#line 67 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	68	60	#line 68 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	69	60		set __D0DrawBPosition, 0
+6	68	63	#line 68 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	69	63		cmp 4, __D0DrawBPosition, __signed_stack_001DrawBPosition, __D0DrawBPosition
+6	68	67	#line 68 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	69	67		brtst 4, __ASM_Label_678, __D0DrawBPosition
+6	6921	70	#line 6921 "NXCDefs.h"
+6	6922	70	#pragma macro 6
+6	6922	70		mov __PointOutArgs.Location.X, __constVal200
+6	6922	72		mov __PointOutArgs.Location.Y, __constVal200
+6	6922	74		mov __PointOutArgs.Options, __constVal1
+6	6922	76		syscall 14, __PointOutArgs
+6	7274	79	#line 7274 "NXCDefs.h"
+6	6921	79	#line 6921 "NXCDefs.h"
+6	68	79	#line 68 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	69	79	#line 69 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	69	79	#line 69 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	70	79		set __D0DrawBPosition, 100
+6	69	82	#line 69 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	70	82		mod __DrawBPosition_7qG2_x_7qG2_000, __DrawBPosition_7qG2_x_7qG2_000, __D0DrawBPosition
+6	69	86	#line 69 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	73	86	#line 73 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	74	86		jmp __ASM_Label_662
+6	73	88	#line 73 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	73	88	#line 73 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+6	74	88		subret __DrawBPosition_return
+7	87	0	#line 87 "C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc"
+7	88	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc
+1	__RotateMotor1	22	NXTDefs.h
+2	__RotateMotor2	184	NXTDefs.h
+3	rotateBThenHold	346	C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc
+4	rotateCThenHold	427	C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc
+5	MoveMotors	508	C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc
+6	DrawBPosition	535	C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc
+7	__initialize_global_data	625	C:\Users\ronk\Documents\NXCprograms\SyncBCjohnH.nxc

@@ -1,0 +1,2155 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0SetSensorLowspeed_inline_main	6	1	0	4	2
+1	__DU0SetSensorLowspeed_inline_main	5	1	4	4	5
+2	__signed_stack_001button_handler	6	1	8	4	6
+3	__DF0read_gyros	10	1	12	4	8
+4	__D0SetSensorLowspeed_inline_IMU_Init	6	1	16	4	2
+5	__DU0SetSensorLowspeed_inline_IMU_Init	5	1	20	4	5
+6	__unsigned_stack_002IMU_MLBToInteger	5	1	24	4	2
+7	__signed_stack_001IMU_ReadAcceleration	6	1	28	4	34
+8	__unsigned_stack_001IMU_ReadAcceleration	5	1	32	4	6
+9	__signed_stack_001display	6	1	36	4	16
+10	__signed_stack_002display	6	1	40	4	16
+11	__unsigned_stack_001IMU_MLBToInteger	5	1	44	4	2
+12	__D0IMU_MLBToInteger	6	1	48	4	11
+13	__D0IMU_ReadAcceleration	6	1	52	4	28
+14	__D0IMU_ReadCompassHeading	6	1	56	4	2
+15	__SPTArgsMutex	9	0	60	4	2
+16	__D0button_handler	6	1	64	4	20
+17	__D0display	6	1	68	4	28
+18	__D0main	6	1	72	4	25
+19	__D0read_compasses	6	1	76	4	11
+20	__D0read_gyros	6	1	80	4	43
+21	__D0IMU_ReadGyro	6	1	84	4	11
+22	__D0IMU_ReadInteger	6	1	88	4	16
+23	__D0IMU_SendCommand	6	1	92	4	9
+24	__signed_stack_001IMU_ReadGyro	6	1	96	4	26
+25	g_offset	6	0	100	4	1
+26	MScurrHeading	10	1	104	4	8
+27	MSprevHeading	10	1	108	4	2
+28	currHeading	10	1	112	4	8
+29	prevHeading	10	1	116	4	2
+30	HTgyro_val	6	1	120	4	4
+31	__Wait_7qG2_ms_7qG2_000_inline_read_compasses	5	1	124	4	2
+32	__Wait_7qG2_ms_7qG2_000_inline_display	5	1	128	4	2
+33	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	132	4	4
+34	MSgyro_val	6	1	136	4	3
+35	__Wait_7qG2_ms_7qG2_000_inline_button_handler	5	1	140	4	2
+36	__Wait_7qG2_ms_7qG2_000_inline_read_gyros	5	1	144	4	2
+37	__unsigned_stack_002IMU_ReadInteger	5	1	148	4	2
+38	__signed_stack_001IMU_SendCommand	6	1	152	4	2
+39	__signed_stack_001main	6	1	156	4	10
+40	__signed_stack_001IMU_ReadInteger	6	1	160	4	4
+41	__signed_stack_002IMU_ReadInteger	6	1	164	4	2
+42	__unsigned_stack_001IMU_ReadInteger	5	1	168	4	2
+43	__signed_stack_003read_gyros	6	1	172	4	2
+44	__unsigned_stack_001read_gyros	5	1	176	4	2
+45	__float_stack_001read_gyros	10	1	180	4	12
+46	__signed_stack_002main	6	1	184	4	8
+47	__signed_stack_001read_gyros	6	1	188	4	8
+48	__signed_stack_002read_gyros	6	1	192	4	6
+49	__RBtnMutex	9	0	196	4	4
+50	__CLSWMutex3	9	0	200	4	4
+51	__CLSRMutex3	9	0	204	4	2
+52	__CLSRMutex2	9	0	208	4	2
+53	__CLSCSMutex3	9	0	212	4	14
+54	__RLSBmutex1	9	0	216	4	10
+55	__RLSBmutex2	9	0	220	4	8
+56	__TextOutMutex	9	0	224	4	32
+57	__RLSBmutex0	9	0	228	4	8
+58	__CLSRMutex0	9	0	232	4	2
+59	__CLSCSMutex1	9	0	236	4	16
+60	__CLSCSMutex0	9	0	240	4	14
+61	__CLSWMutex0	9	0	244	4	4
+62	__CLSCSMutex2	9	0	248	4	14
+63	__CLSWMutex2	9	0	252	4	4
+64	__CLSWMutex1	9	0	256	4	6
+65	__CLSRMutex1	9	0	260	4	4
+66	__RLSBmutex3	9	0	264	4	8
+67	__ResetSensorMutex	9	0	268	4	6
+68	__IMU_ReadInteger_7qG2_reg_to_read_7qG2_000	4	1	272	2	2
+69	HTcmps_val	4	1	274	2	2
+70	T	4	1	276	2	2
+71	__constVal128	4	0	278	2	1
+72	cb	4	1	280	2	8
+73	cb_old	4	1	282	2	3
+74	IMUcmps_val	4	1	284	2	2
+75	deltaT	4	1	286	2	3
+76	__IMU_MLBToInteger_7qG2_i_7qG2_000	4	1	288	2	2
+77	__IMU_SendCommand_7qG2_status_7qG2_000	4	1	290	2	3
+78	__IMU_ReadInteger_7qG2_result_7qG2_000	4	1	292	2	3
+79	__IMU_ReadGyro_7qG2_count_7qG2_000	4	1	294	2	3
+80	__IMU_ReadInteger_7qG2_count_7qG2_000	4	1	296	2	3
+81	__constVal360	4	0	298	2	2
+82	__IMU_ReadGyro_7qG2_e_7qG2_000	4	1	300	2	2
+83	__IMU_ReadAcceleration_7qG2_count_7qG2_000	4	1	302	2	6
+84	__IMU_ReadAcceleration_7qG2_e_7qG2_000	4	1	304	2	3
+85	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	306	1	4
+86	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	307	1	2
+87	__IMU_ReadGyro_7qG2_i2cAddr_7qG2_000	1	1	308	1	2
+88	__IMU_ReadGyro_return	1	1	309	1	3
+89	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init	1	1	310	1	4
+90	__ClearLine_7qG2_line_7qG2_000_inline_display	1	1	311	1	8
+91	____initialize_global_data_return	1	1	312	1	3
+92	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_IMU_Init	1	1	313	1	2
+93	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	314	1	2
+94	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	315	1	2
+95	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	316	1	2
+96	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init	1	1	317	1	2
+97	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	318	1	4
+98	__IMU_ReadGyro_7qG2_port_7qG2_000	1	1	319	1	3
+99	__IMU_ReadInteger_7qG2_nByteReady_7qG2_000	1	1	320	1	2
+100	__constVal12	2	0	321	1	2
+101	__IMU_ReadGyro_7qG2_nByteReady_7qG2_000	1	1	322	1	2
+102	__ResetSensorPort	1	1	323	1	5
+103	__ResetSensorTmp	1	1	324	1	2
+104	__IMU_ReadAcceleration_7qG2_i2cAddr_7qG2_000	1	1	325	1	3
+105	__IMU_ReadAcceleration_return	1	1	326	1	3
+106	__constVal0	2	1	327	1	17
+107	__IMU_ReadCompassHeading_return	1	1	328	1	4
+108	____ResetSensorSubroutine_return	1	1	329	1	5
+109	__IMU_ReadCompassHeading_7qG2_i2cAddr_7qG2_000	1	1	330	1	2
+110	__IMU_Init_7qG2_port_7qG2_000	1	1	331	1	2
+111	__IMU_ReadCompassHeading_7qG2_port_7qG2_000	1	1	332	1	2
+112	__IMU_Init_return	1	1	333	1	3
+113	__constVal83	2	0	334	1	1
+114	__IMU_ReadAcceleration_7qG2_port_7qG2_000	1	1	335	1	5
+115	__IMU_ReadAcceleration_7qG2_nByteReady_7qG2_000	1	1	336	1	3
+116	__constVal69	2	0	337	1	1
+117	__constVal3	2	0	338	1	2
+118	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	339	1	2
+119	__RLSBResult1	2	1	340	1	7
+120	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	341	1	2
+121	__RLSBIterations1	1	1	342	1	4
+122	__RLSBytesCount1	1	1	343	1	9
+123	____ReadLSBytes1_return	1	1	344	1	3
+124	__LSWriteOptionsVar	1	1	345	1	6
+125	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	346	1	2
+126	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	347	1	2
+127	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	348	1	2
+128	__constVal2	2	0	349	1	2
+129	__RLSReadPort	1	1	350	1	8
+130	__constVal1	2	0	351	1	10
+131	__constVal20	2	0	352	1	1
+132	__constVal66	2	0	353	1	1
+133	__RLSBIterationsVar	1	1	354	1	4
+134	____ReadLSBytesVar_return	1	1	355	1	6
+135	__tmpsbyteIMU_SendCommand	2	1	356	1	2
+136	__RLSBytesCountVar	1	1	357	1	14
+137	__RLSBResultVar	2	1	358	1	11
+138	__IMU_MLBToInteger_return	1	1	359	1	9
+139	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	360	1	2
+140	__IMU_MLBToInteger_7qG2_lsb_7qG2_000	1	1	361	1	7
+141	__IMU_MLBToInteger_7qG2_msb_7qG2_000	1	1	362	1	7
+142	__IMU_SendCommand_return	1	1	363	1	6
+143	__IMU_SendCommand_7qG2_cmd_7qG2_000	1	1	364	1	5
+144	__IMU_SendCommand_7qG2_port_7qG2_000	1	1	365	1	8
+145	__IMU_SendCommand_7qG2_i2cAddr_7qG2_000	1	1	366	1	5
+146	__IMU_ReadInteger_7qG2_i2cAddr_7qG2_000	1	1	367	1	2
+147	__IMU_ReadInteger_return	1	1	368	1	4
+148	__constVal65	2	0	369	1	1
+149	__IMU_ReadInteger_7qG2_port_7qG2_000	1	1	370	1	3
+150	__RBtnArgs	8	0	5	8	8
+151	__RBtnArgs.Result	2	1	372	1	8
+152	__RBtnArgs.Index	1	1	373	1	8
+153	__RBtnArgs.Pressed	1	1	374	1	8
+154	__RBtnArgs.Count	1	1	375	1	8
+155	__RBtnArgs.Reset	1	1	376	1	8
+156	__SPTArgs	8	0	5	8	6
+157	__SPTArgs.Result	2	1	380	1	6
+158	__SPTArgs.Frequency	3	1	382	2	6
+159	__SPTArgs.Duration	3	1	384	2	6
+160	__SPTArgs.Loop	1	1	386	1	6
+161	__SPTArgs.Volume	1	1	387	1	6
+162	currAccl	8	0	13	20	2
+163	currAccl.tx	4	1	388	2	2
+164	currAccl.ty	4	1	390	2	2
+165	currAccl.tz	4	1	392	2	2
+166	currAccl.ax_h	1	1	394	1	2
+167	currAccl.ax_l	1	1	395	1	2
+168	currAccl.ay_h	1	1	396	1	2
+169	currAccl.ay_l	1	1	397	1	2
+170	currAccl.az_h	1	1	398	1	2
+171	currAccl.az_l	1	1	399	1	2
+172	currAccl.ax	4	1	400	2	2
+173	currAccl.ay	4	1	402	2	2
+174	currAccl.az	4	1	404	2	2
+175	currAccl.error	4	1	406	2	2
+176	__CLSCSArgs0	8	0	3	4	28
+177	__CLSCSArgs0.Result	2	1	408	1	28
+178	__CLSCSArgs0.Port	1	1	409	1	28
+179	__CLSCSArgs0.BytesReady	1	1	410	1	28
+180	currGyro	8	0	10	16	4
+181	currGyro.gx_h	1	1	412	1	4
+182	currGyro.gx_l	1	1	413	1	4
+183	currGyro.gy_h	1	1	414	1	4
+184	currGyro.gy_l	1	1	415	1	4
+185	currGyro.gz_h	1	1	416	1	4
+186	currGyro.gz_l	1	1	417	1	4
+187	currGyro.gx	4	1	418	2	4
+188	currGyro.gy	4	1	420	2	4
+189	currGyro.gz	4	1	422	2	4
+190	currGyro.error	4	1	424	2	4
+191	__CLSWArgs1	8	0	4	12	5
+192	__CLSWArgs1.Result	2	1	428	1	5
+193	__CLSWArgs1.Port	1	1	429	1	5
+194	__CLSWArgs1.Buffer	7	0	430	4	5
+195	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+196	__CLSWArgs1.ReturnLen	1	1	432	1	5
+197	__CLSCSArgs1	8	0	3	4	4
+198	__CLSCSArgs1.Result	2	1	436	1	4
+199	__CLSCSArgs1.Port	1	1	437	1	4
+200	__CLSCSArgs1.BytesReady	1	1	438	1	4
+201	__CLSRArgs0	8	0	4	12	5
+202	__CLSRArgs0.Result	2	1	440	1	5
+203	__CLSRArgs0.Port	1	1	441	1	5
+204	__CLSRArgs0.Buffer	7	0	442	4	5
+205	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+206	__CLSRArgs0.BufferLen	1	1	444	1	5
+207	__CLSRArgs1	8	0	4	12	5
+208	__CLSRArgs1.Result	2	1	448	1	5
+209	__CLSRArgs1.Port	1	1	449	1	5
+210	__CLSRArgs1.Buffer	7	0	450	4	5
+211	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+212	__CLSRArgs1.BufferLen	1	1	452	1	5
+213	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000	8	0	13	20	21
+214	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tx	4	1	456	2	21
+215	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ty	4	1	458	2	21
+216	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tz	4	1	460	2	21
+217	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax_h	1	1	462	1	21
+218	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax_l	1	1	463	1	21
+219	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay_h	1	1	464	1	21
+220	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay_l	1	1	465	1	21
+221	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az_h	1	1	466	1	21
+222	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az_l	1	1	467	1	21
+223	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax	4	1	468	2	21
+224	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay	4	1	470	2	21
+225	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az	4	1	472	2	21
+226	__IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.error	4	1	474	2	21
+227	__TextOutArgs	8	0	4	16	92
+228	__TextOutArgs.Result	2	1	476	1	92
+229	__TextOutArgs.Location	8	0	2	4	92
+230	__TextOutArgs.Location.X	4	1	480	2	92
+231	__TextOutArgs.Location.Y	4	1	482	2	92
+232	__TextOutArgs.Text	7	0	484	4	92
+233	__TextOutArgs.Text.Text_type	1	0	0	1	0
+234	__TextOutArgs.Options	5	1	488	4	92
+235	__IMU_ReadGyro_7qG2_currGyro_7qG2_000	8	0	10	16	15
+236	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx_h	1	1	492	1	15
+237	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx_l	1	1	493	1	15
+238	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy_h	1	1	494	1	15
+239	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy_l	1	1	495	1	15
+240	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz_h	1	1	496	1	15
+241	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz_l	1	1	497	1	15
+242	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx	4	1	498	2	15
+243	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy	4	1	500	2	15
+244	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz	4	1	502	2	15
+245	__IMU_ReadGyro_7qG2_currGyro_7qG2_000.error	4	1	504	2	15
+246	__CLSWArgs0	8	0	4	12	10
+247	__CLSWArgs0.Result	2	1	508	1	10
+248	__CLSWArgs0.Port	1	1	509	1	10
+249	__CLSWArgs0.Buffer	7	0	510	4	10
+250	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+251	__CLSWArgs0.ReturnLen	1	1	512	1	10
+252	__constStr0014	7	0	514	4	1
+253	__constStr0014.__constStr0014_type	1	1	0	1	0
+254	__constStr0013	7	0	516	4	1
+255	__constStr0013.__constStr0013_type	1	1	0	1	0
+256	__constStr0017	7	0	518	4	1
+257	__constStr0017.__constStr0017_type	1	1	0	1	0
+258	__constStr0015	7	0	520	4	1
+259	__constStr0015.__constStr0015_type	1	1	0	1	0
+260	__constStr0016	7	0	522	4	1
+261	__constStr0016.__constStr0016_type	1	1	0	1	0
+262	__constStr0018	7	0	524	4	1
+263	__constStr0018.__constStr0018_type	1	1	0	1	0
+264	__constStr0012	7	0	526	4	1
+265	__constStr0012.__constStr0012_type	1	1	0	1	0
+266	__RLSLastGoodRead1	7	0	528	4	2
+267	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+268	__RLSReadBuf1	7	0	530	4	9
+269	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+270	__BlankLine	7	0	532	4	4
+271	__BlankLine.__BlankLine_type	1	0	0	1	0
+272	__RLSBbufLSWrite1	7	0	534	4	1
+273	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+274	__strbufdisplay	7	0	536	4	8
+275	__strbufdisplay.__strbufdisplay_type	1	0	0	1	0
+276	__RLSReadBufVar	7	0	538	4	14
+277	__RLSReadBufVar.__RLSReadBufVar_type	1	0	0	1	0
+278	__strbufmain	7	0	540	4	8
+279	__strbufmain.__strbufmain_type	1	0	0	1	0
+280	__RLSLastGoodReadVar	7	0	542	4	2
+281	__RLSLastGoodReadVar.__RLSLastGoodReadVar_type	1	0	0	1	0
+282	__LSWriteOptions	7	0	544	4	3
+283	__LSWriteOptions.__LSWriteOptions_type	1	0	0	1	0
+284	__IMU_ReadAcceleration_7qG2_message_7qG2_000	7	0	546	4	4
+285	__IMU_ReadAcceleration_7qG2_message_7qG2_000.__IMU_ReadAcceleration_7qG2_message_7qG2_000_type	1	0	0	1	0
+286	__IMU_ReadGyro_7qG2_buf_7qG2_000	7	0	548	4	14
+287	__IMU_ReadGyro_7qG2_buf_7qG2_000.__IMU_ReadGyro_7qG2_buf_7qG2_000_type	1	0	0	1	0
+288	__constStr0011	7	0	550	4	1
+289	__constStr0011.__constStr0011_type	1	1	0	1	0
+290	__IMU_ReadAcceleration_7qG2_buf_7qG2_000	7	0	552	4	18
+291	__IMU_ReadAcceleration_7qG2_buf_7qG2_000.__IMU_ReadAcceleration_7qG2_buf_7qG2_000_type	1	0	0	1	0
+292	__IMU_ReadInteger_7qG2_message_7qG2_000	7	0	554	4	2
+293	__IMU_ReadInteger_7qG2_message_7qG2_000.__IMU_ReadInteger_7qG2_message_7qG2_000_type	1	0	0	1	0
+294	__IMU_SendCommand_7qG2_cmdBuf_7qG2_000	7	0	556	4	2
+295	__IMU_SendCommand_7qG2_cmdBuf_7qG2_000.__IMU_SendCommand_7qG2_cmdBuf_7qG2_000_type	1	0	0	1	0
+296	__IMU_ReadGyro_7qG2_message_7qG2_000	7	0	558	4	2
+297	__IMU_ReadGyro_7qG2_message_7qG2_000.__IMU_ReadGyro_7qG2_message_7qG2_000_type	1	0	0	1	0
+298	__IMU_ReadInteger_7qG2_buf_7qG2_000	7	0	560	4	4
+299	__IMU_ReadInteger_7qG2_buf_7qG2_000.__IMU_ReadInteger_7qG2_buf_7qG2_000_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	181	0	#line 181 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	182	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	181	2	#line 181 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	186	2	#line 186 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	187	2		set cb, 0
+0	186	5	#line 186 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	186	5	#line 186 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	187	5	#line 187 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	188	5		set cb_old, 1
+0	187	8	#line 187 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	187	8	#line 187 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	189	8	#line 189 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	190	8		start button_handler
+0	189	10	#line 189 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	190	10	#line 190 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	191	10		start read_compasses
+0	190	12	#line 190 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	191	12	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	192	12		start read_gyros
+0	191	14	#line 191 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	192	14	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	193	14		start display
+0	192	16	#line 192 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	194	16	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	194	16	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	194	16	#line 194 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	196	16	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	197	16		set __SetSensor_7qG2_port_7qG2_000_inline_main, 2
+0	196	19	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	196	19	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	4472	19	#line 4472 "NXCDefs.h"
+0	4473	19		setin __constVal3, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	4474	23		setin __constVal128, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
+0	4475	27	#pragma macro 4
+0	4475	27		acquire __ResetSensorMutex
+0	4475	28		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
+0	4475	30		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4475	32		release __ResetSensorMutex
+0	12318	33	#line 12318 "NXCDefs.h"
+0	4476	33	#line 4476 "NXCDefs.h"
+0	196	33	#line 196 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	197	33	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	198	33		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
+0	197	36	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	197	36	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	198	36		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4523	38	#line 4523 "NXCDefs.h"
+0	4524	38		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4523	40	#line 4523 "NXCDefs.h"
+0	4523	40	#line 4523 "NXCDefs.h"
+0	4524	40		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4523	42	#line 4523 "NXCDefs.h"
+0	4524	42		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4523	45	#line 4523 "NXCDefs.h"
+0	4524	45		brtst 4, __007__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4523	48	#line 4523 "NXCDefs.h"
+0	4524	48		set __DU0SetSensorLowspeed_inline_main, 11
+0	4523	51	#line 4523 "NXCDefs.h"
+0	4523	51	#line 4523 "NXCDefs.h"
+0	4524	51		jmp __007__ASM_Label_37
+0	4523	53	#line 4523 "NXCDefs.h"
+0	4524	53		set __DU0SetSensorLowspeed_inline_main, 10
+0	4523	56	#line 4523 "NXCDefs.h"
+0	4523	56	#line 4523 "NXCDefs.h"
+0	4524	56		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4428	58	#line 4428 "NXCDefs.h"
+0	4429	58		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4428	62	#line 4428 "NXCDefs.h"
+0	4523	62	#line 4523 "NXCDefs.h"
+0	4524	62	#line 4524 "NXCDefs.h"
+0	4525	62		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4524	64	#line 4524 "NXCDefs.h"
+0	4524	64	#line 4524 "NXCDefs.h"
+0	4525	64		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4524	67	#line 4524 "NXCDefs.h"
+0	4441	67	#line 4441 "NXCDefs.h"
+0	4442	67		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4441	71	#line 4441 "NXCDefs.h"
+0	4524	71	#line 4524 "NXCDefs.h"
+0	4525	71	#line 4525 "NXCDefs.h"
+0	4526	71		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4525	73	#line 4525 "NXCDefs.h"
+0	4459	73	#line 4459 "NXCDefs.h"
+0	4460	73	#pragma macro 4
+0	4460	73		acquire __ResetSensorMutex
+0	4460	74		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main
+0	4460	76		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4460	78		release __ResetSensorMutex
+0	12408	79	#line 12408 "NXCDefs.h"
+0	4459	79	#line 4459 "NXCDefs.h"
+0	4525	79	#line 4525 "NXCDefs.h"
+0	197	79	#line 197 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	198	79	#line 198 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	199	79		set __IMU_Init_7qG2_port_7qG2_000, 0
+0	198	82	#line 198 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	198	82	#line 198 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	199	82		subcall IMU_Init, __IMU_Init_return
+0	198	84	#line 198 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	200	84	#line 200 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	201	84		set __D0main, 1
+0	202	87	#line 202 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	203	87		tst 5, __D0main, __D0main
+0	202	90	#line 202 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	203	90		brtst 4, __ASM_Label_1233, __D0main
+0	202	93	#line 202 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	203	93		mov __signed_stack_001main, cb_old
+0	202	95	#line 202 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	202	95	#line 202 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	203	95		mov __D0main, cb
+0	202	97	#line 202 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	203	97		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	203	101	#line 203 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	204	101		brtst 4, __ASM_Label_1238, __D0main
+0	203	104	#line 203 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	204	104		mov __D0main, cb
+0	207	106		brcmp 4, __ASM_Label_1242, __constVal0, __D0main
+0	208	110		brcmp 4, __ASM_Label_1255, __constVal1, __D0main
+0	209	114		brcmp 4, __ASM_Label_1268, __constVal2, __D0main
+0	210	118		brcmp 4, __ASM_Label_1281, __constVal3, __D0main
+0	211	122		jmp __ASM_Label_1241
+0	205	124	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	205	124	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	124		set __signed_stack_001main, 0
+0	205	127	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	205	127	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	127		set __signed_stack_002main, 56
+0	205	130	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	205	130	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	130		strcat __strbufmain, __constStr0015
+0	205	134	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	134		set __D0main, 0
+0	205	137	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	137		acquire __TextOutMutex
+0	205	138	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	138		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	205	141	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	141		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	205	144	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	144		mov __TextOutArgs.Options, __D0main
+0	205	147	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	147		mov __TextOutArgs.Text, __strbufmain
+0	205	149	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	149		syscall 13, __TextOutArgs
+0	205	152	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	152		mov __D0main, __TextOutArgs.Result
+0	205	155	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	155		release __TextOutMutex
+0	205	156	#line 205 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	156	#line 206 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	207	156		set __IMU_SendCommand_7qG2_port_7qG2_000, 0
+0	206	159	#line 206 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	159	#line 206 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	207	159		set __IMU_SendCommand_7qG2_i2cAddr_7qG2_000, 34
+0	206	162	#line 206 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	162	#line 206 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	207	162		set __IMU_SendCommand_7qG2_cmd_7qG2_000, 49
+0	206	165	#line 206 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	206	165	#line 206 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	207	165		subcall IMU_SendCommand, __IMU_SendCommand_return
+0	206	168	#line 206 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	207	168	#line 207 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	208	168		jmp __ASM_Label_1241
+0	207	170	#line 207 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	209	170	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	209	170	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	170		set __signed_stack_001main, 0
+0	209	173	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	209	173	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	173		set __signed_stack_002main, 56
+0	209	176	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	209	176	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	176		strcat __strbufmain, __constStr0016
+0	209	180	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	180		set __D0main, 0
+0	209	183	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	183		acquire __TextOutMutex
+0	209	184	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	184		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	209	187	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	187		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	209	190	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	190		mov __TextOutArgs.Options, __D0main
+0	209	193	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	193		mov __TextOutArgs.Text, __strbufmain
+0	209	195	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	195		syscall 13, __TextOutArgs
+0	209	198	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	198		mov __D0main, __TextOutArgs.Result
+0	209	201	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	201		release __TextOutMutex
+0	209	202	#line 209 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	202	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	211	202		set __IMU_SendCommand_7qG2_port_7qG2_000, 0
+0	210	205	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	205	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	211	205		set __IMU_SendCommand_7qG2_i2cAddr_7qG2_000, 34
+0	210	208	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	208	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	211	208		set __IMU_SendCommand_7qG2_cmd_7qG2_000, 50
+0	210	211	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	210	211	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	211	211		subcall IMU_SendCommand, __IMU_SendCommand_return
+0	210	214	#line 210 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	211	214	#line 211 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	212	214		jmp __ASM_Label_1241
+0	211	216	#line 211 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	213	216	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	213	216	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	216		set __signed_stack_001main, 0
+0	213	219	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	213	219	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	219		set __signed_stack_002main, 56
+0	213	222	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	213	222	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	222		strcat __strbufmain, __constStr0017
+0	213	226	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	226		set __D0main, 0
+0	213	229	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	229		acquire __TextOutMutex
+0	213	230	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	230		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	213	233	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	233		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	213	236	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	236		mov __TextOutArgs.Options, __D0main
+0	213	239	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	239		mov __TextOutArgs.Text, __strbufmain
+0	213	241	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	241		syscall 13, __TextOutArgs
+0	213	244	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	244		mov __D0main, __TextOutArgs.Result
+0	213	247	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	247		release __TextOutMutex
+0	213	248	#line 213 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	248	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	215	248		set __IMU_SendCommand_7qG2_port_7qG2_000, 0
+0	214	251	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	251	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	215	251		set __IMU_SendCommand_7qG2_i2cAddr_7qG2_000, 34
+0	214	254	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	254	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	215	254		set __IMU_SendCommand_7qG2_cmd_7qG2_000, 51
+0	214	257	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	214	257	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	215	257		subcall IMU_SendCommand, __IMU_SendCommand_return
+0	214	260	#line 214 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	215	260	#line 215 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	216	260		jmp __ASM_Label_1241
+0	215	262	#line 215 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	217	262	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	217	262	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	262		set __signed_stack_001main, 0
+0	217	265	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	217	265	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	265		set __signed_stack_002main, 56
+0	217	268	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	217	268	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	268		strcat __strbufmain, __constStr0018
+0	217	272	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	272		set __D0main, 0
+0	217	275	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	275		acquire __TextOutMutex
+0	217	276	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	276		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	217	279	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	279		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	217	282	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	282		mov __TextOutArgs.Options, __D0main
+0	217	285	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	285		mov __TextOutArgs.Text, __strbufmain
+0	217	287	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	287		syscall 13, __TextOutArgs
+0	217	290	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	290		mov __D0main, __TextOutArgs.Result
+0	217	293	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	293		release __TextOutMutex
+0	217	294	#line 217 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	294	#line 218 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	219	294		set __IMU_SendCommand_7qG2_port_7qG2_000, 0
+0	218	297	#line 218 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	297	#line 218 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	219	297		set __IMU_SendCommand_7qG2_i2cAddr_7qG2_000, 34
+0	218	300	#line 218 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	300	#line 218 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	219	300		set __IMU_SendCommand_7qG2_cmd_7qG2_000, 52
+0	218	303	#line 218 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	218	303	#line 218 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	219	303		subcall IMU_SendCommand, __IMU_SendCommand_return
+0	218	306	#line 218 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	219	306	#line 219 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	219	306	#line 219 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	221	306	#line 221 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	221	306	#line 221 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	222	306		mov cb_old, cb
+0	221	308	#line 221 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	221	308	#line 221 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	222	308	#line 222 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	223	308		set __Wait_7qG2_ms_7qG2_000_inline_main, 800
+0	222	311	#line 222 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	8869	311	#line 8869 "NXCDefs.h"
+0	8870	311		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	313	#line 8869 "NXCDefs.h"
+0	222	313	#line 222 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	227	313	#line 227 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	227	313	#line 227 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	228	313		set __IMU_ReadAcceleration_7qG2_port_7qG2_000, 0
+0	227	316	#line 227 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	227	316	#line 227 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	228	316		set __IMU_ReadAcceleration_7qG2_i2cAddr_7qG2_000, 34
+0	227	319	#line 227 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	227	319	#line 227 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	228	319		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000, currAccl
+0	227	321	#line 227 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	228	321		subcall IMU_ReadAcceleration, __IMU_ReadAcceleration_return
+0	227	323	#line 227 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	228	323		mov currAccl, __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000
+0	227	325	#line 227 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	229	325	#line 229 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	230	325		set __Wait_7qG2_ms_7qG2_000_inline_main, 15000
+0	229	328	#line 229 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	8869	328	#line 8869 "NXCDefs.h"
+0	8870	328		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	330	#line 8869 "NXCDefs.h"
+0	229	330	#line 229 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	234	330	#line 234 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	235	330		jmp __ASM_Label_1232
+0	234	332	#line 234 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+0	235	332		exit -1, -1
+1	5724	0		setin __constVal1, __ResetSensorPort, 5
+1	5726	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5727	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5728	11		subret ____ResetSensorSubroutine_return
+2	6558	0	#pragma macro 27
+2	6558	0		acquire __CLSWMutex1
+2	6558	1		index __LSWriteOptionsVar, __LSWriteOptions, __constVal1
+2	6558	5		or __CLSWArgs1.Port, __constVal1, __LSWriteOptionsVar
+2	6558	9		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+2	6558	11		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+2	6558	13		syscall 21, __CLSWArgs1
+2	6558	16		mov __RLSBResult1, __CLSWArgs1.Result
+2	6558	18		release __CLSWMutex1
+2	6558	19	#line 6558 "NXTDefs.h"
+2	6559	19		brtst 5, __RLSBError1, __RLSBResult1
+2	6560	22		set __RLSBIterations1, 60
+2	6562	25	#pragma macro 23
+2	6562	25		acquire __CLSCSMutex1
+2	6562	26		set __CLSCSArgs1.Port, 1
+2	6562	29		syscall 23, __CLSCSArgs1
+2	6562	32		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+2	6562	34		mov __RLSBResult1, __CLSCSArgs1.Result
+2	6562	36		release __CLSCSMutex1
+2	6562	37	#line 6562 "NXTDefs.h"
+2	6563	37		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+2	6564	41		brtst 2, __RLSBError1, __RLSBIterations1
+2	6565	44		brtst 0, __RLSBError1, __RLSBResult1
+2	6566	47		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+2	6568	50		wait 1
+2	6569	52		jmp __RLSBDoCheckStatus1
+2	6571	54		brtst 4, __RLSBReturn1, __RLSBytesCount1
+2	6572	57		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+2	6574	61	#pragma macro 25
+2	6574	61		acquire __CLSRMutex1
+2	6574	62		set __CLSRArgs1.Port, 1
+2	6574	65		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+2	6574	67		syscall 22, __CLSRArgs1
+2	6574	70		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+2	6574	72		mov __RLSBResult1, __CLSRArgs1.Result
+2	6574	74		release __CLSRMutex1
+2	6574	75	#line 6574 "NXTDefs.h"
+2	6575	75		brtst 5, __RLSBError1, __RLSBResult1
+2	6576	78		mov __RLSLastGoodRead1, __RLSReadBuf1
+2	6577	80		jmp __RLSBDone1
+2	6579	82		mov __RLSReadBuf1, __RLSLastGoodRead1
+2	6581	84		arrsize __RLSBytesCount1, __RLSReadBuf1
+2	6583	87		subret ____ReadLSBytes1_return
+3	6669	0	#pragma macro 27
+3	6669	0		acquire __CLSWMutex0
+3	6669	1		acquire __CLSWMutex1
+3	6669	2		acquire __CLSWMutex2
+3	6669	3		acquire __CLSWMutex3
+3	6669	4		index __LSWriteOptionsVar, __LSWriteOptions, __RLSReadPort
+3	6669	8		or __CLSWArgs0.Port, __RLSReadPort, __LSWriteOptionsVar
+3	6669	12		mov __CLSWArgs0.ReturnLen, __RLSBytesCountVar
+3	6669	14		mov __CLSWArgs0.Buffer, __RLSReadBufVar
+3	6669	16		syscall 21, __CLSWArgs0
+3	6669	19		mov __RLSBResultVar, __CLSWArgs0.Result
+3	6669	21		release __CLSWMutex0
+3	6669	22		release __CLSWMutex1
+3	6669	23		release __CLSWMutex2
+3	6669	24		release __CLSWMutex3
+3	6669	25	#line 6669 "NXTDefs.h"
+3	6670	25		brtst 5, __RLSBErrorVar, __RLSBResultVar
+3	6671	28		set __RLSBIterationsVar, 60
+3	6673	31	#pragma macro 23
+3	6673	31		acquire __CLSCSMutex0
+3	6673	32		acquire __CLSCSMutex1
+3	6673	33		acquire __CLSCSMutex2
+3	6673	34		acquire __CLSCSMutex3
+3	6673	35		mov __CLSCSArgs0.Port, __RLSReadPort
+3	6673	37		syscall 23, __CLSCSArgs0
+3	6673	40		mov __RLSBytesCountVar, __CLSCSArgs0.BytesReady
+3	6673	42		mov __RLSBResultVar, __CLSCSArgs0.Result
+3	6673	44		release __CLSCSMutex0
+3	6673	45		release __CLSCSMutex1
+3	6673	46		release __CLSCSMutex2
+3	6673	47		release __CLSCSMutex3
+3	6673	48	#line 6673 "NXTDefs.h"
+3	6674	48		sub __RLSBIterationsVar, __RLSBIterationsVar, __constVal1
+3	6675	52		brtst 2, __RLSBErrorVar, __RLSBIterationsVar
+3	6676	55		brtst 0, __RLSBErrorVar, __RLSBResultVar
+3	6677	58		brtst 4, __RLSBReadyToReadVar, __RLSBResultVar
+3	6679	61		wait 1
+3	6680	63		jmp __RLSBDoCheckStatusVar
+3	6682	65		brtst 4, __RLSBReturnVar, __RLSBytesCountVar
+3	6683	68		arrinit __RLSReadBufVar, __constVal0, __RLSBytesCountVar
+3	6685	72	#pragma macro 25
+3	6685	72		acquire __CLSRMutex0
+3	6685	73		acquire __CLSRMutex1
+3	6685	74		acquire __CLSRMutex2
+3	6685	75		acquire __CLSRMutex3
+3	6685	76		mov __CLSRArgs0.Port, __RLSReadPort
+3	6685	78		mov __CLSRArgs0.BufferLen, __RLSBytesCountVar
+3	6685	80		syscall 22, __CLSRArgs0
+3	6685	83		mov __RLSReadBufVar, __CLSRArgs0.Buffer
+3	6685	85		mov __RLSBResultVar, __CLSRArgs0.Result
+3	6685	87		release __CLSRMutex0
+3	6685	88		release __CLSRMutex1
+3	6685	89		release __CLSRMutex2
+3	6685	90		release __CLSRMutex3
+3	6685	91	#line 6685 "NXTDefs.h"
+3	6686	91		brtst 5, __RLSBErrorVar, __RLSBResultVar
+3	6687	94		mov __RLSLastGoodReadVar, __RLSReadBufVar
+3	6688	96		jmp __RLSBDoneVar
+3	6690	98		mov __RLSReadBufVar, __RLSLastGoodReadVar
+3	6692	100		arrsize __RLSBytesCountVar, __RLSReadBufVar
+3	6694	103		subret ____ReadLSBytesVar_return
+4	71	0	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	72	0		mov __unsigned_stack_001IMU_MLBToInteger, __IMU_MLBToInteger_7qG2_lsb_7qG2_000
+4	71	3	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	71	3	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	72	3		mov __unsigned_stack_002IMU_MLBToInteger, __IMU_MLBToInteger_7qG2_msb_7qG2_000
+4	71	6	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	71	6	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	72	6		set __D0IMU_MLBToInteger, 8
+4	71	9	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	72	9		asl __D0IMU_MLBToInteger, __unsigned_stack_002IMU_MLBToInteger, __D0IMU_MLBToInteger
+4	71	13	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	72	13		add __IMU_MLBToInteger_7qG2_i_7qG2_000, __unsigned_stack_001IMU_MLBToInteger, __D0IMU_MLBToInteger
+4	71	17	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	71	17	#line 71 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	73	17	#line 73 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	74	17		mov __D0IMU_MLBToInteger, __IMU_MLBToInteger_7qG2_i_7qG2_000
+4	73	19	#line 73 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	74	19		subret __IMU_MLBToInteger_return
+4	73	21	#line 73 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	76	21	#line 76 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+4	77	21		subret __IMU_MLBToInteger_return
+5	107	0	#line 107 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	108	0		arrbuild __IMU_SendCommand_7qG2_cmdBuf_7qG2_000, __IMU_SendCommand_7qG2_i2cAddr_7qG2_000, __constVal65, __IMU_SendCommand_7qG2_cmd_7qG2_000
+5	107	6	#line 107 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	107	6	#line 107 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	108	6	#line 108 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	109	6	#pragma macro 27
+5	109	6		acquire __CLSWMutex0
+5	109	7		acquire __CLSWMutex1
+5	109	8		acquire __CLSWMutex2
+5	109	9		acquire __CLSWMutex3
+5	109	10		index __LSWriteOptionsVar, __LSWriteOptions, __IMU_SendCommand_7qG2_port_7qG2_000
+5	109	14		or __CLSWArgs0.Port, __IMU_SendCommand_7qG2_port_7qG2_000, __LSWriteOptionsVar
+5	109	18		mov __CLSWArgs0.ReturnLen, __constVal0
+5	109	21		mov __CLSWArgs0.Buffer, __IMU_SendCommand_7qG2_cmdBuf_7qG2_000
+5	109	23		syscall 21, __CLSWArgs0
+5	109	26		mov __D0IMU_SendCommand, __CLSWArgs0.Result
+5	109	29		release __CLSWMutex0
+5	109	30		release __CLSWMutex1
+5	109	31		release __CLSWMutex2
+5	109	32		release __CLSWMutex3
+5	9039	33	#line 9039 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	108	33	#line 108 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	108	33	#line 108 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	109	33	#line 109 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	110	33	#pragma macro 23
+5	110	33		acquire __CLSCSMutex0
+5	110	34		acquire __CLSCSMutex1
+5	110	35		acquire __CLSCSMutex2
+5	110	36		acquire __CLSCSMutex3
+5	110	37		mov __CLSCSArgs0.Port, __IMU_SendCommand_7qG2_port_7qG2_000
+5	110	39		syscall 23, __CLSCSArgs0
+5	110	42		mov __tmpsbyteIMU_SendCommand, __CLSCSArgs0.BytesReady
+5	110	44		mov __D0IMU_SendCommand, __CLSCSArgs0.Result
+5	110	47		release __CLSCSMutex0
+5	110	48		release __CLSCSMutex1
+5	110	49		release __CLSCSMutex2
+5	110	50		release __CLSCSMutex3
+5	9047	51	#line 9047 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	109	51	#line 109 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	110	51		mov __IMU_SendCommand_7qG2_status_7qG2_000, __D0IMU_SendCommand
+5	110	53	#line 110 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	111	53		mov __signed_stack_001IMU_SendCommand, __IMU_SendCommand_7qG2_status_7qG2_000
+5	110	55	#line 110 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	111	55	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	55		set __D0IMU_SendCommand, 0
+5	111	58	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	58		cmp 1, __D0IMU_SendCommand, __signed_stack_001IMU_SendCommand, __D0IMU_SendCommand
+5	111	62	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	62		brtst 4, __ASM_Label_648, __D0IMU_SendCommand
+5	111	65	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	65	#pragma macro 23
+5	112	65		acquire __CLSCSMutex0
+5	112	66		acquire __CLSCSMutex1
+5	112	67		acquire __CLSCSMutex2
+5	112	68		acquire __CLSCSMutex3
+5	112	69		mov __CLSCSArgs0.Port, __IMU_SendCommand_7qG2_port_7qG2_000
+5	112	71		syscall 23, __CLSCSArgs0
+5	112	74		mov __tmpsbyteIMU_SendCommand, __CLSCSArgs0.BytesReady
+5	112	76		mov __D0IMU_SendCommand, __CLSCSArgs0.Result
+5	112	79		release __CLSCSMutex0
+5	112	80		release __CLSCSMutex1
+5	112	81		release __CLSCSMutex2
+5	112	82		release __CLSCSMutex3
+5	9068	83	#line 9068 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	111	83	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	83		mov __IMU_SendCommand_7qG2_status_7qG2_000, __D0IMU_SendCommand
+5	111	85	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	111	85	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	112	85		jmp __ASM_Label_647
+5	111	87	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	111	87	#line 111 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	118	87	#line 118 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+5	119	87		subret __IMU_SendCommand_return
+6	121	0	#line 121 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	122	0		arrinit __IMU_ReadInteger_7qG2_buf_7qG2_000, __constVal0, __constVal20
+6	123	4	#line 123 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	124	4		set __IMU_ReadInteger_7qG2_result_7qG2_000, 0
+6	123	7	#line 123 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	124	7	#line 124 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	125	7		set __IMU_ReadInteger_7qG2_nByteReady_7qG2_000, 0
+6	124	10	#line 124 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	126	10	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	127	10		arrbuild __IMU_ReadInteger_7qG2_message_7qG2_000, __IMU_ReadInteger_7qG2_i2cAddr_7qG2_000, __IMU_ReadInteger_7qG2_reg_to_read_7qG2_000
+6	126	15	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	126	15	#line 126 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	127	15	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	15	#pragma macro 23
+6	128	15		acquire __CLSCSMutex0
+6	128	16		acquire __CLSCSMutex1
+6	128	17		acquire __CLSCSMutex2
+6	128	18		acquire __CLSCSMutex3
+6	128	19		mov __CLSCSArgs0.Port, __IMU_ReadInteger_7qG2_port_7qG2_000
+6	128	21		syscall 23, __CLSCSArgs0
+6	128	24		mov __IMU_ReadInteger_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+6	128	26		mov __D0IMU_ReadInteger, __CLSCSArgs0.Result
+6	128	29		release __CLSCSMutex0
+6	128	30		release __CLSCSMutex1
+6	128	31		release __CLSCSMutex2
+6	128	32		release __CLSCSMutex3
+6	9136	33	#line 9136 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	127	33	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	33		mov __signed_stack_001IMU_ReadInteger, __D0IMU_ReadInteger
+6	127	35	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	35		set __D0IMU_ReadInteger, 32
+6	127	38	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	38		cmp 4, __D0IMU_ReadInteger, __signed_stack_001IMU_ReadInteger, __D0IMU_ReadInteger
+6	127	42	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	42		brtst 4, __ASM_Label_658, __D0IMU_ReadInteger
+6	127	45	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	127	45	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	45		jmp __ASM_Label_657
+6	127	47	#line 127 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	47	#line 128 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	129	47		set __IMU_ReadInteger_7qG2_count_7qG2_000, 2
+6	128	50	#line 128 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	128	50	#line 128 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	129	50	#line 129 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	50	#pragma macro 28
+6	130	50		acquire __RLSBmutex0
+6	130	51		acquire __RLSBmutex1
+6	130	52		acquire __RLSBmutex2
+6	130	53		acquire __RLSBmutex3
+6	130	54		mov __RLSReadPort, __IMU_ReadInteger_7qG2_port_7qG2_000
+6	130	56		mov __RLSReadBufVar, __IMU_ReadInteger_7qG2_message_7qG2_000
+6	130	58		mov __RLSBytesCountVar, __IMU_ReadInteger_7qG2_count_7qG2_000
+6	130	60		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+6	130	63		tst 4, __D0IMU_ReadInteger, __RLSBResultVar
+6	130	66		mov __IMU_ReadInteger_7qG2_count_7qG2_000, __RLSBytesCountVar
+6	130	68		mov __IMU_ReadInteger_7qG2_buf_7qG2_000, __RLSReadBufVar
+6	130	70		release __RLSBmutex0
+6	130	71		release __RLSBmutex1
+6	130	72		release __RLSBmutex2
+6	130	73		release __RLSBmutex3
+6	9160	74	#line 9160 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	74	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	74		tst 5, __D0IMU_ReadInteger, __D0IMU_ReadInteger
+6	130	77	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	77		brtst 4, __ASM_Label_665, __D0IMU_ReadInteger
+6	130	80	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	80		set __signed_stack_001IMU_ReadInteger, 0
+6	130	83	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	83	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	83		index __unsigned_stack_001IMU_ReadInteger, __IMU_ReadInteger_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadInteger
+6	130	87	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	87	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	87	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	87		set __signed_stack_002IMU_ReadInteger, 1
+6	130	90	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	90	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	90		index __unsigned_stack_002IMU_ReadInteger, __IMU_ReadInteger_7qG2_buf_7qG2_000, __signed_stack_002IMU_ReadInteger
+6	130	94	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	94	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	94	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	94		set __D0IMU_ReadInteger, 8
+6	130	97	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	97		asl __D0IMU_ReadInteger, __unsigned_stack_002IMU_ReadInteger, __D0IMU_ReadInteger
+6	130	101	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	131	101		add __IMU_ReadInteger_7qG2_result_7qG2_000, __unsigned_stack_001IMU_ReadInteger, __D0IMU_ReadInteger
+6	130	105	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	130	105	#line 130 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	132	105	#line 132 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	132	105	#line 132 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	133	105		mov __D0IMU_ReadInteger, __IMU_ReadInteger_7qG2_result_7qG2_000
+6	132	107	#line 132 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	133	107		subret __IMU_ReadInteger_return
+6	132	109	#line 132 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	135	109	#line 135 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+6	136	109		subret __IMU_ReadInteger_return
+7	157	0	#line 157 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	158	0		arrinit __IMU_ReadGyro_7qG2_buf_7qG2_000, __constVal0, __constVal12
+7	160	4	#line 160 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	161	4		set __IMU_ReadGyro_7qG2_nByteReady_7qG2_000, 0
+7	160	7	#line 160 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	162	7	#line 162 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	163	7		arrbuild __IMU_ReadGyro_7qG2_message_7qG2_000, __IMU_ReadGyro_7qG2_i2cAddr_7qG2_000, __constVal83
+7	162	12	#line 162 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	162	12	#line 162 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	163	12	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	12	#pragma macro 23
+7	164	12		acquire __CLSCSMutex0
+7	164	13		acquire __CLSCSMutex1
+7	164	14		acquire __CLSCSMutex2
+7	164	15		acquire __CLSCSMutex3
+7	164	16		mov __CLSCSArgs0.Port, __IMU_ReadGyro_7qG2_port_7qG2_000
+7	164	18		syscall 23, __CLSCSArgs0
+7	164	21		mov __IMU_ReadGyro_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+7	164	23		mov __D0IMU_ReadGyro, __CLSCSArgs0.Result
+7	164	26		release __CLSCSMutex0
+7	164	27		release __CLSCSMutex1
+7	164	28		release __CLSCSMutex2
+7	164	29		release __CLSCSMutex3
+7	9465	30	#line 9465 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	163	30	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	30		mov __signed_stack_001IMU_ReadGyro, __D0IMU_ReadGyro
+7	163	32	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	32		set __D0IMU_ReadGyro, 32
+7	163	35	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	35		cmp 4, __D0IMU_ReadGyro, __signed_stack_001IMU_ReadGyro, __D0IMU_ReadGyro
+7	163	39	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	39		brtst 4, __ASM_Label_698, __D0IMU_ReadGyro
+7	163	42	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	163	42	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	42		jmp __ASM_Label_697
+7	163	44	#line 163 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	44	#line 164 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	165	44		set __IMU_ReadGyro_7qG2_count_7qG2_000, 6
+7	164	47	#line 164 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	164	47	#line 164 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	165	47	#line 165 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	166	47	#pragma macro 28
+7	166	47		acquire __RLSBmutex0
+7	166	48		acquire __RLSBmutex1
+7	166	49		acquire __RLSBmutex2
+7	166	50		acquire __RLSBmutex3
+7	166	51		mov __RLSReadPort, __IMU_ReadGyro_7qG2_port_7qG2_000
+7	166	53		mov __RLSReadBufVar, __IMU_ReadGyro_7qG2_message_7qG2_000
+7	166	55		mov __RLSBytesCountVar, __IMU_ReadGyro_7qG2_count_7qG2_000
+7	166	57		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+7	166	60		tst 4, __D0IMU_ReadGyro, __RLSBResultVar
+7	166	63		mov __IMU_ReadGyro_7qG2_count_7qG2_000, __RLSBytesCountVar
+7	166	65		mov __IMU_ReadGyro_7qG2_buf_7qG2_000, __RLSReadBufVar
+7	166	67		release __RLSBmutex0
+7	166	68		release __RLSBmutex1
+7	166	69		release __RLSBmutex2
+7	166	70		release __RLSBmutex3
+7	9489	71	#line 9489 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	165	71	#line 165 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	166	71		mov __IMU_ReadGyro_7qG2_e_7qG2_000, __D0IMU_ReadGyro
+7	165	73	#line 165 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	165	73	#line 165 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	166	73	#line 166 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	167	73	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	73		tst 5, __D0IMU_ReadGyro, __D0IMU_ReadGyro
+7	167	76	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	76		brtst 4, __ASM_Label_707, __D0IMU_ReadGyro
+7	167	79	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	79		set __signed_stack_001IMU_ReadGyro, 0
+7	167	82	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	167	82	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	82		index __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx_l, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	167	86	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	167	86	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	167	86	#line 167 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	86	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	86		set __signed_stack_001IMU_ReadGyro, 1
+7	168	89	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	89	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	89		index __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx_h, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	168	93	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	93	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	168	93	#line 168 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	93	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	93		set __signed_stack_001IMU_ReadGyro, 2
+7	169	96	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	96	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	96		index __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy_l, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	169	100	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	100	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	169	100	#line 169 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	100	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	100		set __signed_stack_001IMU_ReadGyro, 3
+7	170	103	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	103	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	103		index __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy_h, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	170	107	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	107	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	170	107	#line 170 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	107	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	107		set __signed_stack_001IMU_ReadGyro, 4
+7	171	110	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	110	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	110		index __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz_l, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	171	114	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	114	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	171	114	#line 171 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	114	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	114		set __signed_stack_001IMU_ReadGyro, 5
+7	172	117	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	117	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	117		index __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz_h, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	172	121	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	121	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	172	121	#line 172 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	121	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	121		set __signed_stack_001IMU_ReadGyro, 0
+7	173	124	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	124	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	124		index __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	173	128	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	128	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	128	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	128		set __signed_stack_001IMU_ReadGyro, 1
+7	173	131	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	131	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	131		index __IMU_MLBToInteger_7qG2_msb_7qG2_000, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	173	135	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	135	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	135	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	135		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+7	173	138	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	138		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx, __D0IMU_MLBToInteger
+7	173	141	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	173	141	#line 173 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	141	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	141		set __signed_stack_001IMU_ReadGyro, 2
+7	174	144	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	144	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	144		index __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	174	148	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	148	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	148	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	148		set __signed_stack_001IMU_ReadGyro, 3
+7	174	151	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	151	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	151		index __IMU_MLBToInteger_7qG2_msb_7qG2_000, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	174	155	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	155	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	155	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	155		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+7	174	158	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	158		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy, __D0IMU_MLBToInteger
+7	174	161	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	174	161	#line 174 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	161	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	161		set __signed_stack_001IMU_ReadGyro, 4
+7	175	164	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	164	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	164		index __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	175	168	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	168	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	168	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	168		set __signed_stack_001IMU_ReadGyro, 5
+7	175	171	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	171	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	171		index __IMU_MLBToInteger_7qG2_msb_7qG2_000, __IMU_ReadGyro_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadGyro
+7	175	175	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	175	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	175	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	175		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+7	175	178	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	176	178		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz, __D0IMU_MLBToInteger
+7	175	181	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	175	181	#line 175 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	177	181	#line 177 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	178	181		jmp __ASM_Label_762
+7	177	183	#line 177 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	178	183		set __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gx, 0
+7	177	186	#line 177 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	177	186	#line 177 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	178	186	#line 178 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	179	186		set __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gy, 0
+7	178	189	#line 178 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	178	189	#line 178 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	179	189	#line 179 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	180	189		set __IMU_ReadGyro_7qG2_currGyro_7qG2_000.gz, 0
+7	179	192	#line 179 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	179	192	#line 179 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	181	192	#line 181 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	181	192	#line 181 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	182	192		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000.error, __IMU_ReadGyro_7qG2_e_7qG2_000
+7	181	195	#line 181 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	181	195	#line 181 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	184	195	#line 184 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+7	185	195		subret __IMU_ReadGyro_return
+8	208	0	#line 208 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	209	0		arrinit __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __constVal0, __constVal12
+8	210	4	#line 210 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	211	4		set __IMU_ReadAcceleration_7qG2_nByteReady_7qG2_000, 0
+8	210	7	#line 210 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	212	7	#line 212 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	213	7		arrbuild __IMU_ReadAcceleration_7qG2_message_7qG2_000, __IMU_ReadAcceleration_7qG2_i2cAddr_7qG2_000, __constVal66
+8	212	12	#line 212 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	212	12	#line 212 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	213	12	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	12	#pragma macro 23
+8	214	12		acquire __CLSCSMutex0
+8	214	13		acquire __CLSCSMutex1
+8	214	14		acquire __CLSCSMutex2
+8	214	15		acquire __CLSCSMutex3
+8	214	16		mov __CLSCSArgs0.Port, __IMU_ReadAcceleration_7qG2_port_7qG2_000
+8	214	18		syscall 23, __CLSCSArgs0
+8	214	21		mov __IMU_ReadAcceleration_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+8	214	23		mov __D0IMU_ReadAcceleration, __CLSCSArgs0.Result
+8	214	26		release __CLSCSMutex0
+8	214	27		release __CLSCSMutex1
+8	214	28		release __CLSCSMutex2
+8	214	29		release __CLSCSMutex3
+8	10024	30	#line 10024 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	213	30	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	30		mov __signed_stack_001IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	213	32	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	32		set __D0IMU_ReadAcceleration, 32
+8	213	35	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	35		cmp 4, __D0IMU_ReadAcceleration, __signed_stack_001IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	213	39	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	39		brtst 4, __ASM_Label_822, __D0IMU_ReadAcceleration
+8	213	42	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	213	42	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	42		jmp __ASM_Label_821
+8	213	44	#line 213 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	44	#line 214 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	215	44		set __IMU_ReadAcceleration_7qG2_count_7qG2_000, 3
+8	214	47	#line 214 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	214	47	#line 214 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	215	47	#line 215 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	216	47	#pragma macro 28
+8	216	47		acquire __RLSBmutex0
+8	216	48		acquire __RLSBmutex1
+8	216	49		acquire __RLSBmutex2
+8	216	50		acquire __RLSBmutex3
+8	216	51		mov __RLSReadPort, __IMU_ReadAcceleration_7qG2_port_7qG2_000
+8	216	53		mov __RLSReadBufVar, __IMU_ReadAcceleration_7qG2_message_7qG2_000
+8	216	55		mov __RLSBytesCountVar, __IMU_ReadAcceleration_7qG2_count_7qG2_000
+8	216	57		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+8	216	60		tst 4, __D0IMU_ReadAcceleration, __RLSBResultVar
+8	216	63		mov __IMU_ReadAcceleration_7qG2_count_7qG2_000, __RLSBytesCountVar
+8	216	65		mov __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __RLSReadBufVar
+8	216	67		release __RLSBmutex0
+8	216	68		release __RLSBmutex1
+8	216	69		release __RLSBmutex2
+8	216	70		release __RLSBmutex3
+8	10048	71	#line 10048 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	215	71	#line 215 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	216	71		mov __IMU_ReadAcceleration_7qG2_e_7qG2_000, __D0IMU_ReadAcceleration
+8	215	73	#line 215 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	215	73	#line 215 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	216	73	#line 216 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	217	73	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	73		tst 5, __D0IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	217	76	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	76		brtst 4, __ASM_Label_831, __D0IMU_ReadAcceleration
+8	217	79	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	79		set __signed_stack_001IMU_ReadAcceleration, 0
+8	217	82	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	217	82	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	82		index __unsigned_stack_001IMU_ReadAcceleration, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	217	86	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	217	86	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	217	86	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	86		set __D0IMU_ReadAcceleration, 128
+8	217	89	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	89		sub __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tx, __unsigned_stack_001IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	217	93	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	217	93	#line 217 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	93	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	93		set __signed_stack_001IMU_ReadAcceleration, 1
+8	218	96	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	96	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	96		index __unsigned_stack_001IMU_ReadAcceleration, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	218	100	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	100	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	100	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	100		set __D0IMU_ReadAcceleration, 128
+8	218	103	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	103		sub __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ty, __unsigned_stack_001IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	218	107	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	218	107	#line 218 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	107	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	220	107		set __signed_stack_001IMU_ReadAcceleration, 2
+8	219	110	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	110	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	220	110		index __unsigned_stack_001IMU_ReadAcceleration, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	219	114	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	114	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	114	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	220	114		set __D0IMU_ReadAcceleration, 128
+8	219	117	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	220	117		sub __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tz, __unsigned_stack_001IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	219	121	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	219	121	#line 219 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	221	121	#line 221 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	222	121		jmp __ASM_Label_844
+8	221	123	#line 221 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	222	123		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tx, 0
+8	221	126	#line 221 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	221	126	#line 221 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	222	126	#line 222 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	223	126		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ty, 0
+8	222	129	#line 222 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	222	129	#line 222 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	223	129	#line 223 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	224	129		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.tz, 0
+8	223	132	#line 223 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	223	132	#line 223 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	226	132	#line 226 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	226	132	#line 226 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	227	132		arrbuild __IMU_ReadAcceleration_7qG2_message_7qG2_000, __IMU_ReadAcceleration_7qG2_i2cAddr_7qG2_000, __constVal69
+8	226	137	#line 226 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	226	137	#line 226 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	227	137	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	137	#pragma macro 23
+8	228	137		acquire __CLSCSMutex0
+8	228	138		acquire __CLSCSMutex1
+8	228	139		acquire __CLSCSMutex2
+8	228	140		acquire __CLSCSMutex3
+8	228	141		mov __CLSCSArgs0.Port, __IMU_ReadAcceleration_7qG2_port_7qG2_000
+8	228	143		syscall 23, __CLSCSArgs0
+8	228	146		mov __IMU_ReadAcceleration_7qG2_nByteReady_7qG2_000, __CLSCSArgs0.BytesReady
+8	228	148		mov __D0IMU_ReadAcceleration, __CLSCSArgs0.Result
+8	228	151		release __CLSCSMutex0
+8	228	152		release __CLSCSMutex1
+8	228	153		release __CLSCSMutex2
+8	228	154		release __CLSCSMutex3
+8	10164	155	#line 10164 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	227	155	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	155		mov __signed_stack_001IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	227	157	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	157		set __D0IMU_ReadAcceleration, 32
+8	227	160	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	160		cmp 4, __D0IMU_ReadAcceleration, __signed_stack_001IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	227	164	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	164		brtst 4, __ASM_Label_852, __D0IMU_ReadAcceleration
+8	227	167	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	227	167	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	167		jmp __ASM_Label_851
+8	227	169	#line 227 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	169	#line 228 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	229	169		set __IMU_ReadAcceleration_7qG2_count_7qG2_000, 6
+8	228	172	#line 228 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	228	172	#line 228 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	229	172	#line 229 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	230	172	#pragma macro 28
+8	230	172		acquire __RLSBmutex0
+8	230	173		acquire __RLSBmutex1
+8	230	174		acquire __RLSBmutex2
+8	230	175		acquire __RLSBmutex3
+8	230	176		mov __RLSReadPort, __IMU_ReadAcceleration_7qG2_port_7qG2_000
+8	230	178		mov __RLSReadBufVar, __IMU_ReadAcceleration_7qG2_message_7qG2_000
+8	230	180		mov __RLSBytesCountVar, __IMU_ReadAcceleration_7qG2_count_7qG2_000
+8	230	182		subcall __ReadLSBytesVar, ____ReadLSBytesVar_return
+8	230	185		tst 4, __D0IMU_ReadAcceleration, __RLSBResultVar
+8	230	188		mov __IMU_ReadAcceleration_7qG2_count_7qG2_000, __RLSBytesCountVar
+8	230	190		mov __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __RLSReadBufVar
+8	230	192		release __RLSBmutex0
+8	230	193		release __RLSBmutex1
+8	230	194		release __RLSBmutex2
+8	230	195		release __RLSBmutex3
+8	10188	196	#line 10188 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	229	196	#line 229 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	230	196		mov __IMU_ReadAcceleration_7qG2_e_7qG2_000, __D0IMU_ReadAcceleration
+8	229	198	#line 229 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	229	198	#line 229 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	230	198	#line 230 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	231	198	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	198		tst 5, __D0IMU_ReadAcceleration, __D0IMU_ReadAcceleration
+8	231	201	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	201		brtst 4, __ASM_Label_861, __D0IMU_ReadAcceleration
+8	231	204	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	204		set __signed_stack_001IMU_ReadAcceleration, 0
+8	231	207	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	231	207	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	207		index __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax_l, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	231	211	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	231	211	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	231	211	#line 231 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	211	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	211		set __signed_stack_001IMU_ReadAcceleration, 1
+8	232	214	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	214	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	214		index __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax_h, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	232	218	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	218	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	232	218	#line 232 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	218	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	218		set __signed_stack_001IMU_ReadAcceleration, 2
+8	233	221	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	221	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	221		index __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay_l, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	233	225	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	225	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	233	225	#line 233 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	225	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	225		set __signed_stack_001IMU_ReadAcceleration, 3
+8	234	228	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	228	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	228		index __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay_h, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	234	232	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	232	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	234	232	#line 234 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	232	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	232		set __signed_stack_001IMU_ReadAcceleration, 4
+8	235	235	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	235	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	235		index __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az_l, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	235	239	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	239	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	235	239	#line 235 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	239	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	237	239		set __signed_stack_001IMU_ReadAcceleration, 5
+8	236	242	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	242	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	237	242		index __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az_h, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	236	246	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	246	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	236	246	#line 236 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	246	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	246		set __signed_stack_001IMU_ReadAcceleration, 0
+8	238	249	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	249	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	249		index __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	238	253	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	253	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	253	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	253		set __signed_stack_001IMU_ReadAcceleration, 1
+8	238	256	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	256	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	256		index __IMU_MLBToInteger_7qG2_msb_7qG2_000, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	238	260	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	260	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	260	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	260		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+8	238	263	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	263		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax, __D0IMU_MLBToInteger
+8	238	266	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	238	266	#line 238 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	266	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	266		set __signed_stack_001IMU_ReadAcceleration, 2
+8	239	269	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	269	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	269		index __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	239	273	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	273	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	273	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	273		set __signed_stack_001IMU_ReadAcceleration, 3
+8	239	276	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	276	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	276		index __IMU_MLBToInteger_7qG2_msb_7qG2_000, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	239	280	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	280	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	280	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	280		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+8	239	283	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	283		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay, __D0IMU_MLBToInteger
+8	239	286	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	239	286	#line 239 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	286	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	286		set __signed_stack_001IMU_ReadAcceleration, 4
+8	240	289	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	289	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	289		index __IMU_MLBToInteger_7qG2_lsb_7qG2_000, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	240	293	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	293	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	293	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	293		set __signed_stack_001IMU_ReadAcceleration, 5
+8	240	296	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	296	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	296		index __IMU_MLBToInteger_7qG2_msb_7qG2_000, __IMU_ReadAcceleration_7qG2_buf_7qG2_000, __signed_stack_001IMU_ReadAcceleration
+8	240	300	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	300	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	300	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	300		subcall IMU_MLBToInteger, __IMU_MLBToInteger_return
+8	240	303	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	241	303		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az, __D0IMU_MLBToInteger
+8	240	306	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	240	306	#line 240 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	242	306	#line 242 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	243	306		jmp __ASM_Label_916
+8	242	308	#line 242 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	243	308		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ax, 0
+8	242	311	#line 242 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	242	311	#line 242 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	243	311	#line 243 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	244	311		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.ay, 0
+8	243	314	#line 243 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	243	314	#line 243 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	244	314	#line 244 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	245	314		set __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.az, 0
+8	244	317	#line 244 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	244	317	#line 244 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	246	317	#line 246 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	246	317	#line 246 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	247	317		mov __IMU_ReadAcceleration_7qG2_currAccl_7qG2_000.error, __IMU_ReadAcceleration_7qG2_e_7qG2_000
+8	246	320	#line 246 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	246	320	#line 246 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	249	320	#line 249 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+8	250	320		subret __IMU_ReadAcceleration_return
+9	277	0	#line 277 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+9	278	0		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init, __IMU_Init_7qG2_port_7qG2_000
+9	277	2	#line 277 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+9	277	2	#line 277 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+9	278	2		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_IMU_Init, __constVal1
+9	4523	4	#line 4523 "NXCDefs.h"
+9	4524	4		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init
+9	4523	6	#line 4523 "NXCDefs.h"
+9	4523	6	#line 4523 "NXCDefs.h"
+9	4524	6		mov __DU0SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_IMU_Init
+9	4523	8	#line 4523 "NXCDefs.h"
+9	4524	8		tst 5, __D0SetSensorLowspeed_inline_IMU_Init, __DU0SetSensorLowspeed_inline_IMU_Init
+9	4523	11	#line 4523 "NXCDefs.h"
+9	4524	11		brtst 4, __005__ASM_Label_36, __D0SetSensorLowspeed_inline_IMU_Init
+9	4523	14	#line 4523 "NXCDefs.h"
+9	4524	14		set __DU0SetSensorLowspeed_inline_IMU_Init, 11
+9	4523	17	#line 4523 "NXCDefs.h"
+9	4523	17	#line 4523 "NXCDefs.h"
+9	4524	17		jmp __005__ASM_Label_37
+9	4523	19	#line 4523 "NXCDefs.h"
+9	4524	19		set __DU0SetSensorLowspeed_inline_IMU_Init, 10
+9	4523	22	#line 4523 "NXCDefs.h"
+9	4523	22	#line 4523 "NXCDefs.h"
+9	4524	22		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __DU0SetSensorLowspeed_inline_IMU_Init
+9	4428	24	#line 4428 "NXCDefs.h"
+9	4429	24		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, 0
+9	4428	28	#line 4428 "NXCDefs.h"
+9	4523	28	#line 4523 "NXCDefs.h"
+9	4524	28	#line 4524 "NXCDefs.h"
+9	4525	28		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init
+9	4524	30	#line 4524 "NXCDefs.h"
+9	4524	30	#line 4524 "NXCDefs.h"
+9	4525	30		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, 0
+9	4524	33	#line 4524 "NXCDefs.h"
+9	4441	33	#line 4441 "NXCDefs.h"
+9	4442	33		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, 1
+9	4441	37	#line 4441 "NXCDefs.h"
+9	4524	37	#line 4524 "NXCDefs.h"
+9	4525	37	#line 4525 "NXCDefs.h"
+9	4526	37		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_IMU_Init
+9	4525	39	#line 4525 "NXCDefs.h"
+9	4459	39	#line 4459 "NXCDefs.h"
+9	4460	39	#pragma macro 4
+9	4460	39		acquire __ResetSensorMutex
+9	4460	40		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_IMU_Init
+9	4460	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+9	4460	44		release __ResetSensorMutex
+9	10713	45	#line 10713 "NXCDefs.h"
+9	4459	45	#line 4459 "NXCDefs.h"
+9	4525	45	#line 4525 "NXCDefs.h"
+9	277	45	#line 277 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+9	280	45	#line 280 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+9	281	45		subret __IMU_Init_return
+10	282	0	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	283	0		mov __IMU_ReadInteger_7qG2_port_7qG2_000, __IMU_ReadCompassHeading_7qG2_port_7qG2_000
+10	282	2	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	282	2	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	283	2		mov __IMU_ReadInteger_7qG2_i2cAddr_7qG2_000, __IMU_ReadCompassHeading_7qG2_i2cAddr_7qG2_000
+10	282	4	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	282	4	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	283	4		set __IMU_ReadInteger_7qG2_reg_to_read_7qG2_000, 75
+10	282	7	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	282	7	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	283	7		subcall IMU_ReadInteger, __IMU_ReadInteger_return
+10	282	10	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	283	10		mov __D0IMU_ReadCompassHeading, __D0IMU_ReadInteger
+10	282	12	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	283	12		subret __IMU_ReadCompassHeading_return
+10	282	14	#line 282 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	285	14	#line 285 "C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc"
+10	286	14		subret __IMU_ReadCompassHeading_return
+11	76	0	#line 76 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	77	0		set __D0button_handler, 1
+11	78	3	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	3		tst 5, __D0button_handler, __D0button_handler
+11	78	6	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	6		brtst 4, __ASM_Label_1017, __D0button_handler
+11	78	9	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	9		set __signed_stack_001button_handler, 3
+11	78	12	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	78	12	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	12		set __D0button_handler, 1
+11	78	15	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	15		acquire __RBtnMutex
+11	78	16	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	16		mov __RBtnArgs.Index, __signed_stack_001button_handler
+11	78	19	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	19		mov __RBtnArgs.Reset, __D0button_handler
+11	78	22	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	22		syscall 20, __RBtnArgs
+11	78	25	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	25		mov __D0button_handler, __RBtnArgs.Pressed
+11	78	28	#line 78 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	28		release __RBtnMutex
+11	79	29	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	29		tst 5, __D0button_handler, __D0button_handler
+11	79	32	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	32		brtst 4, __ASM_Label_1026, __D0button_handler
+11	79	35	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	35		set __signed_stack_001button_handler, 3
+11	79	38	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	38	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	38		set __D0button_handler, 1
+11	79	41	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	41		acquire __RBtnMutex
+11	79	42	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	42		mov __RBtnArgs.Index, __signed_stack_001button_handler
+11	79	45	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	45		mov __RBtnArgs.Reset, __D0button_handler
+11	79	48	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	48		syscall 20, __RBtnArgs
+11	79	51	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	51		mov __D0button_handler, __RBtnArgs.Pressed
+11	79	54	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	54		release __RBtnMutex
+11	79	55	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	55		tst 5, __D0button_handler, __D0button_handler
+11	79	58	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	58		brtst 4, __ASM_Label_1028, __D0button_handler
+11	79	61	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	79	61	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	61		jmp __ASM_Label_1027
+11	79	63	#line 79 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	63	#line 80 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	81	63		mov __signed_stack_001button_handler, cb
+11	80	65	#line 80 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	80	65	#line 80 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	81	65		set __D0button_handler, 4
+11	80	68	#line 80 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	81	68		cmp 3, __D0button_handler, __signed_stack_001button_handler, __D0button_handler
+11	81	72	#line 81 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	82	72		brtst 4, __ASM_Label_1037, __D0button_handler
+11	81	75	#line 81 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	82	75		set cb, 0
+11	81	78	#line 81 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	81	78	#line 81 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	83	78	#line 83 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	84	78		jmp __ASM_Label_1040
+11	83	80	#line 83 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	84	80		add cb, cb, __constVal1
+11	83	84	#line 83 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	87	84	#line 87 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	87	84	#line 87 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	87	84	#line 87 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	88	84		set __Wait_7qG2_ms_7qG2_000_inline_button_handler, 100
+11	87	87	#line 87 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	8869	87	#line 8869 "NXCDefs.h"
+11	8870	87		waitv __Wait_7qG2_ms_7qG2_000_inline_button_handler
+11	8869	89	#line 8869 "NXCDefs.h"
+11	87	89	#line 87 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	91	89	#line 91 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	92	89		jmp __ASM_Label_1016
+11	91	91	#line 91 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+11	92	91		exit -1, -1
+12	117	0	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	0		set __signed_stack_001read_gyros, 880
+12	117	3	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	117	3	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	3		set __signed_stack_002read_gyros, 500
+12	117	6	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	117	6	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	6		set __signed_stack_003read_gyros, 4
+12	117	9	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	117	9	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	9		set __D0read_gyros, 0
+12	117	12	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	12		acquire __SPTArgsMutex
+12	117	13	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	13		mov __SPTArgs.Frequency, __signed_stack_001read_gyros
+12	117	15	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	15		mov __SPTArgs.Duration, __signed_stack_002read_gyros
+12	117	17	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	17		mov __SPTArgs.Volume, __signed_stack_003read_gyros
+12	117	19	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	19		mov __SPTArgs.Loop, __D0read_gyros
+12	117	22	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	22		syscall 10, __SPTArgs
+12	117	25	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	25		mov __D0read_gyros, __SPTArgs.Result
+12	117	28	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	28		release __SPTArgsMutex
+12	117	29	#line 117 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	118	29	#line 118 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	119	29		set __D0read_gyros, 1
+12	119	32	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	120	32		tst 5, __D0read_gyros, __D0read_gyros
+12	119	35	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	120	35		brtst 4, __ASM_Label_1083, __D0read_gyros
+12	119	38	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	120	38		gettick T
+12	119	40	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	119	40	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	119	40	#line 119 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	120	40	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	121	40		getin __signed_stack_001read_gyros, __constVal2, 2
+12	120	44	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	120	44	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	120	44	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	121	44		sub HTgyro_val, __signed_stack_001read_gyros, g_offset
+12	120	48	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	120	48	#line 120 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	121	48	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	122	48		mov __D0read_gyros, HTgyro_val
+12	121	50	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	122	50		abs __signed_stack_001read_gyros, __D0read_gyros
+12	121	53	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	121	53	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	122	53		set __D0read_gyros, 3
+12	121	56	#line 121 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	122	56		cmp 1, __D0read_gyros, __signed_stack_001read_gyros, __D0read_gyros
+12	122	60	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	123	60		brtst 4, __ASM_Label_1094, __D0read_gyros
+12	122	63	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	123	63		mov __float_stack_001read_gyros, prevHeading
+12	122	65	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	122	65	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	122	65	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	122	65	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	122	65	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	123	65		mul __signed_stack_002read_gyros, HTgyro_val, deltaT
+12	122	69	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	122	69	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	123	69		set __D0read_gyros, 1000
+12	122	72	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	123	72		div __D0read_gyros, __signed_stack_002read_gyros, __D0read_gyros
+12	122	76	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	123	76		add currHeading, __float_stack_001read_gyros, __D0read_gyros
+12	122	80	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	122	80	#line 122 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	123	80	#line 123 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	124	80		mov __float_stack_001read_gyros, currHeading
+12	123	82	#line 123 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	124	82	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	125	82		mov __DF0read_gyros, __constVal360
+12	124	84	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	125	84		cmp 1, __D0read_gyros, __float_stack_001read_gyros, __DF0read_gyros
+12	124	88	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	125	88		brtst 4, __ASM_Label_1101, __D0read_gyros
+12	124	91	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	125	91		set __D0read_gyros, 360
+12	124	94	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	125	94		sub currHeading, currHeading, __D0read_gyros
+12	124	98	#line 124 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	125	98	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	126	98		jmp __ASM_Label_1104
+12	125	100	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	126	100		mov __float_stack_001read_gyros, currHeading
+12	125	102	#line 125 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	126	102	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	127	102		mov __DF0read_gyros, __constVal0
+12	126	104	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	127	104		cmp 0, __D0read_gyros, __float_stack_001read_gyros, __DF0read_gyros
+12	126	108	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	127	108		brtst 4, __ASM_Label_1107, __D0read_gyros
+12	126	111	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	127	111		set __D0read_gyros, 360
+12	126	114	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	127	114		add currHeading, currHeading, __D0read_gyros
+12	126	118	#line 126 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	127	118	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	127	118	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	127	118	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	128	118		mov prevHeading, currHeading
+12	127	120	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	127	120	#line 127 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	128	120	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	129	120		set __IMU_ReadGyro_7qG2_port_7qG2_000, 0
+12	128	123	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	128	123	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	129	123		set __IMU_ReadGyro_7qG2_i2cAddr_7qG2_000, 34
+12	128	126	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	128	126	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	129	126		mov __IMU_ReadGyro_7qG2_currGyro_7qG2_000, currGyro
+12	128	128	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	129	128		subcall IMU_ReadGyro, __IMU_ReadGyro_return
+12	128	130	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	129	130		mov currGyro, __IMU_ReadGyro_7qG2_currGyro_7qG2_000
+12	128	132	#line 128 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	129	132	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	130	132		mov MSgyro_val, currGyro.gz
+12	129	135	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	129	135	#line 129 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	130	135	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	131	135		mov __D0read_gyros, currGyro.gz
+12	130	138	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	131	138		abs __signed_stack_001read_gyros, __D0read_gyros
+12	130	141	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	130	141	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	131	141		set __D0read_gyros, 3
+12	130	144	#line 130 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	131	144		cmp 1, __D0read_gyros, __signed_stack_001read_gyros, __D0read_gyros
+12	131	148	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	132	148		brtst 4, __ASM_Label_1122, __D0read_gyros
+12	131	151	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	132	151		mov __float_stack_001read_gyros, MSprevHeading
+12	131	153	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	131	153	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	131	153	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	131	153	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	131	153	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	132	153		mul __signed_stack_002read_gyros, MSgyro_val, deltaT
+12	131	157	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	131	157	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	132	157		set __D0read_gyros, 1000
+12	131	160	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	132	160		div __D0read_gyros, __signed_stack_002read_gyros, __D0read_gyros
+12	131	164	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	132	164		add MScurrHeading, __float_stack_001read_gyros, __D0read_gyros
+12	131	168	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	131	168	#line 131 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	132	168	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	133	168		mov __float_stack_001read_gyros, MScurrHeading
+12	132	170	#line 132 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	133	170	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	134	170		mov __DF0read_gyros, __constVal360
+12	133	172	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	134	172		cmp 1, __D0read_gyros, __float_stack_001read_gyros, __DF0read_gyros
+12	133	176	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	134	176		brtst 4, __ASM_Label_1129, __D0read_gyros
+12	133	179	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	134	179		set __D0read_gyros, 360
+12	133	182	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	134	182		sub MScurrHeading, MScurrHeading, __D0read_gyros
+12	133	186	#line 133 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	134	186	#line 134 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	135	186		jmp __ASM_Label_1132
+12	134	188	#line 134 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	135	188		mov __float_stack_001read_gyros, MScurrHeading
+12	134	190	#line 134 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	135	190	#line 135 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	136	190		mov __DF0read_gyros, __constVal0
+12	135	192	#line 135 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	136	192		cmp 0, __D0read_gyros, __float_stack_001read_gyros, __DF0read_gyros
+12	135	196	#line 135 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	136	196		brtst 4, __ASM_Label_1135, __D0read_gyros
+12	135	199	#line 135 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	136	199		set __D0read_gyros, 360
+12	135	202	#line 135 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	136	202		add MScurrHeading, MScurrHeading, __D0read_gyros
+12	135	206	#line 135 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	136	206	#line 136 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	136	206	#line 136 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	136	206	#line 136 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	137	206		mov MSprevHeading, MScurrHeading
+12	136	208	#line 136 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	136	208	#line 136 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	137	208	#line 137 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	138	208		set __Wait_7qG2_ms_7qG2_000_inline_read_gyros, 100
+12	137	211	#line 137 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	8869	211	#line 8869 "NXCDefs.h"
+12	8870	211		waitv __Wait_7qG2_ms_7qG2_000_inline_read_gyros
+12	8869	213	#line 8869 "NXCDefs.h"
+12	137	213	#line 137 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	138	213	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	139	213		gettick __unsigned_stack_001read_gyros
+12	138	215	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	138	215	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	138	215	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	139	215		sub deltaT, __unsigned_stack_001read_gyros, T
+12	138	219	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	138	219	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	138	219	#line 138 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	141	219	#line 141 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	142	219	#line 142 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	144	219	#line 144 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	145	219		jmp __ASM_Label_1082
+12	144	221	#line 144 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+12	145	221		exit -1, -1
+13	146	0	#line 146 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	147	0		set __D0read_compasses, 1
+13	152	3	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	153	3		tst 5, __D0read_compasses, __D0read_compasses
+13	152	6	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	153	6		brtst 4, __ASM_Label_1145, __D0read_compasses
+13	152	9	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	153	9	#pragma macro 30
+13	153	9		acquire __RLSBmutex1
+13	153	10		mov __RLSReadBuf1, __RLSBbufLSWrite1
+13	153	12		set __RLSBytesCount1, 2
+13	153	15		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+13	153	17		index __D0read_compasses, __RLSReadBuf1, 65535
+13	153	21		index __RLSBytesCount1, __RLSReadBuf1, __constVal1
+13	153	25		add __D0read_compasses, __D0read_compasses, __D0read_compasses
+13	153	29		add __D0read_compasses, __D0read_compasses, __RLSBytesCount1
+13	153	33		release __RLSBmutex1
+13	11853	34	#line 11853 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	152	34	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	153	34		mov HTcmps_val, __D0read_compasses
+13	152	36	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	152	36	#line 152 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	153	36	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	154	36		set __IMU_ReadCompassHeading_7qG2_port_7qG2_000, 0
+13	153	39	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	153	39	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	154	39		set __IMU_ReadCompassHeading_7qG2_i2cAddr_7qG2_000, 34
+13	153	42	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	153	42	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	154	42		subcall IMU_ReadCompassHeading, __IMU_ReadCompassHeading_return
+13	153	44	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	154	44		mov IMUcmps_val, __D0IMU_ReadCompassHeading
+13	153	46	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	153	46	#line 153 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	154	46	#line 154 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	155	46		set __Wait_7qG2_ms_7qG2_000_inline_read_compasses, 100
+13	154	49	#line 154 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	8869	49	#line 8869 "NXCDefs.h"
+13	8870	49		waitv __Wait_7qG2_ms_7qG2_000_inline_read_compasses
+13	8869	51	#line 8869 "NXCDefs.h"
+13	154	51	#line 154 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	159	51	#line 159 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	160	51		jmp __ASM_Label_1144
+13	159	53	#line 159 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+13	160	53		exit -1, -1
+14	161	0	#line 161 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	162	0		set __D0display, 1
+14	162	3	#line 162 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	163	3		tst 5, __D0display, __D0display
+14	162	6	#line 162 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	163	6		brtst 4, __ASM_Label_1159, __D0display
+14	162	9	#line 162 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	163	9		set __ClearLine_7qG2_line_7qG2_000_inline_display, 32
+14	162	12	#line 162 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	6928	12	#line 6928 "NXCDefs.h"
+14	6929	12	#pragma macro 7
+14	6929	12		acquire __TextOutMutex
+14	6929	13		mov __TextOutArgs.Location.X, __constVal0
+14	6929	15		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+14	6929	18		mov __TextOutArgs.Options, __constVal0
+14	6929	21		mov __TextOutArgs.Text, __BlankLine
+14	6929	23		syscall 13, __TextOutArgs
+14	6929	26		release __TextOutMutex
+14	11912	27	#line 11912 "NXCDefs.h"
+14	6928	27	#line 6928 "NXCDefs.h"
+14	162	27	#line 162 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	163	27	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	164	27		set __ClearLine_7qG2_line_7qG2_000_inline_display, 16
+14	163	30	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	6928	30	#line 6928 "NXCDefs.h"
+14	6929	30	#pragma macro 7
+14	6929	30		acquire __TextOutMutex
+14	6929	31		mov __TextOutArgs.Location.X, __constVal0
+14	6929	33		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+14	6929	36		mov __TextOutArgs.Options, __constVal0
+14	6929	39		mov __TextOutArgs.Text, __BlankLine
+14	6929	41		syscall 13, __TextOutArgs
+14	6929	44		release __TextOutMutex
+14	11920	45	#line 11920 "NXCDefs.h"
+14	6928	45	#line 6928 "NXCDefs.h"
+14	163	45	#line 163 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	164	45	#line 164 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	165	45		set __ClearLine_7qG2_line_7qG2_000_inline_display, 8
+14	164	48	#line 164 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	6928	48	#line 6928 "NXCDefs.h"
+14	6929	48	#pragma macro 7
+14	6929	48		acquire __TextOutMutex
+14	6929	49		mov __TextOutArgs.Location.X, __constVal0
+14	6929	51		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+14	6929	54		mov __TextOutArgs.Options, __constVal0
+14	6929	57		mov __TextOutArgs.Text, __BlankLine
+14	6929	59		syscall 13, __TextOutArgs
+14	6929	62		release __TextOutMutex
+14	11928	63	#line 11928 "NXCDefs.h"
+14	6928	63	#line 6928 "NXCDefs.h"
+14	164	63	#line 164 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	165	63	#line 165 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	166	63		set __ClearLine_7qG2_line_7qG2_000_inline_display, 0
+14	165	66	#line 165 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	6928	66	#line 6928 "NXCDefs.h"
+14	6929	66	#pragma macro 7
+14	6929	66		acquire __TextOutMutex
+14	6929	67		mov __TextOutArgs.Location.X, __constVal0
+14	6929	69		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_display
+14	6929	72		mov __TextOutArgs.Options, __constVal0
+14	6929	75		mov __TextOutArgs.Text, __BlankLine
+14	6929	77		syscall 13, __TextOutArgs
+14	6929	80		release __TextOutMutex
+14	11936	81	#line 11936 "NXCDefs.h"
+14	6928	81	#line 6928 "NXCDefs.h"
+14	165	81	#line 165 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	166	81	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	81		set __signed_stack_001display, 0
+14	166	84	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	166	84	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	84		set __signed_stack_002display, 32
+14	166	87	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	166	87	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	87		strcat __strbufdisplay, __constStr0011
+14	166	91	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	91		set __D0display, 0
+14	166	94	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	94		acquire __TextOutMutex
+14	166	95	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	95		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	166	98	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	98		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	166	101	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	101		mov __TextOutArgs.Options, __D0display
+14	166	104	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	104		mov __TextOutArgs.Text, __strbufdisplay
+14	166	106	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	106		syscall 13, __TextOutArgs
+14	166	109	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	109		mov __D0display, __TextOutArgs.Result
+14	166	112	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	112		release __TextOutMutex
+14	166	113	#line 166 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	113	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	113		set __signed_stack_001display, 0
+14	167	116	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	116	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	116		set __signed_stack_002display, 24
+14	167	119	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	167	119	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	119		strcat __strbufdisplay, __constStr0012
+14	167	123	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	123		set __D0display, 0
+14	167	126	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	126		acquire __TextOutMutex
+14	167	127	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	127		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	167	130	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	130		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	167	133	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	133		mov __TextOutArgs.Options, __D0display
+14	167	136	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	136		mov __TextOutArgs.Text, __strbufdisplay
+14	167	138	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	138		syscall 13, __TextOutArgs
+14	167	141	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	141		mov __D0display, __TextOutArgs.Result
+14	167	144	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	144		release __TextOutMutex
+14	167	145	#line 167 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	145	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	145		set __signed_stack_001display, 0
+14	168	148	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	148	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	148		set __signed_stack_002display, 16
+14	168	151	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	168	151	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	151		strcat __strbufdisplay, __constStr0013
+14	168	155	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	155		set __D0display, 0
+14	168	158	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	158		acquire __TextOutMutex
+14	168	159	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	159		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	168	162	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	162		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	168	165	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	165		mov __TextOutArgs.Options, __D0display
+14	168	168	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	168		mov __TextOutArgs.Text, __strbufdisplay
+14	168	170	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	170		syscall 13, __TextOutArgs
+14	168	173	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	173		mov __D0display, __TextOutArgs.Result
+14	168	176	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	176		release __TextOutMutex
+14	168	177	#line 168 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	177	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	177		set __signed_stack_001display, 0
+14	169	180	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	180	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	180		set __signed_stack_002display, 8
+14	169	183	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	169	183	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	183		strcat __strbufdisplay, __constStr0014
+14	169	187	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	187		set __D0display, 0
+14	169	190	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	190		acquire __TextOutMutex
+14	169	191	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	191		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	169	194	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	194		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	169	197	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	197		mov __TextOutArgs.Options, __D0display
+14	169	200	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	200		mov __TextOutArgs.Text, __strbufdisplay
+14	169	202	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	202		syscall 13, __TextOutArgs
+14	169	205	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	205		mov __D0display, __TextOutArgs.Result
+14	169	208	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	208		release __TextOutMutex
+14	169	209	#line 169 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	209	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	209		set __signed_stack_001display, 0
+14	170	212	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	212	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	212		set __signed_stack_002display, 32
+14	170	215	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	170	215	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	215		mov __D0display, HTcmps_val
+14	170	217	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	217		acquire __TextOutMutex
+14	170	218	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	218		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	170	221	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	221		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	170	224	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	224		set __TextOutArgs.Options, 0
+14	170	227	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	227		numtostr __TextOutArgs.Text, __D0display
+14	170	230	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	230		syscall 13, __TextOutArgs
+14	170	233	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	233		mov __D0display, __TextOutArgs.Result
+14	170	236	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	236		release __TextOutMutex
+14	170	237	#line 170 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	237	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	237		set __signed_stack_001display, 0
+14	171	240	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	240	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	240		set __signed_stack_002display, 24
+14	171	243	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	171	243	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	243		mov __D0display, IMUcmps_val
+14	171	245	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	245		acquire __TextOutMutex
+14	171	246	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	246		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	171	249	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	249		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	171	252	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	252		set __TextOutArgs.Options, 0
+14	171	255	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	255		numtostr __TextOutArgs.Text, __D0display
+14	171	258	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	258		syscall 13, __TextOutArgs
+14	171	261	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	261		mov __D0display, __TextOutArgs.Result
+14	171	264	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	264		release __TextOutMutex
+14	171	265	#line 171 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	265	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	265		set __signed_stack_001display, 0
+14	172	268	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	268	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	268		set __signed_stack_002display, 16
+14	172	271	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	172	271	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	271		mov __D0display, HTgyro_val
+14	172	273	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	273		acquire __TextOutMutex
+14	172	274	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	274		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	172	277	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	277		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	172	280	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	280		set __TextOutArgs.Options, 0
+14	172	283	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	283		numtostr __TextOutArgs.Text, __D0display
+14	172	286	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	286		syscall 13, __TextOutArgs
+14	172	289	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	289		mov __D0display, __TextOutArgs.Result
+14	172	292	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	292		release __TextOutMutex
+14	172	293	#line 172 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	293	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	293		set __signed_stack_001display, 0
+14	173	296	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	296	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	296		set __signed_stack_002display, 8
+14	173	299	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	173	299	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	299		mov __D0display, MSgyro_val
+14	173	301	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	301		acquire __TextOutMutex
+14	173	302	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	302		mov __TextOutArgs.Location.X, __signed_stack_001display
+14	173	305	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	305		mov __TextOutArgs.Location.Y, __signed_stack_002display
+14	173	308	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	308		set __TextOutArgs.Options, 0
+14	173	311	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	311		numtostr __TextOutArgs.Text, __D0display
+14	173	314	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	314		syscall 13, __TextOutArgs
+14	173	317	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	317		mov __D0display, __TextOutArgs.Result
+14	173	320	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	320		release __TextOutMutex
+14	173	321	#line 173 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	174	321	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	175	321		set __Wait_7qG2_ms_7qG2_000_inline_display, 500
+14	174	324	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	8869	324	#line 8869 "NXCDefs.h"
+14	8870	324		waitv __Wait_7qG2_ms_7qG2_000_inline_display
+14	8869	326	#line 8869 "NXCDefs.h"
+14	174	326	#line 174 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	179	326	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	180	326		jmp __ASM_Label_1158
+14	179	328	#line 179 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+14	180	328		exit -1, -1
+15	235	0	#line 235 "C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc"
+15	236	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc
+1	__ResetSensorSubroutine	335	NXTDefs.h
+2	__ReadLSBytes1	348	NXTDefs.h
+3	__ReadLSBytesVar	437	NXTDefs.h
+4	IMU_MLBToInteger	542	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+5	IMU_SendCommand	565	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+6	IMU_ReadInteger	654	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+7	IMU_ReadGyro	765	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+8	IMU_ReadAcceleration	962	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+9	IMU_Init	1284	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+10	IMU_ReadCompassHeading	1331	C:\Users\ronk\Documents\NXCprograms\.\IMU-lib.nxc
+11	button_handler	1347	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc
+12	read_gyros	1441	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc
+13	read_compasses	1665	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc
+14	display	1721	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc
+15	__initialize_global_data	2052	C:\Users\ronk\Documents\NXCprograms\5mB_ReadMSimuHTgyroHTcmps.nxc

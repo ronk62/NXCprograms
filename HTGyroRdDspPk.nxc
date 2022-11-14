@@ -1,0 +1,23 @@
+long Gyro_val;
+long Peak_val;
+
+task main()
+{
+Peak_val=0;
+SetSensorTouch(IN_1);
+SetSensor(IN_4, SENSOR_LIGHT);
+
+while(true){
+   Gyro_val=SensorRaw(IN_4)-607;  //read the gyro sensor
+   if (abs(Gyro_val)>Peak_val)
+     Peak_val=(abs(Gyro_val));
+   TextOut(60,LCD_LINE4,"      ");
+   TextOut(0,LCD_LINE4,"GyroOut=");
+   NumOut(60, LCD_LINE4, Gyro_val);
+   TextOut(60,LCD_LINE7,"      ");
+   TextOut(0,LCD_LINE7,"Peak_val=");
+   NumOut(60, LCD_LINE7, Peak_val);
+   Wait(50);
+   }
+
+}

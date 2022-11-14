@@ -1,0 +1,10 @@
+task main()
+{
+  while (true)
+  {
+    //PlayTone(440, 1500);
+    RotateMotor(OUT_A, 70, 1000);
+    Wait(180000);
+  }
+}
+

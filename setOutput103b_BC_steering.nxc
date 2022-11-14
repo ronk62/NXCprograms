@@ -1,0 +1,52 @@
+int pwr=40, i=0, tone=440;
+string msg="";
+
+void debug_trace (string msg, int tone)
+{
+ ClearScreen();
+ TextOut(15, LCD_LINE5, msg);
+ PlayTone(tone, 250);
+}
+
+task main ()
+{
+ msg="Start motors B and C";
+ tone=880;
+ debug_trace (msg, tone);
+ //OnFwdReg(OUT_BC, 40, OUT_REGMODE_SYNC);
+ //OnFwdSync(OUT_BC, pwr, 0);
+
+
+ Wait(4000);
+
+ repeat (5)
+ {
+   i++;
+   msg="repeat "+NumToStr(i);
+   tone=tone+110;
+   debug_trace (msg, tone);
+   SetOutput(OUT_BC, OutputModeField, OUT_MODE_MOTORON+OUT_MODE_REGULATED);
+   SetOutput(OUT_BC, RegModeField, OUT_REGMODE_SYNC);
+   SetOutput(OUT_BC, RunStateField, OUT_RUNSTATE_RUNNING);
+   SetOutput(OUT_BC, PowerField, 40);
+   SetOutput(OUT_BC, TurnRatioField, -10);
+   SetOutput(OUT_BC, UpdateFlagsField, UF_UPDATE_MODE+UF_UPDATE_SPEED);
+
+   Wait(4000);
+
+   SetOutput(OUT_BC, OutputModeField, OUT_MODE_MOTORON+OUT_MODE_REGULATED);
+   SetOutput(OUT_BC, RegModeField, OUT_REGMODE_SYNC);
+   SetOutput(OUT_BC, RunStateField, OUT_RUNSTATE_RUNNING);
+   SetOutput(OUT_BC, PowerField, 40);
+   SetOutput(OUT_BC, TurnRatioField, 10);
+   SetOutput(OUT_BC, UpdateFlagsField, UF_UPDATE_MODE+UF_UPDATE_SPEED);
+
+   Wait(4000);
+ }
+
+ msg="end/wait";
+ tone=220;
+ debug_trace (msg, tone);
+ Wait(30000);
+ Off(OUT_BC);
+}
